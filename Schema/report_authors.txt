@@ -1,0 +1,279 @@
+17000001 ENTRIES
+id
+  Count: 17000001 (100.00%)
+  Types: str (100.00%)
+  Samples:
+    1 (0.00%): https://openalex.org/A2706006581
+    1 (0.00%): https://openalex.org/A2487895792
+    1 (0.00%): https://openalex.org/A2706012692
+    1 (0.00%): https://openalex.org/A2487932783
+    1 (0.00%): https://openalex.org/A2706018572
+    ...
+orcid
+  Count: 200025 (1.18%)
+  Types: str (100.00%)
+  Samples:
+    3 (0.00%): https://orcid.org/0000-0002-8583-6821
+    2 (0.00%): https://orcid.org/0000-0002-9438-1427
+    1 (0.00%): https://orcid.org/0000-0003-2390-3299
+    1 (0.00%): https://orcid.org/0000-0002-6780-9280
+    1 (0.00%): https://orcid.org/0000-0002-4072-034X
+    ...
+display_name
+  Count: 16996473 (99.98%)
+  Types: str (100.00%)
+  Samples:
+    168 (0.00%): Zhang L
+    32 (0.00%): David White
+    26 (0.00%): Michael Kelly
+    23 (0.00%): Woo
+    22 (0.00%): 임인칠
+    ...
+display_name_alternatives
+  Count: 17000001 (100.00%)
+  Types: list (100.00%)
+  List Samples:
+    20 (0.00%): 王伟
+    12 (0.00%): 刘畅
+    9 (0.00%): 张帆
+    7 (0.00%): 杨磊
+    6 (0.00%): 陈捷
+    ...
+works_count
+  Count: 17000001 (100.00%)
+  Types: int (100.00%)
+  Samples:
+    13793353 (81.14%): 1
+    1524264 (8.97%): 2
+    542819 (3.19%): 3
+    277438 (1.63%): 4
+    167007 (0.98%): 5
+    ...
+cited_by_count
+  Count: 16863311 (99.20%)
+  Types: int (100.00%)
+  Samples:
+    11021847 (65.36%): 0
+    1297135 (7.69%): 1
+    680377 (4.03%): 2
+    441857 (2.62%): 3
+    328202 (1.95%): 4
+    ...
+ids:openalex
+  Count: 17000001 (100.00%)
+  Types: str (100.00%)
+  Samples:
+    1 (0.00%): https://openalex.org/A2706006581
+    1 (0.00%): https://openalex.org/A2487895792
+    1 (0.00%): https://openalex.org/A2706012692
+    1 (0.00%): https://openalex.org/A2487932783
+    1 (0.00%): https://openalex.org/A2706018572
+    ...
+ids:mag
+  Count: 16863749 (99.20%)
+  Types: int (100.00%)
+  Samples:
+    1 (0.00%): 2706006581
+    1 (0.00%): 2487895792
+    1 (0.00%): 2706012692
+    1 (0.00%): 2487932783
+    1 (0.00%): 2706018572
+    ...
+last_known_institution
+  Count: 0 (0.00%)
+  Types: 
+counts_by_year
+  Count: 17000001 (100.00%)
+  Types: list (100.00%)
+  Schema Entry:
+    25211495 ENTRIES
+    year
+      Count: 25211495 (100.00%)
+      Types: int (100.00%)
+      Samples:
+        3051971 (12.11%): 2021
+        2812134 (11.15%): 2020
+        2596506 (10.30%): 2019
+        2481377 (9.84%): 2016
+        2447392 (9.71%): 2017
+        ...
+    works_count
+      Count: 25211495 (100.00%)
+      Types: int (100.00%)
+      Samples:
+        15744469 (62.45%): 0
+        8028732 (31.85%): 1
+        893417 (3.54%): 2
+        269375 (1.07%): 3
+        116478 (0.46%): 4
+        ...
+    cited_by_count
+      Count: 25211495 (100.00%)
+      Types: int (100.00%)
+      Samples:
+        7750784 (30.74%): 0
+        7651917 (30.35%): 1
+        3142188 (12.46%): 2
+        1685632 (6.69%): 3
+        1102876 (4.37%): 4
+        ...
+x_concepts
+  Count: 17000001 (100.00%)
+  Types: list (100.00%)
+  Schema Entry:
+    218466703 ENTRIES
+    id
+      Count: 218466703 (100.00%)
+      Types: str (100.00%)
+      Samples:
+        6784257 (3.11%): https://openalex.org/C86803240
+        5727864 (2.62%): https://openalex.org/C71924100
+        4743644 (2.17%): https://openalex.org/C185592680
+        4708572 (2.16%): https://openalex.org/C121332964
+        3986703 (1.82%): https://openalex.org/C41008148
+        ...
+    wikidata
+      Count: 214242595 (98.07%)
+      Types: str (100.00%)
+      Samples:
+        6784386 (3.17%): https://www.wikidata.org/wiki/Q420
+        5732119 (2.68%): https://www.wikidata.org/wiki/Q11190
+        4743644 (2.21%): https://www.wikidata.org/wiki/Q2329
+        4708572 (2.20%): https://www.wikidata.org/wiki/Q413
+        3986703 (1.86%): https://www.wikidata.org/wiki/Q21198
+        ...
+    display_name
+      Count: 218466703 (100.00%)
+      Types: str (100.00%)
+      Samples:
+        6784257 (3.11%): Biology
+        5727864 (2.62%): Medicine
+        4743644 (2.17%): Chemistry
+        4708572 (2.16%): Physics
+        3986703 (1.82%): Computer science
+        ...
+    level
+      Count: 218466703 (100.00%)
+      Types: int (100.00%)
+      Samples:
+        82921286 (37.96%): 1
+        57550796 (26.34%): 0
+        50395200 (23.07%): 2
+        20508025 (9.39%): 3
+        5659403 (2.59%): 4
+        ...
+    score
+      Count: 218466703 (100.00%)
+      Types: float (100.00%)
+      Samples:
+        167213613 (76.54%): 100.0
+        22713113 (10.40%): 50.0
+        10185746 (4.66%): 33.3
+        6031308 (2.76%): 25.0
+        3281076 (1.50%): 66.7
+        ...
+works_api_url
+  Count: 17000001 (100.00%)
+  Types: str (100.00%)
+  Samples:
+    1 (0.00%): https://api.openalex.org/works?filter=author.id:A2706006581
+    1 (0.00%): https://api.openalex.org/works?filter=author.id:A2487895792
+    1 (0.00%): https://api.openalex.org/works?filter=author.id:A2706012692
+    1 (0.00%): https://api.openalex.org/works?filter=author.id:A2487932783
+    1 (0.00%): https://api.openalex.org/works?filter=author.id:A2706018572
+    ...
+updated_date
+  Count: 16999563 (100.00%)
+  Types: str (100.00%)
+  Samples:
+    3300583 (19.42%): 2017-06-30T00:00:00
+    3235274 (19.03%): 2016-06-24T00:00:00
+    567721 (3.34%): 2021-12-23T00:43:58.123084
+    461522 (2.71%): 2016-08-23T00:00:00
+    345347 (2.03%): 2020-08-24T00:00:00
+    ...
+last_known_institution:id
+  Count: 3101188 (18.24%)
+  Types: str (100.00%)
+  Samples:
+    26078 (0.84%): https://openalex.org/I19820366
+    12129 (0.39%): https://openalex.org/I76130692
+    11619 (0.37%): https://openalex.org/I1294671590
+    10993 (0.35%): https://openalex.org/I20231570
+    9788 (0.32%): https://openalex.org/I136199984
+    ...
+last_known_institution:ror
+  Count: 2951929 (17.36%)
+  Types: str (100.00%)
+  Samples:
+    26078 (0.88%): https://ror.org/034t30j35
+    12129 (0.41%): https://ror.org/00a2xv884
+    11619 (0.39%): https://ror.org/02feahw73
+    10993 (0.37%): https://ror.org/02v51f717
+    9788 (0.33%): https://ror.org/03vek6s52
+    ...
+last_known_institution:display_name
+  Count: 3101188 (18.24%)
+  Types: str (100.00%)
+  Samples:
+    26078 (0.84%): Chinese Academy of Sciences
+    12129 (0.39%): Zhejiang University
+    11619 (0.37%): Centre national de la recherche scientifique
+    10993 (0.35%): Peking University
+    9788 (0.32%): Harvard University
+    ...
+last_known_institution:country_code
+  Count: 3084893 (18.15%)
+  Types: str (100.00%)
+  Samples:
+    783356 (25.39%): US
+    614112 (19.91%): CN
+    150219 (4.87%): JP
+    143643 (4.66%): GB
+    121309 (3.93%): DE
+    ...
+last_known_institution:type
+  Count: 2950835 (17.36%)
+  Types: str (100.00%)
+  Samples:
+    2434264 (82.49%): education
+    172594 (5.85%): government
+    111165 (3.77%): company
+    94768 (3.21%): healthcare
+    76916 (2.61%): facility
+    ...
+ids:orcid
+  Count: 200025 (1.18%)
+  Types: str (100.00%)
+  Samples:
+    3 (0.00%): https://orcid.org/0000-0002-8583-6821
+    2 (0.00%): https://orcid.org/0000-0002-9438-1427
+    1 (0.00%): https://orcid.org/0000-0003-2390-3299
+    1 (0.00%): https://orcid.org/0000-0002-6780-9280
+    1 (0.00%): https://orcid.org/0000-0002-4072-034X
+    ...
+ids:scopus
+  Count: 26677 (0.16%)
+  Types: str (100.00%)
+  Samples:
+    3 (0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=57190742099&partnerID=MN8TOARS
+    2 (0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=55754511100&partnerID=MN8TOARS
+    2 (0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=56461640900&partnerID=MN8TOARS
+    2 (0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=23996091800&partnerID=MN8TOARS
+    2 (0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=6701741609&partnerID=MN8TOARS
+    ...
+ids:wikipedia
+  Count: 39 (0.00%)
+  Types: str (100.00%)
+  Samples:
+    39 (100.00%): http://en.wikipedia.org/wiki/Josiah_Carberry
+ids:twitter
+  Count: 10 (0.00%)
+  Types: str (100.00%)
+  Samples:
+    1 (10.00%): https://twitter.com/scsincyberspace
+    1 (10.00%): https://twitter.com/ederarredondo
+    1 (10.00%): https://twitter.com/ArupSar33558290
+    1 (10.00%): https://twitter.com/PlanckScale
+    1 (10.00%): https://twitter.com/cameron_r_smith
+    ...

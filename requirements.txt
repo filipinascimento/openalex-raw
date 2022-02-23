@@ -1,0 +1,9 @@
+dbgz
+numpy
+pandas
+matplotlib
+tqdm
+scipy
+gensim
+sklearn
+nltk

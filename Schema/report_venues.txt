@@ -1,0 +1,240 @@
+122840 ENTRIES
+id
+  Count: 122840 (100.00%)
+  Types: str (100.00%)
+  Samples:
+    1 (0.00%): https://openalex.org/V235346
+    1 (0.00%): https://openalex.org/V660994
+    1 (0.00%): https://openalex.org/V924923
+    1 (0.00%): https://openalex.org/V955875
+    1 (0.00%): https://openalex.org/V1070115
+    ...
+issn_l
+  Count: 110989 (90.35%)
+  Types: str (100.00%)
+  Samples:
+    1 (0.00%): 1530-8669
+    1 (0.00%): 1445-4416
+    1 (0.00%): 1522-1628
+    1 (0.00%): 1380-7854
+    1 (0.00%): 1063-7834
+    ...
+issn
+  Count: 102364 (83.33%)
+  Types: list (100.00%)
+  List Samples:
+    2 (0.00%): 1559-2332
+    2 (0.00%): 1559-713X
+    1 (0.00%): 1530-8669
+    1 (0.00%): 1530-8677
+    1 (0.00%): 1445-4408
+    ...
+display_name
+  Count: 122840 (100.00%)
+  Types: str (100.00%)
+  Samples:
+    2 (0.00%): Atomization and Sprays
+    2 (0.00%): Vaccine
+    2 (0.00%): Krankenhauspsychiatrie
+    1 (0.00%): Wireless Communications and Mobile Computing
+    1 (0.00%): Functional Plant Biology
+    ...
+publisher
+  Count: 87439 (71.18%)
+  Types: str (100.00%)
+  Samples:
+    4183 (4.78%): Elsevier
+    4055 (4.64%): Springer Nature
+    3755 (4.29%): Taylor & Francis
+    2396 (2.74%): Wiley
+    1538 (1.76%): SAGE
+    ...
+works_count
+  Count: 122840 (100.00%)
+  Types: int (100.00%)
+  Samples:
+    1384 (1.13%): 5
+    1150 (0.94%): 10
+    945 (0.77%): 8
+    864 (0.70%): 12
+    769 (0.63%): 20
+    ...
+cited_by_count
+  Count: 122840 (100.00%)
+  Types: int (100.00%)
+  Samples:
+    1743 (1.42%): 5
+    1086 (0.88%): 9
+    1048 (0.85%): 10
+    120 (0.10%): 78
+    105 (0.09%): 108
+    ...
+is_oa
+  Count: 97242 (79.16%)
+  Types: bool (100.00%)
+  Samples:
+    58468 (60.13%): False
+    38774 (39.87%): True
+is_in_doaj
+  Count: 97242 (79.16%)
+  Types: bool (100.00%)
+  Samples:
+    82880 (85.23%): False
+    14362 (14.77%): True
+homepage_url
+  Count: 6381 (5.19%)
+  Types: str (100.00%)
+  Samples:
+    2 (0.03%): http://www.pemberleybooks.com/
+    1 (0.02%): http://www.publish.csiro.au/fp
+    1 (0.02%): http://www.maik.ru/cgi-bin/journal.pl?name=physsost&page=main
+    1 (0.02%): http://www.psa.ac.uk/members/membership-benefits/publications/political-studies-review
+    1 (0.02%): http://mmr.sagepub.com/
+    ...
+ids:openalex
+  Count: 122840 (100.00%)
+  Types: str (100.00%)
+  Samples:
+    1 (0.00%): https://openalex.org/V235346
+    1 (0.00%): https://openalex.org/V660994
+    1 (0.00%): https://openalex.org/V924923
+    1 (0.00%): https://openalex.org/V955875
+    1 (0.00%): https://openalex.org/V1070115
+    ...
+ids:issn_l
+  Count: 110989 (90.35%)
+  Types: str (100.00%)
+  Samples:
+    1 (0.00%): 1530-8669
+    1 (0.00%): 1445-4416
+    1 (0.00%): 1522-1628
+    1 (0.00%): 1380-7854
+    1 (0.00%): 1063-7834
+    ...
+ids:issn
+  Count: 102364 (83.33%)
+  Types: list (100.00%)
+  List Samples:
+    2 (0.00%): 1559-2332
+    2 (0.00%): 1559-713X
+    1 (0.00%): 1530-8669
+    1 (0.00%): 1530-8677
+    1 (0.00%): 1445-4408
+    ...
+ids:mag
+  Count: 49066 (39.94%)
+  Types: int (100.00%)
+  Samples:
+    1 (0.00%): 235346
+    1 (0.00%): 660994
+    1 (0.00%): 924923
+    1 (0.00%): 955875
+    1 (0.00%): 1070115
+    ...
+counts_by_year
+  Count: 122840 (100.00%)
+  Types: list (100.00%)
+  Schema Entry:
+    586772 ENTRIES
+    year
+      Count: 586772 (100.00%)
+      Types: int (100.00%)
+      Samples:
+        68578 (11.69%): 2021
+        68224 (11.63%): 2020
+        65017 (11.08%): 2019
+        61487 (10.48%): 2018
+        57371 (9.78%): 2017
+        ...
+    works_count
+      Count: 586772 (100.00%)
+      Types: int (100.00%)
+      Samples:
+        29487 (5.03%): 1
+        15496 (2.64%): 2
+        14276 (2.43%): 10
+        13817 (2.35%): 5
+        13355 (2.28%): 12
+        ...
+    cited_by_count
+      Count: 586772 (100.00%)
+      Types: int (100.00%)
+      Samples:
+        192260 (32.77%): 0
+        5178 (0.88%): 1
+        2356 (0.40%): 9
+        1789 (0.30%): 20
+        1711 (0.29%): 19
+        ...
+x_concepts
+  Count: 122840 (100.00%)
+  Types: list (100.00%)
+  Schema Entry:
+    1406337 ENTRIES
+    id
+      Count: 1406337 (100.00%)
+      Types: str (100.00%)
+      Samples:
+        62003 (4.41%): https://openalex.org/C86803240
+        52759 (3.75%): https://openalex.org/C17744445
+        47154 (3.35%): https://openalex.org/C41008148
+        43843 (3.12%): https://openalex.org/C138885662
+        42796 (3.04%): https://openalex.org/C71924100
+        ...
+    wikidata
+      Count: 1390254 (98.86%)
+      Types: str (100.00%)
+      Samples:
+        62004 (4.46%): https://www.wikidata.org/wiki/Q420
+        52759 (3.79%): https://www.wikidata.org/wiki/Q36442
+        47154 (3.39%): https://www.wikidata.org/wiki/Q21198
+        43847 (3.15%): https://www.wikidata.org/wiki/Q5891
+        42808 (3.08%): https://www.wikidata.org/wiki/Q11190
+        ...
+    display_name
+      Count: 1406337 (100.00%)
+      Types: str (100.00%)
+      Samples:
+        62003 (4.41%): Biology
+        52759 (3.75%): Political science
+        47154 (3.35%): Computer science
+        43843 (3.12%): Philosophy
+        42796 (3.04%): Medicine
+        ...
+    level
+      Count: 1406337 (100.00%)
+      Types: int (100.00%)
+      Samples:
+        642525 (45.69%): 0
+        589762 (41.94%): 1
+        131764 (9.37%): 2
+        32654 (2.32%): 3
+        6768 (0.48%): 4
+        ...
+    score
+      Count: 1406337 (100.00%)
+      Types: float (100.00%)
+      Samples:
+        50291 (3.58%): 25.0
+        15475 (1.10%): 40.0
+        7043 (0.50%): 23.5
+        5830 (0.41%): 22.7
+        5290 (0.38%): 20.6
+        ...
+works_api_url
+  Count: 122840 (100.00%)
+  Types: str (100.00%)
+  Samples:
+    1 (0.00%): https://api.openalex.org/works?filter=host_venue.id:V235346
+    1 (0.00%): https://api.openalex.org/works?filter=host_venue.id:V660994
+    1 (0.00%): https://api.openalex.org/works?filter=host_venue.id:V924923
+    1 (0.00%): https://api.openalex.org/works?filter=host_venue.id:V955875
+    1 (0.00%): https://api.openalex.org/works?filter=host_venue.id:V1070115
+    ...
+updated_date
+  Count: 122840 (100.00%)
+  Types: str (100.00%)
+  Samples:
+    98757 (80.39%): 2022-02-04
+    17598 (14.33%): 2022-02-02
+    6485 (5.28%): 2022-02-03
