@@ -1,6 +1,6 @@
-6400001 ENTRIES
+136900001 ENTRIES
 id
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: str (100.00%)
   Samples:
     1 (0.00%): https://openalex.org/W2137406813
@@ -10,57 +10,57 @@ id
     1 (0.00%): https://openalex.org/W2137406902
     ...
 doi
-  Count: 2971414 (46.43%)
+  Count: 64497589 (47.11%)
   Types: str (100.00%)
   Samples:
+    3 (0.00%): https://doi.org/10.7238/rusc.v11i1.1844
     1 (0.00%): https://doi.org/10.1103/physrevc.77.054001
     1 (0.00%): https://doi.org/10.14309/00000434-201310001-00966
     1 (0.00%): https://doi.org/10.1001/archopht.121.8.1117
     1 (0.00%): https://doi.org/10.5114/aoms.2020.97889
-    1 (0.00%): https://doi.org/10.1016/0001-4575(94)00062-q
     ...
 display_name
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: str (100.00%)
   Samples:
+    15 (0.00%): The Lessons of History
+    3 (0.00%): Los contratos publicitarios
+    3 (0.00%): Masters of the universe
+    2 (0.00%): Genome-Wide Oligonucleotide Array Comparative Genomic Hybridization for Etiological Diagnosis of Mental Retardation: A Multicenter Experience of 1499 Clinical Cases
     1 (0.00%): Bridging p-wave π production and weak processes in few-nucleon systems with chiral perturbation theory
-    1 (0.00%): Macdonald-Kelce Library Homepage: History: Books
-    1 (0.00%): ナノセンシングにおける信号エンハンサーとしてのコロイド金属ナノ粒子の最近の進歩【Powered by NICT】
-    1 (0.00%): A Rare Case of HTLV-1 Associated T-cell Lymphoma Involving Duodenum: 966
-    1 (0.00%): Prognostic Value of S-100-β Serum Concentration in Patients With Uveal Melanoma
     ...
 title
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: str (100.00%)
   Samples:
+    15 (0.00%): The Lessons of History
+    3 (0.00%): Los contratos publicitarios
+    3 (0.00%): Masters of the universe
+    2 (0.00%): Genome-Wide Oligonucleotide Array Comparative Genomic Hybridization for Etiological Diagnosis of Mental Retardation: A Multicenter Experience of 1499 Clinical Cases
     1 (0.00%): Bridging p-wave π production and weak processes in few-nucleon systems with chiral perturbation theory
-    1 (0.00%): Macdonald-Kelce Library Homepage: History: Books
-    1 (0.00%): ナノセンシングにおける信号エンハンサーとしてのコロイド金属ナノ粒子の最近の進歩【Powered by NICT】
-    1 (0.00%): A Rare Case of HTLV-1 Associated T-cell Lymphoma Involving Duodenum: 966
-    1 (0.00%): Prognostic Value of S-100-β Serum Concentration in Patients With Uveal Melanoma
     ...
 publication_year
-  Count: 6399798 (100.00%)
+  Count: 136895762 (100.00%)
   Types: int (100.00%)
   Samples:
-    288778 (4.51%): 2016
-    278268 (4.35%): 2015
-    275780 (4.31%): 2014
-    269922 (4.22%): 2013
-    258450 (4.04%): 2017
+    6234810 (4.55%): 2016
+    5959160 (4.35%): 2015
+    5885692 (4.30%): 2017
+    5857822 (4.28%): 2014
+    5708798 (4.17%): 2013
     ...
 publication_date
-  Count: 6399798 (100.00%)
+  Count: 136895762 (100.00%)
   Types: str (100.00%)
   Samples:
-    113158 (1.77%): 2011-01-01
-    112169 (1.75%): 2013-01-01
-    111067 (1.74%): 2012-01-01
-    104064 (1.63%): 2009-01-01
-    102956 (1.61%): 2016-01-01
+    2357967 (1.72%): 2011-01-01
+    2354797 (1.72%): 2013-01-01
+    2329302 (1.70%): 2012-01-01
+    2240581 (1.64%): 2016-01-01
+    2214816 (1.62%): 2015-01-01
     ...
 ids:openalex
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: str (100.00%)
   Samples:
     1 (0.00%): https://openalex.org/W2137406813
@@ -70,17 +70,17 @@ ids:openalex
     1 (0.00%): https://openalex.org/W2137406902
     ...
 ids:doi
-  Count: 2971414 (46.43%)
+  Count: 64497589 (47.11%)
   Types: str (100.00%)
   Samples:
+    3 (0.00%): https://doi.org/10.7238/rusc.v11i1.1844
     1 (0.00%): https://doi.org/10.1103/physrevc.77.054001
     1 (0.00%): https://doi.org/10.14309/00000434-201310001-00966
     1 (0.00%): https://doi.org/10.1001/archopht.121.8.1117
     1 (0.00%): https://doi.org/10.5114/aoms.2020.97889
-    1 (0.00%): https://doi.org/10.1016/0001-4575(94)00062-q
     ...
 ids:mag
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: int (100.00%)
   Samples:
     1 (0.00%): 2137406813
@@ -90,514 +90,514 @@ ids:mag
     1 (0.00%): 2137406902
     ...
 host_venue:id
-  Count: 2842961 (44.42%)
+  Count: 61288442 (44.77%)
   Types: str (100.00%)
   Samples:
-    3916 (0.14%): https://openalex.org/V196734849
-    3559 (0.13%): https://openalex.org/V125754415
-    3275 (0.12%): https://openalex.org/V128754310
-    3275 (0.12%): https://openalex.org/V207178839
-    2335 (0.08%): https://openalex.org/V2764860693
+    85731 (0.14%): https://openalex.org/V196734849
+    78464 (0.13%): https://openalex.org/V125754415
+    69987 (0.11%): https://openalex.org/V128754310
+    68640 (0.11%): https://openalex.org/V207178839
+    51356 (0.08%): https://openalex.org/V2764860693
     ...
 host_venue:issn_l
-  Count: 2364546 (36.95%)
+  Count: 51010511 (37.26%)
   Types: str (100.00%)
   Samples:
-    20840 (0.88%): 0931-7597
-    3916 (0.17%): 2045-2322
-    3559 (0.15%): 0027-8424
-    3275 (0.14%): 1660-9336
-    3275 (0.14%): 0148-0227
+    494596 (0.97%): 0931-7597
+    85731 (0.17%): 2045-2322
+    78464 (0.15%): 0027-8424
+    69987 (0.14%): 1660-9336
+    68640 (0.13%): 0148-0227
     ...
 host_venue:issn
-  Count: 2070581 (32.35%)
+  Count: 44819278 (32.74%)
   Types: list (100.00%)
   List Samples:
-    3916 (0.19%): 2045-2322
-    3559 (0.17%): 0027-8424
-    3559 (0.17%): 1091-6490
-    3275 (0.16%): 2297-8941
-    3275 (0.16%): 1662-7482
+    85731 (0.19%): 2045-2322
+    78464 (0.18%): 0027-8424
+    78464 (0.18%): 1091-6490
+    69987 (0.16%): 2297-8941
+    69987 (0.16%): 1662-7482
     ...
 host_venue:display_name
-  Count: 4981796 (77.84%)
+  Count: 106628803 (77.89%)
   Types: str (100.00%)
   Samples:
-    5847 (0.12%): AGU Fall Meeting Abstracts
-    3916 (0.08%): Scientific Reports
-    3559 (0.07%): Proceedings of the National Academy of Sciences of the United States of America
-    3460 (0.07%): IEEE Conference Proceedings
-    3275 (0.07%): Applied Mechanics and Materials
+    136986 (0.13%): AGU Fall Meeting Abstracts
+    85731 (0.08%): Scientific Reports
+    78464 (0.07%): Proceedings of the National Academy of Sciences of the United States of America
+    77286 (0.07%): IEEE Conference Proceedings
+    69987 (0.07%): Applied Mechanics and Materials
     ...
 host_venue:publisher
-  Count: 4572768 (71.45%)
+  Count: 97916333 (71.52%)
   Types: str (100.00%)
   Samples:
-    436435 (9.54%): Elsevier
-    211133 (4.62%): Wiley
-    208257 (4.55%): Springer Nature
-    104099 (2.28%): Taylor & Francis
-    98504 (2.15%): IEEE
+    9443150 (9.64%): Elsevier
+    4620738 (4.72%): Wiley
+    4479141 (4.57%): Springer Nature
+    2251367 (2.30%): Taylor & Francis
+    2161566 (2.21%): IEEE
     ...
 host_venue:type
-  Count: 3340229 (52.19%)
+  Count: 72189203 (52.73%)
   Types: str (100.00%)
   Samples:
-    3161973 (94.66%): publisher
-    178256 (5.34%): repository
+    68264563 (94.56%): publisher
+    3924640 (5.44%): repository
 host_venue:url
-  Count: 6049667 (94.53%)
+  Count: 129402310 (94.52%)
   Types: str (100.00%)
   Samples:
+    3 (0.00%): https://doi.org/10.7238/rusc.v11i1.1844
+    2 (0.00%): https://dspace.mic.ul.ie/handle/10395/311
     1 (0.00%): https://doi.org/10.1103/physrevc.77.054001
     1 (0.00%): https://utopia.ut.edu/c.php?g=107700&p=698019
     1 (0.00%): http://jglobal.jst.go.jp/public/201702258827041526
-    1 (0.00%): https://doi.org/10.14309/00000434-201310001-00966
-    1 (0.00%): https://doi.org/10.1001/archopht.121.8.1117
     ...
 host_venue:is_oa
-  Count: 2755743 (43.06%)
+  Count: 59826705 (43.70%)
   Types: bool (100.00%)
   Samples:
-    1901941 (69.02%): False
-    853802 (30.98%): True
+    41008005 (68.54%): False
+    18818700 (31.46%): True
 host_venue:version
-  Count: 853802 (13.34%)
+  Count: 18818700 (13.75%)
   Types: str (100.00%)
   Samples:
-    718040 (84.10%): publishedVersion
-    104022 (12.18%): submittedVersion
-    31740 (3.72%): acceptedVersion
+    15819139 (84.06%): publishedVersion
+    2299758 (12.22%): submittedVersion
+    699803 (3.72%): acceptedVersion
 host_venue:license
-  Count: 397895 (6.22%)
+  Count: 8829284 (6.45%)
   Types: str (100.00%)
   Samples:
-    186011 (46.75%): cc-by
-    63521 (15.96%): cc-by-nc-nd
-    55175 (13.87%): cc-by-nc
-    26319 (6.61%): elsevier-specific
-    24426 (6.14%): cc-by-nc-sa
+    4143489 (46.93%): cc-by
+    1424618 (16.14%): cc-by-nc-nd
+    1222341 (13.84%): cc-by-nc
+    568008 (6.43%): elsevier-specific
+    537559 (6.09%): cc-by-nc-sa
     ...
 type
-  Count: 4044910 (63.20%)
+  Count: 87087929 (63.61%)
   Types: str (100.00%)
   Samples:
-    2991206 (73.95%): journal-article
-    322054 (7.96%): book-chapter
-    220866 (5.46%): proceedings-article
-    199408 (4.93%): dissertation
-    159114 (3.93%): book
+    64615341 (74.20%): journal-article
+    6746942 (7.75%): book-chapter
+    4825048 (5.54%): proceedings-article
+    4323158 (4.96%): dissertation
+    3204814 (3.68%): book
     ...
 open_access:is_oa
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: bool (100.00%)
   Samples:
-    4497992 (70.28%): True
-    1902009 (29.72%): False
+    95890527 (70.04%): True
+    41009474 (29.96%): False
 open_access:oa_status
-  Count: 2767669 (43.24%)
+  Count: 60091670 (43.89%)
   Types: str (100.00%)
   Samples:
-    1902009 (68.72%): closed
-    305461 (11.04%): gold
-    285699 (10.32%): bronze
-    186943 (6.75%): green
-    87557 (3.16%): hybrid
+    41009474 (68.24%): closed
+    6822599 (11.35%): gold
+    6204303 (10.32%): bronze
+    4124161 (6.86%): green
+    1931133 (3.21%): hybrid
 open_access:oa_url
-  Count: 865660 (13.53%)
+  Count: 19082196 (13.94%)
   Types: str (100.00%)
   Samples:
+    3 (0.00%): https://doi.org/10.7238/rusc.v11i1.1844
+    3 (0.00%): http://www.reabic.net/journals/mbi/2014/1/MBI_2014_Caffrey_etal.pdf
+    2 (0.00%): https://dl.acm.org/doi/pdf/10.1145/3360901.3364441
     1 (0.00%): http://arxiv.org/pdf/0709.1239
     1 (0.00%): https://jamanetwork.com/journals/jamaophthalmology/articlepdf/415557/ECS20069.pdf
-    1 (0.00%): https://www.archivesofmedicalscience.com/pdf-118939-59553?filename=Seroprevalence of.pdf
-    1 (0.00%): http://vti.diva-portal.org/smash/get/diva2:672519/FULLTEXT01
-    1 (0.00%): https://downloads.hindawi.com/journals/jdr/2020/1834534.pdf
     ...
 authorships
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: list (100.00%)
   Schema Entry:
-    16502659 ENTRIES
+    355926376 ENTRIES
     author_position
-      Count: 16502659 (100.00%)
+      Count: 355926376 (100.00%)
       Types: str (100.00%)
       Samples:
-        6735557 (40.81%): middle
-        6398732 (38.77%): first
-        3368370 (20.41%): last
+        146375069 (41.13%): middle
+        136872739 (38.46%): first
+        72678568 (20.42%): last
     author:id
-      Count: 16502659 (100.00%)
+      Count: 355926376 (100.00%)
       Types: str (100.00%)
       Samples:
-        22 (0.00%): https://openalex.org/A208450096
-        17 (0.00%): https://openalex.org/A600577118
-        13 (0.00%): https://openalex.org/A2171060604
-        12 (0.00%): https://openalex.org/A2512548136
-        7 (0.00%): https://openalex.org/A2091737715
+        519 (0.00%): https://openalex.org/A208450096
+        383 (0.00%): https://openalex.org/A600577118
+        250 (0.00%): https://openalex.org/A2512548136
+        235 (0.00%): https://openalex.org/A2171060604
+        140 (0.00%): https://openalex.org/A2162630248
         ...
     author:display_name
-      Count: 16502659 (100.00%)
+      Count: 355926374 (100.00%)
       Types: str (100.00%)
       Samples:
-        34 (0.00%): He Tian
-        25 (0.00%): Hongbo Zhu
-        22 (0.00%): AnaMatei
-        17 (0.00%): Marie L. Borum
-        17 (0.00%): K. Venkatesan
+        857 (0.00%): He Tian
+        652 (0.00%): Hongbo Zhu
+        519 (0.00%): AnaMatei
+        394 (0.00%): Marie L. Borum
+        334 (0.00%): Christophe Jaffrelot
         ...
     author:orcid
-      Count: 3689540 (22.36%)
+      Count: 81381796 (22.86%)
       Types: str (100.00%)
       Samples:
-        33 (0.00%): https://orcid.org/0000-0001-8186-2160
-        24 (0.00%): https://orcid.org/0000-0002-6038-9025
-        16 (0.00%): https://orcid.org/0000-0003-1391-4736
-        14 (0.00%): https://orcid.org/0000-0002-4094-1222
-        13 (0.00%): https://orcid.org/0000-0003-2261-3820
+        872 (0.00%): https://orcid.org/0000-0001-8186-2160
+        493 (0.00%): https://orcid.org/0000-0002-6038-9025
+        295 (0.00%): https://orcid.org/0000-0002-5730-0499
+        290 (0.00%): https://orcid.org/0000-0003-1391-4736
+        289 (0.00%): https://orcid.org/0000-0002-4094-1222
         ...
     institutions
-      Count: 16502659 (100.00%)
+      Count: 355926376 (100.00%)
       Types: list (100.00%)
       Schema Entry:
-        7945413 ENTRIES
+        173397223 ENTRIES
         id
-          Count: 5950254 (74.89%)
+          Count: 130221299 (75.10%)
           Types: str (100.00%)
           Samples:
-            57010 (0.96%): https://openalex.org/I19820366
-            36172 (0.61%): https://openalex.org/I1313323035
-            27403 (0.46%): https://openalex.org/I1294671590
-            18230 (0.31%): https://openalex.org/I183067930
-            17940 (0.30%): https://openalex.org/I185261750
+            1256306 (0.96%): https://openalex.org/I19820366
+            787956 (0.61%): https://openalex.org/I1313323035
+            592937 (0.46%): https://openalex.org/I1294671590
+            401230 (0.31%): https://openalex.org/I183067930
+            390984 (0.30%): https://openalex.org/I185261750
             ...
         display_name
-          Count: 7945400 (100.00%)
+          Count: 173397172 (100.00%)
           Types: str (100.00%)
           Samples:
-            57013 (0.72%): Chinese Academy of Sciences
-            36172 (0.46%): Russian Academy of Sciences
-            27403 (0.34%): Centre national de la recherche scientifique
-            17943 (0.23%): University of Toronto
-            15943 (0.20%): Boston Children's Hospital
+            1256361 (0.72%): Chinese Academy of Sciences
+            788063 (0.45%): Russian Academy of Sciences
+            592937 (0.34%): Centre national de la recherche scientifique
+            391100 (0.23%): University of Toronto
+            343063 (0.20%): Boston Children's Hospital
             ...
         ror
-          Count: 5768732 (72.60%)
+          Count: 126272221 (72.82%)
           Types: str (100.00%)
           Samples:
-            57010 (0.99%): https://ror.org/034t30j35
-            37912 (0.66%): https://ror.org/05qrfxd25
-            27403 (0.48%): https://ror.org/02feahw73
-            18230 (0.32%): https://ror.org/0220qvk04
-            17940 (0.31%): https://ror.org/03dbr7087
+            1256306 (0.99%): https://ror.org/034t30j35
+            823136 (0.65%): https://ror.org/05qrfxd25
+            592937 (0.47%): https://ror.org/02feahw73
+            401230 (0.32%): https://ror.org/0220qvk04
+            390984 (0.31%): https://ror.org/03dbr7087
             ...
         country_code
-          Count: 5933888 (74.68%)
+          Count: 129861046 (74.89%)
           Types: str (100.00%)
           Samples:
-            1619970 (27.30%): US
-            734432 (12.38%): CN
-            364227 (6.14%): JP
-            329561 (5.55%): GB
-            290462 (4.89%): DE
+            35229897 (27.13%): US
+            16125879 (12.42%): CN
+            7873975 (6.06%): JP
+            7258070 (5.59%): GB
+            6269091 (4.83%): DE
             ...
         type
-          Count: 5767449 (72.59%)
+          Count: 126245061 (72.81%)
           Types: str (100.00%)
           Samples:
-            4590324 (79.59%): education
-            353805 (6.13%): government
-            333735 (5.79%): healthcare
-            218749 (3.79%): facility
-            131624 (2.28%): company
+            100533863 (79.63%): education
+            7735105 (6.13%): government
+            7327246 (5.80%): healthcare
+            4761918 (3.77%): facility
+            2846476 (2.25%): company
             ...
     raw_affiliation_string
-      Count: 7603640 (46.08%)
+      Count: 165843010 (46.59%)
       Types: str (100.00%)
       Samples:
-        1908 (0.03%): University of Texas at Austin
-        931 (0.01%): National University of Singapore,
-        582 (0.01%): University of connecticut
-        340 (0.00%):   The University of Hong Kong
-        268 (0.00%): Halliburton.
+        42194 (0.03%): University of Texas at Austin
+        20351 (0.01%): National University of Singapore,
+        13311 (0.01%): University of connecticut
+        8258 (0.00%):   The University of Hong Kong
+        5992 (0.00%): Halliburton.
         ...
 cited_by_count
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: int (100.00%)
   Samples:
-    4126747 (64.48%): 0
-    493623 (7.71%): 1
-    265902 (4.15%): 2
-    177880 (2.78%): 3
-    133418 (2.08%): 4
+    88041567 (64.31%): 0
+    10627789 (7.76%): 1
+    5717080 (4.18%): 2
+    3826069 (2.79%): 3
+    2851755 (2.08%): 4
     ...
 biblio:volume
-  Count: 3487597 (54.49%)
+  Count: 74934165 (54.74%)
   Types: str (100.00%)
   Samples:
-    82141 (2.36%): 1
-    78404 (2.25%): 2
-    71406 (2.05%): 3
-    68910 (1.98%): 4
-    67661 (1.94%): 5
+    1780400 (2.38%): 1
+    1708320 (2.28%): 2
+    1550518 (2.07%): 3
+    1506122 (2.01%): 4
+    1468485 (1.96%): 5
     ...
 biblio:issue
-  Count: 3369960 (52.66%)
+  Count: 71813087 (52.46%)
   Types: str (100.00%)
   Samples:
-    638092 (18.93%): 1
-    496049 (14.72%): 2
-    395299 (11.73%): 3
-    339532 (10.08%): 4
-    196563 (5.83%): 5
+    13724856 (19.11%): 1
+    10632621 (14.81%): 2
+    8457507 (11.78%): 3
+    7255055 (10.10%): 4
+    4172707 (5.81%): 5
     ...
 biblio:first_page
-  Count: 4184061 (65.38%)
+  Count: 89275547 (65.21%)
   Types: str (100.00%)
   Samples:
-    149888 (3.58%): 1
-    20179 (0.48%): 7
-    18623 (0.45%): 19
-    18197 (0.43%): 21
-    17710 (0.42%): 27
+    3255649 (3.65%): 1
+    425472 (0.48%): 7
+    387720 (0.43%): 19
+    385777 (0.43%): 21
+    373979 (0.42%): 27
     ...
 biblio:last_page
-  Count: 3727215 (58.24%)
+  Count: 79399148 (58.00%)
   Types: str (100.00%)
   Samples:
-    16230 (0.44%): 12
-    16098 (0.43%): 10
-    15563 (0.42%): 16
-    15476 (0.42%): 17
-    15471 (0.42%): 24
+    341925 (0.43%): 10
+    341183 (0.43%): 12
+    329295 (0.41%): 16
+    326551 (0.41%): 24
+    324849 (0.41%): 9
     ...
 is_retracted
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: bool (100.00%)
   Samples:
-    6398959 (99.98%): False
-    1042 (0.02%): True
+    136877935 (99.98%): False
+    22066 (0.02%): True
 is_paratext
-  Count: 2767669 (43.24%)
+  Count: 60091670 (43.89%)
   Types: bool (100.00%)
   Samples:
-    2767225 (99.98%): False
-    444 (0.02%): True
+    60082117 (99.98%): False
+    9553 (0.02%): True
 concepts
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: list (100.00%)
   Schema Entry:
-    34451937 ENTRIES
+    744006567 ENTRIES
     id
-      Count: 34451937 (100.00%)
+      Count: 744006567 (100.00%)
       Types: str (100.00%)
       Samples:
-        1147162 (3.33%): https://openalex.org/C71924100
-        829510 (2.41%): https://openalex.org/C41008148
-        584635 (1.70%): https://openalex.org/C17744445
-        542376 (1.57%): https://openalex.org/C192562407
-        439138 (1.27%): https://openalex.org/C86803240
+        24705668 (3.32%): https://openalex.org/C71924100
+        17915832 (2.41%): https://openalex.org/C41008148
+        12574061 (1.69%): https://openalex.org/C17744445
+        11678176 (1.57%): https://openalex.org/C192562407
+        9445361 (1.27%): https://openalex.org/C86803240
         ...
     wikidata
-      Count: 34451937 (100.00%)
+      Count: 744006567 (100.00%)
       Types: str (100.00%)
       Samples:
-        1148457 (3.33%): https://www.wikidata.org/wiki/Q11190
-        829510 (2.41%): https://www.wikidata.org/wiki/Q21198
-        584635 (1.70%): https://www.wikidata.org/wiki/Q36442
-        542490 (1.57%): https://www.wikidata.org/wiki/Q228736
-        439172 (1.27%): https://www.wikidata.org/wiki/Q420
+        24732720 (3.32%): https://www.wikidata.org/wiki/Q11190
+        17915832 (2.41%): https://www.wikidata.org/wiki/Q21198
+        12574061 (1.69%): https://www.wikidata.org/wiki/Q36442
+        11680480 (1.57%): https://www.wikidata.org/wiki/Q228736
+        9446100 (1.27%): https://www.wikidata.org/wiki/Q420
         ...
     display_name
-      Count: 34451937 (100.00%)
+      Count: 744006567 (100.00%)
       Types: str (100.00%)
       Samples:
-        1147162 (3.33%): Medicine
-        829510 (2.41%): Computer science
-        584635 (1.70%): Political science
-        542376 (1.57%): Materials science
-        439138 (1.27%): Biology
+        24705668 (3.32%): Medicine
+        17915832 (2.41%): Computer science
+        12574061 (1.69%): Political science
+        11678176 (1.57%): Materials science
+        9445361 (1.27%): Biology
         ...
     level
-      Count: 34451937 (100.00%)
+      Count: 744006567 (100.00%)
       Types: int (100.00%)
       Samples:
-        12306051 (35.72%): 2
-        7338159 (21.30%): 1
-        7334954 (21.29%): 0
-        5470265 (15.88%): 3
-        1537460 (4.46%): 4
+        266098283 (35.77%): 2
+        158301284 (21.28%): 1
+        157967797 (21.23%): 0
+        118309541 (15.90%): 3
+        33248430 (4.47%): 4
         ...
     score
-      Count: 34451937 (100.00%)
+      Count: 744006567 (100.00%)
       Types: float (100.00%)
       Samples:
-        377 (0.00%): 0.321177
-        366 (0.00%): 0.320517
-        348 (0.00%): 0.323038
-        339 (0.00%): 0.322174
-        333 (0.00%): 0.328351
+        7454 (0.00%): 0.320624
+        7358 (0.00%): 0.320517
+        7285 (0.00%): 0.321177
+        7217 (0.00%): 0.323038
+        7186 (0.00%): 0.322174
         ...
 mesh
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: list (100.00%)
   Schema Entry:
-    12821441 ENTRIES
+    276013671 ENTRIES
     is_major_topic
-      Count: 12821441 (100.00%)
+      Count: 276013671 (100.00%)
       Types: bool (100.00%)
       Samples:
-        9963328 (77.71%): False
-        2858113 (22.29%): True
+        214479741 (77.71%): False
+        61533930 (22.29%): True
     descriptor_ui
-      Count: 12821441 (100.00%)
+      Count: 276013671 (100.00%)
       Types: str (100.00%)
       Samples:
-        547159 (4.27%): D006801
-        256096 (2.00%): D005260
-        252101 (1.97%): D008297
-        194273 (1.52%): D000818
-        146255 (1.14%): D000328
+        11782083 (4.27%): D006801
+        5512996 (2.00%): D005260
+        5431456 (1.97%): D008297
+        4172960 (1.51%): D000818
+        3154942 (1.14%): D000328
         ...
     descriptor_name
-      Count: 12821441 (100.00%)
+      Count: 276013671 (100.00%)
       Types: str (100.00%)
       Samples:
-        547159 (4.27%): Humans
-        256096 (2.00%): Female
-        252101 (1.97%): Male
-        194273 (1.52%): Animals
-        146255 (1.14%): Adult
+        11782083 (4.27%): Humans
+        5512996 (2.00%): Female
+        5431456 (1.97%): Male
+        4172960 (1.51%): Animals
+        3154942 (1.14%): Adult
         ...
     qualifier_ui
-      Count: 4481050 (34.95%)
+      Count: 96463780 (34.95%)
       Types: str (100.00%)
       Samples:
-        515513 (11.50%): Q000378
-        285284 (6.37%): Q000235
-        225381 (5.03%): Q000502
-        210939 (4.71%): Q000494
-        189031 (4.22%): Q000187
+        11101300 (11.51%): Q000378
+        6203780 (6.43%): Q000235
+        4812646 (4.99%): Q000502
+        4511535 (4.68%): Q000494
+        4074875 (4.22%): Q000187
         ...
     qualifier_name
-      Count: 4481050 (34.95%)
+      Count: 96463780 (34.95%)
       Types: str (100.00%)
       Samples:
-        515513 (11.50%): metabolism
-        285284 (6.37%): genetics
-        225381 (5.03%): physiology
-        210939 (4.71%): pharmacology
-        189031 (4.22%): drug effects
+        11101300 (11.51%): metabolism
+        6203780 (6.43%): genetics
+        4812646 (4.99%): physiology
+        4511535 (4.68%): pharmacology
+        4074875 (4.22%): drug effects
         ...
 alternate_host_venues
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: list (100.00%)
   Schema Entry:
-    1554506 ENTRIES
+    34316480 ENTRIES
     id
-      Count: 502196 (32.31%)
+      Count: 11017573 (32.11%)
       Types: str (100.00%)
       Samples:
-        7290 (1.45%): https://openalex.org/V202381698
-        3862 (0.77%): https://openalex.org/V196734849
-        3665 (0.73%): https://openalex.org/V125754415
-        2196 (0.44%): https://openalex.org/V60865174
-        1836 (0.37%): https://openalex.org/V2485537415
+        159849 (1.45%): https://openalex.org/V202381698
+        85073 (0.77%): https://openalex.org/V196734849
+        80728 (0.73%): https://openalex.org/V125754415
+        47327 (0.43%): https://openalex.org/V60865174
+        42452 (0.39%): https://openalex.org/V2485537415
         ...
     display_name
-      Count: 1310706 (84.32%)
+      Count: 28883393 (84.17%)
       Types: str (100.00%)
       Samples:
-        186443 (14.22%): Europe PMC
-        160696 (12.26%): PMC
-        82037 (6.26%): arXiv
-        62595 (4.78%): Semantic Scholar
-        17457 (1.33%): CERN European Organization for Nuclear Research - Zenodo
+        4081686 (14.13%): Europe PMC
+        3562244 (12.33%): PMC
+        1897638 (6.57%): arXiv
+        1360974 (4.71%): Semantic Scholar
+        381643 (1.32%): CERN European Organization for Nuclear Research - Zenodo
         ...
     type
-      Count: 1554506 (100.00%)
+      Count: 34316480 (100.00%)
       Types: str (100.00%)
       Samples:
-        860378 (55.35%): repository
-        694128 (44.65%): journal
+        19013242 (55.41%): repository
+        15303238 (44.59%): journal
     url
-      Count: 1554506 (100.00%)
+      Count: 34316480 (100.00%)
       Types: str (100.00%)
       Samples:
+        3 (0.00%): https://doi.org/10.7238/rusc.v11i1.1844
+        3 (0.00%): http://www.reabic.net/journals/mbi/2014/1/MBI_2014_Caffrey_etal.pdf
+        2 (0.00%): https://dl.acm.org/doi/pdf/10.1145/3360901.3364441
+        2 (0.00%): http://arxiv.org/pdf/1910.00702
         1 (0.00%): http://arxiv.org/pdf/0709.1239
-        1 (0.00%): https://arxiv.org/abs/0709.1239
-        1 (0.00%): https://jamanetwork.com/journals/jamaophthalmology/articlepdf/415557/ECS20069.pdf
-        1 (0.00%): https://www.archivesofmedicalscience.com/pdf-118939-59553?filename=Seroprevalence of.pdf
-        1 (0.00%): http://vti.diva-portal.org/smash/get/diva2:672519/FULLTEXT01
         ...
     is_oa
-      Count: 1554506 (100.00%)
+      Count: 34316480 (100.00%)
       Types: bool (100.00%)
       Samples:
-        1554506 (100.00%): True
+        34316480 (100.00%): True
     version
-      Count: 1554506 (100.00%)
+      Count: 34316480 (100.00%)
       Types: str (100.00%)
       Samples:
-        1109880 (71.40%): publishedVersion
-        352746 (22.69%): submittedVersion
-        91880 (5.91%): acceptedVersion
+        24483889 (71.35%): publishedVersion
+        7811196 (22.76%): submittedVersion
+        2021395 (5.89%): acceptedVersion
     license
-      Count: 621727 (40.00%)
+      Count: 13787406 (40.18%)
       Types: str (100.00%)
       Samples:
-        328489 (52.83%): cc-by
-        91025 (14.64%): cc-by-nc-nd
-        82591 (13.28%): cc-by-nc
-        34524 (5.55%): cc-by-nc-sa
-        26434 (4.25%): elsevier-specific
+        7309555 (53.02%): cc-by
+        2032467 (14.74%): cc-by-nc-nd
+        1825398 (13.24%): cc-by-nc
+        758221 (5.50%): cc-by-nc-sa
+        570392 (4.14%): elsevier-specific
         ...
 referenced_works
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: list (100.00%)
   List Samples:
-    52 (0.00%): https://openalex.org/W2140409748
-    32 (0.00%): https://openalex.org/W2167493116
-    29 (0.00%): https://openalex.org/W2037541952
-    29 (0.00%): https://openalex.org/W2037607661
-    25 (0.00%): https://openalex.org/W1987056309
+    999 (0.00%): https://openalex.org/W2037541952
+    965 (0.00%): https://openalex.org/W2140409748
+    805 (0.00%): https://openalex.org/W2167493116
+    571 (0.00%): https://openalex.org/W1983642572
+    533 (0.00%): https://openalex.org/W2007497503
     ...
 related_works
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: list (100.00%)
   List Samples:
-    69 (0.00%): https://openalex.org/W2014632813
-    31 (0.00%): https://openalex.org/W1995969332
-    30 (0.00%): https://openalex.org/W2096487969
-    26 (0.00%): https://openalex.org/W2249011223
-    18 (0.00%): https://openalex.org/W1975679429
+    1480 (0.00%): https://openalex.org/W2014632813
+    590 (0.00%): https://openalex.org/W2096487969
+    508 (0.00%): https://openalex.org/W1995969332
+    387 (0.00%): https://openalex.org/W1975679429
+    338 (0.00%): https://openalex.org/W2249011223
     ...
 counts_by_year
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: list (100.00%)
   Schema Entry:
-    6711424 ENTRIES
+    144508410 ENTRIES
     year
-      Count: 6711424 (100.00%)
+      Count: 144508410 (100.00%)
       Types: int (100.00%)
       Samples:
-        851422 (12.69%): 2021
-        773615 (11.53%): 2020
-        705255 (10.51%): 2019
-        652210 (9.72%): 2017
-        651625 (9.71%): 2018
+        18593496 (12.87%): 2021
+        16775195 (11.61%): 2020
+        15204562 (10.52%): 2019
+        14028429 (9.71%): 2018
+        13955266 (9.66%): 2017
         ...
     cited_by_count
-      Count: 6711424 (100.00%)
+      Count: 144508410 (100.00%)
       Types: int (100.00%)
       Samples:
-        3164292 (47.15%): 1
-        1290544 (19.23%): 2
-        701189 (10.45%): 3
-        431025 (6.42%): 4
-        283092 (4.22%): 5
+        67860951 (46.96%): 1
+        27811897 (19.25%): 2
+        15121102 (10.46%): 3
+        9315354 (6.45%): 4
+        6133829 (4.24%): 5
         ...
 cited_by_api_url
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: str (100.00%)
   Samples:
     1 (0.00%): https://api.openalex.org/works?filter=cites:W2137406813
@@ -607,17 +607,17 @@ cited_by_api_url
     1 (0.00%): https://api.openalex.org/works?filter=cites:W2137406902
     ...
 updated_date
-  Count: 6400001 (100.00%)
+  Count: 136900001 (100.00%)
   Types: str (100.00%)
   Samples:
-    3139951 (49.06%): 2021-11-04T00:07:59.891080
-    2393373 (37.40%): 2021-11-03T23:47:31.356428
-    316919 (4.95%): 2021-12-23T00:40:26.238174
-    140100 (2.19%): 2016-06-24T00:00:00
-    84672 (1.32%): 2022-01-02T00:22:35.180390
+    66300122 (48.43%): 2021-11-04T00:07:59.891080
+    51987546 (37.97%): 2021-11-03T23:47:31.356428
+    6806449 (4.97%): 2021-12-23T00:40:26.238174
+    2916584 (2.13%): 2016-06-24T00:00:00
+    1865545 (1.36%): 2022-01-02T00:22:35.180390
     ...
 ids:pmid
-  Count: 916050 (14.31%)
+  Count: 19756281 (14.43%)
   Types: str (100.00%)
   Samples:
     1 (0.00%): https://pubmed.ncbi.nlm.nih.gov/12912688
@@ -627,12 +627,12 @@ ids:pmid
     1 (0.00%): https://pubmed.ncbi.nlm.nih.gov/2893398
     ...
 ids:pmcid
-  Count: 11509 (0.18%)
+  Count: 248433 (0.18%)
   Types: str (100.00%)
   Samples:
-    1 (0.01%): https://www.ncbi.nlm.nih.gov/pmc/articles/6211970
-    1 (0.01%): https://www.ncbi.nlm.nih.gov/pmc/articles/7428131
-    1 (0.01%): https://www.ncbi.nlm.nih.gov/pmc/articles/2380592
-    1 (0.01%): https://www.ncbi.nlm.nih.gov/pmc/articles/1375535
-    1 (0.01%): https://www.ncbi.nlm.nih.gov/pmc/articles/1522903
+    2 (0.00%): https://www.ncbi.nlm.nih.gov/pmc/articles/2182245
+    1 (0.00%): https://www.ncbi.nlm.nih.gov/pmc/articles/6211970
+    1 (0.00%): https://www.ncbi.nlm.nih.gov/pmc/articles/7428131
+    1 (0.00%): https://www.ncbi.nlm.nih.gov/pmc/articles/2380592
+    1 (0.00%): https://www.ncbi.nlm.nih.gov/pmc/articles/1375535
     ...
