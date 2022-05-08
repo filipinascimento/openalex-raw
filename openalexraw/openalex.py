@@ -13,11 +13,14 @@ from collections import Counter
 import collections
 
 class OpenAlex:
+    '''
+    OpenAlex is a class for accessing the OpenAlex data snapshots
+    '''
     #init
     def __init__(self,
-        openalexFolder,
-        processedFolder = None,
-        tempFolder = None,
+        openAlexPath,
+        processedPath = None,
+        tempPath = None,
         tagLabel = None, # current yyyy-mm-dd-hh-mm-ss will be used instead
         verbose = False
         ):
@@ -26,33 +29,34 @@ class OpenAlex:
         
         Parameters
         ----------
-        openalexFolder : str
-            The path to the OpenAlex folder. (default: current working directory)
-        processsedFolder : str
-            The path to the processed folder. (default: current working directory)
-        tempFolder : str
-            The path to the temp folder. (default: regular system temp folder)
+        openAlexPath : str or pathlib.Path
+            The path to the OpenAlex directory. (default: current working directory)
+        processedPath : str or pathlib.Path
+            The path to the processed directory used to create indices.
+            (default: current working directory, optional if reading from raw data)
+        tempPath : str or pathlib.Path
+            The path to the temp directory. (default: regular system temp directory)
         tagLabel : str
             The tag label for the current snapshot. (default: current date and time)
         verbose : bool
             If True, print out more information. (default: False)
         """
 
-        if(openalexFolder is None):
-            openalexFolder = Path.cwd()
+        if(openAlexPath is None):
+            openAlexPath = Path.cwd()
         
-        if (processedFolder is None):
-            processedFolder = Path.cwd()
+        if (processedPath is None):
+            processedPath = Path.cwd()
 
-        if (tempFolder is not None):
-            tempFolder = Path(tempFolder)
+        if (tempPath is not None):
+            tempPath = Path(tempPath)
 
         if (tagLabel is None):
             tagLabel = self.generateTagLabel()
         
-        self._openalexFolder = Path(openalexFolder)
-        self._processedFolder = Path(processedFolder)
-        self._tempFolder = tempFolder
+        self._openAlexPath = Path(openAlexPath)
+        self._processedPath = Path(processedPath)
+        self._tempPath = tempPath
         self._tagLabel = tagLabel
         self._verbose = verbose
 
@@ -73,7 +77,7 @@ class OpenAlex:
             The path to the manifest file for the given entity type.
 
         """
-        return self._openalexFolder/"data"/entityType/"manifest"
+        return self._openAlexPath/"data"/entityType/"manifest"
     
 
     def getManifest(self,entityType):
@@ -134,10 +138,24 @@ class OpenAlex:
         paths iterable
             A iterable collection of paths to the raw data on entities of the given entity type.
         """
-        return sorted(self._openalexFolder.glob("data/%s/*/*.gz"%entityType))
+        return sorted(self._openAlexPath.glob("data/%s/*/*.gz"%entityType))
         
 
     def rawEntities(self, entityType):
+        """
+        Iterate over the entities of the selected type directly from the raw snapshot.
+
+        Parameters
+        ----------
+        entityType : str
+            The entity type: ("authors" | "concepts" | "institutions" | "venues" | "works")
+        
+
+        Returns
+        -------
+        entities iterable
+            An iterable collection of entities of the selected type.
+        """
         from tqdm.auto import tqdm
         for jlpath in self.getRawEntitiesPaths(entityType):
             # SLOWER
@@ -149,17 +167,6 @@ class OpenAlex:
                 for line in f:
                     item = ujson.loads(line)
                     yield item
-    
-    
-        # processedPath = dataPath/"Processed"
-        # temporaryPath = dataPath/"Temporary"
-        # sortedPath = MAGPath/"Sorted"
-
-        # processedPath.mkdir(exist_ok=True)
-        # temporaryPath.mkdir(exist_ok=True)
-
-        # headersScriptPath = MAGPath/"samples"/"pyspark"/"MagClass.py"
-        # magColumnsPath = dataPath/"MAGColumns.json"
 
 
     def generateTagLabel(self):
@@ -170,7 +177,8 @@ class OpenAlex:
         return datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 
 
-    def getSchemaForEntityType(self,entityType,reportPath=None, mostCommon = 5,saveEach=100000, minPercentageFilter=0,file=sys.stdout):
+    def getSchemaForEntityType(self, entityType, reportPath=None, mostCommon = 5,
+        saveEach=100000, minPercentageFilter=0, file=sys.stdout):
         """
         Get the schema for the given entity type.
 
@@ -178,8 +186,9 @@ class OpenAlex:
         ----------
         entityType : str
             The entity type: ("authors" | "concepts" | "institutions" | "venues" | "works")
-        reportPath : str
-            The path to save a report file. (default: None)
+        reportPath : str or pathlib.Path
+            The path to save a report file. If not specified, the text report will
+            not be sabed. (default: None)
         mostCommon : int
             The number of most common values to be included in the schema. (default: 5)
         saveEach : int
@@ -198,7 +207,7 @@ class OpenAlex:
         def saveReport():
             if(reportPath is not None):
                 with open(reportPath,"w") as file:
-                    printSchema(schemaData,
+                    _printSchema(schemaData,
                         file=file,
                         mostCommon = mostCommon,
                         minPercentageFilter=minPercentageFilter)
@@ -207,7 +216,7 @@ class OpenAlex:
         schemaData = OrderedDict()
         entityCount = 0
         for entity in tqdm(self.rawEntities(entityType),total=self.getRawEntityCount(entityType)):
-            addToSchema(schemaData,entity)
+            _addToSchema(schemaData,entity)
             if(entityCount>0 and entityCount%saveEach==0):
                 saveReport()
             entityCount+=1
@@ -218,20 +227,22 @@ class OpenAlex:
 
 
 
-def flatten(d, parent_key=tuple()):
+def _flatten(d, parent_key=tuple()):
     items = []
     for k, v in d.items():
         if(k=="abstract_inverted_index"):
             continue
         new_key = parent_key + (k,) if parent_key else (k,)
         if isinstance(v, collections.MutableMapping):
-            items.extend(flatten(v, new_key).items())
+            items.extend(_flatten(v, new_key).items())
         else:
             items.append((new_key, v))
     return dict(items)
 
-def addToSchema(schemaData, entryData,maxSamples=100):
-  flatData = flatten(entryData)
+
+
+def _addToSchema(schemaData, entryData,maxSamples=100):
+  flatData = _flatten(entryData)
   if "__COUNT__" not in schemaData:
     schemaData["__COUNT__"] = 0
   schemaData["__COUNT__"] += 1
@@ -244,7 +255,7 @@ def addToSchema(schemaData, entryData,maxSamples=100):
         "schemaEntry" : OrderedDict(),
         "types": Counter()
       }
-    if value is None:
+    if not value:
         continue
     schemaData[key]["count"] += 1
     schemaData[key]["types"][type(value)] += 1
@@ -257,7 +268,7 @@ def addToSchema(schemaData, entryData,maxSamples=100):
     else:
       for entry in value:
         if(isinstance(entry,dict)):
-          addToSchema(schemaData[key]["schemaEntry"], entry)
+          _addToSchema(schemaData[key]["schemaEntry"], entry)
         else:
           if(len(schemaData[key]["listSamples"])<maxSamples):
             schemaData[key]["listSamples"][entry] += 1
@@ -266,7 +277,7 @@ def addToSchema(schemaData, entryData,maxSamples=100):
               schemaData[key]["listSamples"][entry] += 1
 
 
-def printSchema(schemaEntry,indent = 0,mostCommon = 5,minPercentageFilter=0,file=sys.stdout):
+def _printSchema(schemaEntry,indent = 0,mostCommon = 5,minPercentageFilter=0,file=sys.stdout):
   for key, value in schemaEntry.items():
     if(key=="__COUNT__"):
       print(" "*indent + str(value)+" ENTRIES",file=file);
@@ -296,6 +307,6 @@ def printSchema(schemaEntry,indent = 0,mostCommon = 5,minPercentageFilter=0,file
         print((" "*(indent+4))+"...",file=file)
     if(value["schemaEntry"]):
       print(" "*(indent+2)+"Schema Entry:",file=file)
-      printSchema(value["schemaEntry"],indent+4,mostCommon = 5,file=file)
+      _printSchema(value["schemaEntry"],indent+4,mostCommon = 5,file=file)
   
 
