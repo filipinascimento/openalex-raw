@@ -63,9 +63,6 @@ oa = oaraw.OpenAlex(
     openAlexPath = openAlexPath
 )
 
-# Creating any necessary directories
-schemasPath.mkdir(parents=True, exist_ok=True)
-
 # Which entity to process
 # "works" | "authors" | "institutions" | "venues" | "concepts"
 entityType = "works"
