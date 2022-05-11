@@ -1,0 +1,4538 @@
+108660 ENTRIES
+id
+  Count: 108660 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://openalex.org/I5691862
+    1 ( < 0.01%): https://openalex.org/I7726996
+    1 ( < 0.01%): https://openalex.org/I8991828
+    1 ( < 0.01%): https://openalex.org/I9785854
+    1 ( < 0.01%): https://openalex.org/I11265933
+    ...
+ror
+  Count: 102392 (94.23%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://ror.org/000jtc944
+    1 ( < 0.01%): https://ror.org/0433kqc49
+    1 ( < 0.01%): https://ror.org/04sdbjc29
+    1 ( < 0.01%): https://ror.org/0532c1x92
+    1 ( < 0.01%): https://ror.org/04mhzgx49
+    ...
+display_name
+  Count: 108660 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    13 (0.01%): ABB
+    10 ( < 0.01%): Johnson Controls
+    8 ( < 0.01%): Institut de Recherche pour le Développement
+    4 ( < 0.01%): Suez
+    3 ( < 0.01%): RUAG
+    ...
+country_code
+  Count: 107734 (99.15%)
+  Types: string (100.00%)
+  Samples:
+    32824 (30.47%): US
+    7750 (7.19%): GB
+    5097 (4.73%): DE
+    4858 (4.51%): CN
+    4033 (3.74%): JP
+    ...
+type
+  Count: 102361 (94.20%)
+  Types: string (100.00%)
+  Samples:
+    29498 (28.82%): company
+    19818 (19.36%): education
+    13796 (13.48%): nonprofit
+    12972 (12.67%): healthcare
+    9302 (9.09%): facility
+    ...
+homepage_url
+  Count: 105850 (97.41%)
+  Types: string (100.00%)
+  Samples:
+    5 ( < 0.01%): http://www.att.com/
+    2 ( < 0.01%): http://www.jci.com/
+    2 ( < 0.01%): http://www.textron.com/
+    2 ( < 0.01%): http://www.steyr-motors.com/
+    1 ( < 0.01%): http://www.caliperls.com/
+    ...
+image_url
+  Count: 26545 (24.43%)
+  Types: string (100.00%)
+  Samples:
+    13 (0.05%): https://upload.wikimedia.org/wikipedia/commons/0/00/ABB_logo.svg
+    10 (0.04%): https://upload.wikimedia.org/wikipedia/commons/a/ab/National_Emblem_of_the_People%%27s_Republic_of_China_%%282%%29.svg
+    8 (0.03%): https://upload.wikimedia.org/wikipedia/commons/0/0b/Location_map_India_Kolkata_EN.svg
+    8 (0.03%): https://upload.wikimedia.org/wikipedia/commons/8/82/JohnsonControlsRichmondHill2.jpg
+    3 (0.01%): https://upload.wikimedia.org/wikipedia/commons/e/e8/RUAG_Logo.svg
+    ...
+image_thumbnail_url
+  Count: 26545 (24.43%)
+  Types: string (100.00%)
+  Samples:
+    13 (0.05%): https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ABB_logo.svg/100px-ABB_logo.svg.png
+    10 (0.04%): https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/National_Emblem_of_the_People%%27s_Republic_of_China_%%282%%29.svg/92px-National_Emblem_of_the_People%%27s_Republic_of_China_%%282%%29.svg.png
+    8 (0.03%): https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Location_map_India_Kolkata_EN.svg/77px-Location_map_India_Kolkata_EN.svg.png
+    8 (0.03%): https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/JohnsonControlsRichmondHill2.jpg/100px-JohnsonControlsRichmondHill2.jpg
+    3 (0.01%): https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/RUAG_Logo.svg/100px-RUAG_Logo.svg.png
+    ...
+display_name_acronyms
+  Count: 40916 (37.66%)
+  Types: list (100.00%)
+  List Samples:
+    19 (0.05%): AMC
+    17 (0.04%): APS
+    13 (0.03%): IRD
+    13 (0.03%): IAI
+    11 (0.03%): ESA
+    ...
+display_name_alternatives
+  Count: 20463 (18.83%)
+  Types: list (100.00%)
+  List Samples:
+    11 (0.05%): ASEA Brown Boveri
+    4 (0.02%): Suez Environnement
+    4 (0.02%): J. L. Kraft & Bros. Co. National Dairy Products
+    2 ( < 0.01%): Rüstungs Unternehmen Aktiengesellschaft
+    2 ( < 0.01%): Met Department
+    ...
+works_count
+  Count: 67976 (62.56%)
+  Types: number (100.00%)
+  Samples:
+    6339 (9.33%): 1
+    3748 (5.51%): 2
+    2700 (3.97%): 3
+    2147 (3.16%): 4
+    1360 (2.00%): 7
+    ...
+cited_by_count
+  Count: 61890 (56.96%)
+  Types: number (100.00%)
+  Samples:
+    1036 (1.67%): 2
+    668 (1.08%): 4
+    115 (0.19%): 48
+    95 (0.15%): 60
+    94 (0.15%): 55
+    ...
+ids:openalex
+  Count: 108660 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://openalex.org/I5691862
+    1 ( < 0.01%): https://openalex.org/I7726996
+    1 ( < 0.01%): https://openalex.org/I8991828
+    1 ( < 0.01%): https://openalex.org/I9785854
+    1 ( < 0.01%): https://openalex.org/I11265933
+    ...
+ids:wikipedia
+  Count: 41691 (38.37%)
+  Types: string (100.00%)
+  Samples:
+    13 (0.03%): https://en.wikipedia.org/wiki/ABB
+    8 (0.02%): https://en.wikipedia.org/wiki/Johnson%20Controls
+    3 ( < 0.01%): https://en.wikipedia.org/wiki/RUAG
+    2 ( < 0.01%): https://en.wikipedia.org/wiki/Mitsui
+    2 ( < 0.01%): https://en.wikipedia.org/wiki/Advance%20HE
+    ...
+ids:wikidata
+  Count: 26329 (24.23%)
+  Types: string (100.00%)
+  Samples:
+    2 ( < 0.01%): https://www.wikidata.org/wiki/Q16843651
+    1 ( < 0.01%): https://www.wikidata.org/wiki/Q5021374
+    1 ( < 0.01%): https://www.wikidata.org/wiki/Q11141727
+    1 ( < 0.01%): https://www.wikidata.org/wiki/Q482730
+    1 ( < 0.01%): https://www.wikidata.org/wiki/Q3303491
+    ...
+ids:mag
+  Count: 27076 (24.92%)
+  Types: number (100.00%)
+  Samples:
+    1 ( < 0.01%): 5691862
+    1 ( < 0.01%): 7726996
+    1 ( < 0.01%): 8991828
+    1 ( < 0.01%): 9785854
+    1 ( < 0.01%): 11265933
+    ...
+geo:city
+  Count: 102392 (94.23%)
+  Types: string (100.00%)
+  Samples:
+    2029 (1.98%): London
+    1331 (1.30%): New York
+    1188 (1.16%): Washington D.C.
+    1033 (1.01%): Tokyo
+    974 (0.95%): Paris
+    ...
+geo:geonames_city_id
+  Count: 102361 (94.20%)
+  Types: string (100.00%)
+  Samples:
+    1989 (1.94%): 2643743
+    1331 (1.30%): 5128581
+    1187 (1.16%): 4140963
+    1033 (1.01%): 1850147
+    970 (0.95%): 2988507
+    ...
+geo:region
+  Count: 37283 (34.31%)
+  Types: string (100.00%)
+  Samples:
+    4490 (12.04%): California
+    2473 (6.63%): New York
+    1737 (4.66%): Massachusetts
+    1393 (3.74%): Ontario
+    1368 (3.67%): Texas
+    ...
+geo:country_code
+  Count: 107734 (99.15%)
+  Types: string (100.00%)
+  Samples:
+    32824 (30.47%): US
+    7750 (7.19%): GB
+    5097 (4.73%): DE
+    4858 (4.51%): CN
+    4033 (3.74%): JP
+    ...
+geo:country
+  Count: 102392 (94.23%)
+  Types: string (100.00%)
+  Samples:
+    30737 (30.02%): United States
+    7339 (7.17%): United Kingdom
+    4954 (4.84%): Germany
+    4784 (4.67%): China
+    3912 (3.82%): Japan
+    ...
+geo:latitude
+  Count: 107118 (98.58%)
+  Types: number (100.00%)
+  Samples:
+    47 (0.04%): 40.7139
+    34 (0.03%): 38.89673
+    30 (0.03%): 51.50642
+    15 (0.01%): 51.51273
+    13 (0.01%): 35.67598
+    ...
+geo:longitude
+  Count: 107118 (98.58%)
+  Types: number (100.00%)
+  Samples:
+    45 (0.04%): -74.00349
+    33 (0.03%): -77.02758
+    29 (0.03%): -0.12721
+    15 (0.01%): -0.07298
+    14 (0.01%): 139.7635
+    ...
+international:display_name:en
+  Count: 108660 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    10 ( < 0.01%): Johnson Controls
+    4 ( < 0.01%): Suez
+    3 ( < 0.01%): RUAG
+    2 ( < 0.01%): Centre for Sight
+    2 ( < 0.01%): Higher Education Academy
+    ...
+international:display_name:fr
+  Count: 14939 (13.75%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.01%): Suez
+    2 (0.01%): Higher Education Academy
+    1 ( < 0.01%): Caliper Life Sciences
+    1 ( < 0.01%): université nationale de Pukyong
+    1 ( < 0.01%): université d'économie de Poznań
+    ...
+associated_institutions
+  Count: 20206 (18.60%)
+  Types: list (100.00%)
+  Schema Entry:
+    40868 ENTRIES
+    id
+      Count: 40868 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        59 (0.14%): https://openalex.org/I4210166444
+        57 (0.14%): https://openalex.org/I1314913594
+        37 (0.09%): https://openalex.org/I1292875679
+        33 (0.08%): https://openalex.org/I2800421839
+        24 (0.06%): https://openalex.org/I45129253
+        ...
+    ror
+      Count: 40868 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        59 (0.14%): https://ror.org/05q3vnk25
+        57 (0.14%): https://ror.org/02vdm1p28
+        37 (0.09%): https://ror.org/03qn8fb07
+        33 (0.08%): https://ror.org/02rcrvv70
+        24 (0.06%): https://ror.org/02jx3x895
+        ...
+    display_name
+      Count: 40868 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        121 (0.30%): Spanish National Research Council
+        67 (0.16%): Institut de Recherche pour le Développement
+        67 (0.16%): Czech Academy of Sciences
+        57 (0.14%): National Endowment for the Humanities
+        57 (0.14%): Defence Research and Development Organisation
+        ...
+    country_code
+      Count: 40868 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        9609 (23.51%): US
+        7724 (18.90%): FR
+        3838 (9.39%): GB
+        2275 (5.57%): DE
+        1910 (4.67%): CN
+        ...
+    type
+      Count: 40867 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        8446 (20.67%): facility
+        8416 (20.59%): education
+        8067 (19.74%): healthcare
+        7053 (17.26%): government
+        6867 (16.80%): company
+        ...
+    relationship
+      Count: 40868 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        17093 (41.82%): parent
+        17093 (41.82%): child
+        6672 (16.33%): related
+        10 (0.02%): other
+counts_by_year
+  Count: 66724 (61.41%)
+  Types: list (100.00%)
+  Schema Entry:
+    592504 ENTRIES
+    year
+      Count: 592504 (100.00%)
+      Types: number (100.00%)
+      Samples:
+        59697 (10.08%): 2021
+        57815 (9.76%): 2020
+        56716 (9.57%): 2019
+        55545 (9.37%): 2018
+        54723 (9.24%): 2017
+        ...
+    works_count
+      Count: 441442 (74.50%)
+      Types: number (100.00%)
+      Samples:
+        82868 (18.77%): 1
+        44164 (10.00%): 2
+        29130 (6.60%): 3
+        21670 (4.91%): 4
+        17041 (3.86%): 5
+        ...
+    cited_by_count
+      Count: 561611 (94.79%)
+      Types: number (100.00%)
+      Samples:
+        16022 (2.85%): 3
+        11050 (1.97%): 6
+        10742 (1.91%): 5
+        8530 (1.52%): 7
+        4152 (0.74%): 17
+        ...
+x_concepts
+  Count: 67819 (62.41%)
+  Types: list (100.00%)
+  Schema Entry:
+    1248914 ENTRIES
+    id
+      Count: 1248914 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        54430 (4.36%): https://openalex.org/C86803240
+        45613 (3.65%): https://openalex.org/C71924100
+        38528 (3.08%): https://openalex.org/C185592680
+        35939 (2.88%): https://openalex.org/C121332964
+        33274 (2.66%): https://openalex.org/C41008148
+        ...
+    wikidata
+      Count: 1248914 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        54430 (4.36%): https://www.wikidata.org/wiki/Q420
+        45624 (3.65%): https://www.wikidata.org/wiki/Q11190
+        38528 (3.08%): https://www.wikidata.org/wiki/Q2329
+        35939 (2.88%): https://www.wikidata.org/wiki/Q413
+        33274 (2.66%): https://www.wikidata.org/wiki/Q21198
+        ...
+    display_name
+      Count: 1224466 (98.04%)
+      Types: string (100.00%)
+      Samples:
+        53731 (4.39%): Biology
+        41735 (3.41%): Medicine
+        38372 (3.13%): Chemistry
+        35621 (2.91%): Physics
+        32981 (2.69%): Computer science
+        ...
+    level
+      Count: 778874 (62.36%)
+      Types: number (100.00%)
+      Samples:
+        511264 (65.64%): 1
+        181950 (23.36%): 2
+        64841 (8.32%): 3
+        16073 (2.06%): 4
+        4746 (0.61%): 5
+    score
+      Count: 1248914 (100.00%)
+      Types: number (100.00%)
+      Samples:
+        113913 (9.12%): 50.0
+        106465 (8.52%): 33.3
+        97532 (7.81%): 25.0
+        20876 (1.67%): 28.6
+        9450 (0.76%): 60.0
+        ...
+works_api_url
+  Count: 108660 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://api.openalex.org/works?filter=institutions.id:I5691862
+    1 ( < 0.01%): https://api.openalex.org/works?filter=institutions.id:I7726996
+    1 ( < 0.01%): https://api.openalex.org/works?filter=institutions.id:I8991828
+    1 ( < 0.01%): https://api.openalex.org/works?filter=institutions.id:I9785854
+    1 ( < 0.01%): https://api.openalex.org/works?filter=institutions.id:I11265933
+    ...
+updated_date
+  Count: 108660 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    108660 (100.00%): 2022-04-12
+created_date
+  Count: 108660 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    81583 (75.08%): 2022-02-02
+    18369 (16.91%): 2016-06-24
+    6793 (6.25%): 2018-05-17
+    1044 (0.96%): 2021-03-01
+    148 (0.14%): 2020-05-01
+    ...
+ids:ror
+  Count: 102392 (94.23%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://ror.org/000jtc944
+    1 ( < 0.01%): https://ror.org/0433kqc49
+    1 ( < 0.01%): https://ror.org/04sdbjc29
+    1 ( < 0.01%): https://ror.org/0532c1x92
+    1 ( < 0.01%): https://ror.org/04mhzgx49
+    ...
+ids:grid
+  Count: 102392 (94.23%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): grid.464343.2
+    1 ( < 0.01%): grid.412576.3
+    1 ( < 0.01%): grid.448853.6
+    1 ( < 0.01%): grid.423871.b
+    1 ( < 0.01%): grid.12136.37
+    ...
+international:display_name:ja
+  Count: 12121 (11.15%)
+  Types: string (100.00%)
+  Samples:
+    6 (0.05%): シンガポール科学技術研究庁
+    1 ( < 0.01%): 河南財経学院
+    1 ( < 0.01%): 釜慶大学校
+    1 ( < 0.01%): テルアビブ大学
+    1 ( < 0.01%): チェンナイ数学研究所
+    ...
+international:display_name:zh
+  Count: 12771 (11.75%)
+  Types: string (100.00%)
+  Samples:
+    6 (0.05%): 新加坡科技研究局
+    1 ( < 0.01%): 河南财经政法大学
+    1 ( < 0.01%): 釜慶大學
+    1 ( < 0.01%): 波兹南财经大学
+    1 ( < 0.01%): 臺拉維夫大學
+    ...
+international:display_name:az
+  Count: 1442 (1.33%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.49%): Monterrey Texnologiya İnstitutu
+    3 (0.21%): Kolumbiya Milli Universiteti
+    2 (0.14%): Siyasi Araşdırmalar İnstitutu (Paris)
+    1 (0.07%): Pukyonq Milli Universiteti
+    1 (0.07%): Təl-Əviv Universiteti
+    ...
+international:display_name:ko
+  Count: 3857 (3.55%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.05%): 옥스팜
+    2 (0.05%): 웨스턴 신학교
+    1 (0.03%): 부경대학교
+    1 (0.03%): 텔아비브 대학교
+    1 (0.03%): 후지 중공업
+    ...
+international:display_name:vi
+  Count: 2107 (1.94%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.09%): Oxfam
+    2 (0.09%): Viện Nghiên cứu Chính trị Paris
+    1 (0.05%): Đại học Quốc gia Pukyong
+    1 (0.05%): Đại học Kinh tế và Kinh doanh Poznań
+    1 (0.05%): Mitsui
+    ...
+international:display_name:cy
+  Count: 4062 (3.74%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.05%): Oxfam
+    2 (0.05%): Prifysgol Matsumoto
+    2 (0.05%): Prifysgol Meddygol Tsieina
+    1 (0.02%): Prifysgol Kristal
+    1 (0.02%): Prifysgol Tel Aviv
+    ...
+international:display_name:ga
+  Count: 2411 (2.22%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.08%): Ollscoil Matsumoto
+    1 (0.04%): Ollscoil Kristal
+    1 (0.04%): Ollscoil Tel Aviv
+    1 (0.04%): Ollscoil Aveiro
+    1 (0.04%): Barnardo's
+    ...
+international:display_name:it
+  Count: 7560 (6.96%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.03%): Higher Education Academy
+    2 (0.03%): Oxfam
+    1 (0.01%): Università Kristal
+    1 (0.01%): Università di economia di Poznań
+    1 (0.01%): Università di Tel Aviv
+    ...
+international:display_name:nl
+  Count: 9336 (8.59%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.02%): Higher Education Academy
+    1 (0.01%): Kristal University
+    1 (0.01%): Universiteit van Tel Aviv
+    1 (0.01%): Fuji Heavy Industries
+    1 (0.01%): Mitsui
+    ...
+international:display_name:sq
+  Count: 520 (0.48%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.58%): Johnson
+    2 (0.38%): Instituti i Studimeve Politike i Parisit
+    1 (0.19%): Universiteti Kristal
+    1 (0.19%): Agjencia Hapësinore Evropiane
+    1 (0.19%): Banka Qendrore Evropiane
+    ...
+international:display_name:bn
+  Count: 1449 (1.33%)
+  Types: string (100.00%)
+  Samples:
+    4 (0.28%): ভারতীয় বিজ্ঞান শিক্ষা ও গবেষণা সংস্থান
+    1 (0.07%): রামকৃষ্ণ মিশন বিদ্যামন্দির
+    1 (0.07%): তেল আবিব বিশ্ববিদ্যালয়
+    1 (0.07%): চেন্নাই গাণিতীয় প্রতিষ্ঠান
+    1 (0.07%): সুয়েজ এনভায়রনমেন্টমেন্ট
+    ...
+international:display_name:be
+  Count: 2465 (2.27%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.28%): Мантэрэйскі тэхналагічны інстытут
+    1 (0.04%): Эканамічны ўніверсітэт у Познані
+    1 (0.04%): Тэль-Авіўскі ўніверсітэт
+    1 (0.04%): Авейрускі ўніверсітэт
+    1 (0.04%): Універсітэт Райса
+    ...
+international:display_name:be-tarask
+  Count: 1309 (1.20%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.53%): Мантэрэйскі інстытут тэхналёгіяў і вышэйшай адукацыі
+    3 (0.23%): Унівэрсытэт Порту
+    2 (0.15%): Парыскі інстытут палітычных дасьледаваньняў
+    2 (0.15%): Індыянскі ўнівэрсытэт
+    1 (0.08%): Дзяржаўны эканамічны ўнівэрсытэт у Познані
+    ...
+international:display_name:de
+  Count: 11423 (10.51%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.02%): Higher Education Academy
+    1 ( < 0.01%): Wirtschaftsuniversität Posen
+    1 ( < 0.01%): Universität Tel Aviv
+    1 ( < 0.01%): Subaru Corporation
+    1 ( < 0.01%): Mitsui Group
+    ...
+international:display_name:hu
+  Count: 2231 (2.05%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.09%): Párizsi Politikai Tanulmányok Intézete
+    1 (0.04%): Poznańi Közgazdasági és Üzleti Egyetem
+    1 (0.04%): Tel Aviv Egyetem
+    1 (0.04%): Celal Bayar Egyetem
+    1 (0.04%): Rice Egyetem
+    ...
+international:display_name:lt
+  Count: 1040 (0.96%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.29%): Johnson
+    2 (0.19%): Institut d'études politiques de Paris
+    1 (0.10%): Poznanės ekonomikos universitetas
+    1 (0.10%): Raiso universitetas
+    1 (0.10%): Notre Dame universitetas
+    ...
+international:display_name:pl
+  Count: 4089 (3.76%)
+  Types: string (100.00%)
+  Samples:
+    6 (0.15%): Agency for Science, Technology and Research
+    2 (0.05%): Oxfam
+    1 (0.02%): Uniwersytet Ekonomiczny w Poznaniu
+    1 (0.02%): Uniwersytet Tel Awiwu
+    1 (0.02%): Fuji Heavy Industries
+    ...
+international:display_name:ru
+  Count: 7214 (6.64%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.03%): Оксфам
+    1 (0.01%): Познаньский экономический университет
+    1 (0.01%): Тель-Авивский университет
+    1 (0.01%): Subaru Corporation
+    1 (0.01%): Mitsui Group
+    ...
+international:display_name:uk
+  Count: 4278 (3.94%)
+  Types: string (100.00%)
+  Samples:
+    6 (0.14%): Агенція з науки
+    2 (0.05%): Оксфам
+    1 (0.02%): Познаньський економічний університет
+    1 (0.02%): Тель-Авівський університет
+    1 (0.02%): Subaru Corporation
+    ...
+international:display_name:ar
+  Count: 6062 (5.58%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.03%): أوكسفام
+    1 (0.02%): جامعة تل أبيب
+    1 (0.02%): فوجي للصناعات الثقيلة
+    1 (0.02%): مجموعة ميتسوي
+    1 (0.02%): جامعة فانكوفر ايلاند
+    ...
+international:display_name:arz
+  Count: 3188 (2.93%)
+  Types: string (100.00%)
+  Samples:
+    1 (0.03%): جامعة تل ابيب
+    1 (0.03%): فوجى للصناعات الثقيله
+    1 (0.03%): ميتسوى
+    1 (0.03%): ناڤير
+    1 (0.03%): جامعة نوتر دام
+    ...
+international:display_name:ast
+  Count: 1918 (1.77%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.36%): Institutu Teunolóxicu y d'Estudios Superiores de Monterrey
+    3 (0.16%): Universidá Nacional de Colombia
+    2 (0.10%): Institutu d'Estudios Políticos de París
+    1 (0.05%): Universidá de Tel Aviv
+    1 (0.05%): Universidá d'Aveiro
+    ...
+international:display_name:azb
+  Count: 1799 (1.66%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.11%): آکسفام
+    1 (0.06%): تل‌آویو بیلیم‌یوردو
+    1 (0.06%): میتسویی
+    1 (0.06%): تی-موبایل یواس
+    1 (0.06%): سوئز آنویرونمان
+    ...
+international:display_name:bg
+  Count: 1463 (1.35%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.14%): Оксфам
+    2 (0.14%): Институт за политически изследвания
+    1 (0.07%): Телавивски университет
+    1 (0.07%): Университет Валпарисо
+    1 (0.07%): ABB
+    ...
+international:display_name:ca
+  Count: 5678 (5.23%)
+  Types: string (100.00%)
+  Samples:
+    6 (0.11%): Agència de Ciència, Tecnologia i Recerca
+    2 (0.04%): St Patrick's College
+    2 (0.04%): Oxfam
+    2 (0.04%): Universitat de Nou Mèxic
+    1 (0.02%): Universitat de Tel Aviv
+    ...
+international:display_name:ceb
+  Count: 511 (0.47%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.59%): Johnson
+    2 (0.39%): Aalborg University
+    1 (0.20%): Tel Aviv University
+    1 (0.20%): Hochschule für Musik und Theater Hannover
+    1 (0.20%): Centro de Investigación en Matemáticas - CIMAT
+    ...
+international:display_name:cs
+  Count: 3328 (3.06%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.06%): Oxfam
+    1 (0.03%): Telavivská univerzita
+    1 (0.03%): Suez Environnement
+    1 (0.03%): Naver Corporation
+    1 (0.03%): Riceova univerzita
+    ...
+international:display_name:da
+  Count: 3168 (2.92%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.06%): Oxfam
+    1 (0.03%): Tel Aviv Universitet
+    1 (0.03%): Fuji Heavy Industries
+    1 (0.03%): Mitsui
+    1 (0.03%): Kwantlen Polytechnic University
+    ...
+international:display_name:de-ch
+  Count: 809 (0.74%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.87%): Instituto Tecnológico y de Estudios Superiores de Monterrey
+    3 (0.37%): Johnson
+    2 (0.25%): Institut d’études politiques de Paris
+    1 (0.12%): Universität Tel Aviv
+    1 (0.12%): Freescale Semiconductor
+    ...
+international:display_name:el
+  Count: 2574 (2.37%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.08%): Αμερικανικό Κολλέγιο Ελλάδος
+    2 (0.08%): Ινστιτούτο Πολιτικών Επιστημών του Παρισιού
+    1 (0.04%): Πανεπιστήμιο του Τελ Αβίβ
+    1 (0.04%): Πανεπιστήμιο του Αβέιρο
+    1 (0.04%): Πανεπιστήμιο Ράις
+    ...
+international:display_name:en-ca
+  Count: 1517 (1.40%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.46%): Monterrey Institute of Technology and Higher Education
+    2 (0.13%): Sciences Po
+    2 (0.13%): Ministry of Defence
+    1 (0.07%): Tel Aviv University
+    1 (0.07%): Fuji Heavy Industries
+    ...
+international:display_name:en-gb
+  Count: 2349 (2.16%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.30%): Monterrey Institute of Technology and Higher Education
+    2 (0.09%): Higher Education Academy
+    2 (0.09%): Sciences Po
+    1 (0.04%): Tel Aviv University
+    1 (0.04%): Fuji Heavy Industries
+    ...
+international:display_name:eo
+  Count: 3748 (3.45%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.05%): Oxfam
+    2 (0.05%): Nordokcidenta Universitato
+    1 (0.03%): Universitato je Tel-Avivo
+    1 (0.03%): Madrasa Matematika Instituto
+    1 (0.03%): Universitato de Aveiro
+    ...
+international:display_name:es
+  Count: 9495 (8.74%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.02%): Universidad de Valparaíso
+    2 (0.02%): Higher Education Academy
+    1 (0.01%): Universidad de Tel Aviv
+    1 (0.01%): Subaru Corporation
+    1 (0.01%): Mitsui
+    ...
+international:display_name:fa
+  Count: 5599 (5.15%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.04%): آکادمی آموزش عالی
+    2 (0.04%): آکسفام
+    1 (0.02%): دانشگاه تل‌آویو
+    1 (0.02%): دانشگاه جلال بایار
+    1 (0.02%): صنایع سنگین فوجی
+    ...
+international:display_name:fi
+  Count: 2963 (2.73%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.07%): Oxfam
+    1 (0.03%): Tel Avivin yliopisto
+    1 (0.03%): Mitsui
+    1 (0.03%): Suez Environnement
+    1 (0.03%): Aveiron yliopisto
+    ...
+international:display_name:gl
+  Count: 1083 (1.00%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.28%): Universidade Nacional de Colombia
+    3 (0.28%): Johnson
+    2 (0.18%): Instituto de Estudos Políticos de París
+    1 (0.09%): Universidade de Tel Aviv
+    1 (0.09%): Asociación Americana de Arbitraxe
+    ...
+international:display_name:he
+  Count: 5226 (4.81%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.04%): סובארו
+    2 (0.04%): אוניברסיטת סאו פאולו
+    2 (0.04%): אוקספם
+    1 (0.02%): אוניברסיטת תל אביב
+    1 (0.02%): האוניברסיטה הפוליטכנית של קוונטלן
+    ...
+international:display_name:hi
+  Count: 1358 (1.25%)
+  Types: string (100.00%)
+  Samples:
+    6 (0.44%): ए स्टार
+    1 (0.07%): तेल अवीव विश्वविद्यालय
+    1 (0.07%): चेन्नई गणितीय संस्थान
+    1 (0.07%): मिस्सौरी वेल्ली कॉलेज
+    1 (0.07%): लाला लाजपतराय पशुचिकित्सा एवं पशुविज्ञान विश्वविद्यालय
+    ...
+international:display_name:hy
+  Count: 2619 (2.41%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.27%): Մեքսիկայի տեխնոլոգիական ինստիտուտ
+    2 (0.08%): Հյուսիսարևմտյան համալսարան
+    1 (0.04%): Թել Ավիվի համալսարան
+    1 (0.04%): NAVER Corporation
+    1 (0.04%): Ռայսի անվան համալսարան
+    ...
+international:display_name:id
+  Count: 3286 (3.02%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.06%): Oxfam
+    1 (0.03%): Universitas Tel Aviv
+    1 (0.03%): Subaru Corporation
+    1 (0.03%): Mitsui
+    1 (0.03%): Suez Environnement
+    ...
+international:display_name:ka
+  Count: 1265 (1.16%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.24%): პორტუს უნივერსიტეტი
+    2 (0.16%): ოქსფამი
+    2 (0.16%): პოლიტიკური კვლევების ინსტიტუტი
+    2 (0.16%): ავსტრიის მეცნიერებათა აკადემია
+    1 (0.08%): თელ-ავივის უნივერსიტეტი
+    ...
+international:display_name:lad
+  Count: 80 (0.07%)
+  Types: string (100.00%)
+  Samples:
+    3 (3.75%): Johnson
+    2 (2.50%): Pratt
+    1 (1.25%): Universita de Tel Aviv
+    1 (1.25%): Universita Bar Ilan
+    1 (1.25%): Blanko
+    ...
+international:display_name:mn
+  Count: 176 (0.16%)
+  Types: string (100.00%)
+  Samples:
+    2 (1.14%): Акита Их Сургууль
+    2 (1.14%): Жөжянгийн их сургууль
+    1 (0.57%): Тел-Авивын их сургууль
+    1 (0.57%): Шиншүү их сургууль
+    1 (0.57%): Европын сансрын агентлаг
+    ...
+international:display_name:nb
+  Count: 5013 (4.61%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.04%): Oxfam
+    2 (0.04%): Merck
+    1 (0.02%): Universitetet i Tel Aviv
+    1 (0.02%): Fuji Heavy Industries Ltd.
+    1 (0.02%): Mitsui
+    ...
+international:display_name:pt
+  Count: 4907 (4.52%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.04%): Oxfam
+    2 (0.04%): Ministério da Economia
+    1 (0.02%): Universidade de Tel Aviv
+    1 (0.02%): Fuji Heavy Industries
+    1 (0.02%): Mitsui
+    ...
+international:display_name:pt-br
+  Count: 1661 (1.53%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.42%): Instituto Tecnológico e de Estudos Superiores de Monterrey
+    3 (0.18%): Universidade do Porto
+    2 (0.12%): Institut d'Etudes Politiques de Paris
+    1 (0.06%): Universidade de Tel Aviv
+    1 (0.06%): Fuji Heavy Industries
+    ...
+international:display_name:ro
+  Count: 2195 (2.02%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.09%): Institut d'études politiques de Paris
+    1 (0.05%): Universitatea din Tel Aviv
+    1 (0.05%): Fuji Heavy Industries
+    1 (0.05%): Mitsui
+    1 (0.05%): Universitatea Notre Dame
+    ...
+international:display_name:sh
+  Count: 1027 (0.95%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.29%): Johnson
+    1 (0.10%): Univerzitet u Tel Avivu
+    1 (0.10%): Univerzitet u Luksemburgu
+    1 (0.10%): Jaguar Cars
+    1 (0.10%): Evropska svemirska agencija
+    ...
+international:display_name:sk
+  Count: 1138 (1.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.26%): Johnson
+    2 (0.18%): Institut d'études politiques de Paris
+    2 (0.18%): École nationale supérieure des mines de Saint-Étienne
+    1 (0.09%): Universitat Tel-Aviv
+    1 (0.09%): Suez Environnement
+    ...
+international:display_name:sr
+  Count: 1451 (1.34%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.14%): Париски институт политичких наука
+    2 (0.14%): Аустријска академија наука
+    1 (0.07%): Универзитет у Тел Авиву
+    1 (0.07%): Универзитет Нотр Дам
+    1 (0.07%): Централна банка Барбадоса
+    ...
+international:display_name:sv
+  Count: 5317 (4.89%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.04%): Oxfam
+    2 (0.04%): Merck
+    1 (0.02%): Tel Aviv-universitet
+    1 (0.02%): Subaru Corporation
+    1 (0.02%): Mitsui
+    ...
+international:display_name:tl
+  Count: 1529 (1.41%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.46%): Monterrey Institute of Technology and Higher Education
+    3 (0.20%): Pambansang Unibersidad ng Colombia
+    3 (0.20%): Unibersidad ng Porto
+    2 (0.13%): Sciences Po
+    1 (0.07%): Unibersidad ng Tel Aviv
+    ...
+international:display_name:tr
+  Count: 2720 (2.50%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.26%): Monterrey Teknoloji Enstitüsü
+    1 (0.04%): Tel Aviv Üniversitesi
+    1 (0.04%): Manisa Celal Bayar Üniversitesi
+    1 (0.04%): Fuji Heavy Industries
+    1 (0.04%): Mitsui Group
+    ...
+international:display_name:tt
+  Count: 1287 (1.18%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.16%): Сәяси тикшеренүләр институты
+    1 (0.08%): Тел-Әвив университеты
+    1 (0.08%): Авейру үнивирситите
+    1 (0.08%): Райс университеты
+    1 (0.08%): Нотр-Дам университеты
+    ...
+international:display_name:vec
+  Count: 1857 (1.71%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.11%): Suez
+    2 (0.11%): Primetals Technologies
+    1 (0.05%): Università de Tel Aviv
+    1 (0.05%): Subaru Corporation
+    1 (0.05%): T-Mobile US
+    ...
+international:display_name:yi
+  Count: 201 (0.18%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.49%): ערבוס
+    3 (1.49%): באיער
+    2 (1.00%): פייזער
+    1 (0.50%): תל אביבער אוניווערסיטעט
+    1 (0.50%): בר אילן אוניווערסיטעט
+    ...
+international:display_name:yo
+  Count: 850 (0.78%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.35%): Anna University
+    3 (0.35%): Johnson
+    1 (0.12%): Tel Aviv University
+    1 (0.12%): Benedictine College
+    1 (0.12%): Hoshi University
+    ...
+international:display_name:zh-cn
+  Count: 3600 (3.31%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.06%): 纽约大学
+    2 (0.06%): 松本大學
+    2 (0.06%): 西北大学
+    1 (0.03%): 特拉维夫大學
+    1 (0.03%): 美国仲裁协会
+    ...
+international:display_name:zh-hans
+  Count: 5653 (5.20%)
+  Types: string (100.00%)
+  Samples:
+    6 (0.11%): 新加坡科技研究局
+    2 (0.04%): 纽约大学
+    1 (0.02%): 特拉维夫大學
+    1 (0.02%): 杰拉魯巴亞爾大學
+    1 (0.02%): 富士重工业
+    ...
+international:display_name:zh-hant
+  Count: 6364 (5.86%)
+  Types: string (100.00%)
+  Samples:
+    6 (0.09%): 新加坡科技研究局
+    1 (0.02%): 臺拉維夫大學
+    1 (0.02%): 傑拉魯巴亞爾大學
+    1 (0.02%): 富士重工業
+    1 (0.02%): 昆特侖理工大學
+    ...
+international:display_name:zh-hk
+  Count: 2347 (2.16%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.30%): 蒙特雷科技大學
+    6 (0.26%): 新加坡科技研究局
+    2 (0.09%): 巴黎政治大學
+    1 (0.04%): 特拉維夫大學
+    1 (0.04%): 富士重工業
+    ...
+international:display_name:zh-sg
+  Count: 787 (0.72%)
+  Types: string (100.00%)
+  Samples:
+    1 (0.13%): 特拉维夫大學
+    1 (0.13%): 中华人民共和国国家发展和改革委员会
+    1 (0.13%): 布朗利河岸博物馆
+    1 (0.13%): 帕多瓦大学
+    1 (0.13%): 美国运通
+    ...
+international:display_name:zh-tw
+  Count: 1252 (1.15%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.24%): 約翰森
+    2 (0.16%): 湯馬斯·傑弗遜大學
+    1 (0.08%): 臺拉維夫大學
+    1 (0.08%): 聖母大學
+    1 (0.08%): 昭和大學
+    ...
+international:display_name:as
+  Count: 114 (0.10%)
+  Types: string (100.00%)
+  Samples:
+    2 (1.75%): ভাৰতীয় পৰিসংখ্যা প্ৰতিষ্ঠান
+    1 (0.88%): চেন্নাই গাণিতীয় প্ৰতিষ্ঠান
+    1 (0.88%): ৰাষ্ট্ৰীয় জীৱবিজ্ঞান কেন্দ্ৰ
+    1 (0.88%): ৰাষ্ট্ৰীয় মানসিক স্বাস্থ্য আৰু স্নায়ু বিজ্ঞান প্ৰতিষ্ঠান
+    1 (0.88%): গুৱাহাটী বিশ্ববিদ্যালয়
+    ...
+international:display_name:ml
+  Count: 869 (0.80%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.23%): അമിറ്റ് സര്‍വകലാശാല
+    1 (0.12%): ചെന്നൈ മാത്തമറ്റിക്കൽ ഇൻസ്റ്റിറ്റ്യൂട്ട്
+    1 (0.12%): റ്റി-മൊബൈൽ
+    1 (0.12%): റൈസ് യൂണിവേഴ്സിറ്റി
+    1 (0.12%): നാഷണൽ സെന്റർ ഫോർ ബയോളജിക്കൽ സയൻസസ്
+    ...
+international:display_name:ne
+  Count: 563 (0.52%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.53%): अन्ना विश्वविद्यालय
+    2 (0.36%): गुजरात विश्वविद्यालय
+    2 (0.36%): चितकारा विश्वविद्यालय
+    2 (0.36%): एमिटी विश्वविद्यालय
+    1 (0.18%): चेन्नई गणितीय संस्थान
+    ...
+international:display_name:ta
+  Count: 1296 (1.19%)
+  Types: string (100.00%)
+  Samples:
+    1 (0.08%): சென்னை கணிதவியல் கழகம்
+    1 (0.08%): நோட்ரெ டேம் பல்கலைக்கழகம்
+    1 (0.08%): Advanced Technology Development Facility
+    1 (0.08%): லாலா லஜபதிராய் கால்நடை மற்றும் விலங்கியல் பல்கலைக்கழகம்
+    1 (0.08%): ஏசியா பிரவுன் பொவெரி
+    ...
+international:display_name:ms
+  Count: 1735 (1.60%)
+  Types: string (100.00%)
+  Samples:
+    6 (0.35%): Agensi Sains
+    2 (0.12%): Oxfam
+    2 (0.12%): Institut d'Études Politiques de Paris
+    1 (0.06%): Subaru Corporation
+    1 (0.06%): Mitsui
+    ...
+international:display_name:sah
+  Count: 329 (0.30%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.61%): Pfizer
+    2 (0.61%): General Electric
+    1 (0.30%): Subaru Corporation
+    1 (0.30%): Mitsui Group
+    1 (0.30%): Sumitomo Heavy Industries
+    ...
+international:display_name:sco
+  Count: 665 (0.61%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.45%): Johnson
+    1 (0.15%): Subaru Corporation
+    1 (0.15%): Jaguar Cars
+    1 (0.15%): PSNI
+    1 (0.15%): Sellafield Ltd
+    ...
+international:display_name:sl
+  Count: 843 (0.78%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.36%): Johnson
+    2 (0.24%): Institut d'études politiques de Paris
+    2 (0.24%): Avstrijska akademija znanosti
+    1 (0.12%): Fuji Heavy Industries
+    1 (0.12%): ABB
+    ...
+international:display_name:yue
+  Count: 965 (0.89%)
+  Types: string (100.00%)
+  Samples:
+    1 (0.10%): 富士重工業
+    1 (0.10%): 三井
+    1 (0.10%): 萊斯大學
+    1 (0.10%): 聖母院大學
+    1 (0.10%): 青山學院大學
+    ...
+international:display_name:th
+  Count: 1106 (1.02%)
+  Types: string (100.00%)
+  Samples:
+    1 (0.09%): มหาวิทยาลัยนอร์ท-เชียงใหม่
+    1 (0.09%): มหาวิทยาลัยไรซ์
+    1 (0.09%): มหาวิทยาลัยนอเตอร์เดม
+    1 (0.09%): เอบีบีกรุป
+    1 (0.09%): ฟรีสเกลเซมิคอนดักเตอร์
+    ...
+international:display_name:eu
+  Count: 1602 (1.47%)
+  Types: string (100.00%)
+  Samples:
+    7 (0.44%): Monterreyko Teknologikoa
+    3 (0.19%): Kolonbiako Unibertsitate Nazionala
+    3 (0.19%): Portoko Unibertsitatea
+    2 (0.12%): Oxfam
+    2 (0.12%): Parisko Ikasketa Politikoetako Institutua
+    ...
+international:display_name:pnb
+  Count: 849 (0.78%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.35%): جامعہ انا
+    2 (0.24%): لورپول جان مورز یونیورسٹی
+    2 (0.24%): چتکارا یونیورسٹی
+    1 (0.12%): آرمی میڈیکل کالج
+    1 (0.12%): رائس یونیورسٹی
+    ...
+international:display_name:ur
+  Count: 2816 (2.59%)
+  Types: string (100.00%)
+  Samples:
+    1 (0.04%): آرمی میڈیکل کالج
+    1 (0.04%): بلین کالج
+    1 (0.04%): رائس یونیورسٹی
+    1 (0.04%): یونیورسٹی آف نوٹری ڈیم
+    1 (0.04%): والپاریزو یونیورسٹی
+    ...
+international:display_name:et
+  Count: 1727 (1.59%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.17%): Colombia Rahvusülikool
+    2 (0.12%): Pariisi Poliitikauuringute Instituut
+    1 (0.06%): Rice'i ülikool
+    1 (0.06%): Notre Dame'i ülikool
+    1 (0.06%): ABB
+    ...
+international:display_name:is
+  Count: 627 (0.58%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.48%): Johnson
+    2 (0.32%): Oxfam
+    2 (0.32%): Institut d'études politiques de Paris
+    2 (0.32%): Álaborgarháskóli
+    1 (0.16%): Rice-háskóli
+    ...
+international:display_name:ky
+  Count: 224 (0.21%)
+  Types: string (100.00%)
+  Samples:
+    6 (2.68%): Калифорния Университети
+    2 (0.89%): Калифорния университети
+    2 (0.89%): Sabre Corporation
+    2 (0.89%): Улуттук илимдер, инженерия жана медицина академиясы
+    1 (0.45%): Райс Университети
+    ...
+international:display_name:la
+  Count: 1007 (0.93%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.30%): Johnson
+    2 (0.20%): Oxfam
+    2 (0.20%): Institutum Scientiarum Politicarum Parisiense
+    2 (0.20%): Academia Scientiarum Austriaca
+    1 (0.10%): Universitas Ricensis
+    ...
+international:display_name:lv
+  Count: 805 (0.74%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.37%): Džonsons
+    2 (0.25%): Institut d'études politiques de Paris
+    2 (0.25%): Olborgas Universitāte
+    2 (0.25%): Hoffmann-La Roche
+    2 (0.25%): Broadcom Limited
+    ...
+international:display_name:nds
+  Count: 315 (0.29%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.95%): Johnson
+    1 (0.32%): Rice University
+    1 (0.32%): Europääsche Weltruumorganisatschoon
+    1 (0.32%): Stanford University
+    1 (0.32%): General Security Directorate
+    ...
+international:display_name:nn
+  Count: 1224 (1.13%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.16%): Oxfam
+    2 (0.16%): Det austerrikske vitskapsakademiet
+    1 (0.08%): Rice University
+    1 (0.08%): ABB
+    1 (0.08%): Jaguar
+    ...
+international:display_name:dag
+  Count: 16 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (6.25%): University for Development Studies (UDS)
+    1 (6.25%): University of Cape Coast
+    1 (6.25%): Ghana Gomnanti
+    1 (6.25%): paɣa
+    1 (6.25%): Anduniayili Alaafee Tuma Laɣingu
+    ...
+international:display_name:ckb
+  Count: 418 (0.38%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.72%): ئێرباس
+    2 (0.48%): فایزەر
+    2 (0.48%): جەنەراڵ ئێلەکتریک
+    1 (0.24%): زانکۆی عەبدوڵڵا گول
+    1 (0.24%): جاگوار
+    ...
+international:display_name:uz
+  Count: 429 (0.39%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.70%): Johnson
+    2 (0.47%): Avstriya fanlar akademiyasi
+    2 (0.47%): Pfizer
+    1 (0.23%): Abdullah Gül universiteti
+    1 (0.23%): Yevropa kosmik agentligi
+    ...
+international:display_name:cbk-zam
+  Count: 47 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    3 (6.38%): Johnson
+    2 (4.26%): Pratt
+    1 (2.13%): Universidad de Notre Dame
+    1 (2.13%): Instituto Federal da Bahia
+    1 (2.13%): Pontifícia Universidade Católica de Minas Gerais
+    ...
+international:display_name:fo
+  Count: 225 (0.21%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.33%): Johnson
+    2 (0.89%): Pratt
+    1 (0.44%): University of Notre Dame
+    1 (0.44%): Jaguar
+    1 (0.44%): ESA
+    ...
+international:display_name:gd
+  Count: 722 (0.66%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.42%): Oilthigh Nàiseanta Colombia
+    3 (0.42%): Johnson
+    2 (0.28%): Institiud nan Saidheansan Poiliteagach
+    2 (0.28%): Acadamh Ostaireach nan Saidheansan
+    2 (0.28%): Oilthigh Ankara
+    ...
+international:display_name:hr
+  Count: 968 (0.89%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.31%): Johnson
+    2 (0.21%): Institut d'études politiques de Paris
+    1 (0.10%): Sveučilište Notre Dame
+    1 (0.10%): Asea Brown Boveri
+    1 (0.10%): Jaguar
+    ...
+international:display_name:hyw
+  Count: 253 (0.23%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.19%): Airbus
+    2 (0.79%): Փարիզի քաղաքական հետազօտութիւններու հիմնարկ
+    1 (0.40%): Նոթր Տամի Համալսարան
+    1 (0.40%): Սթենֆորտի Համալսարան
+    1 (0.40%): Հանովըրի Երաժշտութեան եւ Թատրոնի Ակադեմիա
+    ...
+international:display_name:kk
+  Count: 556 (0.51%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.36%): General Electric
+    1 (0.18%): Нотр-Дам университеті
+    1 (0.18%): Jaguar
+    1 (0.18%): Бар-Илан атындағы университет
+    1 (0.18%): Акадия университеті
+    ...
+international:display_name:mk
+  Count: 897 (0.83%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.33%): Џонсон
+    2 (0.22%): Институт за политички студии
+    2 (0.22%): Австриска академија на науките
+    1 (0.11%): Нотрдамски универзитет
+    1 (0.11%): Министерство за станување и урбан развој
+    ...
+international:display_name:oc
+  Count: 601 (0.55%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.50%): Johnson
+    2 (0.33%): Institut d'Estudis Politics de París
+    1 (0.17%): Universitat Nòstre Dòna
+    1 (0.17%): Conservatòri del Litoral
+    1 (0.17%): Jaguar Cars
+    ...
+international:display_name:sr-ec
+  Count: 403 (0.37%)
+  Types: string (100.00%)
+  Samples:
+    5 (1.24%): AT
+    3 (0.74%): Ербас
+    2 (0.50%): Аустријска академија наука
+    2 (0.50%): Пфизер
+    1 (0.25%): Универзитет Нотр Дам
+    ...
+international:display_name:sr-el
+  Count: 483 (0.44%)
+  Types: string (100.00%)
+  Samples:
+    5 (1.04%): AT
+    3 (0.62%): Johnson
+    2 (0.41%): Austrijska akademija nauka
+    2 (0.41%): Pfizer
+    1 (0.21%): Univerzitet Notr Dam
+    ...
+international:display_name:ang
+  Count: 72 (0.07%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.17%): Johnson
+    2 (2.78%): Pratt
+    1 (1.39%): Aoyama Gakuin University
+    1 (1.39%): Hwīt
+    1 (1.39%): Instituto Federal da Bahia
+    ...
+international:display_name:pap
+  Count: 103 (0.09%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.91%): Johnson
+    2 (1.94%): Pratt
+    2 (1.94%): Lewis
+    1 (0.97%): Universidat di Aoyama
+    1 (0.97%): Universidat Stanford
+    ...
+international:display_name:io
+  Count: 232 (0.21%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.29%): Johnson
+    3 (1.29%): Airbus
+    2 (0.86%): Pratt
+    1 (0.43%): Universitato di Luxemburgia
+    1 (0.43%): Europana Centrala Banko
+    ...
+international:display_name:lb
+  Count: 841 (0.77%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.36%): Johnson
+    2 (0.24%): Institut d'études politiques de Paris
+    2 (0.24%): Éisträichesch Akademie vun de Wëssenschaften
+    2 (0.24%): Universitéit vum Illinois
+    1 (0.12%): Universitéit vu Lëtzebuerg
+    ...
+international:display_name:kn
+  Count: 818 (0.75%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.37%): ಅಣ್ಣಾ ವಿಶ್ವವಿದ್ಯಾಲಯ
+    2 (0.24%): ಅಂತಾರಾಷ್ಟ್ರೀಯ ಪುನಾರಚನೆ ಮತ್ತು ಅಭಿವೃದ್ಧಿ ಬ್ಯಾಂಕು
+    2 (0.24%): ಅಮಿಟಿ ವಿಶ್ವವಿದ್ಯಾಲಯ
+    1 (0.12%): ಲಾಲಾ ಲಜಪತ್ ರಾಯ್ ಪಶುವೈದ್ಯಕೀಯ ಮತ್ತು ಪ್ರಾಣಿ ವಿಜ್ಞಾನ ವಿಶ್ವವಿದ್ಯಾಲಯ
+    1 (0.12%): ಜಗ್ವಾರ್ ಕಾರ್ ಗಳು
+    ...
+international:display_name:gsw
+  Count: 308 (0.28%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.97%): Johnson
+    3 (0.97%): Airbus
+    2 (0.65%): Roche Holding
+    2 (0.65%): Institut supérieur de l'aéronautique et de l'espace
+    1 (0.32%): Asea Brown Boveri
+    ...
+international:display_name:gu
+  Count: 200 (0.18%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.50%): એર બસ
+    2 (1.00%): ફિલિપ્સ
+    2 (1.00%): એપોલો હોસ્પિટલ
+    1 (0.50%): એબીબી ગ્રુપ
+    1 (0.50%): ક્રાંતિગુરુ શ્યામજી કૃષ્ણવર્મા કચ્છ વિશ્વવિદ્યાલય
+    ...
+international:display_name:tt-cyrl
+  Count: 107 (0.10%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.80%): Җонсон
+    1 (0.93%): ABB
+    1 (0.93%): Академик С. П. Королёв исемендәге Самар милли тикшеренү университеты
+    1 (0.93%): Пермь дәүләт университеты
+    1 (0.93%): Disney Research
+    ...
+international:display_name:wuu
+  Count: 658 (0.61%)
+  Types: string (100.00%)
+  Samples:
+    1 (0.15%): 飞思卡尔
+    1 (0.15%): 捷豹
+    1 (0.15%): 欧洲空间局
+    1 (0.15%): 欧洲央行
+    1 (0.15%): 斯坦福大学
+    ...
+international:display_name:bjn
+  Count: 29 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.34%): Johnson
+    1 (3.45%): Jaguar (perusahaan otomotif)
+    1 (3.45%): bibinian
+    1 (3.45%): Facebook
+    1 (3.45%): École centrale de Lille
+    ...
+international:display_name:bs
+  Count: 426 (0.39%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.70%): Johnson
+    3 (0.70%): Airbus
+    2 (0.47%): Sciences Po
+    2 (0.47%): Pfizer
+    2 (0.47%): General Electric
+    ...
+international:display_name:diq
+  Count: 179 (0.16%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.68%): Johnson
+    3 (1.68%): S
+    2 (1.12%): Universitay Anqara
+    1 (0.56%): Jaguar
+    1 (0.56%): Acansê asmêniê Ewropa
+    ...
+international:display_name:kl
+  Count: 122 (0.11%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.46%): Johnson
+    2 (1.64%): Pratt
+    1 (0.82%): Jaguar
+    1 (0.82%): Capital Group Companies
+    1 (0.82%): Télécom Paris
+    ...
+international:display_name:ku
+  Count: 218 (0.20%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.38%): Airbus
+    2 (0.92%): Zanîngeha Enqereyê
+    2 (0.92%): Philips
+    1 (0.46%): Jaguar Cars
+    1 (0.46%): Zanîngeha Stanford
+    ...
+international:display_name:ln
+  Count: 69 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.35%): Johnson
+    3 (4.35%): S
+    2 (2.90%): Pratt
+    1 (1.45%): Jaguar
+    1 (1.45%): Chrysler
+    ...
+international:display_name:mr
+  Count: 554 (0.51%)
+  Types: string (100.00%)
+  Samples:
+    5 (0.90%): भारतीय विज्ञान शिक्षण आणि संशोधन संस्था
+    3 (0.54%): अण्णा विद्यापीठ
+    3 (0.54%): भारतीय तंत्रज्ञान संस्था
+    2 (0.36%): जनरल इलेक्ट्रिक
+    2 (0.36%): राष्ट्रीय संसर्गजन्य रोग नियंत्रण संस्था
+    ...
+international:display_name:nah
+  Count: 76 (0.07%)
+  Types: string (100.00%)
+  Samples:
+    3 (3.95%): Johnson
+    3 (3.95%): S
+    2 (2.63%): Pratt
+    1 (1.32%): Jaguar
+    1 (1.32%): Iztāc
+    ...
+international:display_name:pms
+  Count: 256 (0.24%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.17%): Johnson
+    2 (0.78%): Pratt
+    1 (0.39%): Jaguar
+    1 (0.39%): General Security Directorate
+    1 (0.39%): Università ëd Pàdoa
+    ...
+international:display_name:an
+  Count: 246 (0.23%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.22%): Johnson
+    2 (0.81%): Pratt
+    1 (0.41%): Departamento de Vivienda y Desembolique Urbán d'os Estaus Unius
+    1 (0.41%): ESA
+    1 (0.41%): General Security Directorate
+    ...
+international:display_name:ba
+  Count: 555 (0.51%)
+  Types: string (100.00%)
+  Samples:
+    1 (0.18%): АҠШ торлаҡ төҙөлөшө һәм ҡала үсеше департаменты
+    1 (0.18%): Академик С. П. Королёв исемендәге Һамар милли тикшеренеү университеты
+    1 (0.18%): Смоленск дәүләт университеты
+    1 (0.18%): Пермь дәүләт милли тикшеренеү университеты
+    1 (0.18%): Станфорд университеты
+    ...
+international:display_name:zh-mo
+  Count: 281 (0.26%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.07%): 空中巴士
+    2 (0.71%): 輝瑞
+    2 (0.71%): 中央大學
+    1 (0.36%): 中華人民共和國國家發展和改革委員會
+    1 (0.36%): 白色
+    ...
+international:display_name:zh-my
+  Count: 276 (0.25%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.09%): 空中客车
+    2 (0.72%): 辉瑞
+    2 (0.72%): 中央大学
+    1 (0.36%): 中华人民共和国国家发展和改革委员会
+    1 (0.36%): 白色
+    ...
+international:display_name:de-at
+  Count: 244 (0.22%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.23%): Johnson
+    2 (0.82%): Österreichische Akademie der Wissenschaften
+    2 (0.82%): Pratt
+    1 (0.41%): Steyr Daimler Puch
+    1 (0.41%): Walter Reed Army Medical Center
+    ...
+international:display_name:af
+  Count: 630 (0.58%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.48%): Johnson
+    1 (0.16%): Weskoppies
+    1 (0.16%): ArtEZ
+    1 (0.16%): Europese Ruimtevaartorganisasie
+    1 (0.16%): Capital Group Companies
+    ...
+international:display_name:br
+  Count: 359 (0.33%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.84%): Johnson
+    3 (0.84%): Airbus
+    2 (0.56%): Oxfam International
+    1 (0.28%): ArtEZ
+    1 (0.28%): Ajañs European an Egor
+    ...
+international:display_name:vls
+  Count: 124 (0.11%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.42%): Johnson
+    2 (1.61%): Pratt
+    2 (1.61%): Lewis
+    1 (0.81%): Vlamsche regerienge
+    1 (0.81%): General Security Directorate
+    ...
+international:display_name:bcl
+  Count: 93 (0.09%)
+  Types: string (100.00%)
+  Samples:
+    5 (5.38%): Unibersidad kan Pilipinas
+    3 (3.23%): Johnson
+    2 (2.15%): Pratt
+    1 (1.08%): ESA
+    1 (1.08%): Campania
+    ...
+international:display_name:fur
+  Count: 130 (0.12%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.31%): Johnson
+    3 (2.31%): S
+    2 (1.54%): Pratt
+    2 (1.54%): Lewis
+    1 (0.77%): ESA
+    ...
+international:display_name:ia
+  Count: 204 (0.19%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.47%): Johnson
+    2 (0.98%): Pratt
+    1 (0.49%): Agentia Spatial Europee
+    1 (0.49%): Banca Central Europee
+    1 (0.49%): Stanford University
+    ...
+international:display_name:li
+  Count: 173 (0.16%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.73%): Johnson
+    3 (1.73%): Airbus
+    2 (1.16%): Pratt
+    1 (0.58%): ESA
+    1 (0.58%): Europese Centraol Baank
+    ...
+international:display_name:lmo
+  Count: 129 (0.12%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.33%): Johnson
+    3 (2.33%): S
+    2 (1.55%): Pratt
+    1 (0.78%): ESA
+    1 (0.78%): Università Tecnega Ceca de Praga
+    ...
+international:display_name:my
+  Count: 252 (0.23%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.79%): ဖိုင်ဇာ
+    2 (0.79%): ဂျန်နရယ် အီလက်ထရစ်
+    1 (0.40%): ဥရောပ အာကာသ အေဂျင်စီ
+    1 (0.40%): စတန်းဖို့ဒ် တက္ကသိုလ်
+    1 (0.40%): အိုင်အေအီးအေ
+    ...
+international:display_name:mzn
+  Count: 63 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    2 (3.17%): دانیشگاه آزاد
+    1 (1.59%): اسا
+    1 (1.59%): ماساچوست هنر و طراحی کالج
+    1 (1.59%): کوآی برانلی موزه
+    1 (1.59%): استانفورد دانشگاه
+    ...
+international:display_name:nan
+  Count: 522 (0.48%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.57%): Johnson
+    2 (0.38%): DuPont
+    1 (0.19%): Europa Thài-khong Chóng-sú
+    1 (0.19%): Au-chiu Tiong-iong Gîn-hâng
+    1 (0.19%): Kiâu-kong Kho-ki Tāi-ha̍k
+    ...
+international:display_name:nqo
+  Count: 52 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.77%): ߍߙߑߓߎ߳ߛ
+    1 (1.92%): ߋߙߐߔߎ߬ ߝߏ߬ߟߏ߲߬ߝߊ߬ߟߊ߲߬ߕߍ ߖߋ߬ߕߌ߰ߘߊ
+    1 (1.92%): ߜߍߡߊ߲
+    1 (1.92%): ߓߑߙ߭ߐ߲ߞߛ ߟߐ߲ߞߏ ߞߊ߬ߙߊ߲߬ߕߊ ߛߊ߲ߘߐߕߊ
+    1 (1.92%): ߡߏ߬ߛߏ
+    ...
+international:display_name:pa
+  Count: 487 (0.45%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.41%): ਚਿੱਤਕਾਰਾ ਯੂਨੀਵਰਸਿਟੀ
+    2 (0.41%): ਜਨਰਲ ਇਲੈੱਕਟਰਿਕ
+    2 (0.41%): ਓਸਮਾਨੀਆ ਯੂਨੀਵਰਸਿਟੀ
+    1 (0.21%): ਯੂਰਪੀ ਪੁਲਾੜ ਏਜੰਸੀ
+    1 (0.21%): ਭਾਰਤੀ ਮੌਸਮ ਵਿਗਿਆਨ ਵਿਭਾਗ
+    ...
+international:display_name:sc
+  Count: 192 (0.18%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.56%): Johnson
+    2 (1.04%): Pratt
+    1 (0.52%): Agentzia Ispatziale Europea
+    1 (0.52%): Banca centrale europea
+    1 (0.52%): Universidade de Stanford
+    ...
+international:display_name:scn
+  Count: 246 (0.23%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.22%): Johnson
+    2 (0.81%): Pratt
+    1 (0.41%): ESA
+    1 (0.41%): Banca Cintrali Europea
+    1 (0.41%): General Security Directorate
+    ...
+international:display_name:si
+  Count: 135 (0.12%)
+  Types: string (100.00%)
+  Samples:
+    2 (1.48%): සිංහල
+    1 (0.74%): යුරෝපියානු අභ්‍යාවකාශ කාර්යාංශය
+    1 (0.74%): තුර්කි සන්නද්ධ හමුදා
+    1 (0.74%): IEEE
+    1 (0.74%): ලෝක වෙළෙඳ සංවිධානය
+    ...
+international:display_name:smn
+  Count: 90 (0.08%)
+  Types: string (100.00%)
+  Samples:
+    3 (3.33%): S
+    1 (1.11%): Euroop komovuotâornijdume
+    1 (1.11%): Tiervâsvuođâ já pyereestvaijeem lájádâs
+    1 (1.11%): spellâ
+    1 (1.11%): Göteborg ollâopâttâh
+    ...
+international:display_name:stq
+  Count: 55 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.45%): Johnson
+    3 (5.45%): S
+    2 (3.64%): Pratt
+    1 (1.82%): Europäiske Ruumtefoartorganisation
+    1 (1.82%): Spil
+    ...
+international:display_name:sw
+  Count: 375 (0.35%)
+  Types: string (100.00%)
+  Samples:
+    5 (1.33%): AT
+    3 (0.80%): Johnson
+    3 (0.80%): Airbus
+    2 (0.53%): Oxfam
+    2 (0.53%): Pfizer
+    ...
+international:display_name:tg
+  Count: 380 (0.35%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.79%): Ҷонсон
+    2 (0.53%): Муассисаи мутолиъоти сиёсии Порис
+    2 (0.53%): Донишгоҳи Томас Ҷефферсон
+    1 (0.26%): Еврокосмос
+    1 (0.26%): Донишгоҳи Эшланд
+    ...
+international:display_name:te
+  Count: 607 (0.56%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.49%): అన్నా యూనివర్సిటీ
+    3 (0.49%): జాన్సన్
+    2 (0.33%): అమిటీ విశ్వవిద్యాలయం, నోయిడా
+    1 (0.16%): నల్సార్ న్యాయ విశ్వవిద్యాలయం
+    1 (0.16%): ఇండియా మెటరోలోజికల్ డిపార్ట్మెంట్
+    ...
+international:display_name:war
+  Count: 227 (0.21%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.32%): Johnson
+    2 (0.88%): General Electric
+    2 (0.88%): Pratt
+    2 (0.88%): Unibersidad han Zhejiang
+    1 (0.44%): Instituto hin Teknolohiya han Palompon
+    ...
+international:display_name:bho
+  Count: 116 (0.11%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.59%): एयरबस
+    2 (1.72%): ऑक्सफैम
+    1 (0.86%): भारत मौसम विज्ञान विभाग
+    1 (0.86%): राष्ट्रीय प्रौद्योगिकी संस्थान, पटना
+    1 (0.86%): दीन दयाल उपाध्याय गोरखपुर विश्वविद्यालय
+    ...
+international:display_name:pam
+  Count: 114 (0.10%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.63%): Johnson
+    2 (1.75%): Pratt
+    1 (0.88%): Centro Escolar University
+    1 (0.88%): Adventist University of the Philippines
+    1 (0.88%): University of the East
+    ...
+international:display_name:ms-arab
+  Count: 38 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    1 (2.63%): اونيۏرسيتي نݢري ڤيرم
+    1 (2.63%): ڤوتيه
+    1 (2.63%): ڤرماءينن
+    1 (2.63%): بڠک جڤون
+    1 (2.63%): اونيۏرسيتي کبڠساءن النجاح
+    ...
+international:display_name:jv
+  Count: 285 (0.26%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.05%): Johnson
+    2 (0.70%): Institut Ilmu Politik Paris
+    2 (0.70%): Pratt
+    1 (0.35%): Universitas Pendidikan Indonesia
+    1 (0.35%): Universitas Sam Ratulangi
+    ...
+international:display_name:min
+  Count: 154 (0.14%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.95%): Johnson
+    3 (1.95%): S
+    2 (1.30%): Pratt
+    1 (0.65%): Universitas Pendidikan Indonesia
+    1 (0.65%): General Security Directorate
+    ...
+international:display_name:su
+  Count: 126 (0.12%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.38%): Johnson
+    3 (2.38%): S
+    2 (1.59%): Pratt
+    1 (0.79%): Universitas Pendidikan Indonesia
+    1 (0.79%): Universitas Sam Ratulangi
+    ...
+international:display_name:av
+  Count: 12 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (8.33%): Европаялъул централияб банк
+    1 (8.33%): Фейсбук
+    1 (8.33%): Цолъарал Миллатазул ГІуцІцІи
+    1 (8.33%): M
+    1 (8.33%): Халкъаздагьоркьосеб валюталъул фонд
+    ...
+international:display_name:fy
+  Count: 278 (0.26%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.08%): Johnson
+    2 (0.72%): Pratt
+    1 (0.36%): Jeropeeske Sintrale Bank
+    1 (0.36%): Noardwestlike Universiteit
+    1 (0.36%): Universiteit fan Grienlân
+    ...
+international:display_name:mg
+  Count: 153 (0.14%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.96%): Johnson
+    3 (1.96%): S
+    2 (1.31%): Pratt
+    2 (1.31%): Lewis
+    1 (0.65%): Banky Foibe Eoropeana
+    ...
+international:display_name:mwl
+  Count: 69 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.35%): Johnson
+    2 (2.90%): Pratt
+    1 (1.45%): Banco Central Ouropeu
+    1 (1.45%): Branco
+    1 (1.45%): Jogo
+    ...
+international:display_name:sa
+  Count: 95 (0.09%)
+  Types: string (100.00%)
+  Samples:
+    2 (2.11%): भारतीयसांख्यिकसंस्था
+    1 (1.05%): यूरोपिय मध्यवर्तिन् वित्तकोषः
+    1 (1.05%): अन्ताराष्ट्रिय-अणु-ऊर्जा-परिषत्‌
+    1 (1.05%): राष्ट्रियमानसिकारोग्य-नाडीविज्ञानसंस्थानम्
+    1 (1.05%): गुजरातविश्वविद्यालयः
+    ...
+international:display_name:vro
+  Count: 51 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.88%): Johnson
+    2 (3.92%): Pratt
+    1 (1.96%): Õuruupa Keskpank
+    1 (1.96%): Riikevaihõlinõ Säsüväe Agõntuur
+    1 (1.96%): Valgõ
+    ...
+international:display_name:kab
+  Count: 86 (0.08%)
+  Types: string (100.00%)
+  Samples:
+    3 (3.49%): Johnson
+    2 (2.33%): Pratt
+    2 (2.33%): Lewis
+    1 (1.16%): Tasdawit n Bab Ezzewar
+    1 (1.16%): amellal
+    ...
+international:display_name:bar
+  Count: 302 (0.28%)
+  Types: string (100.00%)
+  Samples:
+    3 (0.99%): Johnson
+    3 (0.99%): Airbus
+    2 (0.66%): Institut d'études politiques de Paris
+    1 (0.33%): Marine Biological Laboratory
+    1 (0.33%): General Security Directorate
+    ...
+international:display_name:tk
+  Count: 63 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    2 (3.17%): Ankara uniwersiteti
+    1 (1.59%): Türkmenistanyň Ylymlar akademiýasy
+    1 (1.59%): Türkmen politehniki instituty
+    1 (1.59%): Bütindünýä Söwda Guramasy
+    1 (1.59%): Başkent uniwersiteti
+    ...
+international:display_name:mt
+  Count: 212 (0.20%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.42%): Johnson
+    2 (0.94%): Institut d'études politiques de Paris
+    2 (0.94%): Pratt
+    1 (0.47%): Università Ħielsa Ukrena
+    1 (0.47%): Università ta’ Padova
+    ...
+international:display_name:ary
+  Count: 55 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    1 (1.82%): طيليكوم پاري
+    1 (1.82%): لجامعة د ستانفورد
+    1 (1.82%): جاميعة لأخوين
+    1 (1.82%): منضمة التجارة لعالمية
+    1 (1.82%): لبنك الدولي
+    ...
+international:display_name:ha
+  Count: 185 (0.17%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.62%): Johnson
+    3 (1.62%): Airbus
+    3 (1.62%): S
+    2 (1.08%): Pratt
+    1 (0.54%): Jami'ar Jihar Nasarawa
+    ...
+international:display_name:ig
+  Count: 73 (0.07%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.11%): Johnson
+    2 (2.74%): Pratt
+    1 (1.37%): Mahadum nke Nasarawa
+    1 (1.37%): Chinese Academy of Geological Sciences
+    1 (1.37%): Mahadum Nnamdi Azikiwe
+    ...
+international:display_name:or
+  Count: 144 (0.13%)
+  Types: string (100.00%)
+  Samples:
+    1 (0.69%): ml
+    1 (0.69%): ଷ୍ଟାନଫୋର୍ଡ଼ ବିଶ୍ୱବିଦ୍ୟାଳୟ
+    1 (0.69%): ଭାରତ ପେଟ୍ରୋଲିୟମ
+    1 (0.69%): ଗୁଜରାଟ ବିଶ୍ଵବିଦ୍ୟାଳୟ
+    1 (0.69%): ସେଣ୍ଟର ଫର ଇଣ୍ଟରନେଟ ଆଣ୍ଡ ସୋସାଇଟି (ଭାରତ)
+    ...
+international:display_name:sd
+  Count: 110 (0.10%)
+  Types: string (100.00%)
+  Samples:
+    2 (1.82%): ڪلڪتو يونيورسٽي
+    1 (0.91%): قائد عوام يونيورسٽي
+    1 (0.91%): اڇو
+    1 (0.91%): لياقت نيشنل اسپتال
+    1 (0.91%): گوٿنبرگ يونيورسٽي
+    ...
+international:display_name:am
+  Count: 81 (0.07%)
+  Types: string (100.00%)
+  Samples:
+    3 (3.70%): S
+    2 (2.47%): ጀኔራል ኤሌክትሪክ
+    1 (1.23%): ስታንፎርድ ዩኒቨርስቲ
+    1 (1.23%): የቱርክ ወታደሮች
+    1 (1.23%): የድሬዳዋ ዩኒቨርሲቲ
+    ...
+international:display_name:csb
+  Count: 57 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.26%): Johnson
+    3 (5.26%): S
+    2 (3.51%): Pratt
+    1 (1.75%): Ùniwersytet Stanforda
+    1 (1.75%): General Dynamics Mission Systems
+    ...
+international:display_name:hak
+  Count: 119 (0.11%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.52%): Johnson
+    3 (2.52%): Khûng-chûng Hak-chhâ Kûng-sṳ̂
+    1 (0.84%): Sṳ̂-thán-fuk Thai-ho̍k
+    1 (0.84%): Pha̍k-set
+    1 (0.84%): Mî-koet Koet-kâ Chṳt-ngia̍p Ôn-chhiòn Ví-sên Ngiên-kiu-só
+    ...
+international:display_name:qu
+  Count: 117 (0.11%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.56%): Johnson
+    3 (2.56%): Bayer
+    3 (2.56%): S
+    2 (1.71%): DuPont
+    2 (1.71%): Pratt
+    ...
+international:display_name:ug
+  Count: 107 (0.10%)
+  Types: string (100.00%)
+  Samples:
+    2 (1.87%): ئەنقەرە ئۇنىۋېرسىتېتى
+    1 (0.93%): ستانفورد ئۇنىۋېرستېتى
+    1 (0.93%): خەلقئارا ئاتوم ئېنېرگىيەسى ئورگىنى
+    1 (0.93%): ئالبېرتا ئۇنىۋېرستېتى
+    1 (0.93%): دۆلەتلىك بىخەتەر ئىشلەپچىقىرىش ۋە ساغلاملىق تەتقىقات ئورنى
+    ...
+international:display_name:xmf
+  Count: 113 (0.10%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.65%): S
+    2 (1.77%): Pfizer
+    1 (0.88%): სტენფორდიშ უნივერსიტეტი
+    1 (0.88%): პადუაშ უნივერსიტეტი
+    1 (0.88%): გაზპრომი
+    ...
+international:display_name:ht
+  Count: 78 (0.07%)
+  Types: string (100.00%)
+  Samples:
+    3 (3.85%): Johnson
+    3 (3.85%): S
+    2 (2.56%): Pratt
+    1 (1.28%): Conservatoire national des arts et métiers
+    1 (1.28%): Blan
+    ...
+international:display_name:pcd
+  Count: 161 (0.15%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.86%): Johnson
+    2 (1.24%): Institut supérieur de l'aéronautique et de l'espace
+    2 (1.24%): Pratt
+    1 (0.62%): Conservatoire national des arts et métiers
+    1 (0.62%): General Security Directorate
+    ...
+international:display_name:co
+  Count: 177 (0.16%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.69%): Johnson
+    2 (1.13%): Pratt
+    1 (0.56%): General Security Directorate
+    1 (0.56%): Franklin
+    1 (0.56%): Meadows Foundation
+    ...
+international:display_name:frp
+  Count: 147 (0.14%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.04%): Johnson
+    2 (1.36%): Pratt
+    1 (0.68%): General Security Directorate
+    1 (0.68%): Franklin
+    1 (0.68%): Meadows Foundation
+    ...
+international:display_name:ie
+  Count: 122 (0.11%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.46%): Johnson
+    3 (2.46%): Airbus
+    2 (1.64%): Pratt
+    2 (1.64%): Lewis
+    1 (0.82%): General Security Directorate
+    ...
+international:display_name:kg
+  Count: 102 (0.09%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.94%): Johnson
+    2 (1.96%): Pratt
+    2 (1.96%): Lewis
+    1 (0.98%): General Security Directorate
+    1 (0.98%): Franklin
+    ...
+international:display_name:lij
+  Count: 129 (0.12%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.33%): Johnson
+    2 (1.55%): Pratt
+    2 (1.55%): Lewis
+    1 (0.78%): General Security Directorate
+    1 (0.78%): Franklin
+    ...
+international:display_name:nap
+  Count: 129 (0.12%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.33%): Johnson
+    2 (1.55%): Pratt
+    2 (1.55%): Lewis
+    1 (0.78%): General Security Directorate
+    1 (0.78%): Franklin
+    ...
+international:display_name:nds-nl
+  Count: 136 (0.13%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.21%): Johnson
+    2 (1.47%): Pratt
+    2 (1.47%): Lewis
+    1 (0.74%): General Security Directorate
+    1 (0.74%): Franklin
+    ...
+international:display_name:nrm
+  Count: 134 (0.12%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.24%): Johnson
+    3 (2.24%): S
+    2 (1.49%): Pratt
+    2 (1.49%): Lewis
+    1 (0.75%): General Security Directorate
+    ...
+international:display_name:rm
+  Count: 135 (0.12%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.22%): Johnson
+    2 (1.48%): Pratt
+    2 (1.48%): Lewis
+    1 (0.74%): General Security Directorate
+    1 (0.74%): Franklin
+    ...
+international:display_name:vo
+  Count: 114 (0.10%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.63%): Johnson
+    3 (2.63%): S
+    2 (1.75%): Pratt
+    2 (1.75%): Lewis
+    1 (0.88%): General Security Directorate
+    ...
+international:display_name:wa
+  Count: 143 (0.13%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.10%): Johnson
+    2 (1.40%): Pratt
+    2 (1.40%): Lewis
+    1 (0.70%): General Security Directorate
+    1 (0.70%): Franklin
+    ...
+international:display_name:wo
+  Count: 103 (0.09%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.91%): Johnson
+    2 (1.94%): Pratt
+    2 (1.94%): Lewis
+    1 (0.97%): General Security Directorate
+    1 (0.97%): Franklin
+    ...
+international:display_name:zu
+  Count: 123 (0.11%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.44%): Johnson
+    2 (1.63%): Pratt
+    2 (1.63%): Lewis
+    1 (0.81%): General Security Directorate
+    1 (0.81%): Franklin
+    ...
+international:display_name:os
+  Count: 151 (0.14%)
+  Types: string (100.00%)
+  Samples:
+    2 (1.32%): Политикон иртасæнты институт
+    1 (0.66%): Падуяйы университет
+    1 (0.66%): Уотерлуйы университет
+    1 (0.66%): Урс
+    1 (0.66%): Лондоны университетаг колледж
+    ...
+international:display_name:rw
+  Count: 41 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    3 (7.32%): Johnson
+    2 (4.88%): Oxfam
+    2 (4.88%): Pratt
+    1 (2.44%): Ishyirahamwe ry'abaganga kw'isi
+    1 (2.44%): Facebook
+    ...
+international:display_name:sat
+  Count: 96 (0.09%)
+  Types: string (100.00%)
+  Samples:
+    1 (1.04%): ᱣᱞᱟᱰᱤᱣᱳᱥᱴᱳᱠ ᱥᱴᱮᱴ ᱢᱮᱰᱤᱠᱟᱞ ᱭᱩᱱᱤᱵᱷᱟᱨᱥᱤᱴᱤ
+    1 (1.04%): ᱜᱩᱡᱽᱨᱟᱴ ᱡᱮᱜᱮᱛ ᱵᱤᱨᱫᱟᱹᱜᱟᱲ
+    1 (1.04%): ᱯᱩᱸᱰ
+    1 (1.04%): ᱮᱱᱮᱡ
+    1 (1.04%): ᱣᱤᱯᱨᱳ
+    ...
+international:display_name:tg-cyrl
+  Count: 12 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (8.33%): Донишгоҳи давлатии гуманитарии Маскав ба номи  М. А. Шолохов
+    1 (8.33%): Майкрософт
+    1 (8.33%): ташкилоти тиҷоратӣ
+    1 (8.33%): Созмони Милали Муттаҳид
+    1 (8.33%): Sozmoni jahonii behdosht
+    ...
+international:display_name:ab
+  Count: 15 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (6.67%): Атомтә фымца азы Жәларбжьаратәи амаҵзура
+    1 (6.67%): Еиду Амилаҭқәа Реиҿкаара Ахәыҷтәы фонд
+    1 (6.67%): ООН Аҿиара Апрограмма
+    1 (6.67%): Еидгылоу Амилаҭқәа Рорганизациа
+    1 (6.67%): Аџьар Ҟаԥшь Жәларбжьаратәи Аилак
+    ...
+international:display_name:ban
+  Count: 52 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.77%): Johnson
+    3 (5.77%): S
+    2 (3.85%): Pratt
+    1 (1.92%): Badan Wasa Atom Internasional
+    1 (1.92%): petak
+    ...
+international:display_name:lfn
+  Count: 59 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.08%): Johnson
+    2 (3.39%): Pratt
+    1 (1.69%): Ajenteria Internasional de Enerjia Atomal
+    1 (1.69%): Universia de Siensas Umana de Bixcec
+    1 (1.69%): Blanca
+    ...
+international:display_name:sgs
+  Count: 100 (0.09%)
+  Types: string (100.00%)
+  Samples:
+    3 (3.00%): Johnson
+    3 (3.00%): S
+    2 (2.00%): Pfizer
+    2 (2.00%): Pratt
+    1 (1.00%): Tarptautėnė atuomėnės energėjės agentūra
+    ...
+international:display_name:so
+  Count: 132 (0.12%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.27%): Johnson
+    2 (1.52%): Pratt
+    2 (1.52%): Filibs
+    1 (0.76%): Wakaalada Awooda Atomik Aduunka
+    1 (0.76%): Ciidanka Xooga Turki
+    ...
+international:display_name:kk-arab
+  Count: 112 (0.10%)
+  Types: string (100.00%)
+  Samples:
+    2 (1.79%): شليۋمبەرجە
+    2 (1.79%): Philips
+    1 (0.89%): DAAD
+    1 (0.89%): تۇرىك قارۋلى كۇشتەرى
+    1 (0.89%): فرايبەرگ تەحنىيكالىق ۋنىيۆەرسىيتەتى
+    ...
+international:display_name:kk-cyrl
+  Count: 123 (0.11%)
+  Types: string (100.00%)
+  Samples:
+    2 (1.63%): Шлюмберже
+    2 (1.63%): Пһіліпс
+    2 (1.63%): Sanofi
+    1 (0.81%): ДААД
+    1 (0.81%): Түрік қарулы күштері
+    ...
+international:display_name:kk-latn
+  Count: 128 (0.12%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.34%): Johnson
+    2 (1.56%): Pratt
+    2 (1.56%): Şlyumberje
+    2 (1.56%): Philips
+    1 (0.78%): DAAD
+    ...
+international:display_name:tg-latn
+  Count: 63 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.76%): Johnson
+    2 (3.17%): Pratt
+    2 (3.17%): Donişgohi Illinoji Ƣarbī
+    1 (1.59%): DAAD
+    1 (1.59%): Donişgohi Amorati Muttahidai Arab
+    ...
+international:display_name:lo
+  Count: 44 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    1 (2.27%): ສະພາກາຊາດໄທ
+    1 (2.27%): ສີຂາວ
+    1 (2.27%): ເກມ
+    1 (2.27%): labour sypply
+    1 (2.27%): ມະຫາວິທະຍາໄລທຳມະສາດ
+    ...
+international:display_name:cv
+  Count: 100 (0.09%)
+  Types: string (100.00%)
+  Samples:
+    3 (3.00%): S
+    1 (1.00%): Америкэн Экспресс
+    1 (1.00%): Газпром
+    1 (1.00%): Шурă тĕс
+    1 (1.00%): Вăйă
+    ...
+international:display_name:kw
+  Count: 152 (0.14%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.97%): Johnson
+    3 (1.97%): S
+    2 (1.32%): Pratt
+    2 (1.32%): Pennskol Lincoln
+    1 (0.66%): Akademi Serbek Godhonieth hag Artys
+    ...
+international:display_name:ku-arab
+  Count: 34 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    2 (5.88%): پهلپس
+    1 (2.94%): حێزێن چەکدارئێ ن ترک
+    1 (2.94%): ئەڵتەرناتیڤ بۆ ئەڵمانی
+    1 (2.94%): خنهوا
+    1 (2.94%): تهە Iنستتوتەئۆ فئە لەجترجالئا ندئە لەجترۆنجسئە نگنەەرس
+    ...
+international:display_name:ku-latn
+  Count: 83 (0.08%)
+  Types: string (100.00%)
+  Samples:
+    3 (3.61%): Johnson
+    2 (2.41%): zanîngeha Enqereyê
+    2 (2.41%): Pratt
+    2 (2.41%): Philips
+    1 (1.20%): Hêzên Çekdar ên Tirk
+    ...
+international:display_name:om
+  Count: 16 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (6.25%): Yuunivarsiitii Dirre Dawaa
+    1 (6.25%): Chrysler
+    1 (6.25%): Yuunivarsiitii Hawaasaa
+    1 (6.25%): Google
+    1 (6.25%): Safran Landing Systems
+    ...
+international:display_name:se
+  Count: 185 (0.17%)
+  Types: string (100.00%)
+  Samples:
+    3 (1.62%): Johnson
+    2 (1.08%): Pratt
+    1 (0.54%): Dearvvašvuođa ja buresbirgejumi lágádus
+    1 (0.54%): Rai
+    1 (0.54%): vielgat
+    ...
+international:display_name:sms
+  Count: 71 (0.07%)
+  Types: string (100.00%)
+  Samples:
+    1 (1.41%): Tiõrvâsvuõđ da pueʹrrvââjjam strooiʹtel
+    1 (1.41%): siõrr
+    1 (1.41%): Göteboorg universiteʹtt
+    1 (1.41%): Lääʹdd tiõđakatemia
+    1 (1.41%): Glasgow universiteʹtt
+    ...
+international:display_name:mi
+  Count: 71 (0.07%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.23%): Johnson
+    2 (2.82%): Pratt
+    1 (1.41%): Te Whare Wānanga o Ōtākou
+    1 (1.41%): Tatauranga Aotearoa
+    1 (1.41%): Whare Takiura o Waiariki
+    ...
+international:display_name:rue
+  Count: 53 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    1 (1.89%): Дебреценска универзита
+    1 (1.89%): Газпром
+    1 (1.89%): Гра
+    1 (1.89%): Лайпцигска универзита
+    1 (1.89%): Світова торгова орґанізація
+    ...
+international:display_name:szl
+  Count: 49 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (6.12%): Johnson
+    2 (4.08%): Pratt
+    1 (2.04%): General Dynamics Mission Systems
+    1 (2.04%): Bjoło farba
+    1 (2.04%): Space Telescope Science Institute
+    ...
+international:display_name:ilo
+  Count: 149 (0.14%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.01%): Johnson
+    3 (2.01%): S
+    2 (1.34%): Instituto ti Panagdal ti Politika ti Paris
+    2 (1.34%): Pratt
+    2 (1.34%): San Diego State University
+    ...
+international:display_name:lez
+  Count: 17 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    1 (5.88%): Джульярд мектеб
+    1 (5.88%): Адигъеядин гьукуматдин университет
+    1 (5.88%): Садхьанвай миллетрин тешкилат
+    1 (5.88%): Вашингтон
+    1 (5.88%): Москвадин гьукуматдин университет
+    ...
+international:display_name:zea
+  Count: 51 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.88%): Johnson
+    2 (3.92%): Pratt
+    1 (1.96%): Sabic
+    1 (1.96%): VK
+    1 (1.96%): Opel
+    ...
+international:display_name:lzh
+  Count: 121 (0.11%)
+  Types: string (100.00%)
+  Samples:
+    2 (1.65%): 西南大學
+    2 (1.65%): 浙江大學
+    1 (0.83%): 中國醫藥大學
+    1 (0.83%): 白
+    1 (0.83%): 國立中興大學
+    ...
+international:display_name:ps
+  Count: 120 (0.11%)
+  Types: string (100.00%)
+  Samples:
+    5 (4.17%): AT
+    2 (1.67%): د ملي دفاع پوهنتون
+    2 (1.67%): عثمانيه پوهنتون
+    1 (0.83%): اسلامیہ کالج پېښور
+    1 (0.83%): لوبه
+    ...
+international:display_name:es-419
+  Count: 15 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (6.67%): Instituto Independiente
+    1 (6.67%): VK
+    1 (6.67%): Netflix
+    1 (6.67%): Facebook
+    1 (6.67%): Universidad de El Salvador
+    ...
+international:display_name:na
+  Count: 27 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (11.11%): Johnson
+    2 (7.41%): Pratt
+    1 (3.70%): Chrysler
+    1 (3.70%): Microsoft
+    1 (3.70%): Ferrari
+    ...
+international:display_name:new
+  Count: 45 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    3 (6.67%): एयरबस
+    1 (2.22%): क्राइस्लर
+    1 (2.22%): तुयु
+    1 (2.22%): वर्ल्ड ट्रेड अर्गेनाइजेसन
+    1 (2.22%): वर्ल्ड बैंक ग्रुप
+    ...
+international:display_name:aa
+  Count: 21 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (14.29%): Johnson
+    2 (9.52%): Pratt
+    1 (4.76%): 甲子園短期大学
+    1 (4.76%): 光塩学園女子短期大学
+    1 (4.76%): 宮崎県総合博物館
+    ...
+international:display_name:eml
+  Count: 61 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.92%): Johnson
+    3 (4.92%): S
+    2 (3.28%): Pratt
+    1 (1.64%): Rai
+    1 (1.64%): United States Information Agency
+    ...
+international:display_name:ext
+  Count: 61 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.92%): Johnson
+    2 (3.28%): Pratt
+    1 (1.64%): RAI
+    1 (1.64%): Brancu
+    1 (1.64%): Juegu
+    ...
+international:display_name:hil
+  Count: 14 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (21.43%): Johnson
+    2 (14.29%): Pratt
+    1 (7.14%): Radyotelebisyon Italyano
+    1 (7.14%): Smith
+    1 (7.14%): Unibersidad Mapúa
+    ...
+international:display_name:sm
+  Count: 22 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (13.64%): Johnson
+    2 (9.09%): Pratt
+    1 (4.55%): Iunivesitē Aoao o Samoa
+    1 (4.55%): Facebook
+    1 (4.55%): Pisinisi
+    ...
+international:display_name:aeb-arab
+  Count: 4 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (25.00%): أبيض
+    1 (25.00%): أكحل
+    1 (25.00%): الفضاء الافريقي
+    1 (25.00%): بوروندي
+international:display_name:ak
+  Count: 42 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    3 (7.14%): Johnson
+    3 (7.14%): S
+    2 (4.76%): Pratt
+    1 (2.38%): Fitaa
+    1 (2.38%): agorɔ
+    ...
+international:display_name:arc
+  Count: 16 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (18.75%): S
+    1 (6.25%): ܚܘܪܐ
+    1 (6.25%): ܟܢܘܫܝܐ ܕܐܣܪܐܝܠ ܕܝܘܠܦܢܐ ܘܐܢܫܝܬܐ
+    1 (6.25%): ܐܢܬܬܐ
+    1 (6.25%): ܦܘܠܚܢܐ
+    ...
+international:display_name:ay
+  Count: 55 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.45%): Johnson
+    2 (3.64%): Pratt
+    1 (1.82%): Janq'u
+    1 (1.82%): Instituto Federal da Bahia
+    1 (1.82%): Pontifícia Universidade Católica de Minas Gerais
+    ...
+international:display_name:bo
+  Count: 24 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    1 (4.17%): དཀར་པོ།
+    1 (4.17%): རོལ་རྩེད།
+    1 (4.17%): ཟླ་ཆུ་བདག་གཉེར་ལྷན་ཚོགས།
+    1 (4.17%): བུད་མེད།
+    1 (4.17%): ཚོང་ལས།
+    ...
+international:display_name:cdo
+  Count: 61 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.92%): Johnson
+    3 (4.92%): Airbus
+    3 (4.92%): S
+    1 (1.64%): Băh-sáik
+    1 (1.64%): Dallas Gông
+    ...
+international:display_name:ce
+  Count: 103 (0.09%)
+  Types: string (100.00%)
+  Samples:
+    2 (1.94%): Политикин талламийн институт
+    1 (0.97%): КIайн
+    1 (0.97%): Кампани (Итали)
+    1 (0.97%): Мухьаммад бин СаӀуд имаман Исламан университет
+    1 (0.97%): Дерригдуьненан мах лелабан организаци
+    ...
+international:display_name:ch
+  Count: 22 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (13.64%): Johnson
+    2 (9.09%): Pratt
+    1 (4.55%): Á'paka
+    1 (4.55%): Smith
+    1 (4.55%): Safran Landing Systems
+    ...
+international:display_name:dty
+  Count: 40 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    1 (2.50%): सेतो
+    1 (2.50%): सुदूरपश्चिम विश्वविद्यालय
+    1 (2.50%): वी.पी. कोइराला स्वास्थ्य विज्ञान प्रतिष्ठान
+    1 (2.50%): स्त्री
+    1 (2.50%): बीर अस्पताल
+    ...
+international:display_name:fj
+  Count: 32 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (9.38%): Johnson
+    3 (9.38%): S
+    2 (6.25%): Pratt
+    1 (3.12%): Vulavula
+    1 (3.12%): marama
+    ...
+international:display_name:frr
+  Count: 105 (0.10%)
+  Types: string (100.00%)
+  Samples:
+    3 (2.86%): Johnson
+    3 (2.86%): S
+    2 (1.90%): Pratt
+    1 (0.95%): Witj
+    1 (0.95%): Albertslund Komuun
+    ...
+international:display_name:gan
+  Count: 31 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (9.68%): S
+    1 (3.23%): 白
+    1 (3.23%): 玩具
+    1 (3.23%): 南京大學
+    1 (3.23%): 女人
+    ...
+international:display_name:gn
+  Count: 66 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.55%): Johnson
+    3 (4.55%): S
+    2 (3.03%): Pratt
+    1 (1.52%): Morotĩ
+    1 (1.52%): Ñemby Ñemuha
+    ...
+international:display_name:haw
+  Count: 26 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (11.54%): Johnson
+    2 (7.69%): Pratt
+    1 (3.85%): Keʻokeʻo
+    1 (3.85%): ʻoihana
+    1 (3.85%): Ke Kulanuiʻo Moscow State
+    ...
+international:display_name:hsb
+  Count: 89 (0.08%)
+  Types: string (100.00%)
+  Samples:
+    3 (3.37%): Johnson
+    3 (3.37%): S
+    2 (2.25%): Pratt
+    2 (2.25%): Lewis
+    1 (1.12%): běło
+    ...
+international:display_name:ik
+  Count: 21 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (14.29%): Johnson
+    2 (9.52%): Pratt
+    1 (4.76%): Qatiqtaaq
+    1 (4.76%): Kanŋuuruat
+    1 (4.76%): Smith
+    ...
+international:display_name:jam
+  Count: 60 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.00%): Johnson
+    2 (3.33%): Pratt
+    2 (3.33%): Lewis
+    1 (1.67%): Wait
+    1 (1.67%): Giem
+    ...
+international:display_name:jbo
+  Count: 29 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.34%): Johnson
+    2 (6.90%): Pratt
+    1 (3.45%): blabi
+    1 (3.45%): lo ninmu
+    1 (3.45%): maikrosaft
+    ...
+international:display_name:kbp
+  Count: 38 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (7.89%): Johnson
+    2 (5.26%): Pratt
+    1 (2.63%): Tɔlɩm kʊhʊlʊmɩŋ
+    1 (2.63%): Aleɣya
+    1 (2.63%): Facebook
+    ...
+international:display_name:lbe
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): КӀяласса
+    1 (20.00%): ЛухӀисса
+    1 (20.00%): Ал-Азгьар
+    1 (20.00%): Ххяххия
+    1 (20.00%): Лелуххи
+international:display_name:mdf
+  Count: 7 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (14.29%): Акша
+    1 (14.29%): Равжа
+    1 (14.29%): ПАСО
+    1 (14.29%): Лешсь
+    1 (14.29%): Тонадома
+    ...
+international:display_name:myv
+  Count: 21 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    1 (4.76%): ашо
+    1 (4.76%): налксема
+    1 (4.76%): Украинань раськень тонадеень академиясь
+    1 (4.76%): аваломань
+    1 (4.76%): Facebook
+    ...
+international:display_name:nso
+  Count: 31 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (9.68%): Johnson
+    3 (9.68%): S
+    2 (6.45%): Pratt
+    1 (3.23%): Tšhweu
+    1 (3.23%): Yunibesithi ya Fort Hare
+    ...
+international:display_name:pag
+  Count: 20 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (15.00%): Johnson
+    2 (10.00%): Pratt
+    1 (5.00%): amputi
+    1 (5.00%): Università degli Studi Niccolò Cusano
+    1 (5.00%): Pegley diad Medikal na Makati
+    ...
+international:display_name:pdc
+  Count: 41 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    3 (7.32%): Johnson
+    2 (4.88%): Pratt
+    1 (2.44%): Weiss
+    1 (2.44%): Bethel College
+    1 (2.44%): Fraa
+    ...
+international:display_name:pwn
+  Count: 3 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (33.33%): vuteqiteqilj
+    1 (33.33%): vavayan
+    1 (33.33%): qecengecengel
+international:display_name:rup
+  Count: 35 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (8.57%): Johnson
+    2 (5.71%): Pratt
+    1 (2.86%): Albu
+    1 (2.86%): Campania
+    1 (2.86%): muľari
+    ...
+international:display_name:sma
+  Count: 29 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.34%): Johnson
+    2 (6.90%): Pratt
+    1 (3.45%): veelkes
+    1 (3.45%): Facebook
+    1 (3.45%): Pirelli
+    ...
+international:display_name:smj
+  Count: 28 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.71%): Johnson
+    2 (7.14%): Pratt
+    1 (3.57%): bedjat
+    1 (3.57%): Facebook
+    1 (3.57%): motåvrrå
+    ...
+international:display_name:ts
+  Count: 29 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.34%): Johnson
+    2 (6.90%): Pratt
+    1 (3.45%): Basa
+    1 (3.45%): Ntlangu
+    1 (3.45%): n'wansati
+    ...
+international:display_name:ty
+  Count: 58 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.17%): Johnson
+    2 (3.45%): Pratt
+    1 (1.72%): ’uo’uo
+    1 (1.72%): Judson College
+    1 (1.72%): Centro de Estudios Políticos y Constitucionales
+    ...
+international:display_name:vep
+  Count: 36 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (8.33%): S
+    1 (2.78%): Vauged muju
+    1 (2.78%): Vänd
+    1 (2.78%): Mail'man bank
+    1 (2.78%): naine
+    ...
+international:display_name:za
+  Count: 22 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    1 (4.55%): Hau
+    1 (4.55%): Fukdan Dayoz
+    1 (4.55%): mehmbwk
+    1 (4.55%): Lenzhozgoz
+    1 (4.55%): Bwzgingh swhfan Dayoz
+    ...
+international:display_name:kk-cn
+  Count: 53 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    2 (3.77%): Philips
+    1 (1.89%): NVIDIA
+    1 (1.89%): ەلەكتروتەحنىيكا جانە ەلەكترونىيكا ىينجەنەرلەر ىينستىيتۋتى
+    1 (1.89%): بۇۇ-نىڭ دامۋ جونىندەگى باعدارلاماسى
+    1 (1.89%): بازەل ۋنىيۆەرسىيتەتى
+    ...
+international:display_name:kk-kz
+  Count: 53 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    2 (3.77%): Пһіліпс
+    1 (1.89%): Нвыдыа
+    1 (1.89%): Электротехника және Электроника Инженерлер Институты
+    1 (1.89%): БҰҰ-ның даму жөніндегі бағдарламасы
+    1 (1.89%): Базель университеті
+    ...
+international:display_name:kk-tr
+  Count: 65 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.62%): Johnson
+    2 (3.08%): Pratt
+    2 (3.08%): Philips
+    1 (1.54%): Nvidia
+    1 (1.54%): Élektrotexnïka jäne Élektronïka Ïnjenerler Ïnstïtwtı
+    ...
+international:display_name:chr
+  Count: 13 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (7.69%): ᎠᏁᏦᏗ
+    1 (7.69%): ᎠᏂᎨᏯ
+    1 (7.69%): ᏗᎦᎸᏫᏍᏓᏁᏗ
+    1 (7.69%): ᏗᎦᎶᎪᏗ
+    1 (7.69%): Aker BP
+    ...
+international:display_name:gcr
+  Count: 17 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    1 (5.88%): Jé
+    1 (5.88%): Organizasyon mondyal di komers
+    1 (5.88%): fanm
+    1 (5.88%): Antroupriz
+    1 (5.88%): Organizasyon di sé Nasyonzini
+    ...
+international:display_name:gv
+  Count: 60 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.00%): Johnson
+    3 (5.00%): Shellagh
+    2 (3.33%): Pratt
+    1 (1.67%): gamman
+    1 (1.67%): Birkhäuser
+    ...
+international:display_name:hif
+  Count: 41 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    3 (7.32%): Johnson
+    2 (4.88%): Pratt
+    1 (2.44%): Game
+    1 (2.44%): World Trade Organization
+    1 (2.44%): University of the South Pacific
+    ...
+international:display_name:iu
+  Count: 14 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (7.14%): ᐄᒐᑕᐃᕕᑦᓴᐃᑦ
+    1 (7.14%): ᒪᑭᕝᕕᒃ ᑯᐊᐳᕇᓴᑦ
+    1 (7.14%): ᐊᕐᓇᖅ
+    1 (7.14%): ᒎᒐᓪ
+    1 (7.14%): ᐱᕈᕐᓰᓂᖅ ᓂᐅᕐᕈᑎᒃᓴᓕᐊᕆᓪᓗᒋᑦ
+    ...
+international:display_name:kaa
+  Count: 61 (0.06%)
+  Types: string (100.00%)
+  Samples:
+    3 (4.92%): Johnson
+    2 (3.28%): General Electric
+    2 (3.28%): Pratt
+    2 (3.28%): NEC
+    1 (1.64%): Oyın
+    ...
+international:display_name:krc
+  Count: 22 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    1 (4.55%): Оюн
+    1 (4.55%): Дуния сатыу-алыу организация
+    1 (4.55%): БМО-ну сабий фонду
+    1 (4.55%): Дуния банк
+    1 (4.55%): Къыбыла-Американ Миллетлени Бирлиги
+    ...
+international:display_name:map-bms
+  Count: 29 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.34%): Johnson
+    2 (6.90%): Pratt
+    1 (3.45%): Dolanan
+    1 (3.45%): wadon
+    1 (3.45%): Microsoft Corporation
+    ...
+international:display_name:mcn
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): li᷅wtà
+    1 (20.00%): cìttà
+    1 (20.00%): la᷅ynà
+    1 (20.00%): kə̀ŋŋà
+    1 (20.00%): mùlnà
+international:display_name:olo
+  Count: 30 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.00%): Johnson
+    2 (6.67%): Pratt
+    1 (3.33%): Stolakiža
+    1 (3.33%): Itä-Suomen yliopisto
+    1 (3.33%): Fisher
+    ...
+international:display_name:pih
+  Count: 21 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (14.29%): Johnson
+    2 (9.52%): Pratt
+    1 (4.76%): Geiim
+    1 (4.76%): Geoscience Australia
+    1 (4.76%): Safran Landing Systems
+    ...
+international:display_name:ady
+  Count: 6 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (16.67%): Адыгэ университетыр
+    1 (16.67%): Дунэе Лъэпкъ Организацие
+    1 (16.67%): Еуро Зэкъотыныгъэ
+    1 (16.67%): Бзыу
+    1 (16.67%): Яндекс
+    ...
+international:display_name:bpy
+  Count: 22 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    2 (9.09%): ওসমানীয়া বিশ্ববিদ্যালয়
+    1 (4.55%): ইটাউ
+    1 (4.55%): ডালাস কাউন্টি
+    1 (4.55%): ফজেল
+    1 (4.55%): সৌক কাউন্টি
+    ...
+international:display_name:gag
+  Count: 33 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (9.09%): Johnson
+    2 (6.06%): Pratt
+    1 (3.03%): İzmir Kâtip Çelebi Üniversitesi
+    1 (3.03%): West Chester Universiteti
+    1 (3.03%): Sumqayıt Devlet Universiteti
+    ...
+international:display_name:lg
+  Count: 20 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (15.00%): Johnson
+    2 (10.00%): Pratt
+    1 (5.00%): Mountains of the Moon University
+    1 (5.00%): Ebyamalimiro
+    1 (5.00%): Safran Landing Systems
+    ...
+international:display_name:mai
+  Count: 75 (0.07%)
+  Types: string (100.00%)
+  Samples:
+    2 (2.67%): कलकत्ता विश्वविद्यालय
+    1 (1.33%): युनिभर्सिटी कलेज लण्डन
+    1 (1.33%): पानासोनिक
+    1 (1.33%): विश्व व्यापार सङ्गठन
+    1 (1.33%): अन्तर्राष्ट्रिय श्रम संगठन
+    ...
+international:display_name:bm
+  Count: 47 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    3 (6.38%): Johnson
+    2 (4.26%): Pratt
+    2 (4.26%): Lewis
+    1 (2.13%): Online Computer Library Center
+    1 (2.13%): Dunia Wariso
+    ...
+international:display_name:frc
+  Count: 42 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    3 (7.14%): Johnson
+    2 (4.76%): Pratt
+    2 (4.76%): Lewis
+    1 (2.38%): Online Computer Library Center
+    1 (2.38%): université Babeș-Bolyai
+    ...
+international:display_name:prg
+  Count: 30 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.00%): Johnson
+    2 (6.67%): Pratt
+    2 (6.67%): Lewis
+    1 (3.33%): Online Computer Library Center
+    1 (3.33%): American Repertory Theater
+    ...
+international:display_name:rgn
+  Count: 28 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.71%): Johnson
+    2 (7.14%): Pratt
+    2 (7.14%): Lewis
+    1 (3.57%): Online Computer Library Center
+    1 (3.57%): American Repertory Theater
+    ...
+international:display_name:vmf
+  Count: 37 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (8.11%): Johnson
+    2 (5.41%): Pratt
+    2 (5.41%): Lewis
+    1 (2.70%): Online Computer Library Center
+    1 (2.70%): American Repertory Theater
+    ...
+international:display_name:km
+  Count: 82 (0.08%)
+  Types: string (100.00%)
+  Samples:
+    2 (2.44%): សាកលវិទ្យាល័យបច្ចេកវិទ្យាចិនភាគខាងត្បូង
+    2 (2.44%): សាកលវិទ្យាល័យអាគីតា
+    1 (1.22%): បណ្ឌិត្យ​សភា​នីតិ​អន្តរជាតិ​នៃ​ទីក្រុង​ឡាអេ
+    1 (1.22%): សាកលវិទ្យាល័យវិទ្យាសាស្ត្រសុខាភិបាល
+    1 (1.22%): អង្គការពាណិជ្ជកម្មពិភពលោក
+    ...
+international:display_name:crh
+  Count: 45 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    1 (2.22%): Kampaniya (region)
+    1 (2.22%): Dünya ticaret teşkilâtı
+    1 (2.22%): Danılo Galıtskıy adına İlbav tibbiyet milliy universiteti
+    1 (2.22%): Birleşken milletlerniñ İnkişaf programması
+    1 (2.22%): Dünya bankı
+    ...
+international:display_name:ki
+  Count: 31 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (9.68%): Johnson
+    2 (6.45%): Pratt
+    1 (3.23%): Campania
+    1 (3.23%): Bengi ya Thĩ
+    1 (3.23%): Microsoft
+    ...
+international:display_name:lld
+  Count: 18 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    1 (5.56%): Campania
+    1 (5.56%): ONU
+    1 (5.56%): Comitat internazionèl de la Crousc Chécena
+    1 (5.56%): Parlament europeich
+    1 (5.56%): Università de Leiden
+    ...
+international:display_name:roa-tara
+  Count: 25 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (12.00%): Johnson
+    2 (8.00%): Pratt
+    1 (4.00%): Campania
+    1 (4.00%): Fisher
+    1 (4.00%): Università de le studie Niccolò Cusano
+    ...
+international:display_name:egl
+  Count: 18 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (16.67%): Johnson
+    2 (11.11%): Pratt
+    1 (5.56%): United States Information Agency
+    1 (5.56%): Ecole Centrale de Lille
+    1 (5.56%): Smith
+    ...
+international:display_name:bi
+  Count: 28 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.71%): Johnson
+    2 (7.14%): Pratt
+    1 (3.57%): Oganaesesen blong ol Leba Raonwol
+    1 (3.57%): Oganaesesen blong Givhan long Ikonomi mo Sosaeti blong ol Kantri blong Esia mo Pasifik
+    1 (3.57%): Yunaeted Nesen
+    ...
+international:display_name:ace
+  Count: 53 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.66%): Johnson
+    3 (5.66%): S
+    2 (3.77%): Pratt
+    1 (1.89%): Instituto Federal da Bahia
+    1 (1.89%): Pontifícia Universidade Católica de Minas Gerais
+    ...
+international:display_name:ksh
+  Count: 58 (0.05%)
+  Types: string (100.00%)
+  Samples:
+    3 (5.17%): Johnson
+    3 (5.17%): Airbus S.A.S
+    2 (3.45%): Pratt
+    1 (1.72%): Instituto Federal da Bahia
+    1 (1.72%): Schochsch-Ougoß-Univäsetäid en Jöttenge
+    ...
+international:display_name:tw
+  Count: 30 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.00%): Johnson
+    2 (6.67%): Pratt
+    1 (3.33%): University of Cape Coast
+    1 (3.33%): University of Versailles
+    1 (3.33%): University of Ghana
+    ...
+international:display_name:tcy
+  Count: 12 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (8.33%): ಸಂತ ಅಲೋಶಿಯಸ್ ಕಾಲೇಜ್
+    1 (8.33%): ವಿಶ್ವ ಸ೦ಸ್ಟೆ
+    1 (8.33%): ಗೂಗಲ್
+    1 (8.33%): ಭಾರತೊತ ಪುರಾತತ್ವ ಸಮೀಕ್ಷೆ
+    1 (8.33%): ಉಪಗ್ರಹ
+    ...
+international:display_name:ve
+  Count: 29 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.34%): Johnson
+    2 (6.90%): Pratt
+    1 (3.45%): Yunivesithi ya Johannesburg
+    1 (3.45%): Yunivesithi ya Witwatersrand
+    1 (3.45%): Yunivesithi ya Pretoria
+    ...
+international:display_name:crh-latn
+  Count: 42 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    3 (7.14%): Johnson
+    2 (4.76%): Pratt
+    1 (2.38%): Danılo Galıtskıy adına İlbav tibbiyet milliy universiteti
+    1 (2.38%): Birleşken milletlerniñ İnkişaf programması
+    1 (2.38%): Dünya bankı
+    ...
+international:display_name:nov
+  Count: 29 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.34%): Johnson
+    3 (10.34%): S
+    2 (6.90%): Pratt
+    1 (3.45%): Geoscience Australia
+    1 (3.45%): Unionati Nationes
+    ...
+international:display_name:udm
+  Count: 22 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    1 (4.55%): Metro AG
+    1 (4.55%): Балашши Балинт нимо институт
+    1 (4.55%): Facebook
+    1 (4.55%): ужбергатон
+    1 (4.55%): Огазеяськем Нациослэн Организацизы
+    ...
+international:display_name:pfl
+  Count: 32 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (9.38%): Johnson
+    2 (6.25%): Pratt
+    1 (3.12%): VK
+    1 (3.12%): BASF SE
+    1 (3.12%): Colonial-Pipeline
+    ...
+international:display_name:gan-hans
+  Count: 6 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (16.67%): 南京大学
+    1 (16.67%): 天津经济技术开发区
+    1 (16.67%): 世界自然基金会
+    1 (16.67%): 中华大学
+    1 (16.67%): 南昌大学
+    ...
+international:display_name:gan-hant
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): 南京大學
+    1 (20.00%): 世界自然基金會
+    1 (20.00%): 中華大學
+    1 (20.00%): 南昌大學
+    1 (20.00%): 江西財經大學
+international:display_name:sei
+  Count: 20 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (15.00%): Johnson
+    2 (10.00%): Pratt
+    1 (5.00%): Mercedes-AMG
+    1 (5.00%): Adminsitración
+    1 (5.00%): Fisher
+    ...
+international:display_name:aeb-latn
+  Count: 13 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (23.08%): Johnson
+    2 (15.38%): Pratt
+    1 (7.69%): Safran Landing Systems
+    1 (7.69%): Babcock
+    1 (7.69%): Procter
+    ...
+international:display_name:aln
+  Count: 14 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (21.43%): Johnson
+    2 (14.29%): Pratt
+    1 (7.14%): Ecole Centrale de Lille
+    1 (7.14%): Aker BP
+    1 (7.14%): Babcock
+    ...
+international:display_name:arn
+  Count: 14 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (21.43%): Johnson
+    2 (14.29%): Pratt
+    1 (7.14%): Singapore Airlines
+    1 (7.14%): Aker BP
+    1 (7.14%): Babcock
+    ...
+international:display_name:atj
+  Count: 28 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.71%): Johnson
+    2 (7.14%): Pratt
+    1 (3.57%): iskwew
+    1 (3.57%): Université d'Ottawa
+    1 (3.57%): Université du Québec à Montréal
+    ...
+international:display_name:avk
+  Count: 16 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (18.75%): Johnson
+    2 (12.50%): Pratt
+    1 (6.25%): Ecole Centrale de Lille
+    1 (6.25%): Babcock
+    1 (6.25%): Procter
+    ...
+international:display_name:bbc
+  Count: 10 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (30.00%): Johnson
+    2 (20.00%): Pratt
+    1 (10.00%): Babcock
+    1 (10.00%): Procter
+    1 (10.00%): Rohde
+    ...
+international:display_name:bbc-latn
+  Count: 13 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (23.08%): Johnson
+    2 (15.38%): Pratt
+    1 (7.69%): Safran Landing Systems
+    1 (7.69%): Babcock
+    1 (7.69%): Procter
+    ...
+international:display_name:bto
+  Count: 10 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (30.00%): Johnson
+    2 (20.00%): Pratt
+    1 (10.00%): Babcock
+    1 (10.00%): Procter
+    1 (10.00%): Rohde
+    ...
+international:display_name:cho
+  Count: 17 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (17.65%): Johnson
+    2 (11.76%): Pratt
+    1 (5.88%): ohoyo
+    1 (5.88%): Smith
+    1 (5.88%): Safran Landing Systems
+    ...
+international:display_name:chy
+  Count: 18 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (16.67%): Johnson
+    2 (11.11%): Pratt
+    1 (5.56%): Smith
+    1 (5.56%): Safran Landing Systems
+    1 (5.56%): Aker BP
+    ...
+international:display_name:cps
+  Count: 10 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (30.00%): Johnson
+    2 (20.00%): Pratt
+    1 (10.00%): Babcock
+    1 (10.00%): Procter
+    1 (10.00%): Rohde
+    ...
+international:display_name:cr
+  Count: 13 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (23.08%): Johnson
+    1 (7.69%): Smith
+    1 (7.69%): Samsung
+    1 (7.69%): Safran Landing Systems
+    1 (7.69%): Aker BP
+    ...
+international:display_name:din
+  Count: 18 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (16.67%): Johnson
+    2 (11.11%): Pratt
+    1 (5.56%): Peithbuk
+    1 (5.56%): Google
+    1 (5.56%): Akut Akim Cinakëth
+    ...
+international:display_name:dsb
+  Count: 41 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    3 (7.32%): Johnson
+    2 (4.88%): Pratt
+    1 (2.44%): Bramborska techniska uniwersita
+    1 (2.44%): žona
+    1 (2.44%): Zwězkowy sejm
+    ...
+international:display_name:dtp
+  Count: 17 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (17.65%): Johnson
+    2 (11.76%): Pratt
+    1 (5.88%): Pisompuruan Tinaru Sompomogunan
+    1 (5.88%): Komontirian Kolidasan Malaysia
+    1 (5.88%): Smith
+    ...
+international:display_name:ee
+  Count: 28 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.71%): Johnson
+    3 (10.71%): S
+    2 (7.14%): Pratt
+    1 (3.57%): École Centrale de Lille
+    1 (3.57%): J. Pierpont Morgan
+    ...
+international:display_name:ff
+  Count: 25 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (12.00%): Johnson
+    2 (8.00%): Pratt
+    1 (4.00%): École Centrale de Lille
+    1 (4.00%): Smith
+    1 (4.00%): Fisher
+    ...
+international:display_name:fit
+  Count: 28 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (10.71%): Johnson
+    2 (7.14%): Pratt
+    1 (3.57%): United Bible Societies
+    1 (3.57%): Facebook
+    1 (3.57%): Jönköping University
+    ...
+international:display_name:gom-latn
+  Count: 14 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (21.43%): Johnson
+    2 (14.29%): Pratt
+    1 (7.14%): Safran Landing Systems
+    1 (7.14%): Indiecheo Rail Marog
+    1 (7.14%): Babcock
+    ...
+international:display_name:gor
+  Count: 16 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (18.75%): Johnson
+    2 (12.50%): Pratt
+    1 (6.25%): Google
+    1 (6.25%): M
+    1 (6.25%): Safran Landing Systems
+    ...
+international:display_name:hif-latn
+  Count: 21 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (14.29%): Johnson
+    2 (9.52%): Pratt
+    1 (4.76%): Scott
+    1 (4.76%): Stroock
+    1 (4.76%): Smith
+    ...
+international:display_name:ho
+  Count: 16 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (18.75%): Johnson
+    2 (12.50%): Pratt
+    1 (6.25%): Smith
+    1 (6.25%): Safran Landing Systems
+    1 (6.25%): Aker BP
+    ...
+international:display_name:hrx
+  Count: 13 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (23.08%): Johnson
+    2 (15.38%): Pratt
+    1 (7.69%): Safran Landing Systems
+    1 (7.69%): Babcock
+    1 (7.69%): Procter
+    ...
+international:display_name:hz
+  Count: 16 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (18.75%): Johnson
+    2 (12.50%): Pratt
+    1 (6.25%): Smith
+    1 (6.25%): Safran Landing Systems
+    1 (6.25%): Aker BP
+    ...
+international:display_name:ike-latn
+  Count: 18 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (16.67%): Johnson
+    2 (11.11%): Pratt
+    1 (5.56%): Smith
+    1 (5.56%): sulattuqsarvik
+    1 (5.56%): Safran Landing Systems
+    ...
+international:display_name:jut
+  Count: 13 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (23.08%): Johnson
+    2 (15.38%): Pratt
+    1 (7.69%): Ecole Centrale de Lille
+    1 (7.69%): Richard Dimbleby
+    1 (7.69%): German National Library of Science and Technology
+    ...
+international:display_name:kea
+  Count: 12 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (25.00%): Johnson
+    2 (16.67%): Pratt
+    1 (8.33%): Babcock
+    1 (8.33%): Procter
+    1 (8.33%): Cisco
+    ...
+international:display_name:kj
+  Count: 15 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (20.00%): Johnson
+    2 (13.33%): Pratt
+    1 (6.67%): Safran Landing Systems
+    1 (6.67%): Aker BP
+    1 (6.67%): Babcock
+    ...
+international:display_name:kr
+  Count: 15 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (20.00%): Johnson
+    2 (13.33%): Pratt
+    1 (6.67%): Safran Landing Systems
+    1 (6.67%): Aker BP
+    1 (6.67%): Babcock
+    ...
+international:display_name:kri
+  Count: 10 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (30.00%): Johnson
+    2 (20.00%): Pratt
+    1 (10.00%): Babcock
+    1 (10.00%): Procter
+    1 (10.00%): Rohde
+    ...
+international:display_name:krj
+  Count: 17 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (17.65%): Johnson
+    2 (11.76%): Pratt
+    1 (5.88%): Onibirsidad kang Filipinas sa Mindanaw
+    1 (5.88%): Ecole Centrale de Lille
+    1 (5.88%): Onibirsidad kang Filipinas sa Baguio
+    ...
+international:display_name:krl
+  Count: 10 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (30.00%): Johnson
+    2 (20.00%): Pratt
+    1 (10.00%): Babcock
+    1 (10.00%): Procter
+    1 (10.00%): Rohde
+    ...
+international:display_name:liv
+  Count: 13 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (23.08%): Johnson
+    2 (15.38%): Pratt
+    1 (7.69%): Safran Landing Systems
+    1 (7.69%): Babcock
+    1 (7.69%): Procter
+    ...
+international:display_name:loz
+  Count: 12 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (25.00%): Johnson
+    2 (16.67%): Pratt
+    1 (8.33%): Aker BP
+    1 (8.33%): Babcock
+    1 (8.33%): Procter
+    ...
+international:display_name:ltg
+  Count: 26 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (11.54%): Johnson
+    2 (7.69%): Pratt
+    1 (3.85%): Klaipiedas Universitets
+    1 (3.85%): sīvīts
+    1 (3.85%): Ecole Centrale de Lille
+    ...
+international:display_name:lus
+  Count: 12 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (25.00%): Johnson
+    2 (16.67%): Pratt
+    1 (8.33%): Aker BP
+    1 (8.33%): Babcock
+    1 (8.33%): Procter
+    ...
+international:display_name:mh
+  Count: 13 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (23.08%): Johnson
+    2 (15.38%): Pratt
+    1 (7.69%): Safran Landing Systems
+    1 (7.69%): Babcock
+    1 (7.69%): Procter
+    ...
+international:display_name:mus
+  Count: 19 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (15.79%): Johnson
+    2 (10.53%): Pratt
+    1 (5.26%): Fisher
+    1 (5.26%): Safran Landing Systems
+    1 (5.26%): Aker BP
+    ...
+international:display_name:ng
+  Count: 15 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (20.00%): Johnson
+    2 (13.33%): Pratt
+    1 (6.67%): Safran Landing Systems
+    1 (6.67%): Aker BP
+    1 (6.67%): Babcock
+    ...
+international:display_name:niu
+  Count: 10 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (30.00%): Johnson
+    2 (20.00%): Pratt
+    1 (10.00%): Babcock
+    1 (10.00%): Procter
+    1 (10.00%): Rohde
+    ...
+international:display_name:nv
+  Count: 41 (0.04%)
+  Types: string (100.00%)
+  Samples:
+    3 (7.32%): Johnson
+    2 (4.88%): Pratt
+    1 (2.44%): Tótaʼ Beʼekʼidi naaldeehii danílʼį́ bił hazʼání
+    1 (2.44%): Beeʼeldíílsánídi naaldeehii danílʼį́ bił hazʼání
+    1 (2.44%): Áshįįhkooh Yílíníidi naaldeehii dóó chʼil danílʼį́ bił hazʼání
+    ...
+international:display_name:ny
+  Count: 22 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (13.64%): Johnson
+    2 (9.09%): Pratt
+    1 (4.55%): Huawei
+    1 (4.55%): Facebook
+    1 (4.55%): World Health Organization
+    ...
+international:display_name:nys
+  Count: 15 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (20.00%): Johnson
+    2 (13.33%): Pratt
+    1 (6.67%): University of the Commonwealth Caribbean
+    1 (6.67%): Open Rights Group
+    1 (6.67%): University of Suffolk
+    ...
+international:display_name:pdt
+  Count: 17 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (17.65%): Johnson
+    2 (11.76%): Pratt
+    1 (5.88%): Colonial-Pipeline
+    1 (5.88%): Fisher
+    1 (5.88%): Aker BP
+    ...
+international:display_name:qug
+  Count: 12 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (25.00%): Johnson
+    2 (16.67%): Pratt
+    1 (8.33%): Aker BP
+    1 (8.33%): Babcock
+    1 (8.33%): Procter
+    ...
+international:display_name:rif
+  Count: 12 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (25.00%): Johnson
+    2 (16.67%): Pratt
+    1 (8.33%): Aker BP
+    1 (8.33%): Babcock
+    1 (8.33%): Procter
+    ...
+international:display_name:rn
+  Count: 18 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (16.67%): Johnson
+    2 (11.11%): Pratt
+    1 (5.56%): Google
+    1 (5.56%): Safran Landing Systems
+    1 (5.56%): Aker BP
+    ...
+international:display_name:ruq-latn
+  Count: 15 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (20.00%): Johnson
+    2 (13.33%): Pratt
+    1 (6.67%): Safran Landing Systems
+    1 (6.67%): Aker BP
+    1 (6.67%): Babcock
+    ...
+international:display_name:sdc
+  Count: 16 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (18.75%): Johnson
+    2 (12.50%): Pratt
+    1 (6.25%): Fisher
+    1 (6.25%): Aker BP
+    1 (6.25%): Babcock
+    ...
+international:display_name:sg
+  Count: 18 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (16.67%): Johnson
+    2 (11.11%): Pratt
+    1 (5.56%): École Centrale de Lille
+    1 (5.56%): Safran Landing Systems
+    1 (5.56%): Aker BP
+    ...
+international:display_name:shi-latn
+  Count: 15 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (20.00%): Johnson
+    2 (13.33%): Pratt
+    1 (6.67%): Safran Landing Systems
+    1 (6.67%): Aker BP
+    1 (6.67%): Babcock
+    ...
+international:display_name:sje
+  Count: 17 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (17.65%): Johnson
+    2 (11.76%): Pratt
+    1 (5.88%): Facebook
+    1 (5.88%): Pirelli
+    1 (5.88%): BBC
+    ...
+international:display_name:sli
+  Count: 16 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (18.75%): Johnson
+    2 (12.50%): Pratt
+    1 (6.25%): Fisher
+    1 (6.25%): Aker BP
+    1 (6.25%): Babcock
+    ...
+international:display_name:sn
+  Count: 38 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (7.89%): Johnson
+    2 (5.26%): Pratt
+    1 (2.63%): Yunivhesiti yeOslo
+    1 (2.63%): mukadzi
+    1 (2.63%): Zimbabwe Open University
+    ...
+international:display_name:srn
+  Count: 22 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (13.64%): Johnson
+    3 (13.64%): S
+    2 (9.09%): Pratt
+    1 (4.55%): M
+    1 (4.55%): Safran Landing Systems
+    ...
+international:display_name:srq
+  Count: 10 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (30.00%): Johnson
+    2 (20.00%): Pratt
+    1 (10.00%): Babcock
+    1 (10.00%): Procter
+    1 (10.00%): Rohde
+    ...
+international:display_name:ss
+  Count: 20 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (15.00%): Johnson
+    2 (10.00%): Pratt
+    1 (5.00%): Mhlabuhlangene
+    1 (5.00%): iNyuvesi yase Witwatersrand
+    1 (5.00%): Safran Landing Systems
+    ...
+international:display_name:st
+  Count: 24 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (12.50%): Johnson
+    2 (8.33%): Pratt
+    1 (4.17%): University of Fort Hare
+    1 (4.17%): Machaba A Kopaneng
+    1 (4.17%): Qantas
+    ...
+international:display_name:tet
+  Count: 22 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (13.64%): Johnson
+    2 (9.09%): Pratt
+    1 (4.55%): Facebook
+    1 (4.55%): Google
+    1 (4.55%): Agrikultura
+    ...
+international:display_name:tn
+  Count: 19 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (15.79%): Johnson
+    2 (10.53%): Pratt
+    1 (5.26%): mosadi
+    1 (5.26%): Safran Landing Systems
+    1 (5.26%): University ya Botswana
+    ...
+international:display_name:to
+  Count: 17 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (17.65%): Johnson
+    2 (11.76%): Pratt
+    1 (5.88%): Safran Landing Systems
+    1 (5.88%): Aker BP
+    1 (5.88%): Babcock
+    ...
+international:display_name:tpi
+  Count: 22 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (13.64%): Johnson
+    2 (9.09%): Pratt
+    1 (4.55%): Smith
+    1 (4.55%): Fisher
+    1 (4.55%): Egrikalsa
+    ...
+international:display_name:tt-latn
+  Count: 20 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (15.00%): Johnson
+    2 (10.00%): Pratt
+    1 (5.00%): xatın-qız
+    1 (5.00%): Facebook
+    1 (5.00%): Google
+    ...
+international:display_name:tum
+  Count: 20 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (15.00%): Johnson
+    2 (10.00%): Pratt
+    1 (5.00%): Safran Landing Systems
+    1 (5.00%): Aker BP
+    1 (5.00%): Sandefjord
+    ...
+international:display_name:ug-latn
+  Count: 17 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (17.65%): Johnson
+    2 (11.76%): Pratt
+    1 (5.88%): Safran Landing Systems
+    1 (5.88%): Aker BP
+    1 (5.88%): Babcock
+    ...
+international:display_name:xh
+  Count: 38 (0.03%)
+  Types: string (100.00%)
+  Samples:
+    3 (7.89%): Johnson
+    2 (5.26%): Pratt
+    1 (2.63%): IYunivesity yase Fort Hare
+    1 (2.63%): Izizwe ezimanyeneyo
+    1 (2.63%): Nelson Mandela University
+    ...
+international:display_name:gom
+  Count: 16 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (6.25%): ಕ್ರೈಸ್ಟ್ ಯೂನಿವರ್ಸಿಟಿ
+    1 (6.25%): राश्ट्रीय सागरविज्ञान संस्था
+    1 (6.25%): संयुक्त राश्ट्रसंघटना
+    1 (6.25%): विट्वाटर्सरांड विश्वविद्यालय
+    1 (6.25%): रॉयल सोसायटी
+    ...
+international:display_name:arq
+  Count: 4 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (25.00%): جامعة 8 ماي 1945 قالمة
+    1 (25.00%): جامعة أمحمد بوڤرة - بومرداس
+    1 (25.00%): زريبي اسراء
+    1 (25.00%): سوناطراك
+international:display_name:shn
+  Count: 12 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (8.33%): ယေးငိုၼ်းလုမ်ႈၾႃႉ
+    1 (8.33%): ၾဵတ်ႉပုၵ်ႉ
+    1 (8.33%): ၸၢတ်ႈၸိုင်ႈလုမ်ႈၾႃႉ
+    1 (8.33%): ျမန္မာဘာသာ
+    1 (8.33%): ၸုမ်းပၢႆးယူႇလီလုမ်ႈၾႃႉ
+    ...
+international:display_name:awa
+  Count: 6 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (16.67%): लिगो
+    1 (16.67%): मेहरारू
+    1 (16.67%): संयुक्त राष्ट्र
+    1 (16.67%): वनस्पति
+    1 (16.67%): भारतीय रिज़र्व बैंक
+    ...
+international:display_name:lrc
+  Count: 8 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (12.50%): دیلویت
+    1 (12.50%): سامونجا زایارٱیا یٱکاگرتٱ
+    1 (12.50%): گوگل
+    1 (12.50%): یونیدو
+    1 (12.50%): آئودی
+    ...
+international:display_name:ks
+  Count: 6 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (16.67%): آدیش یونِورسِٹی
+    1 (16.67%): فیس بُک
+    1 (16.67%): دانشگاه کشمیر
+    1 (16.67%): کاشت کٲری
+    1 (16.67%): جاناوار
+    ...
+international:display_name:mad
+  Count: 11 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (9.09%): Universitas Indonesia
+    1 (9.09%): Facebook
+    1 (9.09%): Universitas Islam Negeri Syarif Hidayatullah Jakarta
+    1 (9.09%): Universitas Brawijaya
+    1 (9.09%): Celleng
+    ...
+international:display_name:nia
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): Universitas Indonesia
+    1 (20.00%): Universitas Pelita Harapan
+    1 (20.00%): Molaza
+    1 (20.00%): Harvard
+    1 (20.00%): Gosali
+international:display_name:bxr
+  Count: 21 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    1 (4.76%): эхэнэр
+    1 (4.76%): Бундестаг
+    1 (4.76%): Нэгэдэмэл Үндэhэнэй Байгуулга
+    1 (4.76%): Вашингтон
+    1 (4.76%): Европын Парламент
+    ...
+international:display_name:cu
+  Count: 2 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (50.00%): жєна
+    1 (50.00%): Єѵрѡпьскъ съвѫꙁъ
+international:display_name:inh
+  Count: 10 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (10.00%): лхалсаг
+    1 (10.00%): Цхьанкхийттача Къамий Организаци
+    1 (10.00%): Н. И. Пирогова цӀерагӀа йола Россе къаман тохкама лорий университет
+    1 (10.00%): Киназ
+    1 (10.00%): Мумбайера университет
+    ...
+international:display_name:kv
+  Count: 11 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (27.27%): S
+    1 (9.09%): нывбаба
+    1 (9.09%): Сыктывкарса канму университет
+    1 (9.09%): Ӧтувтчӧм Войтыръяслӧн Котыр
+    1 (9.09%): M
+    ...
+international:display_name:mhr
+  Count: 26 (0.02%)
+  Types: string (100.00%)
+  Samples:
+    3 (11.54%): S
+    1 (3.85%): ӱдырамаш
+    1 (3.85%): Mazda
+    1 (3.85%): Facebook
+    1 (3.85%): Иктыш ушнышо Наций-влак Организаций
+    ...
+international:display_name:rmf
+  Count: 10 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (10.00%): džuuli
+    1 (10.00%): Facebook
+    1 (10.00%): Auruno saakengo ministeriumos
+    1 (10.00%): Pirelli
+    1 (10.00%): BBC
+    ...
+international:display_name:skr
+  Count: 6 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (16.67%): تِریمت
+    1 (16.67%): سندھ یونیورسٹی
+    1 (16.67%): یونیورسٹی آف ایجوکیشن
+    1 (16.67%): شاہ عبد اللطیف یونیورسٹی
+    1 (16.67%): بی بی سی
+    ...
+international:display_name:szy
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): tatayna
+    1 (20.00%): maluk
+    1 (20.00%): mulangaway
+    1 (20.00%): ayam
+    1 (20.00%): Burundi
+international:display_name:simple
+  Count: 7 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (14.29%): The Football Association
+    1 (14.29%): Telemark
+    1 (14.29%): Turkish Airlines
+    1 (14.29%): British Museum
+    1 (14.29%): JB Institute of Technology
+    ...
+international:display_name:koi
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): Сыктывкарса канму университет
+    1 (20.00%): Турку университет
+    1 (20.00%): Быдмас
+    1 (20.00%): Ӧтласа Европа
+    1 (20.00%): Кайез
+international:display_name:ti
+  Count: 4 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (25.00%): ናይ ኣውስትራሊያ ቀይሕ መስቀል
+    1 (25.00%): ጉግል
+    1 (25.00%): ውድብ ጥዕና ዓለም
+    1 (25.00%): ሕርሻ
+international:display_name:dv
+  Count: 10 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (10.00%): ނެޓްފްލިކްސް
+    1 (10.00%): މައިކްރޯސޮފްޓް
+    1 (10.00%): އެކުވެރި ދައުލަތްތައް
+    1 (10.00%): ހޮލެންޑު
+    1 (10.00%): ގަސް
+    ...
+international:display_name:alt
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): Кюриниҥ институды
+    1 (20.00%): Туринниҥ университеди
+    1 (20.00%): Парижтиҥ университеди
+    1 (20.00%): Сент-Луисте Вашингтонныҥ университеди
+    1 (20.00%): Уоррен Альперттиҥ сыйы
+international:display_name:mnw
+  Count: 8 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (12.50%): Microsoft
+    1 (12.50%): ဝှုက်ဗောက်
+    1 (12.50%): ကုလသမဂ္ဂ
+    1 (12.50%): ပရေင်တဵုလွဳ
+    1 (12.50%): ကဏ္ဍ:အနုပညာ
+    ...
+international:display_name:tyv
+  Count: 6 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (16.67%): Митсубиши
+    1 (16.67%): Facebook
+    1 (16.67%): École centrale de Lille
+    1 (16.67%): ТКУ
+    1 (16.67%): Apple Inc.
+    ...
+international:display_name:got
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): 𐍆𐌰𐌹𐌾𐍃𐌱𐍉𐌺
+    1 (20.00%): Aker BP
+    1 (20.00%): 𐌰𐌹𐍀𐍀𐌴𐌻
+    1 (20.00%): 𐌰𐌹𐍅𐍂𐍉𐍀𐌰𐌹𐍃𐌺𐌰 𐌿𐌽𐌹𐍉
+    1 (20.00%): Genmab
+international:display_name:shi
+  Count: 14 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (7.14%): Facebook
+    1 (7.14%): tamssntit
+    1 (7.14%): Tamuni n Timtta
+    1 (7.14%): École centrale de Lille
+    1 (7.14%): Google
+    ...
+international:display_name:sjd
+  Count: 3 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (33.33%): Facebook
+    1 (33.33%): Twitter
+    1 (33.33%): Эрнст
+international:display_name:sju
+  Count: 6 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (16.67%): Facebook
+    1 (16.67%): Pirelli
+    1 (16.67%): BBC
+    1 (16.67%): Twitter
+    1 (16.67%): Ernst
+    ...
+international:display_name:mni
+  Count: 14 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (7.14%): ꯂꯂꯣꯟ ꯏꯇꯤꯛ
+    1 (7.14%): ꯃꯅꯤꯡꯇꯝꯂꯕ ꯂꯩꯄꯥꯛ
+    1 (7.14%): ꯒꯨꯒꯜ
+    1 (7.14%): ꯔꯥꯃꯀ꯭ꯔꯤꯁꯅ ꯃꯤꯁꯟ
+    1 (7.14%): ꯁꯤꯑꯥꯎꯃꯤ
+    ...
+international:display_name:bas
+  Count: 3 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (33.33%): Àdɓà i Maten
+    1 (33.33%): ɓaá-́ɖɛ̀
+    1 (33.33%): bɛɖɛɛ̀-nyu-nyɔ̀
+international:display_name:kbd
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): Лъэпкъ Зэгуэтхэр
+    1 (20.00%): Лъэпкъ Зэгуэт Организациэ еджэныгъэм, шъэныгъэм, културэм пылъ
+    1 (20.00%): КъэкӀыгъэхэр
+    1 (20.00%): Къуалэбзухэр
+    1 (20.00%): Бабыщ теплъэ лъэпкъыр
+international:display_name:bqi
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): arabea
+international:display_name:brh
+  Count: 3 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (33.33%): Nokia
+    1 (33.33%): Aker BP
+    1 (33.33%): Genmab
+international:display_name:ko-kp
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): 로씨야국립도서관
+international:display_name:kiu
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): Ecole Centrale de Lille
+international:display_name:mo
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): École Centrale de Lille
+    1 (20.00%): Presses universitaires de France
+    1 (20.00%): Fundația Soros
+    1 (20.00%): Униуня Еуропянэ
+    1 (20.00%): Hertie School of Governance
+international:display_name:rmy
+  Count: 12 (0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (8.33%): Ecole centrale de Lille
+    1 (8.33%): Fisher
+    1 (8.33%): Safran Landing Systems
+    1 (8.33%): Aker BP
+    1 (8.33%): Organizaciya le Tratatosko le Nordutne Atlantikosko
+    ...
+international:display_name:es-formal
+  Count: 2 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (50.00%): Departamento de Salud
+    1 (50.00%): Universidad Ateneo de Dávao
+international:display_name:glk
+  Count: 3 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (33.33%): دانشگاه پیام نور
+    1 (33.33%): تۊئيتر
+    1 (33.33%): لاجؤنˇ دانشگا آزاد
+international:display_name:mrj
+  Count: 7 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (14.29%): Institut National des Langues et Civilisations Orientales
+    1 (14.29%): Европын Согоньжы
+    1 (14.29%): Анкоридж
+    1 (14.29%): Кушкыш
+    1 (14.29%): Кек
+    ...
+international:display_name:ami
+  Count: 2 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (50.00%): Google
+    1 (50.00%): Burundi
+international:display_name:xal
+  Count: 9 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    3 (33.33%): S үзг
+    1 (11.11%): M үзг
+    1 (11.11%): Көдлгүр
+    1 (11.11%): Хальмг улсин ик сурһуль
+    1 (11.11%): Хар өңг
+    ...
+international:display_name:bug
+  Count: 6 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (16.67%): Corbeil-Essonnes
+    1 (16.67%): Safran Landing Systems
+    1 (16.67%): Lotong
+    1 (16.67%): Fresenius
+    1 (16.67%): ᨔᨕᨗᨊᨔ
+    ...
+international:display_name:pnt
+  Count: 2 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (50.00%): Intel
+    1 (50.00%): Ευρωπαϊκόν Σύνδεσμον
+international:display_name:ike-cans
+  Count: 2 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (50.00%): ᓱᓚᑦᑐᖅᓴᕐᕕᒃ
+    1 (50.00%): ᓂᐱ
+international:display_name:pi
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): Safran Landing Systems
+    1 (20.00%): जगद्गुरुरामभद्राचार्यविकलाङ्गनिखिलविज्जालय Jagadgururāmabhadrācāryavikalāṅganikhilavijjālaya
+    1 (20.00%): Fresenius
+    1 (20.00%): Textron Aviation
+    1 (20.00%): बुरुंडी
+international:display_name:vot
+  Count: 5 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (20.00%): Safran Landing Systems
+    1 (20.00%): Aker BP
+    1 (20.00%): Fresenius
+    1 (20.00%): Textron Aviation
+    1 (20.00%): Genmab
+international:display_name:shy-latn
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): aberkan
+international:display_name:lzz
+  Count: 2 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (50.00%): Aker BP
+    1 (50.00%): Genmab
+international:display_name:tru
+  Count: 2 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (50.00%): Aker BP
+    1 (50.00%): Genmab
+international:display_name:gom-deva
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): भारतीय रेल्वे
+international:display_name:sty
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): Abastumani joldēz fizikasē kūzātūhānāse
+international:display_name:als
+  Count: 2 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (50.00%): Apple
+    1 (50.00%): IBM
+international:display_name:ug-arab
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): ئالما شىركىتى
+international:display_name:kjp
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): အေအာင်ဍီအက်စ်
+international:display_name:crh-cyrl
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): Олесь Гончар адына Днипро миллий университети
+international:display_name:dz
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): འབྲུག་རྒྱལ་འཛིན་གཙུག་ལག་སློབ་སྡེ
+international:display_name:bgn
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): بوروندا
+international:display_name:tay
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): Burundi
+international:display_name:trv
+  Count: 1 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    1 (100.00%): Burundi

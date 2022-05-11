@@ -1,0 +1,193 @@
+{
+    "$count": 218022177,
+    "id": {
+        "$count": 218022177,
+        "$types": {
+            "string": 218022177
+        }
+    },
+    "orcid": {
+        "$count": 4747409,
+        "$types": {
+            "string": 4747409
+        }
+    },
+    "display_name": {
+        "$count": 217810961,
+        "$types": {
+            "string": 217810961
+        }
+    },
+    "display_name_alternatives": {
+        "$count": 1073596,
+        "$types": {
+            "list": 1073596
+        }
+    },
+    "works_count": {
+        "$count": 218019763,
+        "$types": {
+            "number": 218019763
+        }
+    },
+    "cited_by_count": {
+        "$count": 78565500,
+        "$types": {
+            "number": 78565500
+        }
+    },
+    "ids:openalex": {
+        "$count": 218022177,
+        "$types": {
+            "string": 218022177
+        }
+    },
+    "ids:mag": {
+        "$count": 206898990,
+        "$types": {
+            "number": 206898990
+        }
+    },
+    "last_known_institution": {
+        "$count": 0,
+        "$types": {}
+    },
+    "counts_by_year": {
+        "$count": 134302230,
+        "$schemaEntry": {
+            "$count": 382902817,
+            "year": {
+                "$count": 382902817,
+                "$types": {
+                    "number": 382902817
+                }
+            },
+            "works_count": {
+                "$count": 149851902,
+                "$types": {
+                    "number": 149851902
+                }
+            },
+            "cited_by_count": {
+                "$count": 281536261,
+                "$types": {
+                    "number": 281536261
+                }
+            }
+        },
+        "$types": {
+            "list": 134302230
+        }
+    },
+    "x_concepts": {
+        "$count": 191224562,
+        "$schemaEntry": {
+            "$count": 2916587617,
+            "id": {
+                "$count": 2916587617,
+                "$types": {
+                    "string": 2916587617
+                }
+            },
+            "wikidata": {
+                "$count": 2867015733,
+                "$types": {
+                    "string": 2867015733
+                }
+            },
+            "display_name": {
+                "$count": 2912372836,
+                "$types": {
+                    "string": 2912372836
+                }
+            },
+            "level": {
+                "$count": 2157822141,
+                "$types": {
+                    "number": 2157822141
+                }
+            },
+            "score": {
+                "$count": 2916587617,
+                "$types": {
+                    "number": 2916587617
+                }
+            }
+        },
+        "$types": {
+            "list": 191224562
+        }
+    },
+    "works_api_url": {
+        "$count": 218022177,
+        "$types": {
+            "string": 218022177
+        }
+    },
+    "updated_date": {
+        "$count": 218022177,
+        "$types": {
+            "string": 218022177
+        }
+    },
+    "created_date": {
+        "$count": 218022177,
+        "$types": {
+            "string": 218022177
+        }
+    },
+    "last_known_institution:id": {
+        "$count": 54446734,
+        "$types": {
+            "string": 54446734
+        }
+    },
+    "last_known_institution:ror": {
+        "$count": 52028259,
+        "$types": {
+            "string": 52028259
+        }
+    },
+    "last_known_institution:display_name": {
+        "$count": 54446734,
+        "$types": {
+            "string": 54446734
+        }
+    },
+    "last_known_institution:country_code": {
+        "$count": 54200609,
+        "$types": {
+            "string": 54200609
+        }
+    },
+    "last_known_institution:type": {
+        "$count": 52014668,
+        "$types": {
+            "string": 52014668
+        }
+    },
+    "ids:orcid": {
+        "$count": 4747409,
+        "$types": {
+            "string": 4747409
+        }
+    },
+    "ids:scopus": {
+        "$count": 875268,
+        "$types": {
+            "string": 875268
+        }
+    },
+    "ids:wikipedia": {
+        "$count": 377,
+        "$types": {
+            "string": 377
+        }
+    },
+    "ids:twitter": {
+        "$count": 342,
+        "$types": {
+            "string": 342
+        }
+    }
+}

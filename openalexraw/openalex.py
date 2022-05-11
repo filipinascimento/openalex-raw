@@ -1,4 +1,4 @@
-
+import warnings
 from pathlib import Path
 import sys
 import os
@@ -12,21 +12,23 @@ from collections import OrderedDict
 from collections import Counter
 import collections
 
+
 class OpenAlex:
     '''
     OpenAlex is a class for accessing the OpenAlex data snapshots
     '''
-    #init
+    # init
+
     def __init__(self,
-        openAlexPath,
-        processedPath = None,
-        tempPath = None,
-        tagLabel = None, # current yyyy-mm-dd-hh-mm-ss will be used instead
-        verbose = False
-        ):
+                 openAlexPath,
+                 processedPath=None,
+                 tempPath=None,
+                 tagLabel=None,  # current yyyy-mm-dd-hh-mm-ss will be used instead
+                 verbose=False
+                 ):
         """
         OpenAlex is a class for accessing the OpenAlex data snapshots.
-        
+
         Parameters
         ----------
         openAlexPath : str or pathlib.Path
@@ -44,7 +46,7 @@ class OpenAlex:
 
         if(openAlexPath is None):
             openAlexPath = Path.cwd()
-        
+
         if (processedPath is None):
             processedPath = Path.cwd()
 
@@ -53,24 +55,23 @@ class OpenAlex:
 
         if (tagLabel is None):
             tagLabel = self.generateTagLabel()
-        
+
         self._openAlexPath = Path(openAlexPath)
         self._processedPath = Path(processedPath)
         self._tempPath = tempPath
         self._tagLabel = tagLabel
         self._verbose = verbose
 
-
-    def getManifestPath(self,entityType):
+    def getManifestPath(self, entityType):
         """
         Get the path to the manifest file for the given entity type.
-        
+
         Parameters
         ----------
         entityType : str
             The data: ("authors" | "concepts" | "institutions" | "venues" | "works")
-        
-        
+
+
         Returns
         -------
         path
@@ -78,17 +79,16 @@ class OpenAlex:
 
         """
         return self._openAlexPath/"data"/entityType/"manifest"
-    
 
-    def getManifest(self,entityType):
+    def getManifest(self, entityType):
         """
         Get the manifest for the given entity type.
-        
+
         Parameters
         ----------
         entityType : str
             The data: ("authors" | "concepts" | "institutions" | "venues" | "works")
-        
+
 
         Returns
         -------
@@ -96,12 +96,11 @@ class OpenAlex:
             The manifest for the given entity type.
         """
         manifestPath = self.getManifestPath(entityType)
-        with open(manifestPath,"r") as f:
+        with open(manifestPath, "r") as f:
             manifest = ujson.load(f)
         return manifest
-    
 
-    def getRawEntityCount(self,entityType):
+    def getRawEntityCount(self, entityType):
         """
         Get the number of raw entities of the given entity type.
 
@@ -109,7 +108,7 @@ class OpenAlex:
         ----------
         entityType : str
             The data: ("authors" | "concepts" | "institutions" | "venues" | "works")
-        
+
 
         Returns
         -------
@@ -122,8 +121,7 @@ class OpenAlex:
         #     count+=int(entry["meta"]["record_count"])
         return manifestData["meta"]["record_count"]
 
-
-    def getRawEntitiesPaths(self,entityType):
+    def getRawEntitiesPaths(self, entityType):
         """
         Get the paths to the raw data on entities of the given entity type.
 
@@ -131,15 +129,14 @@ class OpenAlex:
         ----------
         entityType : str
             The data: ("authors" | "concepts" | "institutions" | "venues" | "works")
-        
+
 
         Returns
         -------
         paths iterable
             A iterable collection of paths to the raw data on entities of the given entity type.
         """
-        return sorted(self._openAlexPath.glob("data/%s/*/*.gz"%entityType))
-        
+        return sorted(self._openAlexPath.glob("data/%s/*/*.gz" % entityType))
 
     def rawEntities(self, entityType):
         """
@@ -149,7 +146,7 @@ class OpenAlex:
         ----------
         entityType : str
             The entity type: ("authors" | "concepts" | "institutions" | "venues" | "works")
-        
+
 
         Returns
         -------
@@ -163,11 +160,15 @@ class OpenAlex:
             #     print("starting to read %s"%jlpath)
             #     for item in tqdm(f,total=self.getRawEntityCount(entityType)):
             #          pbar.update(1)
-            with gzip.open(jlpath,"rt") as f:
+            with gzip.open(jlpath, "rt") as f:
+                lineNumber = 0
                 for line in f:
-                    item = ujson.loads(line)
-                    yield item
-
+                    lineNumber+=1;
+                    try:
+                        item = ujson.loads(line)
+                        yield item
+                    except ValueError:
+                        warnings.warn("Found problem loading file %s:%d, Content: %s"%(jlpath, lineNumber, str(line)), category=Warning)
 
     def generateTagLabel(self):
         """
@@ -176,9 +177,8 @@ class OpenAlex:
         """
         return datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 
-
-    def getSchemaForEntityType(self, entityType, reportPath=None, mostCommon = 5,
-        saveEach=100000, minPercentageFilter=0, file=sys.stdout):
+    def getSchemaForEntityType(self, entityType, reportPath=None, mostCommon=5,
+                               saveEach=100000, minPercentageFilter=0, file=sys.stdout):
         """
         Get the schema for the given entity type.
 
@@ -202,37 +202,63 @@ class OpenAlex:
         try:
             from tqdm.auto import tqdm
         except ImportError:
-            tqdm = lambda x: x
-        
+            def tqdm(x): return x
+
         def saveReport():
             if(reportPath is not None):
-                with open(reportPath,"w") as file:
+                with open(reportPath, "w") as file:
                     _printSchema(schemaData,
-                        file=file,
-                        mostCommon = mostCommon,
-                        minPercentageFilter=minPercentageFilter)
+                                 file=file,
+                                 mostCommon=mostCommon,
+                                 minPercentageFilter=minPercentageFilter)
 
         # authors  concepts  institutions  venues  works
         schemaData = OrderedDict()
         entityCount = 0
-        for entity in tqdm(self.rawEntities(entityType),total=self.getRawEntityCount(entityType)):
-            _addToSchema(schemaData,entity)
-            if(entityCount>0 and entityCount%saveEach==0):
+        for entity in tqdm(self.rawEntities(entityType), total=self.getRawEntityCount(entityType)):
+            _addToSchema(schemaData, entity)
+            if(entityCount > 0 and entityCount % saveEach == 0):
                 saveReport()
-            entityCount+=1
+            entityCount += 1
         saveReport()
         return schemaData
 
 
+def cleanScheme(schemaEntry):
+    for key, value in schemaEntry.items():
+        if(key == "$count"):
+            continue
+        if("$samples" in value):
+            del value["$samples"]
+        if("$listSamples" in value):
+            del value["$listSamples"]
+        if("$listSamples" in value):
+            del value["$listSamples"]
+        if("$schemaEntry" in value):
+            if(value["$schemaEntry"]):
+                cleanScheme(value["$schemaEntry"])
+            else:
+                del value["$schemaEntry"]
 
+def basicTypeName(obj):
+    if(isinstance(obj, str)):
+        return "string"
+    elif(isinstance(obj, (int, float, complex)) and not isinstance(obj, bool)):
+        return "number"
+    elif(isinstance(obj, bool)):
+        return "bool"
+    elif(isinstance(obj, list)):
+        return "list"
+    else:
+        return type(obj).__name__
 
-
-def _flatten(d, parent_key=tuple()):
+def _flatten(d, parent_key=""):
     items = []
     for k, v in d.items():
-        if(k=="abstract_inverted_index"):
-            continue
-        new_key = parent_key + (k,) if parent_key else (k,)
+        if(k == "abstract_inverted_index" and v):
+            v = "<ABSTRACT>" # avoid large abstracts in the schema when not null
+        k = k.replace(":", "_") # no ":" allowed in keys
+        new_key = parent_key+":"+str(k) if parent_key else str(k)
         if isinstance(v, collections.MutableMapping):
             items.extend(_flatten(v, new_key).items())
         else:
@@ -241,72 +267,93 @@ def _flatten(d, parent_key=tuple()):
 
 
 
-def _addToSchema(schemaData, entryData,maxSamples=100):
-  flatData = _flatten(entryData)
-  if "__COUNT__" not in schemaData:
-    schemaData["__COUNT__"] = 0
-  schemaData["__COUNT__"] += 1
-  for key, value in flatData.items():
-    if(key not in schemaData):
-      schemaData[key] = {
-        "count": 0,
-        "samples": Counter(),
-        "listSamples": Counter(),
-        "schemaEntry" : OrderedDict(),
-        "types": Counter()
-      }
-    if not value:
-        continue
-    schemaData[key]["count"] += 1
-    schemaData[key]["types"][type(value)] += 1
-    if(not isinstance(value,list)):
-      if(len(schemaData[key]["samples"])<maxSamples):
-        schemaData[key]["samples"][value] += 1
-      else:
-        if(value in schemaData[key]["samples"]):
-          schemaData[key]["samples"][value] += 1
-    else:
-      for entry in value:
-        if(isinstance(entry,dict)):
-          _addToSchema(schemaData[key]["schemaEntry"], entry)
+def _addToSchema(schemaData, entryData, flatDict=True, maxSamples=100):
+    if(flatDict):
+        entryData = _flatten(entryData)
+    if "$count" not in schemaData:
+        schemaData["$count"] = 0
+    schemaData["$count"] += 1
+    for key, value in entryData.items():
+        if(key not in schemaData):
+            schemaData[key] = {
+                "$count": 0,
+                "$samples": Counter(),
+                "$listSamples": Counter(),
+                "$schemaEntry": OrderedDict(),
+                "$types": Counter()
+            }
+        if not value:
+            continue
+        schemaData[key]["$count"] += 1
+        schemaData[key]["$types"][basicTypeName(value)] += 1
+        if(not isinstance(value, list)):
+            if(len(schemaData[key]["$samples"]) < maxSamples):
+                schemaData[key]["$samples"][value] += 1
+            else:
+                if(value in schemaData[key]["$samples"]):
+                    schemaData[key]["$samples"][value] += 1
         else:
-          if(len(schemaData[key]["listSamples"])<maxSamples):
-            schemaData[key]["listSamples"][entry] += 1
-          else:
-            if(entry in schemaData[key]["listSamples"]):
-              schemaData[key]["listSamples"][entry] += 1
+            for entry in value:
+                if(isinstance(entry, dict)):
+                    _addToSchema(
+                        schemaData[key]["$schemaEntry"], entry, flatDict=flatDict, maxSamples=maxSamples)
+                else:
+                    if(len(schemaData[key]["$listSamples"]) < maxSamples):
+                        schemaData[key]["$listSamples"][entry] += 1
+                    else:
+                        if(entry in schemaData[key]["$listSamples"]):
+                            schemaData[key]["$listSamples"][entry] += 1
 
 
-def _printSchema(schemaEntry,indent = 0,mostCommon = 5,minPercentageFilter=0,file=sys.stdout):
-  for key, value in schemaEntry.items():
-    if(key=="__COUNT__"):
-      print(" "*indent + str(value)+" ENTRIES",file=file);
-      continue
-    entriesCount = schemaEntry["__COUNT__"]
-    if(value["count"]/entriesCount*100<minPercentageFilter):
-      continue
-    print((" "*indent)+":".join(key),file=file)
-    print((" "*(indent+2))+"Count: %d (%.2f%%)"%(value["count"],value["count"]/entriesCount*100),file=file)
-    typesStringArray = []
-    for sampleItem, sampleCount in value["types"].most_common(mostCommon):
-      typesStringArray.append("%s (%.2f%%)"%(sampleItem.__name__,sampleCount/value["count"]*100))
-    if(len(value["types"])>mostCommon):
-      typesStringArray.append("...")
-    print((" "*(indent+2))+"Types: "+", ".join(typesStringArray),file=file)
-    if(value["samples"]):
-      print(" "*(indent+2)+"Samples:",file=file)
-      for sampleItem,sampleCount in value["samples"].most_common(mostCommon):
-        print((" "*(indent+4))+"%d (%.2f%%): %s"%(sampleCount,sampleCount/value["count"]*100,sampleItem),file=file)
-      if(len(value["samples"])>mostCommon):
-        print((" "*(indent+4))+"...",file=file)
-    if(value["listSamples"]):
-      print(" "*(indent+2)+"List Samples:",file=file)
-      for sampleItem,sampleCount in value["listSamples"].most_common(mostCommon):
-        print((" "*(indent+4))+"%d (%.2f%%): %s"%(sampleCount,sampleCount/value["count"]*100,sampleItem),file=file)
-      if(len(value["listSamples"])>mostCommon):
-        print((" "*(indent+4))+"...",file=file)
-    if(value["schemaEntry"]):
-      print(" "*(indent+2)+"Schema Entry:",file=file)
-      _printSchema(value["schemaEntry"],indent+4,mostCommon = 5,file=file)
-  
+
+
+def _percentageText(percentage):
+    percentageText = "%.2f%%" % percentage
+    if(percentage<0.01):
+        percentageText = " < 0.01%"
+    return percentageText
+
+def _printSchema(schemaEntry, indent=0, mostCommon=5, minPercentageFilter=0, file=sys.stdout):
+    for key, value in schemaEntry.items():
+        if(key == "$count"):
+            print(" "*indent + str(value)+" ENTRIES", file=file)
+            continue
+        entriesCount = schemaEntry["$count"]
+        if(value["$count"]/entriesCount*100 < minPercentageFilter):
+            continue
+        # if key instance of tuple
+        keyLabel = key
+        if(isinstance(key, tuple)):
+            keyLabel = ":".join(key)
+        print((" "*indent)+keyLabel, file=file)
+        print((" "*(indent+2))+"Count: %d (%s)" %
+              (value["$count"], _percentageText(value["$count"]/entriesCount*100)), file=file)
+        typesStringArray = []
+        for sampleItem, sampleCount in value["$types"].most_common(mostCommon):
+            typesStringArray.append("%s (%s)" % (
+                sampleItem,
+                _percentageText(sampleCount/value["$count"]*100)))
+        if(len(value["$types"]) > mostCommon):
+            typesStringArray.append("...")
+        print((" "*(indent+2))+"Types: "+", ".join(typesStringArray), file=file)
+        if(value["$samples"]):
+            print(" "*(indent+2)+"Samples:", file=file)
+            for sampleItem, sampleCount in value["$samples"].most_common(mostCommon):
+                print((" "*(indent+4))+"%d (%s): %s" % (sampleCount,
+                      _percentageText(sampleCount/value["$count"]*100), sampleItem), file=file)
+            if(len(value["$samples"]) > mostCommon):
+                print((" "*(indent+4))+"...", file=file)
+        if(value["$listSamples"]):
+            print(" "*(indent+2)+"List Samples:", file=file)
+            for sampleItem, sampleCount in value["$listSamples"].most_common(mostCommon):
+                print((" "*(indent+4))+"%d (%s): %s" % (sampleCount,
+                      _percentageText(sampleCount/value["$count"]*100), sampleItem), file=file)
+            if(len(value["$listSamples"]) > mostCommon):
+                print((" "*(indent+4))+"...", file=file)
+        if(value["$schemaEntry"]):
+            print(" "*(indent+2)+"Schema Entry:", file=file)
+            _printSchema(value["$schemaEntry"], indent +
+                         4, mostCommon=5, file=file)
+
+
 

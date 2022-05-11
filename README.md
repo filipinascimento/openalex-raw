@@ -82,11 +82,13 @@ for entity in tqdm(oa.rawEntities(entityType),total=entitiesCount):
     # do something with the entity
 ```
 
-On a fast storage, it may take a couple of hours to iterate over all the entities for `works` or ```authors` types. For `institutions` and `venues`, and `concepts` types, it may take just a few minutes.
+On fast storage, it may take a couple of hours to iterate over all the entities for `works` or ```authors` types. For `institutions` and `venues`, and `concepts` types, it may take just a few minutes.
 
 
 ## Generating Schema and Report
-Reports for each entity type can be found in the folder `Schema` of this repository. To generate/update all the reports, check the file `Examples/create_report.py` in the repository.
+Schemas and reports for each entity type can be found respectively in the folders `Schema` and `Reports` of this repository. Schema files are in machine-readable JSON format and contain all the fields and non-null counts, nested structures and lists are included. The reports show the number and percentage of the coverage of the fields in the dataset. Both Schema and Report files are named according to the OpenAlex entity type. Schema files also include the most common values (samples) for each field. Two schema files are provided: one with samples (e.g., `Schema/schema_works_samples.json`) and another without (e.g., `Schema/schema_works.json`).
+
+To generate/update all the reports and schema, check the file `Examples/create_report.py`. Building the report can take a long time. You can use the provided schema files when generating `dbgz` archives.
 
 ## Coming soon
  - Random access based on the OpenAlex ID via `dbgz`.

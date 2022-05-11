@@ -1,0 +1,171 @@
+{
+    "$count": 124066,
+    "id": {
+        "$count": 124066,
+        "$types": {
+            "string": 124066
+        }
+    },
+    "issn_l": {
+        "$count": 112215,
+        "$types": {
+            "string": 112215
+        }
+    },
+    "issn": {
+        "$count": 112305,
+        "$types": {
+            "list": 112305
+        }
+    },
+    "display_name": {
+        "$count": 124066,
+        "$types": {
+            "string": 124066
+        }
+    },
+    "publisher": {
+        "$count": 88322,
+        "$types": {
+            "string": 88322
+        }
+    },
+    "works_count": {
+        "$count": 114652,
+        "$types": {
+            "number": 114652
+        }
+    },
+    "cited_by_count": {
+        "$count": 98315,
+        "$types": {
+            "number": 98315
+        }
+    },
+    "is_oa": {
+        "$count": 38984,
+        "$types": {
+            "bool": 38984
+        }
+    },
+    "is_in_doaj": {
+        "$count": 14425,
+        "$types": {
+            "bool": 14425
+        }
+    },
+    "homepage_url": {
+        "$count": 6426,
+        "$types": {
+            "string": 6426
+        }
+    },
+    "ids:openalex": {
+        "$count": 124066,
+        "$types": {
+            "string": 124066
+        }
+    },
+    "ids:issn_l": {
+        "$count": 112215,
+        "$types": {
+            "string": 112215
+        }
+    },
+    "ids:issn": {
+        "$count": 112305,
+        "$types": {
+            "list": 112305
+        }
+    },
+    "ids:mag": {
+        "$count": 49066,
+        "$types": {
+            "number": 49066
+        }
+    },
+    "counts_by_year": {
+        "$count": 100908,
+        "$schemaEntry": {
+            "$count": 608424,
+            "year": {
+                "$count": 608424,
+                "$types": {
+                    "number": 608424
+                }
+            },
+            "works_count": {
+                "$count": 608424,
+                "$types": {
+                    "number": 608424
+                }
+            },
+            "cited_by_count": {
+                "$count": 401815,
+                "$types": {
+                    "number": 401815
+                }
+            }
+        },
+        "$types": {
+            "list": 100908
+        }
+    },
+    "x_concepts": {
+        "$count": 113793,
+        "$schemaEntry": {
+            "$count": 1406467,
+            "id": {
+                "$count": 1406467,
+                "$types": {
+                    "string": 1406467
+                }
+            },
+            "wikidata": {
+                "$count": 1406467,
+                "$types": {
+                    "string": 1406467
+                }
+            },
+            "display_name": {
+                "$count": 1393120,
+                "$types": {
+                    "string": 1393120
+                }
+            },
+            "level": {
+                "$count": 745397,
+                "$types": {
+                    "number": 745397
+                }
+            },
+            "score": {
+                "$count": 1406467,
+                "$types": {
+                    "number": 1406467
+                }
+            }
+        },
+        "$types": {
+            "list": 113793
+        }
+    },
+    "works_api_url": {
+        "$count": 124066,
+        "$types": {
+            "string": 124066
+        }
+    },
+    "updated_date": {
+        "$count": 124066,
+        "$types": {
+            "string": 124066
+        }
+    },
+    "created_date": {
+        "$count": 124066,
+        "$types": {
+            "string": 124066
+        }
+    }
+}

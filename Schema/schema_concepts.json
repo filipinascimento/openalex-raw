@@ -1,0 +1,5322 @@
+{
+    "$count": 65073,
+    "id": {
+        "$count": 65073,
+        "$types": {
+            "string": 65073
+        }
+    },
+    "wikidata": {
+        "$count": 65073,
+        "$types": {
+            "string": 65073
+        }
+    },
+    "display_name": {
+        "$count": 65073,
+        "$types": {
+            "string": 65073
+        }
+    },
+    "level": {
+        "$count": 65054,
+        "$types": {
+            "number": 65054
+        }
+    },
+    "description": {
+        "$count": 54202,
+        "$types": {
+            "string": 54202
+        }
+    },
+    "works_count": {
+        "$count": 65073,
+        "$types": {
+            "number": 65073
+        }
+    },
+    "cited_by_count": {
+        "$count": 64855,
+        "$types": {
+            "number": 64855
+        }
+    },
+    "ids:openalex": {
+        "$count": 65073,
+        "$types": {
+            "string": 65073
+        }
+    },
+    "ids:wikidata": {
+        "$count": 65073,
+        "$types": {
+            "string": 65073
+        }
+    },
+    "ids:mag": {
+        "$count": 65073,
+        "$types": {
+            "number": 65073
+        }
+    },
+    "image_url": {
+        "$count": 35755,
+        "$types": {
+            "string": 35755
+        }
+    },
+    "image_thumbnail_url": {
+        "$count": 35755,
+        "$types": {
+            "string": 35755
+        }
+    },
+    "international:display_name:en": {
+        "$count": 65063,
+        "$types": {
+            "string": 65063
+        }
+    },
+    "international:display_name:vi": {
+        "$count": 22815,
+        "$types": {
+            "string": 22815
+        }
+    },
+    "international:display_name:zh": {
+        "$count": 47478,
+        "$types": {
+            "string": 47478
+        }
+    },
+    "international:display_name:zh-cn": {
+        "$count": 15776,
+        "$types": {
+            "string": 15776
+        }
+    },
+    "international:display_name:zh-hans": {
+        "$count": 22190,
+        "$types": {
+            "string": 22190
+        }
+    },
+    "international:display_name:zh-hant": {
+        "$count": 23705,
+        "$types": {
+            "string": 23705
+        }
+    },
+    "ancestors": {
+        "$count": 64818,
+        "$schemaEntry": {
+            "$count": 407187,
+            "id": {
+                "$count": 407187,
+                "$types": {
+                    "string": 407187
+                }
+            },
+            "wikidata": {
+                "$count": 407187,
+                "$types": {
+                    "string": 407187
+                }
+            },
+            "display_name": {
+                "$count": 407187,
+                "$types": {
+                    "string": 407187
+                }
+            },
+            "level": {
+                "$count": 272771,
+                "$types": {
+                    "number": 272771
+                }
+            }
+        },
+        "$types": {
+            "list": 64818
+        }
+    },
+    "related_concepts": {
+        "$count": 54079,
+        "$schemaEntry": {
+            "$count": 1059247,
+            "id": {
+                "$count": 1059247,
+                "$types": {
+                    "string": 1059247
+                }
+            },
+            "wikidata": {
+                "$count": 0,
+                "$types": {}
+            },
+            "display_name": {
+                "$count": 1059247,
+                "$types": {
+                    "string": 1059247
+                }
+            },
+            "level": {
+                "$count": 1049461,
+                "$types": {
+                    "number": 1049461
+                }
+            },
+            "score": {
+                "$count": 1059247,
+                "$types": {
+                    "number": 1059247
+                }
+            }
+        },
+        "$types": {
+            "list": 54079
+        }
+    },
+    "counts_by_year": {
+        "$count": 65021,
+        "$schemaEntry": {
+            "$count": 709423,
+            "year": {
+                "$count": 709423,
+                "$types": {
+                    "number": 709423
+                }
+            },
+            "works_count": {
+                "$count": 689963,
+                "$types": {
+                    "number": 689963
+                }
+            },
+            "cited_by_count": {
+                "$count": 706642,
+                "$types": {
+                    "number": 706642
+                }
+            }
+        },
+        "$types": {
+            "list": 65021
+        }
+    },
+    "works_api_url": {
+        "$count": 65073,
+        "$types": {
+            "string": 65073
+        }
+    },
+    "updated_date": {
+        "$count": 65073,
+        "$types": {
+            "string": 65073
+        }
+    },
+    "created_date": {
+        "$count": 65073,
+        "$types": {
+            "string": 65073
+        }
+    },
+    "ids:umls_cui": {
+        "$count": 32074,
+        "$types": {
+            "list": 32074
+        }
+    },
+    "international:display_name:ar": {
+        "$count": 38788,
+        "$types": {
+            "string": 38788
+        }
+    },
+    "international:display_name:be": {
+        "$count": 10241,
+        "$types": {
+            "string": 10241
+        }
+    },
+    "international:display_name:be-tarask": {
+        "$count": 10021,
+        "$types": {
+            "string": 10021
+        }
+    },
+    "international:display_name:ca": {
+        "$count": 32292,
+        "$types": {
+            "string": 32292
+        }
+    },
+    "international:display_name:cs": {
+        "$count": 25651,
+        "$types": {
+            "string": 25651
+        }
+    },
+    "international:display_name:de": {
+        "$count": 45533,
+        "$types": {
+            "string": 45533
+        }
+    },
+    "international:display_name:eo": {
+        "$count": 24695,
+        "$types": {
+            "string": 24695
+        }
+    },
+    "international:display_name:es": {
+        "$count": 43861,
+        "$types": {
+            "string": 43861
+        }
+    },
+    "international:display_name:et": {
+        "$count": 16179,
+        "$types": {
+            "string": 16179
+        }
+    },
+    "international:display_name:eu": {
+        "$count": 18739,
+        "$types": {
+            "string": 18739
+        }
+    },
+    "international:display_name:fa": {
+        "$count": 33321,
+        "$types": {
+            "string": 33321
+        }
+    },
+    "international:display_name:fi": {
+        "$count": 25165,
+        "$types": {
+            "string": 25165
+        }
+    },
+    "international:display_name:fr": {
+        "$count": 47517,
+        "$types": {
+            "string": 47517
+        }
+    },
+    "international:display_name:hr": {
+        "$count": 13105,
+        "$types": {
+            "string": 13105
+        }
+    },
+    "international:display_name:hu": {
+        "$count": 17634,
+        "$types": {
+            "string": 17634
+        }
+    },
+    "international:display_name:id": {
+        "$count": 21445,
+        "$types": {
+            "string": 21445
+        }
+    },
+    "international:display_name:io": {
+        "$count": 5725,
+        "$types": {
+            "string": 5725
+        }
+    },
+    "international:display_name:it": {
+        "$count": 38083,
+        "$types": {
+            "string": 38083
+        }
+    },
+    "international:display_name:ja": {
+        "$count": 45208,
+        "$types": {
+            "string": 45208
+        }
+    },
+    "international:display_name:kk": {
+        "$count": 10349,
+        "$types": {
+            "string": 10349
+        }
+    },
+    "international:display_name:ky": {
+        "$count": 5862,
+        "$types": {
+            "string": 5862
+        }
+    },
+    "international:display_name:lt": {
+        "$count": 10969,
+        "$types": {
+            "string": 10969
+        }
+    },
+    "international:display_name:lv": {
+        "$count": 9711,
+        "$types": {
+            "string": 9711
+        }
+    },
+    "international:display_name:mk": {
+        "$count": 12750,
+        "$types": {
+            "string": 12750
+        }
+    },
+    "international:display_name:nb": {
+        "$count": 19686,
+        "$types": {
+            "string": 19686
+        }
+    },
+    "international:display_name:nl": {
+        "$count": 35978,
+        "$types": {
+            "string": 35978
+        }
+    },
+    "international:display_name:pl": {
+        "$count": 33801,
+        "$types": {
+            "string": 33801
+        }
+    },
+    "international:display_name:pt": {
+        "$count": 36149,
+        "$types": {
+            "string": 36149
+        }
+    },
+    "international:display_name:ro": {
+        "$count": 20475,
+        "$types": {
+            "string": 20475
+        }
+    },
+    "international:display_name:ru": {
+        "$count": 39229,
+        "$types": {
+            "string": 39229
+        }
+    },
+    "international:display_name:sh": {
+        "$count": 15432,
+        "$types": {
+            "string": 15432
+        }
+    },
+    "international:display_name:sk": {
+        "$count": 12526,
+        "$types": {
+            "string": 12526
+        }
+    },
+    "international:display_name:sl": {
+        "$count": 12826,
+        "$types": {
+            "string": 12826
+        }
+    },
+    "international:display_name:sr": {
+        "$count": 22140,
+        "$types": {
+            "string": 22140
+        }
+    },
+    "international:display_name:sv": {
+        "$count": 27400,
+        "$types": {
+            "string": 27400
+        }
+    },
+    "international:display_name:tt": {
+        "$count": 5439,
+        "$types": {
+            "string": 5439
+        }
+    },
+    "international:display_name:tyv": {
+        "$count": 366,
+        "$types": {
+            "string": 366
+        }
+    },
+    "international:display_name:uk": {
+        "$count": 33099,
+        "$types": {
+            "string": 33099
+        }
+    },
+    "international:display_name:uz": {
+        "$count": 6169,
+        "$types": {
+            "string": 6169
+        }
+    },
+    "international:description:de": {
+        "$count": 35514,
+        "$types": {
+            "string": 35514
+        }
+    },
+    "international:description:en": {
+        "$count": 54202,
+        "$types": {
+            "string": 54202
+        }
+    },
+    "international:description:eo": {
+        "$count": 9130,
+        "$types": {
+            "string": 9130
+        }
+    },
+    "international:description:fr": {
+        "$count": 26257,
+        "$types": {
+            "string": 26257
+        }
+    },
+    "international:description:it": {
+        "$count": 22926,
+        "$types": {
+            "string": 22926
+        }
+    },
+    "international:description:nl": {
+        "$count": 18465,
+        "$types": {
+            "string": 18465
+        }
+    },
+    "international:description:ru": {
+        "$count": 15493,
+        "$types": {
+            "string": 15493
+        }
+    },
+    "international:display_name:he": {
+        "$count": 24139,
+        "$types": {
+            "string": 24139
+        }
+    },
+    "international:display_name:yue": {
+        "$count": 10718,
+        "$types": {
+            "string": 10718
+        }
+    },
+    "international:description:cs": {
+        "$count": 14614,
+        "$types": {
+            "string": 14614
+        }
+    },
+    "ids:wikipedia": {
+        "$count": 64029,
+        "$types": {
+            "string": 64029
+        }
+    },
+    "international:display_name:bxr": {
+        "$count": 687,
+        "$types": {
+            "string": 687
+        }
+    },
+    "international:display_name:en-ca": {
+        "$count": 7928,
+        "$types": {
+            "string": 7928
+        }
+    },
+    "international:display_name:en-gb": {
+        "$count": 9155,
+        "$types": {
+            "string": 9155
+        }
+    },
+    "international:display_name:gl": {
+        "$count": 14895,
+        "$types": {
+            "string": 14895
+        }
+    },
+    "international:display_name:pt-br": {
+        "$count": 10187,
+        "$types": {
+            "string": 10187
+        }
+    },
+    "international:description:ast": {
+        "$count": 7793,
+        "$types": {
+            "string": 7793
+        }
+    },
+    "international:description:bg": {
+        "$count": 6306,
+        "$types": {
+            "string": 6306
+        }
+    },
+    "international:description:fi": {
+        "$count": 12805,
+        "$types": {
+            "string": 12805
+        }
+    },
+    "international:description:hy": {
+        "$count": 6070,
+        "$types": {
+            "string": 6070
+        }
+    },
+    "international:description:id": {
+        "$count": 10939,
+        "$types": {
+            "string": 10939
+        }
+    },
+    "international:display_name:ko": {
+        "$count": 25631,
+        "$types": {
+            "string": 25631
+        }
+    },
+    "international:description:ja": {
+        "$count": 8702,
+        "$types": {
+            "string": 8702
+        }
+    },
+    "international:display_name:af": {
+        "$count": 7282,
+        "$types": {
+            "string": 7282
+        }
+    },
+    "international:display_name:bs": {
+        "$count": 9088,
+        "$types": {
+            "string": 9088
+        }
+    },
+    "international:display_name:hi": {
+        "$count": 12851,
+        "$types": {
+            "string": 12851
+        }
+    },
+    "international:display_name:tr": {
+        "$count": 20684,
+        "$types": {
+            "string": 20684
+        }
+    },
+    "international:description:ca": {
+        "$count": 12485,
+        "$types": {
+            "string": 12485
+        }
+    },
+    "international:description:mk": {
+        "$count": 5464,
+        "$types": {
+            "string": 5464
+        }
+    },
+    "international:description:sv": {
+        "$count": 8420,
+        "$types": {
+            "string": 8420
+        }
+    },
+    "international:description:br": {
+        "$count": 442,
+        "$types": {
+            "string": 442
+        }
+    },
+    "international:description:he": {
+        "$count": 12597,
+        "$types": {
+            "string": 12597
+        }
+    },
+    "international:description:hi": {
+        "$count": 3396,
+        "$types": {
+            "string": 3396
+        }
+    },
+    "international:description:ml": {
+        "$count": 4953,
+        "$types": {
+            "string": 4953
+        }
+    },
+    "international:description:pa": {
+        "$count": 1052,
+        "$types": {
+            "string": 1052
+        }
+    },
+    "international:description:ar": {
+        "$count": 17406,
+        "$types": {
+            "string": 17406
+        }
+    },
+    "international:display_name:cy": {
+        "$count": 9030,
+        "$types": {
+            "string": 9030
+        }
+    },
+    "international:display_name:da": {
+        "$count": 17557,
+        "$types": {
+            "string": 17557
+        }
+    },
+    "international:display_name:el": {
+        "$count": 15805,
+        "$types": {
+            "string": 15805
+        }
+    },
+    "international:display_name:ka": {
+        "$count": 7160,
+        "$types": {
+            "string": 7160
+        }
+    },
+    "international:display_name:kk-arab": {
+        "$count": 3453,
+        "$types": {
+            "string": 3453
+        }
+    },
+    "international:display_name:kk-cyrl": {
+        "$count": 3565,
+        "$types": {
+            "string": 3565
+        }
+    },
+    "international:display_name:kk-latn": {
+        "$count": 3443,
+        "$types": {
+            "string": 3443
+        }
+    },
+    "international:display_name:lmo": {
+        "$count": 2224,
+        "$types": {
+            "string": 2224
+        }
+    },
+    "international:display_name:ms": {
+        "$count": 12095,
+        "$types": {
+            "string": 12095
+        }
+    },
+    "international:display_name:th": {
+        "$count": 12226,
+        "$types": {
+            "string": 12226
+        }
+    },
+    "international:display_name:zh-hk": {
+        "$count": 14550,
+        "$types": {
+            "string": 14550
+        }
+    },
+    "international:description:hu": {
+        "$count": 5695,
+        "$types": {
+            "string": 5695
+        }
+    },
+    "international:description:pt": {
+        "$count": 12087,
+        "$types": {
+            "string": 12087
+        }
+    },
+    "international:description:tr": {
+        "$count": 6450,
+        "$types": {
+            "string": 6450
+        }
+    },
+    "international:display_name:an": {
+        "$count": 4182,
+        "$types": {
+            "string": 4182
+        }
+    },
+    "international:display_name:ast": {
+        "$count": 10527,
+        "$types": {
+            "string": 10527
+        }
+    },
+    "international:display_name:az": {
+        "$count": 10339,
+        "$types": {
+            "string": 10339
+        }
+    },
+    "international:display_name:ba": {
+        "$count": 2697,
+        "$types": {
+            "string": 2697
+        }
+    },
+    "international:display_name:bg": {
+        "$count": 16312,
+        "$types": {
+            "string": 16312
+        }
+    },
+    "international:display_name:bho": {
+        "$count": 1375,
+        "$types": {
+            "string": 1375
+        }
+    },
+    "international:display_name:bn": {
+        "$count": 9471,
+        "$types": {
+            "string": 9471
+        }
+    },
+    "international:display_name:br": {
+        "$count": 3744,
+        "$types": {
+            "string": 3744
+        }
+    },
+    "international:display_name:ckb": {
+        "$count": 4681,
+        "$types": {
+            "string": 4681
+        }
+    },
+    "international:display_name:co": {
+        "$count": 1234,
+        "$types": {
+            "string": 1234
+        }
+    },
+    "international:display_name:de-ch": {
+        "$count": 4270,
+        "$types": {
+            "string": 4270
+        }
+    },
+    "international:display_name:dv": {
+        "$count": 1105,
+        "$types": {
+            "string": 1105
+        }
+    },
+    "international:display_name:frp": {
+        "$count": 885,
+        "$types": {
+            "string": 885
+        }
+    },
+    "international:display_name:fur": {
+        "$count": 1190,
+        "$types": {
+            "string": 1190
+        }
+    },
+    "international:display_name:fy": {
+        "$count": 2786,
+        "$types": {
+            "string": 2786
+        }
+    },
+    "international:display_name:ga": {
+        "$count": 11405,
+        "$types": {
+            "string": 11405
+        }
+    },
+    "international:display_name:gv": {
+        "$count": 914,
+        "$types": {
+            "string": 914
+        }
+    },
+    "international:display_name:hak": {
+        "$count": 1073,
+        "$types": {
+            "string": 1073
+        }
+    },
+    "international:display_name:hy": {
+        "$count": 13345,
+        "$types": {
+            "string": 13345
+        }
+    },
+    "international:display_name:ia": {
+        "$count": 4869,
+        "$types": {
+            "string": 4869
+        }
+    },
+    "international:display_name:is": {
+        "$count": 6984,
+        "$types": {
+            "string": 6984
+        }
+    },
+    "international:display_name:jam": {
+        "$count": 959,
+        "$types": {
+            "string": 959
+        }
+    },
+    "international:display_name:jbo": {
+        "$count": 576,
+        "$types": {
+            "string": 576
+        }
+    },
+    "international:display_name:jv": {
+        "$count": 3600,
+        "$types": {
+            "string": 3600
+        }
+    },
+    "international:display_name:kn": {
+        "$count": 4599,
+        "$types": {
+            "string": 4599
+        }
+    },
+    "international:display_name:kw": {
+        "$count": 997,
+        "$types": {
+            "string": 997
+        }
+    },
+    "international:display_name:la": {
+        "$count": 10179,
+        "$types": {
+            "string": 10179
+        }
+    },
+    "international:display_name:lb": {
+        "$count": 3916,
+        "$types": {
+            "string": 3916
+        }
+    },
+    "international:display_name:li": {
+        "$count": 2530,
+        "$types": {
+            "string": 2530
+        }
+    },
+    "international:display_name:mi": {
+        "$count": 637,
+        "$types": {
+            "string": 637
+        }
+    },
+    "international:display_name:min": {
+        "$count": 1306,
+        "$types": {
+            "string": 1306
+        }
+    },
+    "international:display_name:mn": {
+        "$count": 2770,
+        "$types": {
+            "string": 2770
+        }
+    },
+    "international:display_name:ms-arab": {
+        "$count": 1216,
+        "$types": {
+            "string": 1216
+        }
+    },
+    "international:display_name:mt": {
+        "$count": 1263,
+        "$types": {
+            "string": 1263
+        }
+    },
+    "international:display_name:mwl": {
+        "$count": 598,
+        "$types": {
+            "string": 598
+        }
+    },
+    "international:display_name:my": {
+        "$count": 2987,
+        "$types": {
+            "string": 2987
+        }
+    },
+    "international:display_name:nan": {
+        "$count": 4153,
+        "$types": {
+            "string": 4153
+        }
+    },
+    "international:display_name:nds": {
+        "$count": 2750,
+        "$types": {
+            "string": 2750
+        }
+    },
+    "international:display_name:nds-nl": {
+        "$count": 1315,
+        "$types": {
+            "string": 1315
+        }
+    },
+    "international:display_name:ne": {
+        "$count": 2992,
+        "$types": {
+            "string": 2992
+        }
+    },
+    "international:display_name:nn": {
+        "$count": 18948,
+        "$types": {
+            "string": 18948
+        }
+    },
+    "international:display_name:nov": {
+        "$count": 447,
+        "$types": {
+            "string": 447
+        }
+    },
+    "international:display_name:oc": {
+        "$count": 6888,
+        "$types": {
+            "string": 6888
+        }
+    },
+    "international:display_name:or": {
+        "$count": 3083,
+        "$types": {
+            "string": 3083
+        }
+    },
+    "international:display_name:os": {
+        "$count": 897,
+        "$types": {
+            "string": 897
+        }
+    },
+    "international:display_name:pa": {
+        "$count": 4293,
+        "$types": {
+            "string": 4293
+        }
+    },
+    "international:display_name:rm": {
+        "$count": 959,
+        "$types": {
+            "string": 959
+        }
+    },
+    "international:display_name:sa": {
+        "$count": 1195,
+        "$types": {
+            "string": 1195
+        }
+    },
+    "international:display_name:sah": {
+        "$count": 1415,
+        "$types": {
+            "string": 1415
+        }
+    },
+    "international:display_name:sc": {
+        "$count": 1510,
+        "$types": {
+            "string": 1510
+        }
+    },
+    "international:display_name:scn": {
+        "$count": 3387,
+        "$types": {
+            "string": 3387
+        }
+    },
+    "international:display_name:sco": {
+        "$count": 4292,
+        "$types": {
+            "string": 4292
+        }
+    },
+    "international:display_name:se": {
+        "$count": 1884,
+        "$types": {
+            "string": 1884
+        }
+    },
+    "international:display_name:sgs": {
+        "$count": 1262,
+        "$types": {
+            "string": 1262
+        }
+    },
+    "international:display_name:shi": {
+        "$count": 463,
+        "$types": {
+            "string": 463
+        }
+    },
+    "international:display_name:smn": {
+        "$count": 1424,
+        "$types": {
+            "string": 1424
+        }
+    },
+    "international:display_name:sms": {
+        "$count": 1151,
+        "$types": {
+            "string": 1151
+        }
+    },
+    "international:display_name:sq": {
+        "$count": 8383,
+        "$types": {
+            "string": 8383
+        }
+    },
+    "international:display_name:stq": {
+        "$count": 738,
+        "$types": {
+            "string": 738
+        }
+    },
+    "international:display_name:su": {
+        "$count": 2543,
+        "$types": {
+            "string": 2543
+        }
+    },
+    "international:display_name:sw": {
+        "$count": 3963,
+        "$types": {
+            "string": 3963
+        }
+    },
+    "international:display_name:ta": {
+        "$count": 11169,
+        "$types": {
+            "string": 11169
+        }
+    },
+    "international:display_name:te": {
+        "$count": 4737,
+        "$types": {
+            "string": 4737
+        }
+    },
+    "international:display_name:tg": {
+        "$count": 3399,
+        "$types": {
+            "string": 3399
+        }
+    },
+    "international:display_name:tl": {
+        "$count": 5744,
+        "$types": {
+            "string": 5744
+        }
+    },
+    "international:display_name:ts": {
+        "$count": 233,
+        "$types": {
+            "string": 233
+        }
+    },
+    "international:display_name:tt-cyrl": {
+        "$count": 1691,
+        "$types": {
+            "string": 1691
+        }
+    },
+    "international:display_name:tt-latn": {
+        "$count": 180,
+        "$types": {
+            "string": 180
+        }
+    },
+    "international:display_name:ur": {
+        "$count": 7015,
+        "$types": {
+            "string": 7015
+        }
+    },
+    "international:display_name:vec": {
+        "$count": 3361,
+        "$types": {
+            "string": 3361
+        }
+    },
+    "international:display_name:war": {
+        "$count": 6292,
+        "$types": {
+            "string": 6292
+        }
+    },
+    "international:display_name:wo": {
+        "$count": 927,
+        "$types": {
+            "string": 927
+        }
+    },
+    "international:display_name:wuu": {
+        "$count": 6780,
+        "$types": {
+            "string": 6780
+        }
+    },
+    "international:display_name:xmf": {
+        "$count": 1369,
+        "$types": {
+            "string": 1369
+        }
+    },
+    "international:display_name:yi": {
+        "$count": 2582,
+        "$types": {
+            "string": 2582
+        }
+    },
+    "international:display_name:yo": {
+        "$count": 1190,
+        "$types": {
+            "string": 1190
+        }
+    },
+    "international:display_name:zh-tw": {
+        "$count": 10911,
+        "$types": {
+            "string": 10911
+        }
+    },
+    "international:description:az": {
+        "$count": 669,
+        "$types": {
+            "string": 669
+        }
+    },
+    "international:description:be-tarask": {
+        "$count": 5444,
+        "$types": {
+            "string": 5444
+        }
+    },
+    "international:description:bn": {
+        "$count": 9735,
+        "$types": {
+            "string": 9735
+        }
+    },
+    "international:description:es": {
+        "$count": 23417,
+        "$types": {
+            "string": 23417
+        }
+    },
+    "international:description:eu": {
+        "$count": 9818,
+        "$types": {
+            "string": 9818
+        }
+    },
+    "international:description:fa": {
+        "$count": 5957,
+        "$types": {
+            "string": 5957
+        }
+    },
+    "international:description:gl": {
+        "$count": 8573,
+        "$types": {
+            "string": 8573
+        }
+    },
+    "international:description:mt": {
+        "$count": 457,
+        "$types": {
+            "string": 457
+        }
+    },
+    "international:description:my": {
+        "$count": 779,
+        "$types": {
+            "string": 779
+        }
+    },
+    "international:description:pl": {
+        "$count": 11927,
+        "$types": {
+            "string": 11927
+        }
+    },
+    "international:description:scn": {
+        "$count": 2658,
+        "$types": {
+            "string": 2658
+        }
+    },
+    "international:description:tg": {
+        "$count": 997,
+        "$types": {
+            "string": 997
+        }
+    },
+    "international:description:tt": {
+        "$count": 918,
+        "$types": {
+            "string": 918
+        }
+    },
+    "international:description:tt-cyrl": {
+        "$count": 856,
+        "$types": {
+            "string": 856
+        }
+    },
+    "international:description:tt-latn": {
+        "$count": 824,
+        "$types": {
+            "string": 824
+        }
+    },
+    "international:description:zh": {
+        "$count": 11143,
+        "$types": {
+            "string": 11143
+        }
+    },
+    "international:display_name:zh-sg": {
+        "$count": 7990,
+        "$types": {
+            "string": 7990
+        }
+    },
+    "international:description:vi": {
+        "$count": 3697,
+        "$types": {
+            "string": 3697
+        }
+    },
+    "international:display_name:mr": {
+        "$count": 3452,
+        "$types": {
+            "string": 3452
+        }
+    },
+    "international:description:ko": {
+        "$count": 4161,
+        "$types": {
+            "string": 4161
+        }
+    },
+    "international:display_name:gu": {
+        "$count": 1636,
+        "$types": {
+            "string": 1636
+        }
+    },
+    "international:description:en-ca": {
+        "$count": 5311,
+        "$types": {
+            "string": 5311
+        }
+    },
+    "international:description:en-gb": {
+        "$count": 6240,
+        "$types": {
+            "string": 6240
+        }
+    },
+    "international:description:uk": {
+        "$count": 12338,
+        "$types": {
+            "string": 12338
+        }
+    },
+    "international:description:nn": {
+        "$count": 8174,
+        "$types": {
+            "string": 8174
+        }
+    },
+    "international:description:zh-hans": {
+        "$count": 4035,
+        "$types": {
+            "string": 4035
+        }
+    },
+    "international:display_name:bar": {
+        "$count": 1852,
+        "$types": {
+            "string": 1852
+        }
+    },
+    "international:display_name:ceb": {
+        "$count": 4063,
+        "$types": {
+            "string": 4063
+        }
+    },
+    "international:display_name:de-at": {
+        "$count": 770,
+        "$types": {
+            "string": 770
+        }
+    },
+    "international:display_name:gd": {
+        "$count": 2132,
+        "$types": {
+            "string": 2132
+        }
+    },
+    "international:display_name:gsw": {
+        "$count": 2800,
+        "$types": {
+            "string": 2800
+        }
+    },
+    "international:display_name:ie": {
+        "$count": 2139,
+        "$types": {
+            "string": 2139
+        }
+    },
+    "international:display_name:kg": {
+        "$count": 734,
+        "$types": {
+            "string": 734
+        }
+    },
+    "international:display_name:lij": {
+        "$count": 1274,
+        "$types": {
+            "string": 1274
+        }
+    },
+    "international:display_name:mg": {
+        "$count": 1775,
+        "$types": {
+            "string": 1775
+        }
+    },
+    "international:display_name:nap": {
+        "$count": 998,
+        "$types": {
+            "string": 998
+        }
+    },
+    "international:display_name:nrm": {
+        "$count": 1030,
+        "$types": {
+            "string": 1030
+        }
+    },
+    "international:display_name:pcd": {
+        "$count": 959,
+        "$types": {
+            "string": 959
+        }
+    },
+    "international:display_name:pms": {
+        "$count": 1843,
+        "$types": {
+            "string": 1843
+        }
+    },
+    "international:display_name:sr-el": {
+        "$count": 8162,
+        "$types": {
+            "string": 8162
+        }
+    },
+    "international:display_name:vls": {
+        "$count": 1269,
+        "$types": {
+            "string": 1269
+        }
+    },
+    "international:display_name:vo": {
+        "$count": 2264,
+        "$types": {
+            "string": 2264
+        }
+    },
+    "international:display_name:wa": {
+        "$count": 2193,
+        "$types": {
+            "string": 2193
+        }
+    },
+    "international:display_name:zu": {
+        "$count": 1013,
+        "$types": {
+            "string": 1013
+        }
+    },
+    "international:description:af": {
+        "$count": 4555,
+        "$types": {
+            "string": 4555
+        }
+    },
+    "international:description:an": {
+        "$count": 4703,
+        "$types": {
+            "string": 4703
+        }
+    },
+    "international:description:as": {
+        "$count": 1044,
+        "$types": {
+            "string": 1044
+        }
+    },
+    "international:description:be": {
+        "$count": 2891,
+        "$types": {
+            "string": 2891
+        }
+    },
+    "international:description:bs": {
+        "$count": 1514,
+        "$types": {
+            "string": 1514
+        }
+    },
+    "international:description:ckb": {
+        "$count": 1168,
+        "$types": {
+            "string": 1168
+        }
+    },
+    "international:description:cy": {
+        "$count": 2923,
+        "$types": {
+            "string": 2923
+        }
+    },
+    "international:description:da": {
+        "$count": 7936,
+        "$types": {
+            "string": 7936
+        }
+    },
+    "international:description:de-at": {
+        "$count": 1055,
+        "$types": {
+            "string": 1055
+        }
+    },
+    "international:description:de-ch": {
+        "$count": 4651,
+        "$types": {
+            "string": 4651
+        }
+    },
+    "international:description:el": {
+        "$count": 6270,
+        "$types": {
+            "string": 6270
+        }
+    },
+    "international:description:et": {
+        "$count": 3138,
+        "$types": {
+            "string": 3138
+        }
+    },
+    "international:description:frr": {
+        "$count": 233,
+        "$types": {
+            "string": 233
+        }
+    },
+    "international:description:fy": {
+        "$count": 2530,
+        "$types": {
+            "string": 2530
+        }
+    },
+    "international:description:gsw": {
+        "$count": 1135,
+        "$types": {
+            "string": 1135
+        }
+    },
+    "international:description:gu": {
+        "$count": 1183,
+        "$types": {
+            "string": 1183
+        }
+    },
+    "international:description:hak": {
+        "$count": 210,
+        "$types": {
+            "string": 210
+        }
+    },
+    "international:description:hr": {
+        "$count": 1707,
+        "$types": {
+            "string": 1707
+        }
+    },
+    "international:description:is": {
+        "$count": 915,
+        "$types": {
+            "string": 915
+        }
+    },
+    "international:description:ka": {
+        "$count": 1245,
+        "$types": {
+            "string": 1245
+        }
+    },
+    "international:description:km": {
+        "$count": 270,
+        "$types": {
+            "string": 270
+        }
+    },
+    "international:description:kn": {
+        "$count": 1507,
+        "$types": {
+            "string": 1507
+        }
+    },
+    "international:description:ksh": {
+        "$count": 218,
+        "$types": {
+            "string": 218
+        }
+    },
+    "international:description:la": {
+        "$count": 4423,
+        "$types": {
+            "string": 4423
+        }
+    },
+    "international:description:lb": {
+        "$count": 4763,
+        "$types": {
+            "string": 4763
+        }
+    },
+    "international:description:li": {
+        "$count": 819,
+        "$types": {
+            "string": 819
+        }
+    },
+    "international:description:lv": {
+        "$count": 5990,
+        "$types": {
+            "string": 5990
+        }
+    },
+    "international:description:lzh": {
+        "$count": 326,
+        "$types": {
+            "string": 326
+        }
+    },
+    "international:description:min": {
+        "$count": 896,
+        "$types": {
+            "string": 896
+        }
+    },
+    "international:description:mr": {
+        "$count": 1196,
+        "$types": {
+            "string": 1196
+        }
+    },
+    "international:description:ms": {
+        "$count": 2093,
+        "$types": {
+            "string": 2093
+        }
+    },
+    "international:description:mzn": {
+        "$count": 213,
+        "$types": {
+            "string": 213
+        }
+    },
+    "international:description:nan": {
+        "$count": 230,
+        "$types": {
+            "string": 230
+        }
+    },
+    "international:description:nb": {
+        "$count": 9718,
+        "$types": {
+            "string": 9718
+        }
+    },
+    "international:description:nds": {
+        "$count": 886,
+        "$types": {
+            "string": 886
+        }
+    },
+    "international:description:nds-nl": {
+        "$count": 284,
+        "$types": {
+            "string": 284
+        }
+    },
+    "international:description:oc": {
+        "$count": 4181,
+        "$types": {
+            "string": 4181
+        }
+    },
+    "international:description:or": {
+        "$count": 1919,
+        "$types": {
+            "string": 1919
+        }
+    },
+    "international:description:ps": {
+        "$count": 286,
+        "$types": {
+            "string": 286
+        }
+    },
+    "international:description:pt-br": {
+        "$count": 7540,
+        "$types": {
+            "string": 7540
+        }
+    },
+    "international:description:ro": {
+        "$count": 8488,
+        "$types": {
+            "string": 8488
+        }
+    },
+    "international:description:sco": {
+        "$count": 1321,
+        "$types": {
+            "string": 1321
+        }
+    },
+    "international:description:sh": {
+        "$count": 360,
+        "$types": {
+            "string": 360
+        }
+    },
+    "international:description:sk": {
+        "$count": 6226,
+        "$types": {
+            "string": 6226
+        }
+    },
+    "international:description:sl": {
+        "$count": 2057,
+        "$types": {
+            "string": 2057
+        }
+    },
+    "international:description:sq": {
+        "$count": 8122,
+        "$types": {
+            "string": 8122
+        }
+    },
+    "international:description:sr": {
+        "$count": 2211,
+        "$types": {
+            "string": 2211
+        }
+    },
+    "international:description:sr-ec": {
+        "$count": 373,
+        "$types": {
+            "string": 373
+        }
+    },
+    "international:description:sr-el": {
+        "$count": 340,
+        "$types": {
+            "string": 340
+        }
+    },
+    "international:description:sw": {
+        "$count": 552,
+        "$types": {
+            "string": 552
+        }
+    },
+    "international:description:ta": {
+        "$count": 1960,
+        "$types": {
+            "string": 1960
+        }
+    },
+    "international:description:te": {
+        "$count": 1235,
+        "$types": {
+            "string": 1235
+        }
+    },
+    "international:description:tg-cyrl": {
+        "$count": 900,
+        "$types": {
+            "string": 900
+        }
+    },
+    "international:description:tg-latn": {
+        "$count": 912,
+        "$types": {
+            "string": 912
+        }
+    },
+    "international:description:th": {
+        "$count": 993,
+        "$types": {
+            "string": 993
+        }
+    },
+    "international:description:yi": {
+        "$count": 796,
+        "$types": {
+            "string": 796
+        }
+    },
+    "international:description:yo": {
+        "$count": 849,
+        "$types": {
+            "string": 849
+        }
+    },
+    "international:description:yue": {
+        "$count": 2659,
+        "$types": {
+            "string": 2659
+        }
+    },
+    "international:description:zea": {
+        "$count": 816,
+        "$types": {
+            "string": 816
+        }
+    },
+    "international:description:zh-cn": {
+        "$count": 3120,
+        "$types": {
+            "string": 3120
+        }
+    },
+    "international:description:zh-hant": {
+        "$count": 3929,
+        "$types": {
+            "string": 3929
+        }
+    },
+    "international:description:zh-hk": {
+        "$count": 2903,
+        "$types": {
+            "string": 2903
+        }
+    },
+    "international:description:zh-mo": {
+        "$count": 2713,
+        "$types": {
+            "string": 2713
+        }
+    },
+    "international:description:zh-my": {
+        "$count": 1169,
+        "$types": {
+            "string": 1169
+        }
+    },
+    "international:description:zh-sg": {
+        "$count": 2725,
+        "$types": {
+            "string": 2725
+        }
+    },
+    "international:description:zh-tw": {
+        "$count": 3497,
+        "$types": {
+            "string": 3497
+        }
+    },
+    "international:display_name:ml": {
+        "$count": 8609,
+        "$types": {
+            "string": 8609
+        }
+    },
+    "international:display_name:si": {
+        "$count": 3186,
+        "$types": {
+            "string": 3186
+        }
+    },
+    "international:display_name:sr-ec": {
+        "$count": 8070,
+        "$types": {
+            "string": 8070
+        }
+    },
+    "international:description:ace": {
+        "$count": 769,
+        "$types": {
+            "string": 769
+        }
+    },
+    "international:display_name:as": {
+        "$count": 1507,
+        "$types": {
+            "string": 1507
+        }
+    },
+    "international:display_name:mhr": {
+        "$count": 703,
+        "$types": {
+            "string": 703
+        }
+    },
+    "international:display_name:frr": {
+        "$count": 1738,
+        "$types": {
+            "string": 1738
+        }
+    },
+    "international:display_name:lzh": {
+        "$count": 1509,
+        "$types": {
+            "string": 1509
+        }
+    },
+    "international:display_name:bo": {
+        "$count": 861,
+        "$types": {
+            "string": 861
+        }
+    },
+    "international:display_name:cv": {
+        "$count": 2778,
+        "$types": {
+            "string": 2778
+        }
+    },
+    "international:display_name:azb": {
+        "$count": 4580,
+        "$types": {
+            "string": 4580
+        }
+    },
+    "international:display_name:kk-cn": {
+        "$count": 2339,
+        "$types": {
+            "string": 2339
+        }
+    },
+    "international:display_name:kk-kz": {
+        "$count": 2334,
+        "$types": {
+            "string": 2334
+        }
+    },
+    "international:display_name:kk-tr": {
+        "$count": 2328,
+        "$types": {
+            "string": 2328
+        }
+    },
+    "international:display_name:lfn": {
+        "$count": 1797,
+        "$types": {
+            "string": 1797
+        }
+    },
+    "international:display_name:udm": {
+        "$count": 376,
+        "$types": {
+            "string": 376
+        }
+    },
+    "international:display_name:diq": {
+        "$count": 1421,
+        "$types": {
+            "string": 1421
+        }
+    },
+    "international:display_name:ban": {
+        "$count": 424,
+        "$types": {
+            "string": 424
+        }
+    },
+    "international:display_name:ht": {
+        "$count": 2337,
+        "$types": {
+            "string": 2337
+        }
+    },
+    "international:description:sa": {
+        "$count": 258,
+        "$types": {
+            "string": 258
+        }
+    },
+    "international:description:ba": {
+        "$count": 606,
+        "$types": {
+            "string": 606
+        }
+    },
+    "international:description:tl": {
+        "$count": 513,
+        "$types": {
+            "string": 513
+        }
+    },
+    "international:display_name:inh": {
+        "$count": 501,
+        "$types": {
+            "string": 501
+        }
+    },
+    "international:display_name:gan": {
+        "$count": 697,
+        "$types": {
+            "string": 697
+        }
+    },
+    "international:display_name:gan-hans": {
+        "$count": 131,
+        "$types": {
+            "string": 131
+        }
+    },
+    "international:display_name:gan-hant": {
+        "$count": 114,
+        "$types": {
+            "string": 114
+        }
+    },
+    "international:display_name:gcr": {
+        "$count": 900,
+        "$types": {
+            "string": 900
+        }
+    },
+    "international:display_name:ku": {
+        "$count": 3014,
+        "$types": {
+            "string": 3014
+        }
+    },
+    "international:display_name:ku-arab": {
+        "$count": 471,
+        "$types": {
+            "string": 471
+        }
+    },
+    "international:display_name:ku-latn": {
+        "$count": 878,
+        "$types": {
+            "string": 878
+        }
+    },
+    "international:display_name:tk": {
+        "$count": 677,
+        "$types": {
+            "string": 677
+        }
+    },
+    "international:display_name:am": {
+        "$count": 1257,
+        "$types": {
+            "string": 1257
+        }
+    },
+    "international:display_name:kab": {
+        "$count": 1450,
+        "$types": {
+            "string": 1450
+        }
+    },
+    "international:display_name:lld": {
+        "$count": 324,
+        "$types": {
+            "string": 324
+        }
+    },
+    "international:display_name:new": {
+        "$count": 1488,
+        "$types": {
+            "string": 1488
+        }
+    },
+    "international:display_name:ps": {
+        "$count": 2029,
+        "$types": {
+            "string": 2029
+        }
+    },
+    "international:display_name:sd": {
+        "$count": 1558,
+        "$types": {
+            "string": 1558
+        }
+    },
+    "international:description:ga": {
+        "$count": 1474,
+        "$types": {
+            "string": 1474
+        }
+    },
+    "international:display_name:nqo": {
+        "$count": 326,
+        "$types": {
+            "string": 326
+        }
+    },
+    "international:display_name:rue": {
+        "$count": 1223,
+        "$types": {
+            "string": 1223
+        }
+    },
+    "international:display_name:chr": {
+        "$count": 442,
+        "$types": {
+            "string": 442
+        }
+    },
+    "international:display_name:ko-kp": {
+        "$count": 64,
+        "$types": {
+            "string": 64
+        }
+    },
+    "international:display_name:sat": {
+        "$count": 856,
+        "$types": {
+            "string": 856
+        }
+    },
+    "international:display_name:srn": {
+        "$count": 984,
+        "$types": {
+            "string": 984
+        }
+    },
+    "international:description:srn": {
+        "$count": 848,
+        "$types": {
+            "string": 848
+        }
+    },
+    "international:description:ur": {
+        "$count": 500,
+        "$types": {
+            "string": 500
+        }
+    },
+    "international:display_name:pnb": {
+        "$count": 3008,
+        "$types": {
+            "string": 3008
+        }
+    },
+    "international:description:lt": {
+        "$count": 293,
+        "$types": {
+            "string": 293
+        }
+    },
+    "international:display_name:qu": {
+        "$count": 2206,
+        "$types": {
+            "string": 2206
+        }
+    },
+    "international:display_name:cdo": {
+        "$count": 1077,
+        "$types": {
+            "string": 1077
+        }
+    },
+    "international:display_name:fo": {
+        "$count": 1173,
+        "$types": {
+            "string": 1173
+        }
+    },
+    "international:display_name:hif": {
+        "$count": 766,
+        "$types": {
+            "string": 766
+        }
+    },
+    "international:display_name:myv": {
+        "$count": 691,
+        "$types": {
+            "string": 691
+        }
+    },
+    "international:display_name:pdc": {
+        "$count": 192,
+        "$types": {
+            "string": 192
+        }
+    },
+    "international:display_name:so": {
+        "$count": 1534,
+        "$types": {
+            "string": 1534
+        }
+    },
+    "international:description:ia": {
+        "$count": 1881,
+        "$types": {
+            "string": 1881
+        }
+    },
+    "international:description:ky": {
+        "$count": 48,
+        "$types": {
+            "string": 48
+        }
+    },
+    "international:display_name:iu": {
+        "$count": 311,
+        "$types": {
+            "string": 311
+        }
+    },
+    "international:display_name:tg-latn": {
+        "$count": 209,
+        "$types": {
+            "string": 209
+        }
+    },
+    "international:description:ku": {
+        "$count": 658,
+        "$types": {
+            "string": 658
+        }
+    },
+    "international:display_name:skr": {
+        "$count": 85,
+        "$types": {
+            "string": 85
+        }
+    },
+    "international:display_name:ang": {
+        "$count": 651,
+        "$types": {
+            "string": 651
+        }
+    },
+    "international:display_name:dsb": {
+        "$count": 374,
+        "$types": {
+            "string": 374
+        }
+    },
+    "international:display_name:ha": {
+        "$count": 756,
+        "$types": {
+            "string": 756
+        }
+    },
+    "international:display_name:hsb": {
+        "$count": 1678,
+        "$types": {
+            "string": 1678
+        }
+    },
+    "international:display_name:ilo": {
+        "$count": 1076,
+        "$types": {
+            "string": 1076
+        }
+    },
+    "international:display_name:nv": {
+        "$count": 637,
+        "$types": {
+            "string": 637
+        }
+    },
+    "international:display_name:vro": {
+        "$count": 848,
+        "$types": {
+            "string": 848
+        }
+    },
+    "international:description:bho": {
+        "$count": 121,
+        "$types": {
+            "string": 121
+        }
+    },
+    "international:description:ilo": {
+        "$count": 874,
+        "$types": {
+            "string": 874
+        }
+    },
+    "international:description:se": {
+        "$count": 52,
+        "$types": {
+            "string": 52
+        }
+    },
+    "international:display_name:hyw": {
+        "$count": 781,
+        "$types": {
+            "string": 781
+        }
+    },
+    "international:display_name:bcl": {
+        "$count": 822,
+        "$types": {
+            "string": 822
+        }
+    },
+    "international:display_name:lad": {
+        "$count": 363,
+        "$types": {
+            "string": 363
+        }
+    },
+    "international:display_name:mai": {
+        "$count": 426,
+        "$types": {
+            "string": 426
+        }
+    },
+    "international:display_name:nso": {
+        "$count": 176,
+        "$types": {
+            "string": 176
+        }
+    },
+    "international:description:ne": {
+        "$count": 461,
+        "$types": {
+            "string": 461
+        }
+    },
+    "international:display_name:ary": {
+        "$count": 811,
+        "$types": {
+            "string": 811
+        }
+    },
+    "international:display_name:km": {
+        "$count": 798,
+        "$types": {
+            "string": 798
+        }
+    },
+    "international:display_name:gn": {
+        "$count": 1018,
+        "$types": {
+            "string": 1018
+        }
+    },
+    "international:display_name:pam": {
+        "$count": 692,
+        "$types": {
+            "string": 692
+        }
+    },
+    "international:display_name:ce": {
+        "$count": 974,
+        "$types": {
+            "string": 974
+        }
+    },
+    "international:display_name:crh": {
+        "$count": 795,
+        "$types": {
+            "string": 795
+        }
+    },
+    "international:display_name:kaa": {
+        "$count": 354,
+        "$types": {
+            "string": 354
+        }
+    },
+    "international:description:su": {
+        "$count": 129,
+        "$types": {
+            "string": 129
+        }
+    },
+    "international:display_name:lez": {
+        "$count": 358,
+        "$types": {
+            "string": 358
+        }
+    },
+    "international:display_name:lrc": {
+        "$count": 127,
+        "$types": {
+            "string": 127
+        }
+    },
+    "international:display_name:arz": {
+        "$count": 4305,
+        "$types": {
+            "string": 4305
+        }
+    },
+    "international:display_name:ext": {
+        "$count": 1885,
+        "$types": {
+            "string": 1885
+        }
+    },
+    "international:display_name:mrj": {
+        "$count": 469,
+        "$types": {
+            "string": 469
+        }
+    },
+    "international:display_name:nys": {
+        "$count": 140,
+        "$types": {
+            "string": 140
+        }
+    },
+    "international:display_name:shn": {
+        "$count": 102,
+        "$types": {
+            "string": 102
+        }
+    },
+    "international:description:arz": {
+        "$count": 2350,
+        "$types": {
+            "string": 2350
+        }
+    },
+    "international:display_name:ab": {
+        "$count": 210,
+        "$types": {
+            "string": 210
+        }
+    },
+    "international:display_name:ak": {
+        "$count": 429,
+        "$types": {
+            "string": 429
+        }
+    },
+    "international:display_name:als": {
+        "$count": 35,
+        "$types": {
+            "string": 35
+        }
+    },
+    "international:display_name:arc": {
+        "$count": 523,
+        "$types": {
+            "string": 523
+        }
+    },
+    "international:display_name:csb": {
+        "$count": 552,
+        "$types": {
+            "string": 552
+        }
+    },
+    "international:display_name:dag": {
+        "$count": 368,
+        "$types": {
+            "string": 368
+        }
+    },
+    "international:display_name:fj": {
+        "$count": 458,
+        "$types": {
+            "string": 458
+        }
+    },
+    "international:display_name:krc": {
+        "$count": 290,
+        "$types": {
+            "string": 290
+        }
+    },
+    "international:display_name:lo": {
+        "$count": 711,
+        "$types": {
+            "string": 711
+        }
+    },
+    "international:display_name:lzz": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:nah": {
+        "$count": 592,
+        "$types": {
+            "string": 592
+        }
+    },
+    "international:display_name:ny": {
+        "$count": 123,
+        "$types": {
+            "string": 123
+        }
+    },
+    "international:display_name:pap": {
+        "$count": 460,
+        "$types": {
+            "string": 460
+        }
+    },
+    "international:display_name:pfl": {
+        "$count": 147,
+        "$types": {
+            "string": 147
+        }
+    },
+    "international:display_name:rmy": {
+        "$count": 126,
+        "$types": {
+            "string": 126
+        }
+    },
+    "international:display_name:sn": {
+        "$count": 933,
+        "$types": {
+            "string": 933
+        }
+    },
+    "international:display_name:szl": {
+        "$count": 554,
+        "$types": {
+            "string": 554
+        }
+    },
+    "international:display_name:vep": {
+        "$count": 657,
+        "$types": {
+            "string": 657
+        }
+    },
+    "international:display_name:xh": {
+        "$count": 420,
+        "$types": {
+            "string": 420
+        }
+    },
+    "international:display_name:zh-mo": {
+        "$count": 1030,
+        "$types": {
+            "string": 1030
+        }
+    },
+    "international:display_name:zh-my": {
+        "$count": 971,
+        "$types": {
+            "string": 971
+        }
+    },
+    "international:description:bar": {
+        "$count": 174,
+        "$types": {
+            "string": 174
+        }
+    },
+    "international:description:ny": {
+        "$count": 9,
+        "$types": {
+            "string": 9
+        }
+    },
+    "international:description:sat": {
+        "$count": 44,
+        "$types": {
+            "string": 44
+        }
+    },
+    "international:description:szl": {
+        "$count": 61,
+        "$types": {
+            "string": 61
+        }
+    },
+    "international:description:vec": {
+        "$count": 124,
+        "$types": {
+            "string": 124
+        }
+    },
+    "international:description:vep": {
+        "$count": 11,
+        "$types": {
+            "string": 11
+        }
+    },
+    "international:display_name:tet": {
+        "$count": 115,
+        "$types": {
+            "string": 115
+        }
+    },
+    "international:display_name:ug": {
+        "$count": 834,
+        "$types": {
+            "string": 834
+        }
+    },
+    "international:display_name:bjn": {
+        "$count": 491,
+        "$types": {
+            "string": 491
+        }
+    },
+    "international:display_name:ksh": {
+        "$count": 270,
+        "$types": {
+            "string": 270
+        }
+    },
+    "international:description:hsb": {
+        "$count": 625,
+        "$types": {
+            "string": 625
+        }
+    },
+    "international:description:nqo": {
+        "$count": 202,
+        "$types": {
+            "string": 202
+        }
+    },
+    "international:display_name:xal": {
+        "$count": 315,
+        "$types": {
+            "string": 315
+        }
+    },
+    "international:display_name:mcn": {
+        "$count": 299,
+        "$types": {
+            "string": 299
+        }
+    },
+    "international:display_name:za": {
+        "$count": 528,
+        "$types": {
+            "string": 528
+        }
+    },
+    "international:display_name:kbp": {
+        "$count": 674,
+        "$types": {
+            "string": 674
+        }
+    },
+    "international:display_name:eml": {
+        "$count": 630,
+        "$types": {
+            "string": 630
+        }
+    },
+    "international:description:si": {
+        "$count": 396,
+        "$types": {
+            "string": 396
+        }
+    },
+    "international:display_name:cu": {
+        "$count": 173,
+        "$types": {
+            "string": 173
+        }
+    },
+    "international:display_name:din": {
+        "$count": 201,
+        "$types": {
+            "string": 201
+        }
+    },
+    "international:description:so": {
+        "$count": 90,
+        "$types": {
+            "string": 90
+        }
+    },
+    "international:description:kk": {
+        "$count": 207,
+        "$types": {
+            "string": 207
+        }
+    },
+    "international:display_name:es-419": {
+        "$count": 48,
+        "$types": {
+            "string": 48
+        }
+    },
+    "international:display_name:gag": {
+        "$count": 107,
+        "$types": {
+            "string": 107
+        }
+    },
+    "international:display_name:kv": {
+        "$count": 455,
+        "$types": {
+            "string": 455
+        }
+    },
+    "international:display_name:mdf": {
+        "$count": 262,
+        "$types": {
+            "string": 262
+        }
+    },
+    "international:display_name:mnw": {
+        "$count": 185,
+        "$types": {
+            "string": 185
+        }
+    },
+    "international:display_name:om": {
+        "$count": 288,
+        "$types": {
+            "string": 288
+        }
+    },
+    "international:display_name:pih": {
+        "$count": 190,
+        "$types": {
+            "string": 190
+        }
+    },
+    "international:description:ban": {
+        "$count": 16,
+        "$types": {
+            "string": 16
+        }
+    },
+    "international:display_name:dty": {
+        "$count": 234,
+        "$types": {
+            "string": 234
+        }
+    },
+    "international:display_name:kl": {
+        "$count": 282,
+        "$types": {
+            "string": 282
+        }
+    },
+    "international:display_name:atj": {
+        "$count": 191,
+        "$types": {
+            "string": 191
+        }
+    },
+    "international:display_name:olo": {
+        "$count": 409,
+        "$types": {
+            "string": 409
+        }
+    },
+    "international:display_name:tg-cyrl": {
+        "$count": 177,
+        "$types": {
+            "string": 177
+        }
+    },
+    "international:description:sd": {
+        "$count": 260,
+        "$types": {
+            "string": 260
+        }
+    },
+    "international:display_name:ee": {
+        "$count": 166,
+        "$types": {
+            "string": 166
+        }
+    },
+    "international:description:pap": {
+        "$count": 181,
+        "$types": {
+            "string": 181
+        }
+    },
+    "international:display_name:cbk-zam": {
+        "$count": 102,
+        "$types": {
+            "string": 102
+        }
+    },
+    "international:display_name:awa": {
+        "$count": 151,
+        "$types": {
+            "string": 151
+        }
+    },
+    "international:description:wa": {
+        "$count": 145,
+        "$types": {
+            "string": 145
+        }
+    },
+    "international:display_name:tpi": {
+        "$count": 184,
+        "$types": {
+            "string": 184
+        }
+    },
+    "international:display_name:ig": {
+        "$count": 248,
+        "$types": {
+            "string": 248
+        }
+    },
+    "international:display_name:simple": {
+        "$count": 83,
+        "$types": {
+            "string": 83
+        }
+    },
+    "international:description:ku-latn": {
+        "$count": 172,
+        "$types": {
+            "string": 172
+        }
+    },
+    "international:display_name:ay": {
+        "$count": 441,
+        "$types": {
+            "string": 441
+        }
+    },
+    "international:display_name:ln": {
+        "$count": 745,
+        "$types": {
+            "string": 745
+        }
+    },
+    "international:description:io": {
+        "$count": 3068,
+        "$types": {
+            "string": 3068
+        }
+    },
+    "international:description:fo": {
+        "$count": 76,
+        "$types": {
+            "string": 76
+        }
+    },
+    "international:display_name:arq": {
+        "$count": 31,
+        "$types": {
+            "string": 31
+        }
+    },
+    "international:description:krc": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:display_name:mzn": {
+        "$count": 557,
+        "$types": {
+            "string": 557
+        }
+    },
+    "international:display_name:bi": {
+        "$count": 135,
+        "$types": {
+            "string": 135
+        }
+    },
+    "international:description:ary": {
+        "$count": 73,
+        "$types": {
+            "string": 73
+        }
+    },
+    "international:description:dsb": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:koi": {
+        "$count": 286,
+        "$types": {
+            "string": 286
+        }
+    },
+    "international:display_name:mni": {
+        "$count": 296,
+        "$types": {
+            "string": 296
+        }
+    },
+    "international:display_name:pi": {
+        "$count": 231,
+        "$types": {
+            "string": 231
+        }
+    },
+    "international:display_name:rup": {
+        "$count": 556,
+        "$types": {
+            "string": 556
+        }
+    },
+    "international:display_name:ace": {
+        "$count": 219,
+        "$types": {
+            "string": 219
+        }
+    },
+    "international:display_name:ki": {
+        "$count": 169,
+        "$types": {
+            "string": 169
+        }
+    },
+    "international:display_name:lg": {
+        "$count": 246,
+        "$types": {
+            "string": 246
+        }
+    },
+    "international:display_name:rmf": {
+        "$count": 119,
+        "$types": {
+            "string": 119
+        }
+    },
+    "international:display_name:rw": {
+        "$count": 257,
+        "$types": {
+            "string": 257
+        }
+    },
+    "international:description:kk-cyrl": {
+        "$count": 42,
+        "$types": {
+            "string": 42
+        }
+    },
+    "international:display_name:av": {
+        "$count": 298,
+        "$types": {
+            "string": 298
+        }
+    },
+    "international:display_name:gom": {
+        "$count": 195,
+        "$types": {
+            "string": 195
+        }
+    },
+    "international:display_name:lbe": {
+        "$count": 286,
+        "$types": {
+            "string": 286
+        }
+    },
+    "international:display_name:na": {
+        "$count": 94,
+        "$types": {
+            "string": 94
+        }
+    },
+    "international:display_name:sg": {
+        "$count": 76,
+        "$types": {
+            "string": 76
+        }
+    },
+    "international:display_name:sm": {
+        "$count": 162,
+        "$types": {
+            "string": 162
+        }
+    },
+    "international:display_name:ty": {
+        "$count": 76,
+        "$types": {
+            "string": 76
+        }
+    },
+    "international:description:lij": {
+        "$count": 96,
+        "$types": {
+            "string": 96
+        }
+    },
+    "international:display_name:avk": {
+        "$count": 297,
+        "$types": {
+            "string": 297
+        }
+    },
+    "international:display_name:ltg": {
+        "$count": 257,
+        "$types": {
+            "string": 257
+        }
+    },
+    "international:description:co": {
+        "$count": 54,
+        "$types": {
+            "string": 54
+        }
+    },
+    "international:description:cv": {
+        "$count": 21,
+        "$types": {
+            "string": 21
+        }
+    },
+    "international:description:ext": {
+        "$count": 26,
+        "$types": {
+            "string": 26
+        }
+    },
+    "international:description:fur": {
+        "$count": 23,
+        "$types": {
+            "string": 23
+        }
+    },
+    "international:display_name:ss": {
+        "$count": 118,
+        "$types": {
+            "string": 118
+        }
+    },
+    "international:display_name:aln": {
+        "$count": 17,
+        "$types": {
+            "string": 17
+        }
+    },
+    "international:display_name:szy": {
+        "$count": 271,
+        "$types": {
+            "string": 271
+        }
+    },
+    "international:display_name:tcy": {
+        "$count": 317,
+        "$types": {
+            "string": 317
+        }
+    },
+    "international:display_name:glk": {
+        "$count": 116,
+        "$types": {
+            "string": 116
+        }
+    },
+    "international:display_name:kbd": {
+        "$count": 177,
+        "$types": {
+            "string": 177
+        }
+    },
+    "international:display_name:zea": {
+        "$count": 226,
+        "$types": {
+            "string": 226
+        }
+    },
+    "international:description:tcy": {
+        "$count": 25,
+        "$types": {
+            "string": 25
+        }
+    },
+    "international:display_name:bm": {
+        "$count": 198,
+        "$types": {
+            "string": 198
+        }
+    },
+    "international:display_name:sma": {
+        "$count": 190,
+        "$types": {
+            "string": 190
+        }
+    },
+    "international:display_name:smj": {
+        "$count": 210,
+        "$types": {
+            "string": 210
+        }
+    },
+    "international:description:udm": {
+        "$count": 37,
+        "$types": {
+            "string": 37
+        }
+    },
+    "international:display_name:got": {
+        "$count": 112,
+        "$types": {
+            "string": 112
+        }
+    },
+    "international:display_name:haw": {
+        "$count": 240,
+        "$types": {
+            "string": 240
+        }
+    },
+    "international:description:avk": {
+        "$count": 52,
+        "$types": {
+            "string": 52
+        }
+    },
+    "international:description:wuu": {
+        "$count": 32,
+        "$types": {
+            "string": 32
+        }
+    },
+    "international:display_name:to": {
+        "$count": 158,
+        "$types": {
+            "string": 158
+        }
+    },
+    "international:display_name:cr": {
+        "$count": 102,
+        "$types": {
+            "string": 102
+        }
+    },
+    "international:display_name:aeb-arab": {
+        "$count": 298,
+        "$types": {
+            "string": 298
+        }
+    },
+    "international:description:nap": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:display_name:grc": {
+        "$count": 93,
+        "$types": {
+            "string": 93
+        }
+    },
+    "international:description:pam": {
+        "$count": 42,
+        "$types": {
+            "string": 42
+        }
+    },
+    "international:display_name:chy": {
+        "$count": 144,
+        "$types": {
+            "string": 144
+        }
+    },
+    "international:display_name:nia": {
+        "$count": 90,
+        "$types": {
+            "string": 90
+        }
+    },
+    "international:description:tpi": {
+        "$count": 39,
+        "$types": {
+            "string": 39
+        }
+    },
+    "international:description:vls": {
+        "$count": 23,
+        "$types": {
+            "string": 23
+        }
+    },
+    "international:display_name:roa-tara": {
+        "$count": 139,
+        "$types": {
+            "string": 139
+        }
+    },
+    "international:description:xmf": {
+        "$count": 43,
+        "$types": {
+            "string": 43
+        }
+    },
+    "international:description:kw": {
+        "$count": 83,
+        "$types": {
+            "string": 83
+        }
+    },
+    "international:display_name:mad": {
+        "$count": 140,
+        "$types": {
+            "string": 140
+        }
+    },
+    "international:description:mni": {
+        "$count": 41,
+        "$types": {
+            "string": 41
+        }
+    },
+    "international:display_name:crh-latn": {
+        "$count": 157,
+        "$types": {
+            "string": 157
+        }
+    },
+    "international:display_name:ik": {
+        "$count": 186,
+        "$types": {
+            "string": 186
+        }
+    },
+    "international:display_name:pag": {
+        "$count": 180,
+        "$types": {
+            "string": 180
+        }
+    },
+    "international:display_name:tay": {
+        "$count": 79,
+        "$types": {
+            "string": 79
+        }
+    },
+    "international:description:zu": {
+        "$count": 77,
+        "$types": {
+            "string": 77
+        }
+    },
+    "international:display_name:mo": {
+        "$count": 135,
+        "$types": {
+            "string": 135
+        }
+    },
+    "international:description:jv": {
+        "$count": 166,
+        "$types": {
+            "string": 166
+        }
+    },
+    "international:description:sc": {
+        "$count": 14,
+        "$types": {
+            "string": 14
+        }
+    },
+    "ids:umls_aui": {
+        "$count": 2998,
+        "$types": {
+            "list": 2998
+        }
+    },
+    "international:display_name:aeb": {
+        "$count": 8,
+        "$types": {
+            "string": 8
+        }
+    },
+    "international:display_name:aeb-latn": {
+        "$count": 81,
+        "$types": {
+            "string": 81
+        }
+    },
+    "international:display_name:bas": {
+        "$count": 27,
+        "$types": {
+            "string": 27
+        }
+    },
+    "international:display_name:gor": {
+        "$count": 110,
+        "$types": {
+            "string": 110
+        }
+    },
+    "international:display_name:ks": {
+        "$count": 179,
+        "$types": {
+            "string": 179
+        }
+    },
+    "international:display_name:sje": {
+        "$count": 34,
+        "$types": {
+            "string": 34
+        }
+    },
+    "international:description:aeb-arab": {
+        "$count": 16,
+        "$types": {
+            "string": 16
+        }
+    },
+    "international:description:ig": {
+        "$count": 52,
+        "$types": {
+            "string": 52
+        }
+    },
+    "international:display_name:rn": {
+        "$count": 76,
+        "$types": {
+            "string": 76
+        }
+    },
+    "international:description:sah": {
+        "$count": 22,
+        "$types": {
+            "string": 22
+        }
+    },
+    "international:description:ts": {
+        "$count": 11,
+        "$types": {
+            "string": 11
+        }
+    },
+    "international:display_name:st": {
+        "$count": 152,
+        "$types": {
+            "string": 152
+        }
+    },
+    "international:display_name:ve": {
+        "$count": 49,
+        "$types": {
+            "string": 49
+        }
+    },
+    "international:display_name:map-bms": {
+        "$count": 242,
+        "$types": {
+            "string": 242
+        }
+    },
+    "international:description:ht": {
+        "$count": 78,
+        "$types": {
+            "string": 78
+        }
+    },
+    "international:display_name:gom-deva": {
+        "$count": 41,
+        "$types": {
+            "string": 41
+        }
+    },
+    "international:display_name:gom-latn": {
+        "$count": 47,
+        "$types": {
+            "string": 47
+        }
+    },
+    "international:display_name:sty": {
+        "$count": 25,
+        "$types": {
+            "string": 25
+        }
+    },
+    "international:display_name:bpy": {
+        "$count": 177,
+        "$types": {
+            "string": 177
+        }
+    },
+    "international:description:gn": {
+        "$count": 33,
+        "$types": {
+            "string": 33
+        }
+    },
+    "international:description:cdo": {
+        "$count": 26,
+        "$types": {
+            "string": 26
+        }
+    },
+    "international:description:sms": {
+        "$count": 23,
+        "$types": {
+            "string": 23
+        }
+    },
+    "international:display_name:frc": {
+        "$count": 46,
+        "$types": {
+            "string": 46
+        }
+    },
+    "international:display_name:ti": {
+        "$count": 159,
+        "$types": {
+            "string": 159
+        }
+    },
+    "international:display_name:tn": {
+        "$count": 81,
+        "$types": {
+            "string": 81
+        }
+    },
+    "international:description:ks": {
+        "$count": 19,
+        "$types": {
+            "string": 19
+        }
+    },
+    "international:display_name:pwn": {
+        "$count": 56,
+        "$types": {
+            "string": 56
+        }
+    },
+    "international:description:shi": {
+        "$count": 54,
+        "$types": {
+            "string": 54
+        }
+    },
+    "international:description:uz": {
+        "$count": 160,
+        "$types": {
+            "string": 160
+        }
+    },
+    "international:description:xh": {
+        "$count": 20,
+        "$types": {
+            "string": 20
+        }
+    },
+    "international:display_name:pnt": {
+        "$count": 66,
+        "$types": {
+            "string": 66
+        }
+    },
+    "international:description:pcd": {
+        "$count": 25,
+        "$types": {
+            "string": 25
+        }
+    },
+    "international:description:myv": {
+        "$count": 27,
+        "$types": {
+            "string": 27
+        }
+    },
+    "international:description:bxr": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:description:azb": {
+        "$count": 44,
+        "$types": {
+            "string": 44
+        }
+    },
+    "international:description:ce": {
+        "$count": 53,
+        "$types": {
+            "string": 53
+        }
+    },
+    "international:description:ceb": {
+        "$count": 64,
+        "$types": {
+            "string": 64
+        }
+    },
+    "international:description:gv": {
+        "$count": 48,
+        "$types": {
+            "string": 48
+        }
+    },
+    "international:description:map-bms": {
+        "$count": 40,
+        "$types": {
+            "string": 40
+        }
+    },
+    "international:description:mdf": {
+        "$count": 43,
+        "$types": {
+            "string": 43
+        }
+    },
+    "international:description:mwl": {
+        "$count": 41,
+        "$types": {
+            "string": 41
+        }
+    },
+    "international:description:nrm": {
+        "$count": 37,
+        "$types": {
+            "string": 37
+        }
+    },
+    "international:description:os": {
+        "$count": 50,
+        "$types": {
+            "string": 50
+        }
+    },
+    "international:description:rmy": {
+        "$count": 48,
+        "$types": {
+            "string": 48
+        }
+    },
+    "international:description:roa-tara": {
+        "$count": 66,
+        "$types": {
+            "string": 66
+        }
+    },
+    "international:description:stq": {
+        "$count": 54,
+        "$types": {
+            "string": 54
+        }
+    },
+    "international:description:vo": {
+        "$count": 68,
+        "$types": {
+            "string": 68
+        }
+    },
+    "international:description:frp": {
+        "$count": 48,
+        "$types": {
+            "string": 48
+        }
+    },
+    "international:description:mn": {
+        "$count": 70,
+        "$types": {
+            "string": 70
+        }
+    },
+    "international:description:lez": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:dag": {
+        "$count": 79,
+        "$types": {
+            "string": 79
+        }
+    },
+    "international:display_name:prg": {
+        "$count": 19,
+        "$types": {
+            "string": 19
+        }
+    },
+    "international:display_name:rgn": {
+        "$count": 22,
+        "$types": {
+            "string": 22
+        }
+    },
+    "international:display_name:vmf": {
+        "$count": 41,
+        "$types": {
+            "string": 41
+        }
+    },
+    "international:display_name:ady": {
+        "$count": 58,
+        "$types": {
+            "string": 58
+        }
+    },
+    "international:display_name:ff": {
+        "$count": 72,
+        "$types": {
+            "string": 72
+        }
+    },
+    "international:description:bjn": {
+        "$count": 31,
+        "$types": {
+            "string": 31
+        }
+    },
+    "international:description:diq": {
+        "$count": 33,
+        "$types": {
+            "string": 33
+        }
+    },
+    "international:description:eml": {
+        "$count": 23,
+        "$types": {
+            "string": 23
+        }
+    },
+    "international:description:ha": {
+        "$count": 74,
+        "$types": {
+            "string": 74
+        }
+    },
+    "international:description:kg": {
+        "$count": 22,
+        "$types": {
+            "string": 22
+        }
+    },
+    "international:description:lmo": {
+        "$count": 40,
+        "$types": {
+            "string": 40
+        }
+    },
+    "international:description:mg": {
+        "$count": 30,
+        "$types": {
+            "string": 30
+        }
+    },
+    "international:description:ty": {
+        "$count": 22,
+        "$types": {
+            "string": 22
+        }
+    },
+    "international:description:wo": {
+        "$count": 21,
+        "$types": {
+            "string": 21
+        }
+    },
+    "international:display_name:ruq": {
+        "$count": 8,
+        "$types": {
+            "string": 8
+        }
+    },
+    "international:display_name:arn": {
+        "$count": 36,
+        "$types": {
+            "string": 36
+        }
+    },
+    "international:description:arn": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:description:gan-hant": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:description:mi": {
+        "$count": 27,
+        "$types": {
+            "string": 27
+        }
+    },
+    "international:description:bcl": {
+        "$count": 16,
+        "$types": {
+            "string": 16
+        }
+    },
+    "international:display_name:bug": {
+        "$count": 55,
+        "$types": {
+            "string": 55
+        }
+    },
+    "international:description:gd": {
+        "$count": 44,
+        "$types": {
+            "string": 44
+        }
+    },
+    "international:description:am": {
+        "$count": 41,
+        "$types": {
+            "string": 41
+        }
+    },
+    "international:description:rw": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:nan-hani": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:es-419": {
+        "$count": 27,
+        "$types": {
+            "string": 27
+        }
+    },
+    "international:description:kab": {
+        "$count": 47,
+        "$types": {
+            "string": 47
+        }
+    },
+    "international:display_name:sjd": {
+        "$count": 47,
+        "$types": {
+            "string": 47
+        }
+    },
+    "international:display_name:ban-bali": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:description:smn": {
+        "$count": 45,
+        "$types": {
+            "string": 45
+        }
+    },
+    "international:description:mnw": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:display_name:alt": {
+        "$count": 40,
+        "$types": {
+            "string": 40
+        }
+    },
+    "international:description:ti": {
+        "$count": 26,
+        "$types": {
+            "string": 26
+        }
+    },
+    "international:display_name:brh": {
+        "$count": 49,
+        "$types": {
+            "string": 49
+        }
+    },
+    "international:description:qu": {
+        "$count": 23,
+        "$types": {
+            "string": 23
+        }
+    },
+    "international:display_name:sju": {
+        "$count": 17,
+        "$types": {
+            "string": 17
+        }
+    },
+    "international:display_name:tum": {
+        "$count": 54,
+        "$types": {
+            "string": 54
+        }
+    },
+    "international:description:st": {
+        "$count": 8,
+        "$types": {
+            "string": 8
+        }
+    },
+    "international:description:gan": {
+        "$count": 8,
+        "$types": {
+            "string": 8
+        }
+    },
+    "international:description:ang": {
+        "$count": 23,
+        "$types": {
+            "string": 23
+        }
+    },
+    "international:description:lo": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:grc": {
+        "$count": 16,
+        "$types": {
+            "string": 16
+        }
+    },
+    "international:display_name:krj": {
+        "$count": 21,
+        "$types": {
+            "string": 21
+        }
+    },
+    "international:description:ie": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:dz": {
+        "$count": 24,
+        "$types": {
+            "string": 24
+        }
+    },
+    "international:description:kl": {
+        "$count": 7,
+        "$types": {
+            "string": 7
+        }
+    },
+    "international:description:om": {
+        "$count": 23,
+        "$types": {
+            "string": 23
+        }
+    },
+    "international:display_name:ug-arab": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:ug-latn": {
+        "$count": 23,
+        "$types": {
+            "string": 23
+        }
+    },
+    "international:description:lad": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:en-us": {
+        "$count": 8,
+        "$types": {
+            "string": 8
+        }
+    },
+    "international:description:hyw": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:description:gcr": {
+        "$count": 11,
+        "$types": {
+            "string": 11
+        }
+    },
+    "international:display_name:dtp": {
+        "$count": 39,
+        "$types": {
+            "string": 39
+        }
+    },
+    "international:description:dtp": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:ms-arab": {
+        "$count": 27,
+        "$types": {
+            "string": 27
+        }
+    },
+    "international:description:rup": {
+        "$count": 9,
+        "$types": {
+            "string": 9
+        }
+    },
+    "international:display_name:kea": {
+        "$count": 23,
+        "$types": {
+            "string": 23
+        }
+    },
+    "international:description:dty": {
+        "$count": 9,
+        "$types": {
+            "string": 9
+        }
+    },
+    "international:display_name:aa": {
+        "$count": 21,
+        "$types": {
+            "string": 21
+        }
+    },
+    "international:display_name:bbc": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:bbc-latn": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:bto": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:ch": {
+        "$count": 64,
+        "$types": {
+            "string": 64
+        }
+    },
+    "international:display_name:cho": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:cps": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:egl": {
+        "$count": 14,
+        "$types": {
+            "string": 14
+        }
+    },
+    "international:display_name:fit": {
+        "$count": 23,
+        "$types": {
+            "string": 23
+        }
+    },
+    "international:display_name:hif-latn": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:display_name:hil": {
+        "$count": 36,
+        "$types": {
+            "string": 36
+        }
+    },
+    "international:display_name:ho": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:display_name:hrx": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:display_name:hz": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:display_name:ike-latn": {
+        "$count": 26,
+        "$types": {
+            "string": 26
+        }
+    },
+    "international:display_name:jut": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:kj": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:display_name:kr": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:display_name:kri": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:krl": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:liv": {
+        "$count": 23,
+        "$types": {
+            "string": 23
+        }
+    },
+    "international:display_name:loz": {
+        "$count": 11,
+        "$types": {
+            "string": 11
+        }
+    },
+    "international:display_name:lus": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:display_name:mh": {
+        "$count": 14,
+        "$types": {
+            "string": 14
+        }
+    },
+    "international:display_name:mus": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:display_name:ng": {
+        "$count": 21,
+        "$types": {
+            "string": 21
+        }
+    },
+    "international:display_name:niu": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:display_name:pdt": {
+        "$count": 16,
+        "$types": {
+            "string": 16
+        }
+    },
+    "international:display_name:qug": {
+        "$count": 16,
+        "$types": {
+            "string": 16
+        }
+    },
+    "international:display_name:rif": {
+        "$count": 14,
+        "$types": {
+            "string": 14
+        }
+    },
+    "international:display_name:ruq-latn": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:sdc": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:sei": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:shi-latn": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:sli": {
+        "$count": 14,
+        "$types": {
+            "string": 14
+        }
+    },
+    "international:display_name:srq": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:tw": {
+        "$count": 60,
+        "$types": {
+            "string": 60
+        }
+    },
+    "international:description:crh": {
+        "$count": 9,
+        "$types": {
+            "string": 9
+        }
+    },
+    "international:description:csb": {
+        "$count": 9,
+        "$types": {
+            "string": 9
+        }
+    },
+    "international:description:fit": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:gan-hans": {
+        "$count": 8,
+        "$types": {
+            "string": 8
+        }
+    },
+    "international:description:jut": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:kk-kz": {
+        "$count": 11,
+        "$types": {
+            "string": 11
+        }
+    },
+    "international:description:kk-latn": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:kk-tr": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:mhr": {
+        "$count": 14,
+        "$types": {
+            "string": 14
+        }
+    },
+    "international:description:new": {
+        "$count": 9,
+        "$types": {
+            "string": 9
+        }
+    },
+    "international:description:pms": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:description:rue": {
+        "$count": 9,
+        "$types": {
+            "string": 9
+        }
+    },
+    "international:description:sje": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:description:sma": {
+        "$count": 14,
+        "$types": {
+            "string": 14
+        }
+    },
+    "international:description:smj": {
+        "$count": 14,
+        "$types": {
+            "string": 14
+        }
+    },
+    "international:description:sn": {
+        "$count": 13,
+        "$types": {
+            "string": 13
+        }
+    },
+    "international:description:war": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:bqi": {
+        "$count": 16,
+        "$types": {
+            "string": 16
+        }
+    },
+    "international:display_name:ii": {
+        "$count": 14,
+        "$types": {
+            "string": 14
+        }
+    },
+    "international:display_name:ota": {
+        "$count": 16,
+        "$types": {
+            "string": 16
+        }
+    },
+    "international:description:ay": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:kea": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:ss": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:display_name:ike-cans": {
+        "$count": 19,
+        "$types": {
+            "string": 19
+        }
+    },
+    "international:description:lg": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:cu": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:lfn": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:description:nov": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:display_name:fmp": {
+        "$count": 27,
+        "$types": {
+            "string": 27
+        }
+    },
+    "international:display_name:agq": {
+        "$count": 17,
+        "$types": {
+            "string": 17
+        }
+    },
+    "international:display_name:anp": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:display_name:bag": {
+        "$count": 14,
+        "$types": {
+            "string": 14
+        }
+    },
+    "international:display_name:bax": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:bbj": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:bcc": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:display_name:bgn": {
+        "$count": 14,
+        "$types": {
+            "string": 14
+        }
+    },
+    "international:display_name:bkc": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:bkh": {
+        "$count": 16,
+        "$types": {
+            "string": 16
+        }
+    },
+    "international:display_name:bkm": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:byv": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:dua": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:eto": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:etu": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:ewo": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:gya": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:isu": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:ker": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:kjp": {
+        "$count": 10,
+        "$types": {
+            "string": 10
+        }
+    },
+    "international:display_name:ks-deva": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:display_name:lem": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:lki": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:display_name:lns": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:luz": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:display_name:mcp": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:mua": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:nla": {
+        "$count": 7,
+        "$types": {
+            "string": 7
+        }
+    },
+    "international:display_name:nmg": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:nnh": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:rwr": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:display_name:sdh": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:display_name:skr-arab": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:display_name:tvu": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:vut": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:wes": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:yas": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:yat": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:yav": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:display_name:ybb": {
+        "$count": 15,
+        "$types": {
+            "string": 15
+        }
+    },
+    "international:description:nso": {
+        "$count": 10,
+        "$types": {
+            "string": 10
+        }
+    },
+    "international:display_name:tly": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:tzm": {
+        "$count": 11,
+        "$types": {
+            "string": 11
+        }
+    },
+    "international:display_name:vot": {
+        "$count": 9,
+        "$types": {
+            "string": 9
+        }
+    },
+    "international:description:gom": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:description:ady": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:bas": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:description:vmf": {
+        "$count": 18,
+        "$types": {
+            "string": 18
+        }
+    },
+    "international:description:tk": {
+        "$count": 16,
+        "$types": {
+            "string": 16
+        }
+    },
+    "international:display_name:ami": {
+        "$count": 16,
+        "$types": {
+            "string": 16
+        }
+    },
+    "international:display_name:trv": {
+        "$count": 20,
+        "$types": {
+            "string": 20
+        }
+    },
+    "international:description:bug": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:bm": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:description:tet": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:pfl": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:description:sgs": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:hif": {
+        "$count": 7,
+        "$types": {
+            "string": 7
+        }
+    },
+    "international:display_name:ase": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:chy": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:inh": {
+        "$count": 12,
+        "$types": {
+            "string": 12
+        }
+    },
+    "international:display_name:guw": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:description:dv": {
+        "$count": 11,
+        "$types": {
+            "string": 11
+        }
+    },
+    "international:description:ki": {
+        "$count": 7,
+        "$types": {
+            "string": 7
+        }
+    },
+    "international:description:rif": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:display_name:mrh": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:mrh": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:ltg": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:vro": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:display_name:abs": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:abs": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:atj": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:description:gor": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:pwn": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:hil": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name": {
+        "$count": 0,
+        "$types": {}
+    },
+    "international:description": {
+        "$count": 0,
+        "$types": {}
+    },
+    "international:display_name:nod": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:nod": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:ve": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:krj": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:jam": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:frc": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:av": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:bpy": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:display_name:guc": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:lld": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:display_name:ady-cyrl": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:btm": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:crh-cyrl": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:de-formal": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:es-formal": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:display_name:fkv": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:display_name:hu-formal": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:kbd-cyrl": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:khw": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:kiu": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:ks-arab": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:display_name:kum": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:nl-informal": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:ruq-cyrl": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:ses": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:shi-tfng": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:shy-latn": {
+        "$count": 7,
+        "$types": {
+            "string": 7
+        }
+    },
+    "international:display_name:tru": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:uz-cyrl": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:uz-latn": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:xsy": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:display_name:zgh": {
+        "$count": 5,
+        "$types": {
+            "string": 5
+        }
+    },
+    "international:description:sei": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:mcn": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:arq": {
+        "$count": 7,
+        "$types": {
+            "string": 7
+        }
+    },
+    "international:description:aln": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:ban-bali": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:display_name:wls": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:pdc": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:sjd": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:bi": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:rm": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:sm": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:ug": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:nah": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:pih": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:description:mad": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:description:tn": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:haw": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:ff": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:description:ku-arab": {
+        "$count": 6,
+        "$types": {
+            "string": 6
+        }
+    },
+    "international:description:bo": {
+        "$count": 9,
+        "$types": {
+            "string": 9
+        }
+    },
+    "international:description:dz": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:pnb": {
+        "$count": 4,
+        "$types": {
+            "string": 4
+        }
+    },
+    "international:description:szy": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:ak": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:shn": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:tw": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:jbo": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:mai": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:zgh": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:got": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:ab": {
+        "$count": 3,
+        "$types": {
+            "string": 3
+        }
+    },
+    "international:description:guw": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:arc": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:gag": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:alt": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:cbk-zam": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:ch": {
+        "$count": 2,
+        "$types": {
+            "string": 2
+        }
+    },
+    "international:description:chr": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:cr": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:crh-latn": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:ee": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:fj": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:glk": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:kaa": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:koi": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:ln": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:pag": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:pi": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:pnt": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:sg": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:simple": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:xal": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:za": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:olo": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:din": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:iu": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    },
+    "international:description:ko-kp": {
+        "$count": 1,
+        "$types": {
+            "string": 1
+        }
+    }
+}
