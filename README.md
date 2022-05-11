@@ -76,7 +76,7 @@ for entity in tqdm(oa.rawEntities(entityType),total=entitiesCount):
     # do something with the entity
 ```
 
-On fast storage, it may take a couple of hours to iterate over all the entities for `works` or ```authors` types. For `institutions` and `venues`, and `concepts` types, it may take just a few minutes.
+On fast storage, it may take a couple of hours to iterate over all the entities for `works` or `authors` types. For `institutions` and `venues`, and `concepts` types, it may take just a few minutes.
 
 
 ## Generating Schema and Report
