@@ -58,9 +58,6 @@ import openalexraw as oaraw
 # Path to the OpenAlex snapshot
 openAlexPath = Path("<Location of the OpenAlex Snapshot>")
 
-# Path to where to save the schema files
-schemasPath = Path("Schema")
-
 # Initializing the OpenAlex object with the OpenAlex snapshot path
 oa = oaraw.OpenAlex(
     openAlexPath = openAlexPath
