@@ -1,2 +1,4 @@
 include README.md
 include requirements.txt
+recursive-include ./Schema *.json
+recursive-exclude ./Schema *_samples.json
