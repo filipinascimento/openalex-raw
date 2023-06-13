@@ -20,8 +20,8 @@ class OpenAlex:
     # init
 
     def __init__(self,
-                 openAlexPath,
-                 processedPath=None,
+                 openAlexPath = None,
+                 processedPath = None,
                  tempPath=None,
                  tagLabel=None,  # current yyyy-mm-dd-hh-mm-ss will be used instead
                  verbose=False
@@ -251,6 +251,16 @@ def basicTypeName(obj):
         return "list"
     else:
         return type(obj).__name__
+
+# from https://github.com/smierz/openalex-utils/blob/8e423319987a07fc7b5599b1b4f19069510d6e9a/notebooks/inverted_index_to_text.ipynb
+def processInvertedAbstract(entry):
+    invertedAbstract = entry or {}
+    abstract_index = {}
+    for k, vlist in invertedAbstract.items():
+        for v in vlist:
+            abstract_index[v] = k
+    abstract = ' '.join(abstract_index[k] for k in sorted(abstract_index.keys()))
+    return abstract.replace("\n", " ").replace("\r", " ").replace("\t", " ")
 
 def _flatten(d, parent_key=""):
     items = []

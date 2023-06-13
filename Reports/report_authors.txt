@@ -1,292 +1,412 @@
-218022177 ENTRIES
+122483603 ENTRIES
 id
-  Count: 218022177 (100.00%)
+  Count: 122483603 (100.00%)
   Types: string (100.00%)
   Samples:
-    1 ( < 0.01%): https://openalex.org/A3120165507
-    1 ( < 0.01%): https://openalex.org/A3023500758
-    1 ( < 0.01%): https://openalex.org/A3189651072
-    1 ( < 0.01%): https://openalex.org/A2778105106
-    1 ( < 0.01%): https://openalex.org/A2937317606
+    1 ( < 0.01%): https://openalex.org/A2283863768
+    1 ( < 0.01%): https://openalex.org/A3212817169
+    1 ( < 0.01%): https://openalex.org/A2725018749
+    1 ( < 0.01%): https://openalex.org/A1201247520
+    1 ( < 0.01%): https://openalex.org/A4353207434
     ...
 orcid
-  Count: 4747409 (2.18%)
+  Count: 3855884 (3.15%)
   Types: string (100.00%)
   Samples:
-    6 ( < 0.01%): https://orcid.org/0000-0003-1081-3155
-    5 ( < 0.01%): https://orcid.org/0000-0003-2379-7596
-    5 ( < 0.01%): https://orcid.org/0000-0002-8029-6627
-    4 ( < 0.01%): https://orcid.org/0000-0002-2173-9192
-    3 ( < 0.01%): https://orcid.org/0000-0003-2942-3739
+    1 ( < 0.01%): https://orcid.org/0000-0001-7240-0722
+    1 ( < 0.01%): https://orcid.org/0000-0003-1559-1432
+    1 ( < 0.01%): https://orcid.org/0000-0002-6626-9358
+    1 ( < 0.01%): https://orcid.org/0000-0001-9330-0341
+    1 ( < 0.01%): https://orcid.org/0000-0001-6975-0537
     ...
 display_name
-  Count: 217810961 (99.90%)
+  Count: 122274089 (99.83%)
   Types: string (100.00%)
   Samples:
-    8626 ( < 0.01%): Wei Liu
-    795 ( < 0.01%): Chen Long
-    453 ( < 0.01%): Alix Hayden
-    341 ( < 0.01%): 正 飯島
-    219 ( < 0.01%): John Allen
+    2180 ( < 0.01%): Стрельникова Анна Владимировна
+    1237 ( < 0.01%): J. S. H. Lee
+    1141 ( < 0.01%): Feng Li
+    589 ( < 0.01%): María Martín
+    589 ( < 0.01%): Ana M. López
     ...
 display_name_alternatives
-  Count: 1073596 (0.49%)
+  Count: 359057 (0.29%)
   Types: list (100.00%)
   List Samples:
-    193 (0.02%): 张颖
-    162 (0.02%): Alex
-    156 (0.01%): 王平
-    143 (0.01%): 王华
-    131 (0.01%): 王峰
+    4 ( < 0.01%): 包仕尧
+    2 ( < 0.01%): 廖化波
+    2 ( < 0.01%): 谢佐卿
+    2 ( < 0.01%): 张先觉
+    2 ( < 0.01%): 申勇
     ...
 works_count
-  Count: 218019763 (100.00%)
+  Count: 120935291 (98.74%)
   Types: number (100.00%)
   Samples:
-    174700112 (80.13%): 1
-    18919746 (8.68%): 2
-    7040795 (3.23%): 3
-    3737492 (1.71%): 4
-    2353690 (1.08%): 5
+    80904354 (66.90%): 1
+    13464205 (11.13%): 2
+    6016330 (4.97%): 3
+    3561213 (2.94%): 4
+    2390669 (1.98%): 5
     ...
 cited_by_count
-  Count: 78565500 (36.04%)
+  Count: 49533344 (40.44%)
   Types: number (100.00%)
   Samples:
-    15582346 (19.83%): 1
-    8232656 (10.48%): 2
-    5373941 (6.84%): 3
-    4020182 (5.12%): 4
-    3137084 (3.99%): 5
+    8288598 (16.73%): 1
+    4159178 (8.40%): 2
+    2750722 (5.55%): 3
+    2062739 (4.16%): 4
+    1642437 (3.32%): 5
     ...
-ids:openalex
-  Count: 218022177 (100.00%)
+most_cited_work
+  Count: 120935770 (98.74%)
   Types: string (100.00%)
   Samples:
-    1 ( < 0.01%): https://openalex.org/A3120165507
-    1 ( < 0.01%): https://openalex.org/A3023500758
-    1 ( < 0.01%): https://openalex.org/A3189651072
-    1 ( < 0.01%): https://openalex.org/A2778105106
-    1 ( < 0.01%): https://openalex.org/A2937317606
+    608 ( < 0.01%): Observation of the decay $\chi_{cJ} \to \Omega^- \bar{\Omega}^+$ (2023)
+    98 ( < 0.01%): Evidence of mpox virus infection among persons without characteristic lesions or rash presenting for first dose of JYNNEOS vaccine—District of ... (2023)
+    16 ( < 0.01%): The 2019 Schizophrenia International Research Society Conference, 10–14 April, Orlando, Florida: A summary of topics and trends (2020)
+    12 ( < 0.01%): 強直性脊椎増殖症(ASH)に合併した胸腰椎骨折3手術例の検討 (2016)
+    11 ( < 0.01%): Specific serine residues of Msn2/4 are responsible for regulation of alcohol fermentation rates and ethanol resistance (2018)
     ...
-ids:mag
-  Count: 206898990 (94.90%)
+summary_stats:2yr_mean_citedness
+  Count: 8177311 (6.68%)
   Types: number (100.00%)
   Samples:
-    1 ( < 0.01%): 3120165507
-    1 ( < 0.01%): 3023500758
-    1 ( < 0.01%): 3189651072
-    1 ( < 0.01%): 2778105106
-    1 ( < 0.01%): 2937317606
+    1477660 (18.07%): 1.0
+    790561 (9.67%): 2.0
+    507055 (6.20%): 3.0
+    410272 (5.02%): 0.5
+    338885 (4.14%): 4.0
+    ...
+summary_stats:h_index
+  Count: 44834140 (36.60%)
+  Types: number (100.00%)
+  Samples:
+    28683091 (63.98%): 1
+    5922962 (13.21%): 2
+    2704727 (6.03%): 3
+    1610424 (3.59%): 4
+    1085483 (2.42%): 5
+    ...
+summary_stats:i10_index
+  Count: 24154463 (19.72%)
+  Types: number (100.00%)
+  Samples:
+    13873214 (57.44%): 1
+    3143915 (13.02%): 2
+    1523060 (6.31%): 3
+    947235 (3.92%): 4
+    657961 (2.72%): 5
+    ...
+ids:openalex
+  Count: 122483603 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://openalex.org/A2283863768
+    1 ( < 0.01%): https://openalex.org/A3212817169
+    1 ( < 0.01%): https://openalex.org/A2725018749
+    1 ( < 0.01%): https://openalex.org/A1201247520
+    1 ( < 0.01%): https://openalex.org/A4353207434
+    ...
+ids:mag
+  Count: 57243506 (46.74%)
+  Types: number (100.00%)
+  Samples:
+    1 ( < 0.01%): 2283863768
+    1 ( < 0.01%): 3212817169
+    1 ( < 0.01%): 2725018749
+    1 ( < 0.01%): 1201247520
+    1 ( < 0.01%): 2992628897
     ...
 last_known_institution
   Count: 0 ( < 0.01%)
   Types: 
 counts_by_year
-  Count: 134302230 (61.60%)
+  Count: 96065607 (78.43%)
   Types: list (100.00%)
   Schema Entry:
-    382902817 ENTRIES
+    329787741 ENTRIES
     year
-      Count: 382902817 (100.00%)
+      Count: 329787741 (100.00%)
       Types: number (100.00%)
       Samples:
-        45489262 (11.88%): 2021
-        41187775 (10.76%): 2020
-        38093679 (9.95%): 2019
-        35580645 (9.29%): 2016
-        35495149 (9.27%): 2017
+        38012538 (11.53%): 2022
+        35125590 (10.65%): 2023
+        32297033 (9.79%): 2021
+        30550577 (9.26%): 2020
+        28786434 (8.73%): 2019
         ...
     works_count
-      Count: 149851902 (39.14%)
+      Count: 146543518 (44.44%)
       Types: number (100.00%)
       Samples:
-        113139691 (75.50%): 1
-        16427766 (10.96%): 2
-        6811424 (4.55%): 3
-        3822027 (2.55%): 4
-        2393130 (1.60%): 5
+        101967256 (69.58%): 1
+        19015514 (12.98%): 2
+        8354565 (5.70%): 3
+        4712854 (3.22%): 4
+        2951598 (2.01%): 5
         ...
     cited_by_count
-      Count: 281536261 (73.53%)
+      Count: 243615583 (73.87%)
       Types: number (100.00%)
       Samples:
-        100072852 (35.55%): 1
-        43262158 (15.37%): 2
-        24249797 (8.61%): 3
-        16530053 (5.87%): 4
-        11503048 (4.09%): 5
+        61191395 (25.12%): 1
+        33793956 (13.87%): 2
+        19796081 (8.13%): 3
+        15605751 (6.41%): 4
+        10389519 (4.26%): 5
+        ...
+    oa_works_count
+      Count: 64982262 (19.70%)
+      Types: number (100.00%)
+      Samples:
+        47010351 (72.34%): 1
+        8529414 (13.13%): 2
+        3545493 (5.46%): 3
+        1874792 (2.89%): 4
+        1106597 (1.70%): 5
         ...
 x_concepts
-  Count: 191224562 (87.71%)
+  Count: 120876711 (98.69%)
   Types: list (100.00%)
   Schema Entry:
-    2916587617 ENTRIES
+    1880582003 ENTRIES
     id
-      Count: 2916587617 (100.00%)
+      Count: 1880582003 (100.00%)
       Types: string (100.00%)
       Samples:
-        91055891 (3.12%): https://openalex.org/C86803240
-        76556534 (2.62%): https://openalex.org/C71924100
-        64226042 (2.20%): https://openalex.org/C185592680
-        62851348 (2.15%): https://openalex.org/C121332964
-        51896727 (1.78%): https://openalex.org/C41008148
+        64325318 (3.42%): https://openalex.org/C86803240
+        54884364 (2.92%): https://openalex.org/C71924100
+        48773400 (2.59%): https://openalex.org/C41008148
+        45598672 (2.42%): https://openalex.org/C121332964
+        39330993 (2.09%): https://openalex.org/C185592680
         ...
     wikidata
-      Count: 2867015733 (98.30%)
+      Count: 1880582003 (100.00%)
       Types: string (100.00%)
       Samples:
-        91057352 (3.18%): https://www.wikidata.org/wiki/Q420
-        76608625 (2.67%): https://www.wikidata.org/wiki/Q11190
-        64226042 (2.24%): https://www.wikidata.org/wiki/Q2329
-        62851348 (2.19%): https://www.wikidata.org/wiki/Q413
-        51896727 (1.81%): https://www.wikidata.org/wiki/Q21198
+        64326929 (3.42%): https://www.wikidata.org/wiki/Q420
+        54897948 (2.92%): https://www.wikidata.org/wiki/Q11190
+        48773400 (2.59%): https://www.wikidata.org/wiki/Q21198
+        45598672 (2.42%): https://www.wikidata.org/wiki/Q413
+        39330993 (2.09%): https://www.wikidata.org/wiki/Q2329
         ...
     display_name
-      Count: 2912372836 (99.86%)
+      Count: 1880582003 (100.00%)
       Types: string (100.00%)
       Samples:
-        91009700 (3.12%): Biology
-        76341089 (2.62%): Medicine
-        64188560 (2.20%): Chemistry
-        62783369 (2.16%): Physics
-        51865705 (1.78%): Computer science
+        64325318 (3.42%): Biology
+        54884364 (2.92%): Medicine
+        48773400 (2.59%): Computer science
+        45598672 (2.42%): Physics
+        39330993 (2.09%): Chemistry
         ...
     level
-      Count: 2157822141 (73.98%)
+      Count: 1339523710 (71.23%)
       Types: number (100.00%)
       Samples:
-        1106849628 (51.29%): 1
-        675945424 (31.33%): 2
-        278241749 (12.89%): 3
-        77058175 (3.57%): 4
-        19727165 (0.91%): 5
+        787473035 (58.79%): 1
+        380185743 (28.38%): 2
+        131826611 (9.84%): 3
+        32246447 (2.41%): 4
+        7791874 (0.58%): 5
     score
-      Count: 2916587617 (100.00%)
+      Count: 1880582003 (100.00%)
       Types: number (100.00%)
       Samples:
-        2143175011 (73.48%): 100.0
-        295212754 (10.12%): 50.0
-        141849690 (4.86%): 33.3
-        89187170 (3.06%): 25.0
-        46001550 (1.58%): 66.7
+        1277476769 (67.93%): 100.0
+        204031548 (10.85%): 50.0
+        86810776 (4.62%): 33.3
+        44413493 (2.36%): 25.0
+        41988425 (2.23%): 66.7
         ...
 works_api_url
-  Count: 218022177 (100.00%)
+  Count: 122483603 (100.00%)
   Types: string (100.00%)
   Samples:
-    1 ( < 0.01%): https://api.openalex.org/works?filter=author.id:A3120165507
-    1 ( < 0.01%): https://api.openalex.org/works?filter=author.id:A3023500758
-    1 ( < 0.01%): https://api.openalex.org/works?filter=author.id:A3189651072
-    1 ( < 0.01%): https://api.openalex.org/works?filter=author.id:A2778105106
-    1 ( < 0.01%): https://api.openalex.org/works?filter=author.id:A2937317606
+    1 ( < 0.01%): https://api.openalex.org/works?filter=author.id:A2283863768
+    1 ( < 0.01%): https://api.openalex.org/works?filter=author.id:A3212817169
+    1 ( < 0.01%): https://api.openalex.org/works?filter=author.id:A2725018749
+    1 ( < 0.01%): https://api.openalex.org/works?filter=author.id:A1201247520
+    1 ( < 0.01%): https://api.openalex.org/works?filter=author.id:A4353207434
     ...
 updated_date
-  Count: 218022177 (100.00%)
+  Count: 122483603 (100.00%)
   Types: string (100.00%)
   Samples:
-    36953243 (16.95%): 2017-06-30
-    7209365 (3.31%): 2022-02-02
-    4679206 (2.15%): 2021-12-23
-    3766160 (1.73%): 2020-08-24
-    3591933 (1.65%): 2017-07-14
+    1 ( < 0.01%): 2023-03-13T23:05:00.088793
+    1 ( < 0.01%): 2023-03-13T23:05:03.527176
+    1 ( < 0.01%): 2023-03-13T23:05:15.630267
+    1 ( < 0.01%): 2023-03-13T23:05:01.904236
+    1 ( < 0.01%): 2023-03-23T20:11:11.286867
     ...
 created_date
-  Count: 218022177 (100.00%)
+  Count: 122483603 (100.00%)
   Types: string (100.00%)
   Samples:
-    42348775 (19.42%): 2017-06-30
-    4497900 (2.06%): 2020-08-24
-    3677437 (1.69%): 2017-07-14
-    3455270 (1.58%): 2021-04-13
-    1930222 (0.89%): 2020-06-05
+    29719402 (24.26%): 2023-03-23
+    21338135 (17.42%): 2016-06-24
+    5699511 (4.65%): 2017-06-30
+    1437257 (1.17%): 2016-08-23
+    1186840 (0.97%): 2023-01-10
     ...
 last_known_institution:id
-  Count: 54446734 (24.97%)
+  Count: 54350359 (44.37%)
   Types: string (100.00%)
   Samples:
-    450615 (0.83%): https://openalex.org/I19820366
-    263745 (0.48%): https://openalex.org/I1313323035
-    183440 (0.34%): https://openalex.org/I183067930
-    141214 (0.26%): https://openalex.org/I17974374
-    112850 (0.21%): https://openalex.org/I1299303238
+    184623 (0.34%): https://openalex.org/I118501908
+    142024 (0.26%): https://openalex.org/I27837315
+    103424 (0.19%): https://openalex.org/I879563668
+    99486 (0.18%): https://openalex.org/I136199984
+    79104 (0.15%): https://openalex.org/I122140584
     ...
 last_known_institution:ror
-  Count: 52028259 (23.86%)
+  Count: 52539682 (42.90%)
   Types: string (100.00%)
   Samples:
-    450615 (0.87%): https://ror.org/034t30j35
-    263745 (0.51%): https://ror.org/05qrfxd25
-    183440 (0.35%): https://ror.org/0220qvk04
-    141214 (0.27%): https://ror.org/036rp1748
-    112850 (0.22%): https://ror.org/01cwqze88
+    184623 (0.35%): https://ror.org/055f7t516
+    142024 (0.27%): https://ror.org/00jmfr291
+    103424 (0.20%): https://ror.org/00987cb86
+    99486 (0.19%): https://ror.org/03vek6s52
+    79104 (0.15%): https://ror.org/03490as77
     ...
 last_known_institution:display_name
-  Count: 54446734 (24.97%)
+  Count: 54350359 (44.37%)
   Types: string (100.00%)
   Samples:
-    450615 (0.83%): Chinese Academy of Sciences
-    263745 (0.48%): Russian Academy of Sciences
-    183440 (0.34%): Shanghai Jiao Tong University
-    141214 (0.26%): Universidade de São Paulo
-    112850 (0.21%): National Institutes of Health
+    184623 (0.34%): National Research University Higher School of Economics
+    142024 (0.26%): University of Michigan–Ann Arbor
+    103424 (0.19%): São Paulo State University
+    99486 (0.18%): Harvard University
+    79104 (0.15%): Federal University of Rio de Janeiro
     ...
 last_known_institution:country_code
-  Count: 54200609 (24.86%)
+  Count: 54119035 (44.18%)
   Types: string (100.00%)
   Samples:
-    12812153 (23.64%): US
-    10635533 (19.62%): CN
-    2777422 (5.12%): GB
-    2534224 (4.68%): JP
-    2091122 (3.86%): DE
+    12939206 (23.91%): US
+    5261302 (9.72%): CN
+    2664062 (4.92%): BR
+    2577878 (4.76%): GB
+    2117972 (3.91%): FR
     ...
 last_known_institution:type
-  Count: 52014668 (23.86%)
+  Count: 52495185 (42.86%)
   Types: string (100.00%)
   Samples:
-    38508559 (74.03%): education
-    4368655 (8.40%): healthcare
-    2960424 (5.69%): government
-    2590417 (4.98%): facility
-    2200924 (4.23%): company
+    35946290 (68.48%): education
+    6242224 (11.89%): healthcare
+    4853872 (9.25%): facility
+    2077059 (3.96%): company
+    1804676 (3.44%): government
     ...
 ids:orcid
-  Count: 4747409 (2.18%)
+  Count: 3855884 (3.15%)
   Types: string (100.00%)
   Samples:
-    6 ( < 0.01%): https://orcid.org/0000-0003-1081-3155
-    5 ( < 0.01%): https://orcid.org/0000-0003-2379-7596
-    5 ( < 0.01%): https://orcid.org/0000-0002-8029-6627
-    4 ( < 0.01%): https://orcid.org/0000-0002-2173-9192
-    3 ( < 0.01%): https://orcid.org/0000-0003-2942-3739
+    1 ( < 0.01%): https://orcid.org/0000-0001-7240-0722
+    1 ( < 0.01%): https://orcid.org/0000-0003-1559-1432
+    1 ( < 0.01%): https://orcid.org/0000-0002-6626-9358
+    1 ( < 0.01%): https://orcid.org/0000-0001-9330-0341
+    1 ( < 0.01%): https://orcid.org/0000-0001-6975-0537
+    ...
+summary_stats:oa_percent
+  Count: 44469413 (36.31%)
+  Types: number (100.00%)
+  Samples:
+    27065511 (60.86%): 100.0
+    3614270 (8.13%): 50.0
+    1595654 (3.59%): 33.33
+    1015850 (2.28%): 66.67
+    898219 (2.02%): 25.0
+    ...
+summary_stats:works_count
+  Count: 120935233 (98.74%)
+  Types: number (100.00%)
+  Samples:
+    80904311 (66.90%): 1
+    13464200 (11.13%): 2
+    6016324 (4.97%): 3
+    3561212 (2.94%): 4
+    2390669 (1.98%): 5
+    ...
+summary_stats:cited_by_count
+  Count: 49533333 (40.44%)
+  Types: number (100.00%)
+  Samples:
+    8288594 (16.73%): 1
+    4159174 (8.40%): 2
+    2750721 (5.55%): 3
+    2062739 (4.16%): 4
+    1642436 (3.32%): 5
+    ...
+summary_stats:2yr_works_count
+  Count: 24751766 (20.21%)
+  Types: number (100.00%)
+  Samples:
+    17824152 (72.01%): 1
+    2674874 (10.81%): 2
+    1212043 (4.90%): 3
+    710929 (2.87%): 4
+    463366 (1.87%): 5
+    ...
+summary_stats:2yr_cited_by_count
+  Count: 32195273 (26.29%)
+  Types: number (100.00%)
+  Samples:
+    7052380 (21.91%): 1
+    3601214 (11.19%): 2
+    2425629 (7.53%): 3
+    1815373 (5.64%): 4
+    1451288 (4.51%): 5
+    ...
+summary_stats:2yr_i10_index
+  Count: 2369711 (1.93%)
+  Types: number (100.00%)
+  Samples:
+    1643803 (69.37%): 1
+    333703 (14.08%): 2
+    140070 (5.91%): 3
+    76321 (3.22%): 4
+    44717 (1.89%): 5
+    ...
+summary_stats:2yr_h_index
+  Count: 10049156 (8.20%)
+  Types: number (100.00%)
+  Samples:
+    7428395 (73.92%): 1
+    1351183 (13.45%): 2
+    569219 (5.66%): 3
+    287737 (2.86%): 4
+    154716 (1.54%): 5
     ...
 ids:scopus
-  Count: 875268 (0.40%)
+  Count: 680358 (0.56%)
   Types: string (100.00%)
   Samples:
-    19 ( < 0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=24069137900&partnerID=MN8TOARS
-    6 ( < 0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=57202004839&partnerID=MN8TOARS
-    5 ( < 0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=55858380900&partnerID=MN8TOARS
-    5 ( < 0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=23480519900&partnerID=MN8TOARS
-    5 ( < 0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=6602476409&partnerID=MN8TOARS
+    1 ( < 0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=6603542119&partnerID=MN8TOARS
+    1 ( < 0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=57202133136&partnerID=MN8TOARS
+    1 ( < 0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=57210571736&partnerID=MN8TOARS
+    1 ( < 0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=55908375000&partnerID=MN8TOARS
+    1 ( < 0.01%): http://www.scopus.com/inward/authorDetails.url?authorID=57204733371&partnerID=MN8TOARS
+    ...
+ids:twitter
+  Count: 274 ( < 0.01%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.73%): https://twitter.com/home
+    2 (0.73%): https://twitter.com/drpedramk
+    1 (0.36%): http://www.twitter.com/meganmpeters21
+    1 (0.36%): https://www.twitter.com/ali_khairbek
+    1 (0.36%): http://twitter.com/therealfelixr
     ...
 ids:wikipedia
-  Count: 377 ( < 0.01%)
+  Count: 5 ( < 0.01%)
   Types: string (100.00%)
   Samples:
-    372 (98.67%): http://en.wikipedia.org/wiki/Josiah_Carberry
-    2 (0.53%): https://de.wikipedia.org/wiki/Sebastian_Kempgen
-    1 (0.27%): https://en.wikipedia.org/wiki/Alan_Pilkington
-    1 (0.27%): https://es.wikipedia.org/wiki/Mauricio_Toro_Berm%C3%BAdez
-    1 (0.27%): https://en.wikipedia.org/wiki/Monika_Ritsch-Marte
-ids:twitter
-  Count: 342 ( < 0.01%)
-  Types: string (100.00%)
-  Samples:
-    5 (1.46%): https://twitter.com/JArohuanca
-    3 (0.88%): https://twitter.com/CandelaOlle
-    3 (0.88%): http://twitter.com/EgriNagy
-    3 (0.88%): https://twitter.com/notthatdrjones
-    3 (0.88%): https://twitter.com/anushk_chathu
-    ...
+    1 (20.00%): https://es.wikipedia.org/wiki/Mauricio_Toro_Berm%C3%BAdez
+    1 (20.00%): https://en.wikipedia.org/wiki/Monika_Ritsch-Marte
+    1 (20.00%): https://de.wikipedia.org/wiki/Sebastian_Kempgen
+    1 (20.00%): https://en.wikipedia.org/wiki/Alan_Pilkington
+    1 (20.00%): http://en.wikipedia.org/wiki/Josiah_Carberry

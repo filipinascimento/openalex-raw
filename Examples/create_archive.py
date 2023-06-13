@@ -18,11 +18,10 @@ scheme = [
     ("data", "a"),
 ]
 
-entityType = "concepts"
-entitiesCount = oa.getRawEntityCount(entityType)
-
-archiveLocation = "./Processed/%s_complete.dbgz"%entityType
-
+for entityType in tqdm(["concepts", "institutions", "venues", "authors", "works" ]):
+    entitiesCount = oa.getRawEntityCount(entityType)
+    archiveLocation = "./Processed/%s_complete.dbgz"%entityType
+    indexLocation = "./Processed/%s_complete_byID.idbgz"%entityType
 # try:
 #     schemaPath = (Path(__file__).parent/"Schema"/("schema_%s.json"%entityType))
 # except NameError:
@@ -30,14 +29,24 @@ archiveLocation = "./Processed/%s_complete.dbgz"%entityType
 
 # with open(schemaPath,"r") as fSchema:
 #     schema = ujson.load(fSchema)
-with dbgz.DBGZWriter(archiveLocation, scheme) as fdbgz:
-    for entity in tqdm(oa.rawEntities(entityType),total=entitiesCount):
-        entityID = int(entity["id"].replace("https://openalex.org/","")[1:])
-        fdbgz.write(ID=entityID, data=entity)
+    with dbgz.DBGZWriter(archiveLocation, scheme) as fdbgz:
+        for entity in tqdm(oa.rawEntities(entityType),total=entitiesCount,desc=entityType):
+            entityID = int(entity["id"].replace("https://openalex.org/","")[1:])
+            fdbgz.write(ID=entityID, data=entity)
 
 
 
-
+for entityType in tqdm(["concepts", "institutions", "venues", "authors", "works" ]):
+    entitiesCount = oa.getRawEntityCount(entityType)
+    archiveLocation = "./Processed/%s_complete.dbgz"%entityType
+    indexLocation = "./Processed/%s_complete_byID.idbgz"%entityType
+    print("Saving the index dictionary")
+    with dbgz.DBGZReader(archiveLocation) as fd:
+        fd.generateIndex(key="ID",
+                        indicesPath=indexLocation,
+                        useDictionary=False,
+                        showProgressbar=True
+                        )
 # print(oa.getRawEntitiesPaths("works"))
 # for entityType in ["concepts", "institutions", "venues", "authors", "works"]:
 #     entitySchema = oa.getSchemaForEntityType(entityType,reportPath="Schema/report_%s.txt"%entityType)

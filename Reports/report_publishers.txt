@@ -1,0 +1,441 @@
+10071 ENTRIES
+id
+  Count: 10071 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://openalex.org/P4362726141
+    1 ( < 0.01%): https://openalex.org/P4310311595
+    1 ( < 0.01%): https://openalex.org/P4360969457
+    1 ( < 0.01%): https://openalex.org/P4310319055
+    1 ( < 0.01%): https://openalex.org/P4310322413
+    ...
+display_name
+  Count: 10071 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.02%): Akademische Verlagsgesellschaft
+    1 ( < 0.01%): Japan Foundry Engineering Society
+    1 ( < 0.01%): Manchester Literary and Philosophical Society
+    1 ( < 0.01%): Japanese Society of Pediatric Cardiology and Cardiac Surgery
+    1 ( < 0.01%): Islamic Azad University, Shahrekord Branch
+    ...
+ids:openalex
+  Count: 10071 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://openalex.org/P4362726141
+    1 ( < 0.01%): https://openalex.org/P4310311595
+    1 ( < 0.01%): https://openalex.org/P4360969457
+    1 ( < 0.01%): https://openalex.org/P4310319055
+    1 ( < 0.01%): https://openalex.org/P4310322413
+    ...
+ids:wikidata
+  Count: 8485 (84.25%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.02%): https://www.wikidata.org/entity/Q28325722
+    1 (0.01%): https://www.wikidata.org/wiki/Q109596058
+    1 (0.01%): https://www.wikidata.org/entity/Q3285345
+    1 (0.01%): https://www.wikidata.org/entity/Q30672235
+    1 (0.01%): https://www.wikidata.org/entity/Q6101693
+    ...
+alternate_titles
+  Count: 1280 (12.71%)
+  Types: list (100.00%)
+  List Samples:
+    2 (0.16%): Akademische Verlagsgesellschaft Geest & Portig
+    2 (0.16%): Akademische Verlagsgesellschaft Geest & Portig KG
+    2 (0.16%): Akademische Verlagsgesellschaft m.b.H.
+    2 (0.16%): AV
+    2 (0.16%): AV Geest & Portig
+    ...
+parent_publisher
+  Count: 0 ( < 0.01%)
+  Types: 
+lineage
+  Count: 10071 (100.00%)
+  Types: list (100.00%)
+  List Samples:
+    1 ( < 0.01%): https://openalex.org/P4362726141
+    1 ( < 0.01%): https://openalex.org/P4310311595
+    1 ( < 0.01%): https://openalex.org/P4360969457
+    1 ( < 0.01%): https://openalex.org/P4310319055
+    1 ( < 0.01%): https://openalex.org/P4310322413
+    ...
+hierarchy_level
+  Count: 297 (2.95%)
+  Types: number (100.00%)
+  Samples:
+    276 (92.93%): 1
+    21 (7.07%): 2
+country_codes
+  Count: 8052 (79.95%)
+  Types: list (100.00%)
+  List Samples:
+    1219 (15.14%): US
+    568 (7.05%): BR
+    557 (6.92%): CN
+    467 (5.80%): JP
+    410 (5.09%): ID
+    ...
+homepage_url
+  Count: 5607 (55.67%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.04%): http://www.ascls.org
+    1 (0.02%): https://jfs.or.jp
+    1 (0.02%): http://www.manlitphil.ac.uk
+    1 (0.02%): https://www.radoctores.es
+    1 (0.02%): https://idibe.org
+    ...
+image_url
+  Count: 2628 (26.09%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.08%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/2016 Facultad de Derecho de la Universidad de la República, Avenida 18 de Julio.jpg
+    2 (0.08%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dansk Sygeplejeråd 01.jpg
+    2 (0.08%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Logo SDC.svg
+    1 (0.04%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Rai Libri - Logo 2018.svg
+    1 (0.04%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Almacén de Editorial Galaxia na Rúa Numancia de Vigo.jpg
+    ...
+image_thumbnail_url
+  Count: 2628 (26.09%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.08%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/2016 Facultad de Derecho de la Universidad de la República, Avenida 18 de Julio.jpg&width=300
+    2 (0.08%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dansk Sygeplejeråd 01.jpg&width=300
+    2 (0.08%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Logo SDC.svg&width=300
+    1 (0.04%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Rai Libri - Logo 2018.svg&width=300
+    1 (0.04%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Almacén de Editorial Galaxia na Rúa Numancia de Vigo.jpg&width=300
+    ...
+roles
+  Count: 10071 (100.00%)
+  Types: list (100.00%)
+  Schema Entry:
+    15373 ENTRIES
+    role
+      Count: 15373 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        10071 (65.51%): publisher
+        3451 (22.45%): institution
+        1851 (12.04%): funder
+    id
+      Count: 15373 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        1 ( < 0.01%): https://openalex.org/P4362726141
+        1 ( < 0.01%): https://openalex.org/P4310311595
+        1 ( < 0.01%): https://openalex.org/P4360969457
+        1 ( < 0.01%): https://openalex.org/P4310319055
+        1 ( < 0.01%): https://openalex.org/P4310322413
+        ...
+    works_count
+      Count: 15229 (99.06%)
+      Types: number (100.00%)
+      Samples:
+        90 (0.59%): 1
+        78 (0.51%): 2
+        71 (0.47%): 3
+        52 (0.34%): 8
+        51 (0.33%): 7
+        ...
+works_count
+  Count: 9992 (99.22%)
+  Types: number (100.00%)
+  Samples:
+    32 (0.32%): 1
+    29 (0.29%): 2
+    24 (0.24%): 3
+    19 (0.19%): 107
+    18 (0.18%): 10
+    ...
+cited_by_count
+  Count: 9749 (96.80%)
+  Types: number (100.00%)
+  Samples:
+    100 (1.03%): 1
+    69 (0.71%): 2
+    56 (0.57%): 11
+    56 (0.57%): 3
+    53 (0.54%): 5
+    ...
+sources_count
+  Count: 10016 (99.45%)
+  Types: number (100.00%)
+  Samples:
+    6294 (62.84%): 1
+    1407 (14.05%): 2
+    545 (5.44%): 3
+    317 (3.16%): 4
+    223 (2.23%): 5
+    ...
+summary_stats:2yr_mean_citedness
+  Count: 5967 (59.25%)
+  Types: number (100.00%)
+  Samples:
+    31 (0.52%): 0.14285714285714285
+    30 (0.50%): 0.125
+    30 (0.50%): 0.5
+    29 (0.49%): 0.1
+    28 (0.47%): 0.16666666666666666
+    ...
+summary_stats:h_index
+  Count: 9793 (97.24%)
+  Types: number (100.00%)
+  Samples:
+    938 (9.58%): 2
+    906 (9.25%): 3
+    717 (7.32%): 4
+    611 (6.24%): 1
+    600 (6.13%): 5
+    ...
+summary_stats:i10_index
+  Count: 7028 (69.78%)
+  Types: number (100.00%)
+  Samples:
+    879 (12.51%): 1
+    482 (6.86%): 2
+    333 (4.74%): 3
+    253 (3.60%): 4
+    186 (2.65%): 5
+    ...
+summary_stats:oa_percent
+  Count: 6952 (69.03%)
+  Types: number (100.00%)
+  Samples:
+    172 (2.47%): 100.0
+    34 (0.49%): 0.07
+    30 (0.43%): 0.08
+    26 (0.37%): 0.03
+    26 (0.37%): 0.06
+    ...
+summary_stats:works_count
+  Count: 9992 (99.22%)
+  Types: number (100.00%)
+  Samples:
+    32 (0.32%): 1
+    29 (0.29%): 2
+    24 (0.24%): 3
+    19 (0.19%): 107
+    18 (0.18%): 10
+    ...
+summary_stats:cited_by_count
+  Count: 9749 (96.80%)
+  Types: number (100.00%)
+  Samples:
+    100 (1.03%): 1
+    69 (0.71%): 2
+    56 (0.57%): 11
+    56 (0.57%): 3
+    53 (0.54%): 5
+    ...
+summary_stats:sources_count
+  Count: 10016 (99.45%)
+  Types: number (100.00%)
+  Samples:
+    6294 (62.84%): 1
+    1407 (14.05%): 2
+    545 (5.44%): 3
+    317 (3.16%): 4
+    223 (2.23%): 5
+    ...
+summary_stats:2yr_works_count
+  Count: 7528 (74.75%)
+  Types: number (100.00%)
+  Samples:
+    350 (4.65%): 1
+    151 (2.01%): 2
+    125 (1.66%): 3
+    78 (1.04%): 4
+    77 (1.02%): 5
+    ...
+summary_stats:2yr_cited_by_count
+  Count: 8917 (88.54%)
+  Types: number (100.00%)
+  Samples:
+    424 (4.75%): 1
+    269 (3.02%): 2
+    210 (2.36%): 3
+    182 (2.04%): 4
+    138 (1.55%): 5
+    ...
+summary_stats:2yr_i10_index
+  Count: 1640 (16.28%)
+  Types: number (100.00%)
+  Samples:
+    493 (30.06%): 1
+    221 (13.48%): 2
+    148 (9.02%): 3
+    85 (5.18%): 4
+    61 (3.72%): 5
+    ...
+summary_stats:2yr_h_index
+  Count: 5936 (58.94%)
+  Types: number (100.00%)
+  Samples:
+    1927 (32.46%): 1
+    1387 (23.37%): 2
+    759 (12.79%): 3
+    472 (7.95%): 4
+    313 (5.27%): 5
+    ...
+counts_by_year
+  Count: 9866 (97.96%)
+  Types: list (100.00%)
+  Schema Entry:
+    105682 ENTRIES
+    year
+      Count: 105682 (100.00%)
+      Types: number (100.00%)
+      Samples:
+        9344 (8.84%): 2017
+        9331 (8.83%): 2016
+        9302 (8.80%): 2020
+        9299 (8.80%): 2019
+        9296 (8.80%): 2018
+        ...
+    works_count
+      Count: 89651 (84.83%)
+      Types: number (100.00%)
+      Samples:
+        3632 (4.05%): 1
+        1826 (2.04%): 2
+        1444 (1.61%): 3
+        1196 (1.33%): 4
+        1191 (1.33%): 6
+        ...
+    oa_works_count
+      Count: 57056 (53.99%)
+      Types: number (100.00%)
+      Samples:
+        2426 (4.25%): 1
+        1405 (2.46%): 2
+        953 (1.67%): 3
+        840 (1.47%): 12
+        828 (1.45%): 4
+        ...
+    cited_by_count
+      Count: 98481 (93.19%)
+      Types: number (100.00%)
+      Samples:
+        5951 (6.04%): 1
+        4317 (4.38%): 2
+        3276 (3.33%): 3
+        2715 (2.76%): 4
+        2407 (2.44%): 5
+        ...
+x_concepts
+  Count: 9981 (99.11%)
+  Types: list (100.00%)
+  Schema Entry:
+    72868 ENTRIES
+    id
+      Count: 72868 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        4826 (6.62%): https://openalex.org/C41008148
+        4134 (5.67%): https://openalex.org/C138885662
+        4124 (5.66%): https://openalex.org/C17744445
+        3028 (4.16%): https://openalex.org/C71924100
+        2785 (3.82%): https://openalex.org/C86803240
+        ...
+    wikidata
+      Count: 72868 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        4826 (6.62%): https://www.wikidata.org/wiki/Q21198
+        4137 (5.68%): https://www.wikidata.org/wiki/Q5891
+        4124 (5.66%): https://www.wikidata.org/wiki/Q36442
+        3029 (4.16%): https://www.wikidata.org/wiki/Q11190
+        2785 (3.82%): https://www.wikidata.org/wiki/Q420
+        ...
+    display_name
+      Count: 72868 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        4826 (6.62%): Computer science
+        4134 (5.67%): Philosophy
+        4124 (5.66%): Political science
+        3028 (4.16%): Medicine
+        2785 (3.82%): Biology
+        ...
+    level
+      Count: 32448 (44.53%)
+      Types: number (100.00%)
+      Samples:
+        26550 (81.82%): 1
+        5115 (15.76%): 2
+        692 (2.13%): 3
+        74 (0.23%): 4
+        17 (0.05%): 5
+    score
+      Count: 72868 (100.00%)
+      Types: number (100.00%)
+      Samples:
+        671 (0.92%): 33.3
+        547 (0.75%): 50.0
+        480 (0.66%): 22.2
+        480 (0.66%): 100.0
+        425 (0.58%): 20.2
+        ...
+sources_api_url
+  Count: 10071 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://api.openalex.org/sources?filter=host_organization.id:P4362726141
+    1 ( < 0.01%): https://api.openalex.org/sources?filter=host_organization.id:P4310311595
+    1 ( < 0.01%): https://api.openalex.org/sources?filter=host_organization.id:P4360969457
+    1 ( < 0.01%): https://api.openalex.org/sources?filter=host_organization.id:P4310319055
+    1 ( < 0.01%): https://api.openalex.org/sources?filter=host_organization.id:P4310322413
+    ...
+updated_date
+  Count: 10071 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): 2023-05-15T19:30:20.350678
+    1 ( < 0.01%): 2023-05-15T19:11:12.860351
+    1 ( < 0.01%): 2023-05-15T19:31:07.045423
+    1 ( < 0.01%): 2023-05-15T19:12:58.597989
+    1 ( < 0.01%): 2023-05-15T19:37:25.193622
+    ...
+created_date
+  Count: 10071 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    7185 (71.34%): 2023-01-01
+    270 (2.68%): 2023-02-15
+    127 (1.26%): 2023-03-27
+    117 (1.16%): 2023-04-10
+    112 (1.11%): 2023-03-20
+    ...
+ids:ror
+  Count: 3380 (33.56%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.06%): https://ror.org/014ys2k69
+    2 (0.06%): https://ror.org/05xsxgs79
+    1 (0.03%): https://ror.org/04ef3fk55
+    1 (0.03%): https://ror.org/05fqfbj82
+    1 (0.03%): https://ror.org/02e71t779
+    ...
+parent_publisher:id
+  Count: 297 (2.95%)
+  Types: string (100.00%)
+  Samples:
+    25 (8.42%): https://openalex.org/P4310314171
+    14 (4.71%): https://openalex.org/P4310317485
+    12 (4.04%): https://openalex.org/P4310319965
+    9 (3.03%): https://openalex.org/P4310319808
+    7 (2.36%): https://openalex.org/P4310311411
+    ...
+parent_publisher:display_name
+  Count: 297 (2.95%)
+  Types: string (100.00%)
+  Samples:
+    25 (8.42%): Czech Academy of Sciences
+    14 (4.71%): Polish Academy of Sciences
+    12 (4.04%): Springer Nature
+    9 (3.03%): Institute of Electrical and Electronics Engineers
+    7 (2.36%): National Center for Scientific Research
+    ...

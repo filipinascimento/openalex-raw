@@ -1,0 +1,292 @@
+{
+    "$count": 10071,
+    "id": {
+        "$count": 10071,
+        "$types": {
+            "string": 10071
+        }
+    },
+    "display_name": {
+        "$count": 10071,
+        "$types": {
+            "string": 10071
+        }
+    },
+    "ids:openalex": {
+        "$count": 10071,
+        "$types": {
+            "string": 10071
+        }
+    },
+    "ids:wikidata": {
+        "$count": 8485,
+        "$types": {
+            "string": 8485
+        }
+    },
+    "alternate_titles": {
+        "$count": 1280,
+        "$types": {
+            "list": 1280
+        }
+    },
+    "parent_publisher": {
+        "$count": 0,
+        "$types": {}
+    },
+    "lineage": {
+        "$count": 10071,
+        "$types": {
+            "list": 10071
+        }
+    },
+    "hierarchy_level": {
+        "$count": 297,
+        "$types": {
+            "number": 297
+        }
+    },
+    "country_codes": {
+        "$count": 8052,
+        "$types": {
+            "list": 8052
+        }
+    },
+    "homepage_url": {
+        "$count": 5607,
+        "$types": {
+            "string": 5607
+        }
+    },
+    "image_url": {
+        "$count": 2628,
+        "$types": {
+            "string": 2628
+        }
+    },
+    "image_thumbnail_url": {
+        "$count": 2628,
+        "$types": {
+            "string": 2628
+        }
+    },
+    "roles": {
+        "$count": 10071,
+        "$schemaEntry": {
+            "$count": 15373,
+            "role": {
+                "$count": 15373,
+                "$types": {
+                    "string": 15373
+                }
+            },
+            "id": {
+                "$count": 15373,
+                "$types": {
+                    "string": 15373
+                }
+            },
+            "works_count": {
+                "$count": 15229,
+                "$types": {
+                    "number": 15229
+                }
+            }
+        },
+        "$types": {
+            "list": 10071
+        }
+    },
+    "works_count": {
+        "$count": 9992,
+        "$types": {
+            "number": 9992
+        }
+    },
+    "cited_by_count": {
+        "$count": 9749,
+        "$types": {
+            "number": 9749
+        }
+    },
+    "sources_count": {
+        "$count": 10016,
+        "$types": {
+            "number": 10016
+        }
+    },
+    "summary_stats:2yr_mean_citedness": {
+        "$count": 5967,
+        "$types": {
+            "number": 5967
+        }
+    },
+    "summary_stats:h_index": {
+        "$count": 9793,
+        "$types": {
+            "number": 9793
+        }
+    },
+    "summary_stats:i10_index": {
+        "$count": 7028,
+        "$types": {
+            "number": 7028
+        }
+    },
+    "summary_stats:oa_percent": {
+        "$count": 6952,
+        "$types": {
+            "number": 6952
+        }
+    },
+    "summary_stats:works_count": {
+        "$count": 9992,
+        "$types": {
+            "number": 9992
+        }
+    },
+    "summary_stats:cited_by_count": {
+        "$count": 9749,
+        "$types": {
+            "number": 9749
+        }
+    },
+    "summary_stats:sources_count": {
+        "$count": 10016,
+        "$types": {
+            "number": 10016
+        }
+    },
+    "summary_stats:2yr_works_count": {
+        "$count": 7528,
+        "$types": {
+            "number": 7528
+        }
+    },
+    "summary_stats:2yr_cited_by_count": {
+        "$count": 8917,
+        "$types": {
+            "number": 8917
+        }
+    },
+    "summary_stats:2yr_i10_index": {
+        "$count": 1640,
+        "$types": {
+            "number": 1640
+        }
+    },
+    "summary_stats:2yr_h_index": {
+        "$count": 5936,
+        "$types": {
+            "number": 5936
+        }
+    },
+    "counts_by_year": {
+        "$count": 9866,
+        "$schemaEntry": {
+            "$count": 105682,
+            "year": {
+                "$count": 105682,
+                "$types": {
+                    "number": 105682
+                }
+            },
+            "works_count": {
+                "$count": 89651,
+                "$types": {
+                    "number": 89651
+                }
+            },
+            "oa_works_count": {
+                "$count": 57056,
+                "$types": {
+                    "number": 57056
+                }
+            },
+            "cited_by_count": {
+                "$count": 98481,
+                "$types": {
+                    "number": 98481
+                }
+            }
+        },
+        "$types": {
+            "list": 9866
+        }
+    },
+    "x_concepts": {
+        "$count": 9981,
+        "$schemaEntry": {
+            "$count": 72868,
+            "id": {
+                "$count": 72868,
+                "$types": {
+                    "string": 72868
+                }
+            },
+            "wikidata": {
+                "$count": 72868,
+                "$types": {
+                    "string": 72868
+                }
+            },
+            "display_name": {
+                "$count": 72868,
+                "$types": {
+                    "string": 72868
+                }
+            },
+            "level": {
+                "$count": 32448,
+                "$types": {
+                    "number": 32448
+                }
+            },
+            "score": {
+                "$count": 72868,
+                "$types": {
+                    "number": 72868
+                }
+            }
+        },
+        "$types": {
+            "list": 9981
+        }
+    },
+    "sources_api_url": {
+        "$count": 10071,
+        "$types": {
+            "string": 10071
+        }
+    },
+    "updated_date": {
+        "$count": 10071,
+        "$types": {
+            "string": 10071
+        }
+    },
+    "created_date": {
+        "$count": 10071,
+        "$types": {
+            "string": 10071
+        }
+    },
+    "ids:ror": {
+        "$count": 3380,
+        "$types": {
+            "string": 3380
+        }
+    },
+    "parent_publisher:id": {
+        "$count": 297,
+        "$types": {
+            "string": 297
+        }
+    },
+    "parent_publisher:display_name": {
+        "$count": 297,
+        "$types": {
+            "string": 297
+        }
+    }
+}

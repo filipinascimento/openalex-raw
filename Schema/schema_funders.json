@@ -1,0 +1,258 @@
+{
+    "$count": 32437,
+    "id": {
+        "$count": 32437,
+        "$types": {
+            "string": 32437
+        }
+    },
+    "display_name": {
+        "$count": 32437,
+        "$types": {
+            "string": 32437
+        }
+    },
+    "ids:openalex": {
+        "$count": 32437,
+        "$types": {
+            "string": 32437
+        }
+    },
+    "alternate_titles": {
+        "$count": 28803,
+        "$types": {
+            "list": 28803
+        }
+    },
+    "country_code": {
+        "$count": 32246,
+        "$types": {
+            "string": 32246
+        }
+    },
+    "description": {
+        "$count": 17258,
+        "$types": {
+            "string": 17258
+        }
+    },
+    "homepage_url": {
+        "$count": 19297,
+        "$types": {
+            "string": 19297
+        }
+    },
+    "image_url": {
+        "$count": 7048,
+        "$types": {
+            "string": 7048
+        }
+    },
+    "image_thumbnail_url": {
+        "$count": 7048,
+        "$types": {
+            "string": 7048
+        }
+    },
+    "roles": {
+        "$count": 32437,
+        "$schemaEntry": {
+            "$count": 53106,
+            "role": {
+                "$count": 53106,
+                "$types": {
+                    "string": 53106
+                }
+            },
+            "id": {
+                "$count": 53106,
+                "$types": {
+                    "string": 53106
+                }
+            },
+            "works_count": {
+                "$count": 48614,
+                "$types": {
+                    "number": 48614
+                }
+            }
+        },
+        "$types": {
+            "list": 32437
+        }
+    },
+    "grants_count": {
+        "$count": 24699,
+        "$types": {
+            "number": 24699
+        }
+    },
+    "works_count": {
+        "$count": 29597,
+        "$types": {
+            "number": 29597
+        }
+    },
+    "cited_by_count": {
+        "$count": 28701,
+        "$types": {
+            "number": 28701
+        }
+    },
+    "summary_stats:2yr_mean_citedness": {
+        "$count": 23795,
+        "$types": {
+            "number": 23795
+        }
+    },
+    "summary_stats:h_index": {
+        "$count": 28472,
+        "$types": {
+            "number": 28472
+        }
+    },
+    "summary_stats:i10_index": {
+        "$count": 24761,
+        "$types": {
+            "number": 24761
+        }
+    },
+    "summary_stats:oa_percent": {
+        "$count": 27549,
+        "$types": {
+            "number": 27549
+        }
+    },
+    "summary_stats:works_count": {
+        "$count": 29597,
+        "$types": {
+            "number": 29597
+        }
+    },
+    "summary_stats:cited_by_count": {
+        "$count": 28701,
+        "$types": {
+            "number": 28701
+        }
+    },
+    "summary_stats:2yr_works_count": {
+        "$count": 25991,
+        "$types": {
+            "number": 25991
+        }
+    },
+    "summary_stats:2yr_cited_by_count": {
+        "$count": 27885,
+        "$types": {
+            "number": 27885
+        }
+    },
+    "summary_stats:2yr_i10_index": {
+        "$count": 16098,
+        "$types": {
+            "number": 16098
+        }
+    },
+    "summary_stats:2yr_h_index": {
+        "$count": 24751,
+        "$types": {
+            "number": 24751
+        }
+    },
+    "counts_by_year": {
+        "$count": 29598,
+        "$schemaEntry": {
+            "$count": 244940,
+            "year": {
+                "$count": 244940,
+                "$types": {
+                    "number": 244940
+                }
+            },
+            "works_count": {
+                "$count": 190622,
+                "$types": {
+                    "number": 190622
+                }
+            },
+            "oa_works_count": {
+                "$count": 153643,
+                "$types": {
+                    "number": 153643
+                }
+            },
+            "cited_by_count": {
+                "$count": 232328,
+                "$types": {
+                    "number": 232328
+                }
+            }
+        },
+        "$types": {
+            "list": 29598
+        }
+    },
+    "x_concepts": {
+        "$count": 29487,
+        "$schemaEntry": {
+            "$count": 379698,
+            "id": {
+                "$count": 379698,
+                "$types": {
+                    "string": 379698
+                }
+            },
+            "wikidata": {
+                "$count": 379698,
+                "$types": {
+                    "string": 379698
+                }
+            },
+            "display_name": {
+                "$count": 379698,
+                "$types": {
+                    "string": 379698
+                }
+            },
+            "level": {
+                "$count": 254201,
+                "$types": {
+                    "number": 254201
+                }
+            },
+            "score": {
+                "$count": 379698,
+                "$types": {
+                    "number": 379698
+                }
+            }
+        },
+        "$types": {
+            "list": 29487
+        }
+    },
+    "updated_date": {
+        "$count": 32437,
+        "$types": {
+            "string": 32437
+        }
+    },
+    "created_date": {
+        "$count": 32437,
+        "$types": {
+            "string": 32437
+        }
+    },
+    "ids:wikidata": {
+        "$count": 18811,
+        "$types": {
+            "string": 18811
+        }
+    },
+    "ids:ror": {
+        "$count": 17600,
+        "$types": {
+            "string": 17600
+        }
+    }
+}

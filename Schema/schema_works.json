@@ -1,460 +1,858 @@
 {
-    "$count": 210313714,
+    "$count": 240790293,
     "id": {
-        "$count": 210313714,
+        "$count": 240790293,
         "$types": {
-            "string": 210313714
+            "string": 240790293
         }
     },
     "doi": {
-        "$count": 107732053,
+        "$count": 146844018,
         "$types": {
-            "string": 107732053
-        }
-    },
-    "display_name": {
-        "$count": 210301602,
-        "$types": {
-            "string": 210301602
-        }
-    },
-    "title": {
-        "$count": 210301602,
-        "$types": {
-            "string": 210301602
-        }
-    },
-    "publication_year": {
-        "$count": 210231061,
-        "$types": {
-            "number": 210231061
-        }
-    },
-    "publication_date": {
-        "$count": 210231061,
-        "$types": {
-            "string": 210231061
-        }
-    },
-    "ids:openalex": {
-        "$count": 210313714,
-        "$types": {
-            "string": 210313714
+            "string": 146844018
         }
     },
     "ids:doi": {
-        "$count": 107732053,
+        "$count": 146844018,
         "$types": {
-            "string": 107732053
-        }
-    },
-    "ids:pmid": {
-        "$count": 32274796,
-        "$types": {
-            "string": 32274796
+            "string": 146844018
         }
     },
     "ids:mag": {
-        "$count": 204563614,
+        "$count": 193216413,
         "$types": {
-            "number": 204563614
+            "number": 193216413
         }
     },
-    "host_venue:id": {
-        "$count": 109693873,
+    "ids:pmid": {
+        "$count": 35577099,
         "$types": {
-            "string": 109693873
+            "string": 35577099
         }
     },
-    "host_venue:issn_l": {
-        "$count": 94534400,
+    "ids:openalex": {
+        "$count": 240790293,
         "$types": {
-            "string": 94534400
+            "string": 240790293
         }
     },
-    "host_venue:issn": {
-        "$count": 86102910,
+    "mesh": {
+        "$count": 28566641,
+        "$schemaEntry": {
+            "$count": 456205927,
+            "qualifier_ui": {
+                "$count": 158934419,
+                "$types": {
+                    "string": 158934419
+                }
+            },
+            "descriptor_ui": {
+                "$count": 456205927,
+                "$types": {
+                    "string": 456205927
+                }
+            },
+            "is_major_topic": {
+                "$count": 101182497,
+                "$types": {
+                    "bool": 101182497
+                }
+            },
+            "qualifier_name": {
+                "$count": 158934419,
+                "$types": {
+                    "string": 158934419
+                }
+            },
+            "descriptor_name": {
+                "$count": 456205927,
+                "$types": {
+                    "string": 456205927
+                }
+            }
+        },
         "$types": {
-            "list": 86102910
-        }
-    },
-    "host_venue:display_name": {
-        "$count": 166618931,
-        "$types": {
-            "string": 166618931
-        }
-    },
-    "host_venue:publisher": {
-        "$count": 152456801,
-        "$types": {
-            "string": 152456801
-        }
-    },
-    "host_venue:type": {
-        "$count": 117472095,
-        "$types": {
-            "string": 117472095
-        }
-    },
-    "host_venue:url": {
-        "$count": 199400989,
-        "$types": {
-            "string": 199400989
-        }
-    },
-    "host_venue:is_oa": {
-        "$count": 24860230,
-        "$types": {
-            "bool": 24860230
-        }
-    },
-    "host_venue:version": {
-        "$count": 24860230,
-        "$types": {
-            "string": 24860230
-        }
-    },
-    "host_venue:license": {
-        "$count": 9172062,
-        "$types": {
-            "string": 9172062
+            "list": 28566641
         }
     },
     "type": {
-        "$count": 138869680,
+        "$count": 240790293,
         "$types": {
-            "string": 138869680
+            "string": 240790293
         }
     },
-    "open_access:is_oa": {
-        "$count": 143101840,
+    "title": {
+        "$count": 238659953,
         "$types": {
-            "bool": 143101840
+            "string": 238659953
         }
     },
-    "open_access:oa_status": {
-        "$count": 99448621,
+    "biblio:issue": {
+        "$count": 116237151,
         "$types": {
-            "string": 99448621
+            "string": 116237151
         }
     },
-    "open_access:oa_url": {
-        "$count": 32236747,
+    "biblio:volume": {
+        "$count": 118680746,
         "$types": {
-            "string": 32236747
+            "string": 118680746
+        }
+    },
+    "biblio:last_page": {
+        "$count": 136296633,
+        "$types": {
+            "string": 136296633
+        }
+    },
+    "biblio:first_page": {
+        "$count": 141760786,
+        "$types": {
+            "string": 141760786
+        }
+    },
+    "funders": {
+        "$count": 9,
+        "$schemaEntry": {
+            "$count": 12,
+            "id": {
+                "$count": 12,
+                "$types": {
+                    "string": 12
+                }
+            },
+            "ids:openalex": {
+                "$count": 12,
+                "$types": {
+                    "string": 12
+                }
+            },
+            "awards": {
+                "$count": 10,
+                "$types": {
+                    "list": 10
+                }
+            },
+            "display_name": {
+                "$count": 12,
+                "$types": {
+                    "string": 12
+                }
+            },
+            "ids:ror": {
+                "$count": 10,
+                "$types": {
+                    "string": 10
+                }
+            },
+            "ids:wikidata": {
+                "$count": 9,
+                "$types": {
+                    "string": 9
+                }
+            }
+        },
+        "$types": {
+            "list": 9
+        }
+    },
+    "concepts": {
+        "$count": 240741106,
+        "$schemaEntry": {
+            "$count": 2083927986,
+            "id": {
+                "$count": 2083927986,
+                "$types": {
+                    "string": 2083927986
+                }
+            },
+            "level": {
+                "$count": 1546737206,
+                "$types": {
+                    "number": 1546737206
+                }
+            },
+            "score": {
+                "$count": 1823106263,
+                "$types": {
+                    "number": 1823106263
+                }
+            },
+            "wikidata": {
+                "$count": 2083927986,
+                "$types": {
+                    "string": 2083927986
+                }
+            },
+            "display_name": {
+                "$count": 2083927986,
+                "$types": {
+                    "string": 2083927986
+                }
+            }
+        },
+        "$types": {
+            "list": 240741106
+        }
+    },
+    "locations": {
+        "$count": 240763097,
+        "$schemaEntry": {
+            "$count": 303458059,
+            "is_oa": {
+                "$count": 71300328,
+                "$types": {
+                    "bool": 71300328
+                }
+            },
+            "source:id": {
+                "$count": 246468305,
+                "$types": {
+                    "string": 246468305
+                }
+            },
+            "source:issn": {
+                "$count": 113205677,
+                "$types": {
+                    "list": 113205677
+                }
+            },
+            "source:type": {
+                "$count": 246468305,
+                "$types": {
+                    "string": 246468305
+                }
+            },
+            "source:issn_l": {
+                "$count": 113205677,
+                "$types": {
+                    "string": 113205677
+                }
+            },
+            "source:publisher": {
+                "$count": 163815888,
+                "$types": {
+                    "string": 163815888
+                }
+            },
+            "source:display_name": {
+                "$count": 246468305,
+                "$types": {
+                    "string": 246468305
+                }
+            },
+            "source:publisher_id": {
+                "$count": 117964439,
+                "$types": {
+                    "string": 117964439
+                }
+            },
+            "source:host_organization": {
+                "$count": 175690151,
+                "$types": {
+                    "string": 175690151
+                }
+            },
+            "source:host_organization_name": {
+                "$count": 175690352,
+                "$types": {
+                    "string": 175690352
+                }
+            },
+            "license": {
+                "$count": 29264080,
+                "$types": {
+                    "string": 29264080
+                }
+            },
+            "pdf_url": {
+                "$count": 32440090,
+                "$types": {
+                    "string": 32440090
+                }
+            },
+            "version": {
+                "$count": 71300346,
+                "$types": {
+                    "string": 71300346
+                }
+            },
+            "landing_page_url": {
+                "$count": 303127579,
+                "$types": {
+                    "string": 303127579
+                }
+            },
+            "source": {
+                "$count": 0,
+                "$types": {}
+            },
+            "source:host_organization_lineage": {
+                "$count": 174339654,
+                "$types": {
+                    "list": 174339654
+                }
+            },
+            "source:host_organization_lineage_names": {
+                "$count": 174330147,
+                "$types": {
+                    "list": 174330147
+                }
+            }
+        },
+        "$types": {
+            "list": 240763097
         }
     },
     "authorships": {
-        "$count": 208253141,
+        "$count": 219216061,
         "$schemaEntry": {
-            "$count": 558928906,
-            "author_position": {
-                "$count": 558928906,
-                "$types": {
-                    "string": 558928906
-                }
-            },
+            "$count": 613718450,
             "author:id": {
-                "$count": 558928813,
+                "$count": 613707556,
                 "$types": {
-                    "string": 558927486,
-                    "number": 1327
-                }
-            },
-            "author:display_name": {
-                "$count": 558718288,
-                "$types": {
-                    "string": 558718288
+                    "string": 613707556
                 }
             },
             "author:orcid": {
-                "$count": 134715571,
+                "$count": 57081128,
                 "$types": {
-                    "string": 134715571
+                    "string": 57081128
+                }
+            },
+            "author:display_name": {
+                "$count": 613499750,
+                "$types": {
+                    "string": 613499750
                 }
             },
             "institutions": {
-                "$count": 281004068,
+                "$count": 307392229,
                 "$schemaEntry": {
-                    "$count": 289917986,
+                    "$count": 361824315,
                     "id": {
-                        "$count": 233859038,
+                        "$count": 315342481,
                         "$types": {
-                            "string": 233859038
-                        }
-                    },
-                    "display_name": {
-                        "$count": 289891332,
-                        "$types": {
-                            "string": 289891332
+                            "string": 315342481
                         }
                     },
                     "ror": {
-                        "$count": 226354194,
+                        "$count": 315342481,
                         "$types": {
-                            "string": 226354194
-                        }
-                    },
-                    "country_code": {
-                        "$count": 233213614,
-                        "$types": {
-                            "string": 233213614
+                            "string": 315342481
                         }
                     },
                     "type": {
-                        "$count": 226308402,
+                        "$count": 315307522,
                         "$types": {
-                            "string": 226308402
+                            "string": 315307522
+                        }
+                    },
+                    "country_code": {
+                        "$count": 315339207,
+                        "$types": {
+                            "string": 315339207
+                        }
+                    },
+                    "display_name": {
+                        "$count": 361770656,
+                        "$types": {
+                            "string": 361770656
                         }
                     }
                 },
                 "$types": {
-                    "list": 281004068
+                    "list": 307392229
+                }
+            },
+            "author_position": {
+                "$count": 613718450,
+                "$types": {
+                    "string": 613718450
+                }
+            },
+            "is_corresponding": {
+                "$count": 33868511,
+                "$types": {
+                    "bool": 33868511
                 }
             },
             "raw_affiliation_string": {
-                "$count": 275559303,
+                "$count": 303306835,
                 "$types": {
-                    "string": 275559303
+                    "string": 303306835
+                }
+            },
+            "raw_affiliation_strings": {
+                "$count": 303306835,
+                "$types": {
+                    "list": 303306835
                 }
             }
         },
         "$types": {
-            "list": 208253141
-        }
-    },
-    "cited_by_count": {
-        "$count": 78210873,
-        "$types": {
-            "number": 78210873
-        }
-    },
-    "biblio:volume": {
-        "$count": 117426168,
-        "$types": {
-            "string": 117426168
-        }
-    },
-    "biblio:issue": {
-        "$count": 111639595,
-        "$types": {
-            "string": 111639595
-        }
-    },
-    "biblio:first_page": {
-        "$count": 139072612,
-        "$types": {
-            "string": 139072612
-        }
-    },
-    "biblio:last_page": {
-        "$count": 124395847,
-        "$types": {
-            "string": 124395847
-        }
-    },
-    "is_retracted": {
-        "$count": 33928,
-        "$types": {
-            "bool": 33928
+            "list": 219216061
         }
     },
     "is_paratext": {
-        "$count": 19112,
+        "$count": 1155937,
         "$types": {
-            "bool": 19112
+            "bool": 1155937
         }
     },
-    "concepts": {
-        "$count": 187855823,
-        "$schemaEntry": {
-            "$count": 1169338507,
-            "id": {
-                "$count": 1169338507,
-                "$types": {
-                    "string": 1169338507
-                }
-            },
-            "wikidata": {
-                "$count": 1169338507,
-                "$types": {
-                    "string": 1169338507
-                }
-            },
-            "display_name": {
-                "$count": 1169338507,
-                "$types": {
-                    "string": 1169338507
-                }
-            },
-            "level": {
-                "$count": 924164621,
-                "$types": {
-                    "number": 924164621
-                }
-            },
-            "score": {
-                "$count": 1169338507,
-                "$types": {
-                    "number": 1169338507
-                }
-            }
-        },
+    "open_access:is_oa": {
+        "$count": 46523535,
         "$types": {
-            "list": 187855823
+            "bool": 46523535
         }
     },
-    "mesh": {
-        "$count": 27486420,
-        "$schemaEntry": {
-            "$count": 454933547,
-            "is_major_topic": {
-                "$count": 100437580,
-                "$types": {
-                    "bool": 100437580
-                }
-            },
-            "descriptor_ui": {
-                "$count": 454933547,
-                "$types": {
-                    "string": 454933547
-                }
-            },
-            "descriptor_name": {
-                "$count": 454933547,
-                "$types": {
-                    "string": 454933547
-                }
-            },
-            "qualifier_ui": {
-                "$count": 160018697,
-                "$types": {
-                    "string": 160018697
-                }
-            },
-            "qualifier_name": {
-                "$count": 160018697,
-                "$types": {
-                    "string": 160018697
-                }
-            }
-        },
+    "open_access:oa_url": {
+        "$count": 46523535,
         "$types": {
-            "list": 27486420
+            "string": 46523535
         }
     },
-    "alternate_host_venues": {
-        "$count": 21424498,
-        "$schemaEntry": {
-            "$count": 22882605,
-            "id": {
-                "$count": 11097544,
-                "$types": {
-                    "string": 11097544
-                }
-            },
-            "display_name": {
-                "$count": 20896073,
-                "$types": {
-                    "string": 20896073
-                }
-            },
-            "type": {
-                "$count": 22882605,
-                "$types": {
-                    "string": 22882605
-                }
-            },
-            "url": {
-                "$count": 22882605,
-                "$types": {
-                    "string": 22882605
-                }
-            },
-            "is_oa": {
-                "$count": 22882605,
-                "$types": {
-                    "bool": 22882605
-                }
-            },
-            "version": {
-                "$count": 22882605,
-                "$types": {
-                    "string": 22882605
-                }
-            },
-            "license": {
-                "$count": 9693304,
-                "$types": {
-                    "string": 9693304
-                }
-            }
-        },
+    "open_access:oa_status": {
+        "$count": 240790293,
         "$types": {
-            "list": 21424498
+            "string": 240790293
         }
     },
-    "referenced_works": {
-        "$count": 69330470,
+    "open_access:any_repository_has_fulltext": {
+        "$count": 24083493,
         "$types": {
-            "list": 69330470
-        }
-    },
-    "related_works": {
-        "$count": 130372879,
-        "$types": {
-            "list": 130372879
-        }
-    },
-    "counts_by_year": {
-        "$count": 64118947,
-        "$schemaEntry": {
-            "$count": 253930285,
-            "year": {
-                "$count": 253930285,
-                "$types": {
-                    "number": 253930285
-                }
-            },
-            "cited_by_count": {
-                "$count": 253930285,
-                "$types": {
-                    "number": 253930285
-                }
-            }
-        },
-        "$types": {
-            "list": 64118947
-        }
-    },
-    "cited_by_api_url": {
-        "$count": 210313714,
-        "$types": {
-            "string": 210313714
-        }
-    },
-    "updated_date": {
-        "$count": 210313714,
-        "$types": {
-            "string": 210313714
+            "bool": 24083493
         }
     },
     "created_date": {
-        "$count": 210313714,
+        "$count": 240790293,
         "$types": {
-            "string": 210313714
+            "string": 240790293
         }
     },
-    "ids:pmcid": {
-        "$count": 384074,
+    "display_name": {
+        "$count": 238659953,
         "$types": {
-            "string": 384074
+            "string": 238659953
+        }
+    },
+    "is_retracted": {
+        "$count": 12642,
+        "$types": {
+            "bool": 12642
+        }
+    },
+    "updated_date": {
+        "$count": 240790293,
+        "$types": {
+            "string": 240790293
+        }
+    },
+    "related_works": {
+        "$count": 184498663,
+        "$types": {
+            "list": 184498663
+        }
+    },
+    "cited_by_count": {
+        "$count": 79588373,
+        "$types": {
+            "number": 79588373
+        }
+    },
+    "counts_by_year": {
+        "$count": 65870137,
+        "$schemaEntry": {
+            "$count": 278821165,
+            "year": {
+                "$count": 278821165,
+                "$types": {
+                    "number": 278821165
+                }
+            },
+            "cited_by_count": {
+                "$count": 278821165,
+                "$types": {
+                    "number": 278821165
+                }
+            }
+        },
+        "$types": {
+            "list": 65870137
+        }
+    },
+    "best_oa_location": {
+        "$count": 0,
+        "$types": {}
+    },
+    "cited_by_api_url": {
+        "$count": 240790293,
+        "$types": {
+            "string": 240790293
+        }
+    },
+    "primary_location:is_oa": {
+        "$count": 38816847,
+        "$types": {
+            "bool": 38816847
+        }
+    },
+    "primary_location:source:id": {
+        "$count": 184544531,
+        "$types": {
+            "string": 184544531
+        }
+    },
+    "primary_location:source:issn": {
+        "$count": 113126034,
+        "$types": {
+            "list": 113126034
+        }
+    },
+    "primary_location:source:type": {
+        "$count": 184544531,
+        "$types": {
+            "string": 184544531
+        }
+    },
+    "primary_location:source:issn_l": {
+        "$count": 113126034,
+        "$types": {
+            "string": 113126034
+        }
+    },
+    "primary_location:source:publisher": {
+        "$count": 136672799,
+        "$types": {
+            "string": 136672799
+        }
+    },
+    "primary_location:source:display_name": {
+        "$count": 184544531,
+        "$types": {
+            "string": 184544531
+        }
+    },
+    "primary_location:source:publisher_id": {
+        "$count": 117883905,
+        "$types": {
+            "string": 117883905
+        }
+    },
+    "primary_location:source:host_organization": {
+        "$count": 118381077,
+        "$types": {
+            "string": 118381077
+        }
+    },
+    "primary_location:source:host_organization_name": {
+        "$count": 118381258,
+        "$types": {
+            "string": 118381258
+        }
+    },
+    "primary_location:license": {
+        "$count": 18628261,
+        "$types": {
+            "string": 18628261
+        }
+    },
+    "primary_location:pdf_url": {
+        "$count": 8760788,
+        "$types": {
+            "string": 8760788
+        }
+    },
+    "primary_location:version": {
+        "$count": 38816850,
+        "$types": {
+            "string": 38816850
+        }
+    },
+    "primary_location:landing_page_url": {
+        "$count": 240738061,
+        "$types": {
+            "string": 240738061
+        }
+    },
+    "publication_date": {
+        "$count": 240768791,
+        "$types": {
+            "string": 240768791
+        }
+    },
+    "publication_year": {
+        "$count": 240768791,
+        "$types": {
+            "number": 240768791
+        }
+    },
+    "referenced_works": {
+        "$count": 75675220,
+        "$types": {
+            "list": 75675220
         }
     },
     "abstract_inverted_index": {
-        "$count": 108873822,
+        "$count": 118803529,
         "$types": {
-            "string": 108873822
+            "string": 118803529
+        }
+    },
+    "primary_location:source": {
+        "$count": 0,
+        "$types": {}
+    },
+    "best_oa_location:is_oa": {
+        "$count": 46523580,
+        "$types": {
+            "bool": 46523580
+        }
+    },
+    "best_oa_location:source:id": {
+        "$count": 42009603,
+        "$types": {
+            "string": 42009603
+        }
+    },
+    "best_oa_location:source:issn": {
+        "$count": 29529631,
+        "$types": {
+            "list": 29529631
+        }
+    },
+    "best_oa_location:source:type": {
+        "$count": 42009603,
+        "$types": {
+            "string": 42009603
+        }
+    },
+    "best_oa_location:source:issn_l": {
+        "$count": 29529631,
+        "$types": {
+            "string": 29529631
+        }
+    },
+    "best_oa_location:source:publisher": {
+        "$count": 39094019,
+        "$types": {
+            "string": 39094019
+        }
+    },
+    "best_oa_location:source:display_name": {
+        "$count": 42009603,
+        "$types": {
+            "string": 42009603
+        }
+    },
+    "best_oa_location:source:publisher_id": {
+        "$count": 25296740,
+        "$types": {
+            "string": 25296740
+        }
+    },
+    "best_oa_location:source:host_organization": {
+        "$count": 34201765,
+        "$types": {
+            "string": 34201765
+        }
+    },
+    "best_oa_location:source:host_organization_name": {
+        "$count": 34201839,
+        "$types": {
+            "string": 34201839
+        }
+    },
+    "best_oa_location:license": {
+        "$count": 20348480,
+        "$types": {
+            "string": 20348480
+        }
+    },
+    "best_oa_location:pdf_url": {
+        "$count": 15381461,
+        "$types": {
+            "string": 15381461
+        }
+    },
+    "best_oa_location:version": {
+        "$count": 46523580,
+        "$types": {
+            "string": 46523580
+        }
+    },
+    "best_oa_location:landing_page_url": {
+        "$count": 46465761,
+        "$types": {
+            "string": 46465761
+        }
+    },
+    "ids:pmcid": {
+        "$count": 6961907,
+        "$types": {
+            "string": 6961907
+        }
+    },
+    "best_oa_location:source": {
+        "$count": 0,
+        "$types": {}
+    },
+    "best_oa_location:source:host_organization_lineage": {
+        "$count": 33456043,
+        "$types": {
+            "list": 33456043
+        }
+    },
+    "primary_location:source:host_organization_lineage": {
+        "$count": 117030599,
+        "$types": {
+            "list": 117030599
+        }
+    },
+    "corresponding_author_ids": {
+        "$count": 30467792,
+        "$types": {
+            "list": 30467792
+        }
+    },
+    "corresponding_institution_ids": {
+        "$count": 19169348,
+        "$types": {
+            "list": 19169348
+        }
+    },
+    "summary_stats:cited_by_count": {
+        "$count": 79588218,
+        "$types": {
+            "number": 79588218
+        }
+    },
+    "summary_stats:2yr_cited_by_count": {
+        "$count": 39264395,
+        "$types": {
+            "number": 39264395
+        }
+    },
+    "grants": {
+        "$count": 7294227,
+        "$schemaEntry": {
+            "$count": 15762783,
+            "funder": {
+                "$count": 15762783,
+                "$types": {
+                    "string": 15762783
+                }
+            },
+            "award_id": {
+                "$count": 12101309,
+                "$types": {
+                    "string": 12101309
+                }
+            },
+            "funder_display_name": {
+                "$count": 15762783,
+                "$types": {
+                    "string": 15762783
+                }
+            }
+        },
+        "$types": {
+            "list": 7294227
+        }
+    },
+    "apc_paid": {
+        "$count": 21,
+        "$schemaEntry": {
+            "$count": 25,
+            "price": {
+                "$count": 25,
+                "$types": {
+                    "number": 25
+                }
+            },
+            "currency": {
+                "$count": 25,
+                "$types": {
+                    "string": 25
+                }
+            },
+            "provenance": {
+                "$count": 25,
+                "$types": {
+                    "string": 25
+                }
+            }
+        },
+        "$types": {
+            "list": 21
+        }
+    },
+    "apc_paid_usd": {
+        "$count": 20,
+        "$types": {
+            "number": 20
+        }
+    },
+    "language": {
+        "$count": 238599483,
+        "$types": {
+            "string": 238599483
+        }
+    },
+    "apc_payment": {
+        "$count": 0,
+        "$types": {}
+    },
+    "apc_payment:price": {
+        "$count": 8674699,
+        "$types": {
+            "number": 8674699
+        }
+    },
+    "apc_payment:currency": {
+        "$count": 8674701,
+        "$types": {
+            "string": 8674701
+        }
+    },
+    "apc_payment:price_usd": {
+        "$count": 8563170,
+        "$types": {
+            "number": 8563170
+        }
+    },
+    "apc_payment:provenance": {
+        "$count": 8674701,
+        "$types": {
+            "string": 8674701
+        }
+    },
+    "doi_registration_agency": {
+        "$count": 144327729,
+        "$types": {
+            "string": 144327729
+        }
+    },
+    "locations_count": {
+        "$count": 240760929,
+        "$types": {
+            "number": 240760929
+        }
+    },
+    "primary_location": {
+        "$count": 0,
+        "$types": {}
+    },
+    "primary_location:source:host_organization_lineage_names": {
+        "$count": 117027361,
+        "$types": {
+            "list": 117027361
+        }
+    },
+    "best_oa_location:source:host_organization_lineage_names": {
+        "$count": 33454649,
+        "$types": {
+            "list": 33454649
         }
     }
 }
