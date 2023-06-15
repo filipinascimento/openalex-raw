@@ -6,11 +6,13 @@ importlib.reload(openalexraw)
 
 oa = openalexraw.OpenAlex(
     openAlexPath = "/gpfs/sciencegenome/OpenAlex/openalex-snapshot"
+    #Path to OpenAlex data
 )
 
 
-# entityTypes = ["concepts","funders","institutions","publishers","sources","authors","works"]
 outputLocation = "/gpfs/sciencegenome/OpenAlex/TSV/"
+#Path to the output
+
 entityType = "concepts"
 openalexraw.archive.createTSV(oa,entityType, outputLocation, selection=["core","basic"])
 

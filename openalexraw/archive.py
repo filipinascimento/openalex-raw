@@ -3,6 +3,11 @@ from tqdm.auto import tqdm
 import ujson
 from pathlib import Path
 from . import openalex
+import pandas as pd
+import csv
+import math
+import warnings
+import numpy as np
 # import openalex
 
 def extractEntry(data,path):
@@ -19,6 +24,26 @@ def extractEntry(data,path):
         
     return data
 
+dataTypeMap = { # Default
+    "i":("int",None,-1),
+    "s":("str",None,""),
+    "f":("float",None,np.nan),
+    "d":("double",None,np.nan),
+    "a":("json",None,""),
+    "I":("json","int", -1),
+    "F":("json","float", np.nan),
+    "D":("json","float", np.nan),
+    "S":("json","str", ""),
+    "F":("json","int",-1),
+}
+
+dataTypeMapStringToPandasType = {
+    "int":"Int64",
+    "str":"string",
+    "float":"float64",
+    "double":"float64",
+    "json":"string",
+}
 
 
 def processOpenAlexID(entityID):
@@ -29,9 +54,9 @@ def processOpenAlexID(entityID):
             return entityID
         else:
             print("Error: ID is not a string or an integer: ",entityID)
-            return 0
+            return -1
     else:
-        return 0
+        return -1
     
 schemasPerCategory = {}
 schemasPerCategory["works"] = {
@@ -434,7 +459,7 @@ schemasPerCategory["publishers"] = {
     ],
     "basic":[
         ("display_name", "s", None),
-        ("country_code", "s", None),
+        ("country_codes", "s", None),
         ("hierarchy_level", "i", None),
         ("lineage", "I", processOpenAlexID),
     ],
@@ -485,7 +510,7 @@ schemasPerCategory["funders"] = {
 
 
 
-def createDBGZ(oa,entityType, outputLocation, selection=["core","basic"]):
+def createDBGZ(oa,entityType, outputLocation, selection=["core","basic"],filterFunction=None):
     import dbgz
     # oa = openalex.OpenAlex(
     #     openAlexPath = "/gpfs/sciencegenome/OpenAlex/openalex-snapshot"
@@ -493,13 +518,17 @@ def createDBGZ(oa,entityType, outputLocation, selection=["core","basic"]):
     # entityType = "concepts"
     # selection = ["core","basic"]
     # outputLocation = "./Processed/"
-    archiveName = "%s_%s.dbgz"%(entityType,"+".join(selection))
+    filePrefix = "%s_%s"%(entityType,"+".join(selection))
+    archiveName = "%s.dbgz"%filePrefix
     archiveLocation = Path(outputLocation)/(archiveName)
     schemaData = [entry for selectedKey in selection for entry in schemasPerCategory[entityType][selectedKey]]
     schema = [(key,dataType) for key,dataType,postProcess in schemaData]
     entitiesCount = oa.getRawEntityCount(entityType)
     with dbgz.DBGZWriter(archiveLocation, schema) as fdbgz:
         for entity in tqdm(oa.rawEntities(entityType),total=entitiesCount,desc=entityType):
+            if(filterFunction is not None):
+                if(not filterFunction(entity)):
+                    continue
             processedEntity = {}
             for key,dataType,postProcess in schemaData:
                 path = key.split(":")
@@ -546,9 +575,7 @@ def createDBGZ(oa,entityType, outputLocation, selection=["core","basic"]):
 
 
 
-def createTSV(oa,entityType, outputLocation, selection=["core","basic"]):
-    import csv
-
+def createTSV(oa,entityType, outputLocation, selection=["core","basic"],filterFunction=None):
     # # Open your tsv file in write mode ('w').
     # oa = openalex.OpenAlex(
     #     openAlexPath = "/gpfs/sciencegenome/OpenAlex/openalex-snapshot"
@@ -556,39 +583,71 @@ def createTSV(oa,entityType, outputLocation, selection=["core","basic"]):
     # entityType = "concepts"
     # selection = ["core","basic"]
     # outputLocation = "./Processed/"
-    archiveName = "%s_%s.tsv"%(entityType,"+".join(selection))
+    filePrefix = "%s_%s"%(entityType,"+".join(selection))
+    archiveName = "%s.tsv"%filePrefix
+    archiveJSONMetadataName = "%s.json"%filePrefix
     archiveLocation = Path(outputLocation)/(archiveName)
     schemaData = [entry for selectedKey in selection for entry in schemasPerCategory[entityType][selectedKey]]
     schema = [(key,dataType) for key,dataType,postProcess in schemaData]
     entitiesCount = oa.getRawEntityCount(entityType)
+    writtenEntriesCount = 0
     with open(archiveLocation, 'w', newline='') as tsv_file:
-        # Use the csv.writer function, but specify a tab ('\t') as the delimiter.
-        writer = csv.writer(tsv_file, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        # Use the csv.writer function, but specify a tab ('\t') as the delimiter. Disable quoting and scaping entirely.
+        writer = csv.writer(tsv_file, delimiter='\t', quoting=csv.QUOTE_NONE, doublequote=False, escapechar='\\')
 
         keysInOrder = [key for key,_,_ in schemaData]
         writer.writerow(keysInOrder)
 
         for entity in tqdm(oa.rawEntities(entityType),total=entitiesCount,desc=entityType):
             processedEntity = {}
+            if(filterFunction is not None):
+                if(not filterFunction(entity)):
+                    continue
             for key,dataType,postProcess in schemaData:
                 path = key.split(":")
                 value = extractEntry(entity,path)
+                _,_,defaultNAValue = dataTypeMap[dataType]
                 if(postProcess is not None):
                     if(isinstance(value,list)):
-                        value = [postProcess(entry) for entry in value]
+                        value = [postProcess(entry) if entry is not None else defaultNAValue for entry in value if value]
                     else:
                         if(dataType!=dataType.lower()): # force list
-                            value = [postProcess(value)]
+                            processedValue = postProcess(value)
+                            value = []
+                            if(processedValue is not None):
+                                value.append(processedValue)
                         else:
                             value = postProcess(value)
                 if(dataType!=dataType.lower() or dataType=="a"): # needs json
                     value = ujson.dumps(value)
+                if(value is None):
+                    value = defaultNAValue
                 processedEntity[key] = str(value).replace("\n"," ").replace("\r"," ").replace("\t"," ")
-            for key in keysInOrder:
+            for key,dataType,postProcess in schemaData:
+                _,_,defaultNAValue = dataTypeMap[dataType]
                 if(key not in processedEntity or processedEntity[key] is None):
-                    processedEntity[key] = ""
+                    if(dataType!=dataType.lower()):
+                        processedEntity[key] = str(defaultNAValue)
+                    else:
+                        processedEntity[key] = str([])
             writer.writerow([processedEntity[key] for key in keysInOrder])
+            writtenEntriesCount += 1
         
+    with open(Path(outputLocation)/(archiveJSONMetadataName), 'w', newline='') as json_file:
+        jsonObject = {}
+        jsonSchemaData = {}
+        for key,dataType,postProcess in schemaData:
+            jsonSchemaData[key] = {}
+            dataTypeString,dataSubTypeString,defaultNAValue = dataTypeMap[dataType]
+            jsonSchemaData[key]["type"] = dataTypeString
+            jsonSchemaData[key]["NA value"] = defaultNAValue
+            if(dataSubTypeString is not None):
+                jsonSchemaData[key]["subtype"] = dataSubTypeString
+        jsonObject["count"] = writtenEntriesCount
+        jsonObject["schema"] = jsonSchemaData
+        ujson.dump(jsonObject,json_file,indent=4)
+
+            
         # import pandas as pd
         # chunksize = 5000
         # length = 65073
@@ -598,3 +657,104 @@ def createTSV(oa,entityType, outputLocation, selection=["core","basic"]):
         #         bar.update(chunksize)
         # print("Done!!!")
         # print(archiveLocation)
+
+
+class _chunkIterator:
+    """
+    Iterator that iterates over all the chunks.
+    """
+    def __init__(self, chunks, chunksCount):
+        self._chunks = chunks
+        self._chunkCount = chunksCount
+
+
+    def __iter__(self):
+        for chunk in self._chunks:
+            yield chunk
+    
+    def __len__(self):
+        return self._chunkCount
+    
+class _entryIterator:
+    """
+    Iterator that iterates over all the entries.
+    """
+    def __init__(self, chunks, entriesCount):
+        self._chunks = chunks
+        self._entryCount = entriesCount
+
+
+    def __iter__(self):
+        for chunk in self._chunks:
+            for entry in chunk.to_dict(orient="records"):
+                yield entry
+    
+    def __len__(self):
+        return self._entryCount
+
+class readTSV:
+    def __init__(self,filesLocation, entityType, selection=["core","basic"], chunksize = 5000, convertJSON=True):
+        # if filesLocation is a .tsv file, no need to use entityType or selection
+        fileLocation = Path(filesLocation)
+        if(fileLocation.suffix != ".tsv"):
+            filePrefix = "%s_%s"%(entityType,"+".join(selection))
+            archiveName = "%s.tsv"%filePrefix
+            fileLocation = Path(filesLocation)/(archiveName)
+        self.fileLocation = fileLocation
+        self.chunksize = chunksize
+        self.convertJSON = convertJSON
+        #check if metadata json exists
+        metadataFileLocation = fileLocation.with_suffix(".json")
+        if(metadataFileLocation.exists()):
+            with open(metadataFileLocation,"r") as metadataFile:
+                self.metadata = ujson.load(metadataFile)
+            
+            self.archiveDTypes = {}
+            for key in self.metadata["schema"]:
+                dataTypeString = self.metadata["schema"][key]["type"]
+                dataType = dataTypeMapStringToPandasType[dataTypeString]
+                self.archiveDTypes[key] = dataType
+            self.entriesCount = self.metadata["count"]
+            self.chunksCount = math.ceil(self.entriesCount/self.chunksize)
+
+        else:
+            self.metadata = None
+            self.archiveDTypes = None
+            self.entriesCount = -1
+            self.chunksCount = -1
+            warnings.warn("No metadata file found for %s, will use default dtypes and counter not available."%fileLocation)
+
+    def chunkData(self):
+        chunks = pd.read_csv(self.fileHandler, chunksize=self.chunksize, sep="\t", encoding='utf-8',
+                                            dtype=self.archiveDTypes,
+                                            na_values="None", doublequote=False,escapechar="\\",
+                                            on_bad_lines="warn", low_memory=False, quoting=csv.QUOTE_MINIMAL)
+        return chunks
+    
+        #if metadata and types are json, apply json.l
+    def __enter__(self):
+        # ttysetattr etc goes here before opening and returning the file object
+        self.fileHandler = open(self.fileLocation, 'r', newline='')
+        return self
+
+    def __exit__(self, type, value, traceback):
+        self.fileHandler.close()
+        # Exception handling here
+        pass
+
+    def __iter__(self):
+        for entry in _entryIterator(self.chunkData(),self.entriesCount):
+            yield entry
+    
+    def __len__(self):
+        return self.entriesCount
+    
+    @property
+    def entries(self):
+        return _entryIterator(self.chunkData(),self.entriesCount)
+    
+    @property
+    def chunks(self):
+        return _chunkIterator(self.chunkData(),self.chunksCount)
+
+
