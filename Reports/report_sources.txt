@@ -1,0 +1,528 @@
+232007 ENTRIES
+id
+  Count: 232007 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://openalex.org/S4306531169
+    1 ( < 0.01%): https://openalex.org/S4306549117
+    1 ( < 0.01%): https://openalex.org/S4306536577
+    1 ( < 0.01%): https://openalex.org/S4306537213
+    1 ( < 0.01%): https://openalex.org/S4306493865
+    ...
+issn_l
+  Count: 118758 (51.19%)
+  Types: string (100.00%)
+  Samples:
+    3 ( < 0.01%): 0213-3563
+    2 ( < 0.01%): 1975-4604
+    2 ( < 0.01%): 1229-2702
+    2 ( < 0.01%): 2354-8630
+    2 ( < 0.01%): 1413-3563
+    ...
+issn
+  Count: 118758 (51.19%)
+  Types: list (100.00%)
+  List Samples:
+    3 ( < 0.01%): 0213-3563
+    2 ( < 0.01%): 1975-4604
+    2 ( < 0.01%): 1229-2702
+    2 ( < 0.01%): 2354-8630
+    2 ( < 0.01%): 2723-4223
+    ...
+display_name
+  Count: 232007 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): STUDIES IN KOREAN MUSIC
+    1 ( < 0.01%): 愛媛大学教育実践総合センター紀要
+    1 ( < 0.01%): پژوهشنامه فلسفه دین (نامه حکمت)
+    1 ( < 0.01%): فصلنامه علمی پژوهشنامه اخلاق
+    1 ( < 0.01%): まてりあ
+    ...
+publisher
+  Count: 137763 (59.38%)
+  Types: string (100.00%)
+  Samples:
+    5014 (3.64%): Elsevier BV
+    163 (0.12%): Thieme Medical Publishers (Germany)
+    14 (0.01%): Okayama University
+    7 ( < 0.01%): Mediengruppe Deutscher Apotheker Verlag
+    6 ( < 0.01%): Academic Publications
+    ...
+host_organization
+  Count: 69425 (29.92%)
+  Types: string (100.00%)
+  Samples:
+    5009 (7.21%): https://openalex.org/P4310320990
+    3153 (4.54%): https://openalex.org/P4310320547
+    2443 (3.52%): https://openalex.org/P4310319965
+    1203 (1.73%): https://openalex.org/P4310320595
+    893 (1.29%): https://openalex.org/P4310313990
+    ...
+host_organization_name
+  Count: 69425 (29.92%)
+  Types: string (100.00%)
+  Samples:
+    5009 (7.21%): Elsevier BV
+    3153 (4.54%): Taylor & Francis
+    2443 (3.52%): Springer Nature
+    1203 (1.73%): Wiley
+    893 (1.29%): De Gruyter
+    ...
+host_organization_lineage
+  Count: 69294 (29.87%)
+  Types: list (100.00%)
+  List Samples:
+    7403 (10.68%): https://openalex.org/P4310319965
+    5110 (7.37%): https://openalex.org/P4310320990
+    3505 (5.06%): https://openalex.org/P4310320547
+    2508 (3.62%): https://openalex.org/P4310320595
+    1336 (1.93%): https://openalex.org/P4310313990
+    ...
+host_organization_lineage_names
+  Count: 69294 (29.87%)
+  Types: list (100.00%)
+  List Samples:
+    7403 (10.68%): Springer Nature
+    5110 (7.37%): Elsevier BV
+    3505 (5.06%): Taylor & Francis
+    2508 (3.62%): Wiley
+    1336 (1.93%): De Gruyter
+    ...
+publisher_id
+  Count: 68143 (29.37%)
+  Types: string (100.00%)
+  Samples:
+    5014 (7.36%): https://openalex.org/P4310320990
+    3156 (4.63%): https://openalex.org/P4310320547
+    2447 (3.59%): https://openalex.org/P4310319965
+    1262 (1.85%): https://openalex.org/P4310320595
+    688 (1.01%): https://openalex.org/P4310311721
+    ...
+type
+  Count: 232007 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    193831 (83.55%): journal
+    28227 (12.17%): ebook platform
+    6483 (2.79%): conference
+    3466 (1.49%): repository
+works_count
+  Count: 219964 (94.81%)
+  Types: number (100.00%)
+  Samples:
+    2040 (0.93%): 12
+    1856 (0.84%): 13
+    1770 (0.80%): 14
+    1601 (0.73%): 15
+    1440 (0.65%): 17
+    ...
+cited_by_count
+  Count: 180775 (77.92%)
+  Types: number (100.00%)
+  Samples:
+    11190 (6.19%): 1
+    7560 (4.18%): 2
+    5884 (3.25%): 3
+    4894 (2.71%): 4
+    4110 (2.27%): 5
+    ...
+summary_stats:2yr_mean_citedness
+  Count: 67009 (28.88%)
+  Types: number (100.00%)
+  Samples:
+    628 (0.94%): 0.25
+    621 (0.93%): 0.16666666666666666
+    614 (0.92%): 0.3333333333333333
+    575 (0.86%): 0.2
+    573 (0.86%): 1.0
+    ...
+summary_stats:h_index
+  Count: 183315 (79.01%)
+  Types: number (100.00%)
+  Samples:
+    46268 (25.24%): 1
+    31644 (17.26%): 2
+    20265 (11.05%): 3
+    13403 (7.31%): 4
+    9635 (5.26%): 5
+    ...
+summary_stats:i10_index
+  Count: 86771 (37.40%)
+  Types: number (100.00%)
+  Samples:
+    18290 (21.08%): 1
+    8347 (9.62%): 2
+    5206 (6.00%): 3
+    3744 (4.31%): 4
+    2780 (3.20%): 5
+    ...
+summary_stats:oa_percent
+  Count: 106270 (45.80%)
+  Types: number (100.00%)
+  Samples:
+    10336 (9.73%): 100.0
+    527 (0.50%): 50.0
+    361 (0.34%): 83.33
+    328 (0.31%): 85.71
+    321 (0.30%): 80.0
+    ...
+summary_stats:works_count
+  Count: 219964 (94.81%)
+  Types: number (100.00%)
+  Samples:
+    2040 (0.93%): 12
+    1856 (0.84%): 13
+    1770 (0.80%): 14
+    1601 (0.73%): 15
+    1440 (0.65%): 17
+    ...
+summary_stats:cited_by_count
+  Count: 180775 (77.92%)
+  Types: number (100.00%)
+  Samples:
+    11190 (6.19%): 1
+    7560 (4.18%): 2
+    5884 (3.25%): 3
+    4894 (2.71%): 4
+    4110 (2.27%): 5
+    ...
+summary_stats:2yr_works_count
+  Count: 105492 (45.47%)
+  Types: number (100.00%)
+  Samples:
+    7444 (7.06%): 1
+    3484 (3.30%): 2
+    2388 (2.26%): 3
+    1967 (1.86%): 4
+    1870 (1.77%): 5
+    ...
+summary_stats:2yr_cited_by_count
+  Count: 137410 (59.23%)
+  Types: number (100.00%)
+  Samples:
+    17674 (12.86%): 1
+    9900 (7.20%): 2
+    6645 (4.84%): 3
+    5295 (3.85%): 4
+    4306 (3.13%): 5
+    ...
+summary_stats:2yr_i10_index
+  Count: 17382 (7.49%)
+  Types: number (100.00%)
+  Samples:
+    4213 (24.24%): 1
+    1972 (11.35%): 2
+    1239 (7.13%): 3
+    902 (5.19%): 4
+    697 (4.01%): 5
+    ...
+summary_stats:2yr_h_index
+  Count: 66724 (28.76%)
+  Types: number (100.00%)
+  Samples:
+    31490 (47.19%): 1
+    11513 (17.25%): 2
+    5435 (8.15%): 3
+    3410 (5.11%): 4
+    2538 (3.80%): 5
+    ...
+is_oa
+  Count: 41525 (17.90%)
+  Types: bool (100.00%)
+  Samples:
+    41525 (100.00%): True
+is_in_doaj
+  Count: 14381 (6.20%)
+  Types: bool (100.00%)
+  Samples:
+    14381 (100.00%): True
+alternate_titles
+  Count: 57149 (24.63%)
+  Types: list (100.00%)
+  List Samples:
+    50 (0.09%): Jurnal Pengabdian Masyarakat
+    8 (0.01%): Jurnal Psikologi
+    7 (0.01%): Jurnal pengabdian masyarakat
+    7 (0.01%): Jurnal Teologi dan Pendidikan Agama Kristen
+    6 (0.01%): JTI
+    ...
+abbreviated_title
+  Count: 7423 (3.20%)
+  Types: string (100.00%)
+  Samples:
+    1 (0.01%): Pros. SEMINASTIKA
+    1 (0.01%): Rendvédelem (Nagykovácsi)
+    1 (0.01%): Prolíngua
+    1 (0.01%): Documentos Trab. Areandina
+    1 (0.01%): Int. multidiscip. j. CREA
+    ...
+homepage_url
+  Count: 71831 (30.96%)
+  Types: string (100.00%)
+  Samples:
+    4 ( < 0.01%): http://journals.cambridge.org/action/displayJournal?jid=BRC
+    3 ( < 0.01%): http://kaspr.net/sub03/sub0301.asp
+    3 ( < 0.01%): http://www.dbpia.co.kr/Journal/IssueList/833
+    3 ( < 0.01%): http://www.stmjournals.com/index.php?journal=JoNSP
+    2 ( < 0.01%): http://azr.xjegi.com/CN/1001-4675/home.shtml
+    ...
+country_code
+  Count: 111156 (47.91%)
+  Types: string (100.00%)
+  Samples:
+    20302 (18.26%): US
+    13363 (12.02%): ID
+    10938 (9.84%): GB
+    5392 (4.85%): DE
+    4946 (4.45%): NL
+    ...
+ids:openalex
+  Count: 232007 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://openalex.org/S4306531169
+    1 ( < 0.01%): https://openalex.org/S4306549117
+    1 ( < 0.01%): https://openalex.org/S4306536577
+    1 ( < 0.01%): https://openalex.org/S4306537213
+    1 ( < 0.01%): https://openalex.org/S4306493865
+    ...
+ids:issn_l
+  Count: 118758 (51.19%)
+  Types: string (100.00%)
+  Samples:
+    3 ( < 0.01%): 0213-3563
+    2 ( < 0.01%): 1975-4604
+    2 ( < 0.01%): 1229-2702
+    2 ( < 0.01%): 2354-8630
+    2 ( < 0.01%): 1413-3563
+    ...
+ids:issn
+  Count: 118758 (51.19%)
+  Types: list (100.00%)
+  List Samples:
+    3 ( < 0.01%): 0213-3563
+    2 ( < 0.01%): 1975-4604
+    2 ( < 0.01%): 1229-2702
+    2 ( < 0.01%): 2354-8630
+    2 ( < 0.01%): 2723-4223
+    ...
+ids:wikidata
+  Count: 86671 (37.36%)
+  Types: string (100.00%)
+  Samples:
+    3 ( < 0.01%): https://www.wikidata.org/entity/Q96704133
+    3 ( < 0.01%): https://www.wikidata.org/entity/Q96721725
+    2 ( < 0.01%): https://www.wikidata.org/entity/Q15754058
+    2 ( < 0.01%): https://www.wikidata.org/entity/Q96735966
+    2 ( < 0.01%): https://www.wikidata.org/entity/Q63883076
+    ...
+apc_prices
+  Count: 15335 (6.61%)
+  Types: list (100.00%)
+  Schema Entry:
+    16070 ENTRIES
+    price
+      Count: 6528 (40.62%)
+      Types: number (100.00%)
+      Samples:
+        250 (3.83%): 1000
+        206 (3.16%): 2000
+        182 (2.79%): 500000
+        163 (2.50%): 100
+        138 (2.11%): 500
+        ...
+    currency
+      Count: 16070 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        12208 (75.97%): USD
+        889 (5.53%): EUR
+        883 (5.49%): GBP
+        863 (5.37%): IDR
+        339 (2.11%): CHF
+        ...
+apc_usd
+  Count: 5494 (2.37%)
+  Types: number (100.00%)
+  Samples:
+    147 (2.68%): 32
+    119 (2.17%): 100
+    94 (1.71%): 65
+    92 (1.67%): 19
+    76 (1.38%): 200
+    ...
+societies
+  Count: 3872 (1.67%)
+  Types: list (100.00%)
+  Schema Entry:
+    4552 ENTRIES
+    url
+      Count: 4408 (96.84%)
+      Types: string (100.00%)
+      Samples:
+        14 (0.32%): http://www.ipsonet.org/
+        9 (0.20%): http://www.americananthro.org/
+        4 (0.09%): http://ijsts.shirazu.ac.ir/
+        4 (0.09%): https://www.iom3.org/
+        4 (0.09%): http://www.bda.org/
+        ...
+    organization
+      Count: 4552 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        14 (0.31%): Policy Studies Organization
+        11 (0.24%): American Anthropological Association
+        4 (0.09%): International Institute for Strategic Studies
+        4 (0.09%): Society for Research into Higher Education
+        4 (0.09%): Shiraz University
+        ...
+counts_by_year
+  Count: 211804 (91.29%)
+  Types: list (100.00%)
+  Schema Entry:
+    1670937 ENTRIES
+    year
+      Count: 1670937 (100.00%)
+      Types: number (100.00%)
+      Samples:
+        156821 (9.39%): 2020
+        153155 (9.17%): 2019
+        152675 (9.14%): 2021
+        149215 (8.93%): 2018
+        146418 (8.76%): 2017
+        ...
+    works_count
+      Count: 1188988 (71.16%)
+      Types: number (100.00%)
+      Samples:
+        91690 (7.71%): 1
+        48331 (4.06%): 2
+        35684 (3.00%): 3
+        31240 (2.63%): 4
+        30776 (2.59%): 5
+        ...
+    oa_works_count
+      Count: 620092 (37.11%)
+      Types: number (100.00%)
+      Samples:
+        58380 (9.41%): 1
+        35076 (5.66%): 2
+        26496 (4.27%): 3
+        23098 (3.72%): 4
+        22578 (3.64%): 5
+        ...
+    cited_by_count
+      Count: 1286747 (77.01%)
+      Types: number (100.00%)
+      Samples:
+        201512 (15.66%): 1
+        110442 (8.58%): 2
+        75829 (5.89%): 3
+        57003 (4.43%): 4
+        44878 (3.49%): 5
+        ...
+x_concepts
+  Count: 214799 (92.58%)
+  Types: list (100.00%)
+  Schema Entry:
+    2472937 ENTRIES
+    id
+      Count: 2472937 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        140411 (5.68%): https://openalex.org/C41008148
+        106194 (4.29%): https://openalex.org/C138885662
+        105330 (4.26%): https://openalex.org/C86803240
+        93642 (3.79%): https://openalex.org/C17744445
+        89293 (3.61%): https://openalex.org/C121332964
+        ...
+    wikidata
+      Count: 2472937 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        140411 (5.68%): https://www.wikidata.org/wiki/Q21198
+        106208 (4.29%): https://www.wikidata.org/wiki/Q5891
+        105332 (4.26%): https://www.wikidata.org/wiki/Q420
+        93642 (3.79%): https://www.wikidata.org/wiki/Q36442
+        89293 (3.61%): https://www.wikidata.org/wiki/Q413
+        ...
+    display_name
+      Count: 2472937 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        140411 (5.68%): Computer science
+        106194 (4.29%): Philosophy
+        105330 (4.26%): Biology
+        93642 (3.79%): Political science
+        89293 (3.61%): Physics
+        ...
+    level
+      Count: 1196355 (48.38%)
+      Types: number (100.00%)
+      Samples:
+        1027643 (85.90%): 1
+        142239 (11.89%): 2
+        22434 (1.88%): 3
+        3241 (0.27%): 4
+        798 (0.07%): 5
+    score
+      Count: 2472937 (100.00%)
+      Types: number (100.00%)
+      Samples:
+        40324 (1.63%): 33.3
+        39082 (1.58%): 25.0
+        37971 (1.54%): 50.0
+        18057 (0.73%): 28.6
+        17750 (0.72%): 22.2
+        ...
+works_api_url
+  Count: 232007 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://api.openalex.org/works?filter=primary_location.source.id:S4306531169
+    1 ( < 0.01%): https://api.openalex.org/works?filter=primary_location.source.id:S4306549117
+    1 ( < 0.01%): https://api.openalex.org/works?filter=primary_location.source.id:S4306536577
+    1 ( < 0.01%): https://api.openalex.org/works?filter=primary_location.source.id:S4306537213
+    1 ( < 0.01%): https://api.openalex.org/works?filter=primary_location.source.id:S4306493865
+    ...
+updated_date
+  Count: 232007 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): 2023-05-22T18:34:47.747189
+    1 ( < 0.01%): 2023-05-22T15:11:55.946227
+    1 ( < 0.01%): 2023-05-22T15:21:27.144217
+    1 ( < 0.01%): 2023-05-22T15:59:32.673753
+    1 ( < 0.01%): 2023-05-22T16:55:10.475015
+    ...
+created_date
+  Count: 232007 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    102439 (44.15%): 2022-10-17
+    73753 (31.79%): 2022-02-03
+    22703 (9.79%): 2016-06-24
+    18989 (8.18%): 2017-10-27
+    4989 (2.15%): 2023-04-11
+    ...
+ids:mag
+  Count: 48736 (21.01%)
+  Types: number (100.00%)
+  Samples:
+    1 ( < 0.01%): 2764774625
+    1 ( < 0.01%): 9844866
+    1 ( < 0.01%): 168287180
+    1 ( < 0.01%): 46765617
+    1 ( < 0.01%): 54233716
+    ...
+ids:fatcat
+  Count: 36454 (15.71%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://fatcat.wiki/container/wpb6avcjlbfl7alpeinq65sadi
+    1 ( < 0.01%): https://fatcat.wiki/container/l7cvcheb25fnllow5ikz2maodm
+    1 ( < 0.01%): https://fatcat.wiki/container/boeh5bfrtjfelpzmwvgtzo6ioe
+    1 ( < 0.01%): https://fatcat.wiki/container/qutozbxftvf3zfj55r4rnavjo4
+    1 ( < 0.01%): https://fatcat.wiki/container/bdz2fwxx75dbbl36smrnz5clk4
+    ...

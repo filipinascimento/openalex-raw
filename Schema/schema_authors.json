@@ -1,51 +1,75 @@
 {
-    "$count": 218022177,
+    "$count": 122483603,
     "id": {
-        "$count": 218022177,
+        "$count": 122483603,
         "$types": {
-            "string": 218022177
+            "string": 122483603
         }
     },
     "orcid": {
-        "$count": 4747409,
+        "$count": 3855884,
         "$types": {
-            "string": 4747409
+            "string": 3855884
         }
     },
     "display_name": {
-        "$count": 217810961,
+        "$count": 122274089,
         "$types": {
-            "string": 217810961
+            "string": 122274089
         }
     },
     "display_name_alternatives": {
-        "$count": 1073596,
+        "$count": 359057,
         "$types": {
-            "list": 1073596
+            "list": 359057
         }
     },
     "works_count": {
-        "$count": 218019763,
+        "$count": 120935291,
         "$types": {
-            "number": 218019763
+            "number": 120935291
         }
     },
     "cited_by_count": {
-        "$count": 78565500,
+        "$count": 49533344,
         "$types": {
-            "number": 78565500
+            "number": 49533344
+        }
+    },
+    "most_cited_work": {
+        "$count": 120935770,
+        "$types": {
+            "string": 120935770
+        }
+    },
+    "summary_stats:2yr_mean_citedness": {
+        "$count": 8177311,
+        "$types": {
+            "number": 8177311
+        }
+    },
+    "summary_stats:h_index": {
+        "$count": 44834140,
+        "$types": {
+            "number": 44834140
+        }
+    },
+    "summary_stats:i10_index": {
+        "$count": 24154463,
+        "$types": {
+            "number": 24154463
         }
     },
     "ids:openalex": {
-        "$count": 218022177,
+        "$count": 122483603,
         "$types": {
-            "string": 218022177
+            "string": 122483603
         }
     },
     "ids:mag": {
-        "$count": 206898990,
+        "$count": 57243506,
         "$types": {
-            "number": 206898990
+            "number": 57243506
         }
     },
     "last_known_institution": {
@@ -53,141 +77,189 @@
         "$types": {}
     },
     "counts_by_year": {
-        "$count": 134302230,
+        "$count": 96065607,
         "$schemaEntry": {
-            "$count": 382902817,
+            "$count": 329787741,
             "year": {
-                "$count": 382902817,
+                "$count": 329787741,
                 "$types": {
-                    "number": 382902817
+                    "number": 329787741
                 }
             },
             "works_count": {
-                "$count": 149851902,
+                "$count": 146543518,
                 "$types": {
-                    "number": 149851902
+                    "number": 146543518
                 }
             },
             "cited_by_count": {
-                "$count": 281536261,
+                "$count": 243615583,
                 "$types": {
-                    "number": 281536261
+                    "number": 243615583
+                }
+            },
+            "oa_works_count": {
+                "$count": 64982262,
+                "$types": {
+                    "number": 64982262
                 }
             }
         },
         "$types": {
-            "list": 134302230
+            "list": 96065607
         }
     },
     "x_concepts": {
-        "$count": 191224562,
+        "$count": 120876711,
         "$schemaEntry": {
-            "$count": 2916587617,
+            "$count": 1880582003,
             "id": {
-                "$count": 2916587617,
+                "$count": 1880582003,
                 "$types": {
-                    "string": 2916587617
+                    "string": 1880582003
                 }
             },
             "wikidata": {
-                "$count": 2867015733,
+                "$count": 1880582003,
                 "$types": {
-                    "string": 2867015733
+                    "string": 1880582003
                 }
             },
             "display_name": {
-                "$count": 2912372836,
+                "$count": 1880582003,
                 "$types": {
-                    "string": 2912372836
+                    "string": 1880582003
                 }
             },
             "level": {
-                "$count": 2157822141,
+                "$count": 1339523710,
                 "$types": {
-                    "number": 2157822141
+                    "number": 1339523710
                 }
             },
             "score": {
-                "$count": 2916587617,
+                "$count": 1880582003,
                 "$types": {
-                    "number": 2916587617
+                    "number": 1880582003
                 }
             }
         },
         "$types": {
-            "list": 191224562
+            "list": 120876711
         }
     },
     "works_api_url": {
-        "$count": 218022177,
+        "$count": 122483603,
         "$types": {
-            "string": 218022177
+            "string": 122483603
         }
     },
     "updated_date": {
-        "$count": 218022177,
+        "$count": 122483603,
         "$types": {
-            "string": 218022177
+            "string": 122483603
         }
     },
     "created_date": {
-        "$count": 218022177,
+        "$count": 122483603,
         "$types": {
-            "string": 218022177
+            "string": 122483603
         }
     },
     "last_known_institution:id": {
-        "$count": 54446734,
+        "$count": 54350359,
         "$types": {
-            "string": 54446734
+            "string": 54350359
         }
     },
     "last_known_institution:ror": {
-        "$count": 52028259,
+        "$count": 52539682,
         "$types": {
-            "string": 52028259
+            "string": 52539682
         }
     },
     "last_known_institution:display_name": {
-        "$count": 54446734,
+        "$count": 54350359,
         "$types": {
-            "string": 54446734
+            "string": 54350359
         }
     },
     "last_known_institution:country_code": {
-        "$count": 54200609,
+        "$count": 54119035,
         "$types": {
-            "string": 54200609
+            "string": 54119035
         }
     },
     "last_known_institution:type": {
-        "$count": 52014668,
+        "$count": 52495185,
         "$types": {
-            "string": 52014668
+            "string": 52495185
         }
     },
     "ids:orcid": {
-        "$count": 4747409,
+        "$count": 3855884,
         "$types": {
-            "string": 4747409
+            "string": 3855884
+        }
+    },
+    "summary_stats:oa_percent": {
+        "$count": 44469413,
+        "$types": {
+            "number": 44469413
+        }
+    },
+    "summary_stats:works_count": {
+        "$count": 120935233,
+        "$types": {
+            "number": 120935233
+        }
+    },
+    "summary_stats:cited_by_count": {
+        "$count": 49533333,
+        "$types": {
+            "number": 49533333
+        }
+    },
+    "summary_stats:2yr_works_count": {
+        "$count": 24751766,
+        "$types": {
+            "number": 24751766
+        }
+    },
+    "summary_stats:2yr_cited_by_count": {
+        "$count": 32195273,
+        "$types": {
+            "number": 32195273
+        }
+    },
+    "summary_stats:2yr_i10_index": {
+        "$count": 2369711,
+        "$types": {
+            "number": 2369711
+        }
+    },
+    "summary_stats:2yr_h_index": {
+        "$count": 10049156,
+        "$types": {
+            "number": 10049156
         }
     },
     "ids:scopus": {
-        "$count": 875268,
+        "$count": 680358,
         "$types": {
-            "string": 875268
-        }
-    },
-    "ids:wikipedia": {
-        "$count": 377,
-        "$types": {
-            "string": 377
+            "string": 680358
         }
     },
     "ids:twitter": {
-        "$count": 342,
+        "$count": 274,
         "$types": {
-            "string": 342
+            "string": 274
+        }
+    },
+    "ids:wikipedia": {
+        "$count": 5,
+        "$types": {
+            "string": 5
         }
     }
 }

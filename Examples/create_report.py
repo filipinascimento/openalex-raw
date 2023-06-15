@@ -27,7 +27,7 @@ if __name__ == "__main__":
     reportsPath.mkdir(parents=True, exist_ok=True)
 
     # Creating the schema files
-    for entityType in ["concepts"]:
+    for entityType in ["concepts", "institutions","funders", "publishers", "sources", "authors", "works" ]:
         entitySchema = oa.getSchemaForEntityType(entityType,reportPath=reportsPath/("report_%s.txt"%entityType))
         with open(schemaPath/("schema_%s_samples.json"%entityType),"wt") as f:
             ujson.dump(entitySchema, f, ensure_ascii=False, indent=4)

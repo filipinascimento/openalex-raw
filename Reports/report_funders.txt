@@ -1,0 +1,387 @@
+32437 ENTRIES
+id
+  Count: 32437 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://openalex.org/F4320317389
+    1 ( < 0.01%): https://openalex.org/F4320313210
+    1 ( < 0.01%): https://openalex.org/F4320313873
+    1 ( < 0.01%): https://openalex.org/F4320314715
+    1 ( < 0.01%): https://openalex.org/F4320331551
+    ...
+display_name
+  Count: 32437 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): IEEE Communications Society
+    1 ( < 0.01%): Black Vulture Conservation Foundation
+    1 ( < 0.01%): Innovia Security
+    1 ( < 0.01%): Virginia Museum of History and Culture
+    1 ( < 0.01%): Serp Hills Foundation
+    ...
+ids:openalex
+  Count: 32437 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): https://openalex.org/F4320317389
+    1 ( < 0.01%): https://openalex.org/F4320313210
+    1 ( < 0.01%): https://openalex.org/F4320313873
+    1 ( < 0.01%): https://openalex.org/F4320314715
+    1 ( < 0.01%): https://openalex.org/F4320331551
+    ...
+alternate_titles
+  Count: 28803 (88.80%)
+  Types: list (100.00%)
+  List Samples:
+    5 (0.02%): BCN
+    3 (0.01%): CIAT
+    3 (0.01%): INS
+    2 ( < 0.01%): VLF
+    2 ( < 0.01%): HBA
+    ...
+country_code
+  Count: 32246 (99.41%)
+  Types: string (100.00%)
+  Samples:
+    11178 (34.66%): US
+    3495 (10.84%): CN
+    2093 (6.49%): GB
+    1484 (4.60%): AU
+    1472 (4.56%): CA
+    ...
+description
+  Count: 17258 (53.20%)
+  Types: string (100.00%)
+  Samples:
+    674 (3.91%): organization
+    349 (2.02%): foundation in United States of America
+    227 (1.32%): university in China
+    130 (0.75%): non-profit organization in the USA
+    124 (0.72%): nonprofit organization in New York, United States
+    ...
+homepage_url
+  Count: 19297 (59.49%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.01%): http://www.hyamsfoundation.org
+    2 (0.01%): http://www.glma.org
+    2 (0.01%): http://ec.europa.eu/enlargement/index_en.htm
+    2 (0.01%): http://beyondbatten.org
+    2 (0.01%): http://www.healthinaging.org
+    ...
+image_url
+  Count: 7048 (21.73%)
+  Types: string (100.00%)
+  Samples:
+    5 (0.07%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/50 Marcus Clarke Street Feb 2016.jpg
+    2 (0.03%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/W. W. Grainger logo.svg
+    2 (0.03%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Plum Brook Station (9467810678) (cropped).jpg
+    2 (0.03%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/BU Tech5.jpg
+    1 (0.01%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mount Vernon Ladies' Associations First Vice Regents.png
+    ...
+image_thumbnail_url
+  Count: 7048 (21.73%)
+  Types: string (100.00%)
+  Samples:
+    5 (0.07%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/50 Marcus Clarke Street Feb 2016.jpg&width=300
+    2 (0.03%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/W. W. Grainger logo.svg&width=300
+    2 (0.03%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Plum Brook Station (9467810678) (cropped).jpg&width=300
+    2 (0.03%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/BU Tech5.jpg&width=300
+    1 (0.01%): https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mount Vernon Ladies' Associations First Vice Regents.png&width=300
+    ...
+roles
+  Count: 32437 (100.00%)
+  Types: list (100.00%)
+  Schema Entry:
+    53106 ENTRIES
+    role
+      Count: 53106 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        32437 (61.08%): funder
+        17854 (33.62%): institution
+        2815 (5.30%): publisher
+    id
+      Count: 53106 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        1 ( < 0.01%): https://openalex.org/F4320317389
+        1 ( < 0.01%): https://openalex.org/F4320313210
+        1 ( < 0.01%): https://openalex.org/F4320313873
+        1 ( < 0.01%): https://openalex.org/F4320314715
+        1 ( < 0.01%): https://openalex.org/F4320331551
+        ...
+    works_count
+      Count: 48614 (91.54%)
+      Types: number (100.00%)
+      Samples:
+        2800 (5.76%): 1
+        2101 (4.32%): 2
+        1762 (3.62%): 3
+        1452 (2.99%): 4
+        1270 (2.61%): 5
+        ...
+grants_count
+  Count: 24699 (76.14%)
+  Types: number (100.00%)
+  Samples:
+    3634 (14.71%): 1
+    2362 (9.56%): 2
+    1679 (6.80%): 3
+    1356 (5.49%): 4
+    1120 (4.53%): 5
+    ...
+works_count
+  Count: 29597 (91.24%)
+  Types: number (100.00%)
+  Samples:
+    2139 (7.23%): 1
+    1680 (5.68%): 2
+    1402 (4.74%): 3
+    1186 (4.01%): 4
+    1079 (3.65%): 5
+    ...
+cited_by_count
+  Count: 28701 (88.48%)
+  Types: number (100.00%)
+  Samples:
+    532 (1.85%): 1
+    422 (1.47%): 2
+    300 (1.05%): 4
+    290 (1.01%): 5
+    289 (1.01%): 3
+    ...
+summary_stats:2yr_mean_citedness
+  Count: 23795 (73.36%)
+  Types: number (100.00%)
+  Samples:
+    1008 (4.24%): 2.0
+    971 (4.08%): 1.0
+    834 (3.50%): 3.0
+    709 (2.98%): 4.0
+    535 (2.25%): 5.0
+    ...
+summary_stats:h_index
+  Count: 28472 (87.78%)
+  Types: number (100.00%)
+  Samples:
+    3414 (11.99%): 1
+    2625 (9.22%): 2
+    2193 (7.70%): 3
+    1868 (6.56%): 4
+    1534 (5.39%): 5
+    ...
+summary_stats:i10_index
+  Count: 24761 (76.34%)
+  Types: number (100.00%)
+  Samples:
+    3385 (13.67%): 1
+    2295 (9.27%): 2
+    1622 (6.55%): 3
+    1224 (4.94%): 4
+    989 (3.99%): 5
+    ...
+summary_stats:oa_percent
+  Count: 27549 (84.93%)
+  Types: number (100.00%)
+  Samples:
+    2538 (9.21%): 100.0
+    1750 (6.35%): 50.0
+    952 (3.46%): 66.67
+    852 (3.09%): 33.33
+    571 (2.07%): 75.0
+    ...
+summary_stats:works_count
+  Count: 29597 (91.24%)
+  Types: number (100.00%)
+  Samples:
+    2139 (7.23%): 1
+    1680 (5.68%): 2
+    1402 (4.74%): 3
+    1186 (4.01%): 4
+    1079 (3.65%): 5
+    ...
+summary_stats:cited_by_count
+  Count: 28701 (88.48%)
+  Types: number (100.00%)
+  Samples:
+    532 (1.85%): 1
+    422 (1.47%): 2
+    300 (1.05%): 4
+    290 (1.01%): 5
+    289 (1.01%): 3
+    ...
+summary_stats:2yr_works_count
+  Count: 25991 (80.13%)
+  Types: number (100.00%)
+  Samples:
+    3418 (13.15%): 1
+    2353 (9.05%): 2
+    1764 (6.79%): 3
+    1434 (5.52%): 4
+    1152 (4.43%): 5
+    ...
+summary_stats:2yr_cited_by_count
+  Count: 27885 (85.97%)
+  Types: number (100.00%)
+  Samples:
+    662 (2.37%): 1
+    499 (1.79%): 2
+    481 (1.72%): 3
+    389 (1.40%): 4
+    336 (1.20%): 6
+    ...
+summary_stats:2yr_i10_index
+  Count: 16098 (49.63%)
+  Types: number (100.00%)
+  Samples:
+    4602 (28.59%): 1
+    2310 (14.35%): 2
+    1362 (8.46%): 3
+    1004 (6.24%): 4
+    699 (4.34%): 5
+    ...
+summary_stats:2yr_h_index
+  Count: 24751 (76.30%)
+  Types: number (100.00%)
+  Samples:
+    5210 (21.05%): 1
+    3788 (15.30%): 2
+    3051 (12.33%): 3
+    2346 (9.48%): 4
+    1740 (7.03%): 5
+    ...
+counts_by_year
+  Count: 29598 (91.25%)
+  Types: list (100.00%)
+  Schema Entry:
+    244940 ENTRIES
+    year
+      Count: 244940 (100.00%)
+      Types: number (100.00%)
+      Samples:
+        28653 (11.70%): 2022
+        28411 (11.60%): 2023
+        27158 (11.09%): 2021
+        25226 (10.30%): 2020
+        23111 (9.44%): 2019
+        ...
+    works_count
+      Count: 190622 (77.82%)
+      Types: number (100.00%)
+      Samples:
+        46311 (24.29%): 1
+        24706 (12.96%): 2
+        15958 (8.37%): 3
+        11522 (6.04%): 4
+        8728 (4.58%): 5
+        ...
+    oa_works_count
+      Count: 153643 (62.73%)
+      Types: number (100.00%)
+      Samples:
+        45027 (29.31%): 1
+        21891 (14.25%): 2
+        13572 (8.83%): 3
+        9276 (6.04%): 4
+        6928 (4.51%): 5
+        ...
+    cited_by_count
+      Count: 232328 (94.85%)
+      Types: number (100.00%)
+      Samples:
+        13481 (5.80%): 1
+        10447 (4.50%): 2
+        8499 (3.66%): 3
+        7410 (3.19%): 4
+        6462 (2.78%): 5
+        ...
+x_concepts
+  Count: 29487 (90.91%)
+  Types: list (100.00%)
+  Schema Entry:
+    379698 ENTRIES
+    id
+      Count: 379698 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        20470 (5.39%): https://openalex.org/C86803240
+        17248 (4.54%): https://openalex.org/C71924100
+        14165 (3.73%): https://openalex.org/C185592680
+        10554 (2.78%): https://openalex.org/C126322002
+        9012 (2.37%): https://openalex.org/C127413603
+        ...
+    wikidata
+      Count: 379698 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        20472 (5.39%): https://www.wikidata.org/wiki/Q420
+        17250 (4.54%): https://www.wikidata.org/wiki/Q11190
+        14165 (3.73%): https://www.wikidata.org/wiki/Q2329
+        10554 (2.78%): https://www.wikidata.org/wiki/Q11180
+        9012 (2.37%): https://www.wikidata.org/wiki/Q11023
+        ...
+    display_name
+      Count: 379698 (100.00%)
+      Types: string (100.00%)
+      Samples:
+        20470 (5.39%): Biology
+        17248 (4.54%): Medicine
+        14165 (3.73%): Chemistry
+        10554 (2.78%): Internal medicine
+        9012 (2.37%): Engineering
+        ...
+    level
+      Count: 254201 (66.95%)
+      Types: number (100.00%)
+      Samples:
+        136487 (53.69%): 1
+        81121 (31.91%): 2
+        27804 (10.94%): 3
+        7085 (2.79%): 4
+        1704 (0.67%): 5
+    score
+      Count: 379698 (100.00%)
+      Types: number (100.00%)
+      Samples:
+        47308 (12.46%): 50.0
+        42678 (11.24%): 33.3
+        40816 (10.75%): 100.0
+        35454 (9.34%): 25.0
+        9781 (2.58%): 28.6
+        ...
+updated_date
+  Count: 32437 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    1 ( < 0.01%): 2023-05-15T19:03:39.838820
+    1 ( < 0.01%): 2023-05-15T19:12:40.299371
+    1 ( < 0.01%): 2023-05-15T19:22:48.323276
+    1 ( < 0.01%): 2023-05-15T19:13:25.625112
+    1 ( < 0.01%): 2023-05-15T19:11:55.164285
+    ...
+created_date
+  Count: 32437 (100.00%)
+  Types: string (100.00%)
+  Samples:
+    32437 (100.00%): 2023-02-13
+ids:wikidata
+  Count: 18811 (57.99%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.01%): https://www.wikidata.org/entity/Q5528673
+    2 (0.01%): https://www.wikidata.org/entity/Q30272713
+    1 ( < 0.01%): https://www.wikidata.org/entity/Q45137354
+    1 ( < 0.01%): https://www.wikidata.org/entity/Q30268854
+    1 ( < 0.01%): https://www.wikidata.org/entity/Q45134967
+    ...
+ids:ror
+  Count: 17600 (54.26%)
+  Types: string (100.00%)
+  Samples:
+    2 (0.01%): https://ror.org/02jht8768
+    2 (0.01%): https://ror.org/00941sb79
+    2 (0.01%): https://ror.org/0243wgp76
+    2 (0.01%): https://ror.org/02ben6x95
+    2 (0.01%): https://ror.org/01yeyxy55
+    ...

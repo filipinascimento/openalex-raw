@@ -1,0 +1,351 @@
+{
+    "$count": 232007,
+    "id": {
+        "$count": 232007,
+        "$types": {
+            "string": 232007
+        }
+    },
+    "issn_l": {
+        "$count": 118758,
+        "$types": {
+            "string": 118758
+        }
+    },
+    "issn": {
+        "$count": 118758,
+        "$types": {
+            "list": 118758
+        }
+    },
+    "display_name": {
+        "$count": 232007,
+        "$types": {
+            "string": 232007
+        }
+    },
+    "publisher": {
+        "$count": 137763,
+        "$types": {
+            "string": 137763
+        }
+    },
+    "host_organization": {
+        "$count": 69425,
+        "$types": {
+            "string": 69425
+        }
+    },
+    "host_organization_name": {
+        "$count": 69425,
+        "$types": {
+            "string": 69425
+        }
+    },
+    "host_organization_lineage": {
+        "$count": 69294,
+        "$types": {
+            "list": 69294
+        }
+    },
+    "host_organization_lineage_names": {
+        "$count": 69294,
+        "$types": {
+            "list": 69294
+        }
+    },
+    "publisher_id": {
+        "$count": 68143,
+        "$types": {
+            "string": 68143
+        }
+    },
+    "type": {
+        "$count": 232007,
+        "$types": {
+            "string": 232007
+        }
+    },
+    "works_count": {
+        "$count": 219964,
+        "$types": {
+            "number": 219964
+        }
+    },
+    "cited_by_count": {
+        "$count": 180775,
+        "$types": {
+            "number": 180775
+        }
+    },
+    "summary_stats:2yr_mean_citedness": {
+        "$count": 67009,
+        "$types": {
+            "number": 67009
+        }
+    },
+    "summary_stats:h_index": {
+        "$count": 183315,
+        "$types": {
+            "number": 183315
+        }
+    },
+    "summary_stats:i10_index": {
+        "$count": 86771,
+        "$types": {
+            "number": 86771
+        }
+    },
+    "summary_stats:oa_percent": {
+        "$count": 106270,
+        "$types": {
+            "number": 106270
+        }
+    },
+    "summary_stats:works_count": {
+        "$count": 219964,
+        "$types": {
+            "number": 219964
+        }
+    },
+    "summary_stats:cited_by_count": {
+        "$count": 180775,
+        "$types": {
+            "number": 180775
+        }
+    },
+    "summary_stats:2yr_works_count": {
+        "$count": 105492,
+        "$types": {
+            "number": 105492
+        }
+    },
+    "summary_stats:2yr_cited_by_count": {
+        "$count": 137410,
+        "$types": {
+            "number": 137410
+        }
+    },
+    "summary_stats:2yr_i10_index": {
+        "$count": 17382,
+        "$types": {
+            "number": 17382
+        }
+    },
+    "summary_stats:2yr_h_index": {
+        "$count": 66724,
+        "$types": {
+            "number": 66724
+        }
+    },
+    "is_oa": {
+        "$count": 41525,
+        "$types": {
+            "bool": 41525
+        }
+    },
+    "is_in_doaj": {
+        "$count": 14381,
+        "$types": {
+            "bool": 14381
+        }
+    },
+    "alternate_titles": {
+        "$count": 57149,
+        "$types": {
+            "list": 57149
+        }
+    },
+    "abbreviated_title": {
+        "$count": 7423,
+        "$types": {
+            "string": 7423
+        }
+    },
+    "homepage_url": {
+        "$count": 71831,
+        "$types": {
+            "string": 71831
+        }
+    },
+    "country_code": {
+        "$count": 111156,
+        "$types": {
+            "string": 111156
+        }
+    },
+    "ids:openalex": {
+        "$count": 232007,
+        "$types": {
+            "string": 232007
+        }
+    },
+    "ids:issn_l": {
+        "$count": 118758,
+        "$types": {
+            "string": 118758
+        }
+    },
+    "ids:issn": {
+        "$count": 118758,
+        "$types": {
+            "list": 118758
+        }
+    },
+    "ids:wikidata": {
+        "$count": 86671,
+        "$types": {
+            "string": 86671
+        }
+    },
+    "apc_prices": {
+        "$count": 15335,
+        "$schemaEntry": {
+            "$count": 16070,
+            "price": {
+                "$count": 6528,
+                "$types": {
+                    "number": 6528
+                }
+            },
+            "currency": {
+                "$count": 16070,
+                "$types": {
+                    "string": 16070
+                }
+            }
+        },
+        "$types": {
+            "list": 15335
+        }
+    },
+    "apc_usd": {
+        "$count": 5494,
+        "$types": {
+            "number": 5494
+        }
+    },
+    "societies": {
+        "$count": 3872,
+        "$schemaEntry": {
+            "$count": 4552,
+            "url": {
+                "$count": 4408,
+                "$types": {
+                    "string": 4408
+                }
+            },
+            "organization": {
+                "$count": 4552,
+                "$types": {
+                    "string": 4552
+                }
+            }
+        },
+        "$types": {
+            "list": 3872
+        }
+    },
+    "counts_by_year": {
+        "$count": 211804,
+        "$schemaEntry": {
+            "$count": 1670937,
+            "year": {
+                "$count": 1670937,
+                "$types": {
+                    "number": 1670937
+                }
+            },
+            "works_count": {
+                "$count": 1188988,
+                "$types": {
+                    "number": 1188988
+                }
+            },
+            "oa_works_count": {
+                "$count": 620092,
+                "$types": {
+                    "number": 620092
+                }
+            },
+            "cited_by_count": {
+                "$count": 1286747,
+                "$types": {
+                    "number": 1286747
+                }
+            }
+        },
+        "$types": {
+            "list": 211804
+        }
+    },
+    "x_concepts": {
+        "$count": 214799,
+        "$schemaEntry": {
+            "$count": 2472937,
+            "id": {
+                "$count": 2472937,
+                "$types": {
+                    "string": 2472937
+                }
+            },
+            "wikidata": {
+                "$count": 2472937,
+                "$types": {
+                    "string": 2472937
+                }
+            },
+            "display_name": {
+                "$count": 2472937,
+                "$types": {
+                    "string": 2472937
+                }
+            },
+            "level": {
+                "$count": 1196355,
+                "$types": {
+                    "number": 1196355
+                }
+            },
+            "score": {
+                "$count": 2472937,
+                "$types": {
+                    "number": 2472937
+                }
+            }
+        },
+        "$types": {
+            "list": 214799
+        }
+    },
+    "works_api_url": {
+        "$count": 232007,
+        "$types": {
+            "string": 232007
+        }
+    },
+    "updated_date": {
+        "$count": 232007,
+        "$types": {
+            "string": 232007
+        }
+    },
+    "created_date": {
+        "$count": 232007,
+        "$types": {
+            "string": 232007
+        }
+    },
+    "ids:mag": {
+        "$count": 48736,
+        "$types": {
+            "number": 48736
+        }
+    },
+    "ids:fatcat": {
+        "$count": 36454,
+        "$types": {
+            "string": 36454
+        }
+    }
+}
