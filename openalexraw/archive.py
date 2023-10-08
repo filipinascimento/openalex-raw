@@ -138,7 +138,7 @@ schemasPerCategory["works"] = {
         ("referenced_works", "I", processOpenAlexID),
     ],
     "abstract":[
-        ("abstract_inverted_index", "s", openalex.processInvertedAbstract),
+        (("abstract","abstract_inverted_index"), "s", openalex.processInvertedAbstract),
     ],
     "citation_count":[
         ("cited_by_count", "i", None),
@@ -522,7 +522,7 @@ def createDBGZ(oa,entityType, outputLocation, selection=["core","basic"],filterF
     archiveName = "%s.dbgz"%filePrefix
     archiveLocation = Path(outputLocation)/(archiveName)
     schemaData = [entry for selectedKey in selection for entry in schemasPerCategory[entityType][selectedKey]]
-    schema = [(key,dataType) for key,dataType,postProcess in schemaData]
+    schema = [(key if not isinstance(key,tuple) else key[0],dataType) for key,dataType,postProcess in schemaData]
     entitiesCount = oa.getRawEntityCount(entityType)
     with dbgz.DBGZWriter(archiveLocation, schema) as fdbgz:
         for entity in tqdm(oa.rawEntities(entityType),total=entitiesCount,desc=entityType):
@@ -531,7 +531,11 @@ def createDBGZ(oa,entityType, outputLocation, selection=["core","basic"],filterF
                     continue
             processedEntity = {}
             for key,dataType,postProcess in schemaData:
-                path = key.split(":")
+                if isinstance(key,tuple):
+                    key,internalKey = key
+                else:
+                    internalKey = key
+                path = internalKey.split(":")
                 value = extractEntry(entity,path)
                 if(postProcess is not None):
                     if(isinstance(value,list)):
@@ -588,14 +592,13 @@ def createTSV(oa,entityType, outputLocation, selection=["core","basic"],filterFu
     archiveJSONMetadataName = "%s.json"%filePrefix
     archiveLocation = Path(outputLocation)/(archiveName)
     schemaData = [entry for selectedKey in selection for entry in schemasPerCategory[entityType][selectedKey]]
-    schema = [(key,dataType) for key,dataType,postProcess in schemaData]
     entitiesCount = oa.getRawEntityCount(entityType)
     writtenEntriesCount = 0
     with open(archiveLocation, 'w', newline='') as tsv_file:
         # Use the csv.writer function, but specify a tab ('\t') as the delimiter. Disable quoting and scaping entirely.
         writer = csv.writer(tsv_file, delimiter='\t', quoting=csv.QUOTE_NONE, doublequote=False, escapechar='\\')
 
-        keysInOrder = [key for key,_,_ in schemaData]
+        keysInOrder = [key if not isinstance(key,tuple) else key[0] for key,_,_ in schemaData]
         writer.writerow(keysInOrder)
 
         for entity in tqdm(oa.rawEntities(entityType),total=entitiesCount,desc=entityType):
@@ -604,7 +607,11 @@ def createTSV(oa,entityType, outputLocation, selection=["core","basic"],filterFu
                 if(not filterFunction(entity)):
                     continue
             for key,dataType,postProcess in schemaData:
-                path = key.split(":")
+                if isinstance(key,tuple):
+                    key,internalKey = key
+                else:
+                    internalKey = key
+                path = internalKey.split(":")
                 value = extractEntry(entity,path)
                 _,_,defaultNAValue = dataTypeMap[dataType]
                 if(postProcess is not None):
@@ -624,6 +631,10 @@ def createTSV(oa,entityType, outputLocation, selection=["core","basic"],filterFu
                     value = defaultNAValue
                 processedEntity[key] = str(value).replace("\n"," ").replace("\r"," ").replace("\t"," ")
             for key,dataType,postProcess in schemaData:
+                if isinstance(key,tuple):
+                    key,internalKey = key
+                else:
+                    internalKey = key
                 _,_,defaultNAValue = dataTypeMap[dataType]
                 if(key not in processedEntity or processedEntity[key] is None):
                     if(dataType!=dataType.lower()):
@@ -637,6 +648,10 @@ def createTSV(oa,entityType, outputLocation, selection=["core","basic"],filterFu
         jsonObject = {}
         jsonSchemaData = {}
         for key,dataType,postProcess in schemaData:
+            if isinstance(key,tuple):
+                key,internalKey = key
+            else:
+                internalKey = key
             jsonSchemaData[key] = {}
             dataTypeString,dataSubTypeString,defaultNAValue = dataTypeMap[dataType]
             jsonSchemaData[key]["type"] = dataTypeString
@@ -693,7 +708,7 @@ class _entryIterator:
         return self._entryCount
 
 class readTSV:
-    def __init__(self,filesLocation, entityType, selection=["core","basic"], chunksize = 5000, convertJSON=True):
+    def __init__(self,filesLocation, entityType, selection=["core","basic"], chunksize = 5000, convertJSON=False):
         # if filesLocation is a .tsv file, no need to use entityType or selection
         fileLocation = Path(filesLocation)
         if(fileLocation.suffix != ".tsv"):
@@ -729,6 +744,14 @@ class readTSV:
                                             dtype=self.archiveDTypes,
                                             na_values="None", doublequote=False,escapechar="\\",
                                             on_bad_lines="warn", low_memory=False, quoting=csv.QUOTE_MINIMAL)
+        if(self.archiveDTypes and self.convertJSON):
+            for chunk in chunks:
+                for key in self.archiveDTypes:
+                    dataTypeString = self.metadata["schema"][key]["type"]
+                    if(dataTypeString!=dataTypeString.lower() or dataTypeString=="a"):
+                        chunk[key] = chunk[key].apply(lambda x: ujson.loads(x) if isinstance(x,str) else x)
+                yield chunk
+
         return chunks
     
         #if metadata and types are json, apply json.l
