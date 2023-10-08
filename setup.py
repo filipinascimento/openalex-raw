@@ -8,7 +8,7 @@ with open("requirements.txt", "r") as fh:
 
 setuptools.setup(
     name="openalex-raw",
-    version="0.2.0",
+    version="0.3.1",
     author="Filipi N. Silva",
     author_email="filipi@iu.edu",
     description="Python library to access OpenAlex Snapshot files",

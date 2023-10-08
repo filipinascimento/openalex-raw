@@ -39,8 +39,13 @@ with openalexraw.archive.readTSV(inputLocation,entityType, selection=["core","ba
     for row in tqdm(tsvFile.entries, desc=entityType):
         pass
 
-# entityType = "works"
-# with openalexraw.archive.readTSV(inputLocation,entityType, selection=["core","basic","authorship","ids",
-#                                           "funding","concepts","references","mesh"]) as tsvFile:
-#     for row in tqdm(tsvFile.entries):
-#         pass
+entityType = "works"
+with openalexraw.archive.readTSV(inputLocation,entityType, selection=["core","basic","authorship","ids",
+                                          "funding","concepts","references","mesh"]) as tsvFile:
+    for row in tqdm(tsvFile.entries):
+        pass
+
+entityType = "works"
+with openalexraw.archive.readTSV(inputLocation,entityType, selection=["core","abstract"]) as tsvFile:
+    for row in tqdm(tsvFile.entries):
+        pass

@@ -36,3 +36,9 @@ openalexraw.archive.createTSV(oa,entityType, outputLocation,
                                selection=["core","basic","authorship","ids",
                                           "funding","concepts","references","mesh"])
 
+
+entityType = "works" # A file for the abstracts
+openalexraw.archive.createTSV(oa,entityType, outputLocation,
+                               selection=["core","abstract"])
+
+

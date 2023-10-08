@@ -2,3 +2,4 @@ numpy
 tqdm
 ujson
 dbgz
+pandas
