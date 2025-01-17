@@ -499,10 +499,32 @@ schemasPerCategory["funders"] = {
     "core":[
         ("id", "i", processOpenAlexID),
     ],
+    "ids":[
+        ("ids:wikidata","s",None),
+        ("ids:ror","s",None),
+        ("ids:crossref","s",None),
+        ("ids:doi","s",None),
+    ],
     "basic":[
         ("display_name", "s", None),
         ("country_code", "s", None),
-    ]
+        ("roles","s",None),
+    ],
+    "extra":[
+        ("alternate_titles", "S", None),
+        ("description", "s", None),
+        ("homepage_url","s",None),
+    ],
+    "counts":[
+        ("grants_count", "i", None),
+        ("works_count", "i", None),
+        ("cited_by_count","i",None),
+
+    ],
+    "concepts":[
+        ("x_concepts:id", "I", processOpenAlexID),
+        ("x_concepts:score", "F", None),
+    ],
     # TODO: add missing entries
 }
 
@@ -521,7 +543,21 @@ def createDBGZ(oa,entityType, outputLocation, selection=["core","basic"],filterF
     filePrefix = "%s_%s"%(entityType,"+".join(selection))
     archiveName = "%s.dbgz"%filePrefix
     archiveLocation = Path(outputLocation)/(archiveName)
-    schemaData = [entry for selectedKey in selection for entry in schemasPerCategory[entityType][selectedKey]]
+    schemaData = []
+    for selectedKey in selection:
+        # if type of selectedKey is not strong and not in schemasPerCategory[entityType],
+        # check if it is a tuple of 1,2,3 elements
+        if( isinstance(selectedKey,str) and selectedKey in schemasPerCategory[entityType]):
+            for entry in schemasPerCategory[entityType][selectedKey]:
+                schemaData.append(entry)
+        else:
+            if(isinstance(selectedKey,tuple)):
+                if(len(selectedKey)==2):
+                    schemaData.append((selectedKey[0],selectedKey[1],None))
+                elif(len(selectedKey)==3):
+                    schemaData.append(selectedKey)
+            else:
+                schemaData.append(selectedKey)
     schema = [(key if not isinstance(key,tuple) else key[0],dataType) for key,dataType,postProcess in schemaData]
     entitiesCount = oa.getRawEntityCount(entityType)
     with dbgz.DBGZWriter(archiveLocation, schema) as fdbgz:
@@ -751,8 +787,9 @@ class readTSV:
                     if(dataTypeString!=dataTypeString.lower() or dataTypeString=="a"):
                         chunk[key] = chunk[key].apply(lambda x: ujson.loads(x) if isinstance(x,str) else x)
                 yield chunk
-
-        return chunks
+        else:
+            for chunk in chunks:
+                yield chunk
     
         #if metadata and types are json, apply json.l
     def __enter__(self):

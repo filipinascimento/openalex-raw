@@ -5,7 +5,7 @@ from tqdm.auto import tqdm
 
 importlib.reload(openalexraw)
 
-inputLocation = "/gpfs/sciencegenome/OpenAlex/TSV/"
+inputLocation = "/gpfs/slate-openalex/Processing/TSV/"
 
 
 entityType = "concepts"

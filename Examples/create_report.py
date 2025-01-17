@@ -9,13 +9,13 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         openAlexPath = Path(sys.argv[1])
     else:
-        openAlexPath = Path("/gpfs/sciencegenome/OpenAlex/openalex-snapshot")
+        openAlexPath = Path("/gpfs/slate-openalex/OpenAlex/openalex-snapshot")
 
     # Path to where to save the schema files
-    schemaPath = Path("Schema")
+    schemaPath = Path("/gpfs/slate-openalex/Processing/Schema")
 
     # Path to where to save the reports files
-    reportsPath = Path("Reports")
+    reportsPath = Path("/gpfs/slate-openalex/Processing/Reports/")
 
     # Initializing the OpenAlex object with the OpenAlex snapshot path
     oa = oaraw.OpenAlex(
@@ -26,8 +26,9 @@ if __name__ == "__main__":
     schemaPath.mkdir(parents=True, exist_ok=True)
     reportsPath.mkdir(parents=True, exist_ok=True)
 
+    entityTypes = ["concepts", "institutions","funders", "publishers", "sources", "authors", "works" ]
     # Creating the schema files
-    for entityType in ["concepts", "institutions","funders", "publishers", "sources", "authors", "works" ]:
+    for entityType in ["institutions","funders"]:
         entitySchema = oa.getSchemaForEntityType(entityType,reportPath=reportsPath/("report_%s.txt"%entityType))
         with open(schemaPath/("schema_%s_samples.json"%entityType),"wt") as f:
             ujson.dump(entitySchema, f, ensure_ascii=False, indent=4)
@@ -44,6 +45,4 @@ if __name__ == "__main__":
                         fupdateReport.write(line)
                         fupdateSchema.write(line)
                         break
-
-
 
