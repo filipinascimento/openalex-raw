@@ -744,15 +744,15 @@ class readTSV:
                                             dtype=self.archiveDTypes,
                                             na_values="None", doublequote=False,escapechar="\\",
                                             on_bad_lines="warn", low_memory=False, quoting=csv.QUOTE_MINIMAL)
-        if(self.archiveDTypes and self.convertJSON):
+        if(self.archiveDTypes or self.convertJSON):
             for chunk in chunks:
                 for key in self.archiveDTypes:
                     dataTypeString = self.metadata["schema"][key]["type"]
                     if(dataTypeString!=dataTypeString.lower() or dataTypeString=="a"):
                         chunk[key] = chunk[key].apply(lambda x: ujson.loads(x) if isinstance(x,str) else x)
                 yield chunk
-
-        return chunks
+        else:
+            return chunks
     
         #if metadata and types are json, apply json.l
     def __enter__(self):
