@@ -2,11 +2,11 @@
 from tqdm.auto import tqdm
 import ujson
 from pathlib import Path
-from . import openalex
 import pandas as pd
 import csv
 import math
 import warnings
+import openalexraw.openalex as openalex
 import numpy as np
 # import openalex
 
