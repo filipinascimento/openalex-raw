@@ -8,6 +8,13 @@ import math
 import warnings
 import openalexraw.openalex as openalex
 import numpy as np
+import itertools
+import dbgz
+
+try:
+    from parcake import PieceSaver
+except Exception:  # pragma: no cover
+    PieceSaver = None
 # import openalex
 
 def extractEntry(data,path):
@@ -57,6 +64,150 @@ def processOpenAlexID(entityID):
             return -1
     else:
         return -1
+
+
+def _infer_dbgz_type(value):
+    if value is None:
+        return "a"
+    if isinstance(value, bool):
+        return "s"
+    if isinstance(value, int):
+        return "i"
+    if isinstance(value, float):
+        return "f"
+    if isinstance(value, str):
+        return "s"
+    if isinstance(value, list):
+        if len(value) == 0:
+            return "a"
+        first = None
+        for entry in value:
+            if entry is not None:
+                first = entry
+                break
+        if first is None:
+            return "a"
+        if isinstance(first, bool):
+            return "S"
+        if isinstance(first, int):
+            return "I"
+        if isinstance(first, float):
+            return "F"
+        if isinstance(first, str):
+            return "S"
+        return "a"
+    return "a"
+
+
+def _normalize_selection_item(entityType, selectedKey, sampleEntity=None):
+    if isinstance(selectedKey, str) and selectedKey in schemasPerCategory[entityType]:
+        return list(schemasPerCategory[entityType][selectedKey])
+
+    item = selectedKey
+    if isinstance(item, str):
+        item = (item,)
+
+    if not isinstance(item, tuple):
+        raise ValueError("Invalid selection item %r" % (selectedKey,))
+
+    if len(item) == 1:
+        key = item[0]
+        dataType = None
+        postProcess = None
+    elif len(item) == 2:
+        key, dataType = item
+        postProcess = None
+    elif len(item) == 3:
+        key, dataType, postProcess = item
+    else:
+        raise ValueError("Selection tuples must have 1, 2 or 3 entries")
+
+    internalKey = key[1] if isinstance(key, tuple) else key
+    if dataType is None:
+        sampleValue = None
+        if sampleEntity is not None:
+            sampleValue = extractEntry(sampleEntity, str(internalKey).split(":"))
+        if str(internalKey).endswith(":id"):
+            dataType = "I" if isinstance(sampleValue, list) else "i"
+        else:
+            dataType = _infer_dbgz_type(sampleValue)
+
+    if postProcess is None and str(internalKey).endswith(":id") and dataType in ("i", "I"):
+        postProcess = processOpenAlexID
+
+    return [(key, dataType, postProcess)]
+
+
+def _build_schema_data(entityType, selection, sampleEntity=None):
+    schemaData = []
+    for selectedKey in selection:
+        schemaData.extend(_normalize_selection_item(entityType, selectedKey, sampleEntity=sampleEntity))
+    return schemaData
+
+
+def _selection_label(selection):
+    labels = []
+    for item in selection:
+        if isinstance(item, str):
+            labels.append(item)
+        elif isinstance(item, tuple):
+            head = item[0]
+            if isinstance(head, tuple):
+                labels.append(str(head[0]))
+            else:
+                labels.append(str(head))
+        else:
+            labels.append(str(item))
+    return "+".join(labels)
+
+
+def _process_entity(entity, schemaData):
+    processedEntity = {}
+    for key, dataType, postProcess in schemaData:
+        if isinstance(key, tuple):
+            key, internalKey = key
+        else:
+            internalKey = key
+        path = str(internalKey).split(":")
+        value = extractEntry(entity, path)
+        if postProcess is not None:
+            if isinstance(value, list):
+                value = [postProcess(entry) for entry in value]
+            else:
+                if dataType != dataType.lower():
+                    value = [postProcess(value)]
+                else:
+                    value = postProcess(value)
+        processedEntity[key] = value
+    return processedEntity
+
+
+def _parquet_header_types_from_schema(schemaData):
+    header = {}
+    for key, dataType, _ in schemaData:
+        if dataType in ("i", "u"):
+            header[key if not isinstance(key, tuple) else key[0]] = "int"
+        elif dataType in ("f", "d"):
+            header[key if not isinstance(key, tuple) else key[0]] = "float"
+        elif dataType == "s":
+            header[key if not isinstance(key, tuple) else key[0]] = "str"
+        else:
+            header[key if not isinstance(key, tuple) else key[0]] = "str"
+    return header
+
+
+def _to_parquet_row(processedEntity, schemaData):
+    output = {}
+    for key, dataType, _ in schemaData:
+        name = key if not isinstance(key, tuple) else key[0]
+        value = processedEntity.get(name)
+        if value is None:
+            output[name] = None
+        elif dataType in ("i", "u", "f", "d", "s"):
+            output[name] = value
+        else:
+            output[name] = ujson.dumps(value)
+    return output
     
 schemasPerCategory = {}
 schemasPerCategory["works"] = {
@@ -532,64 +683,63 @@ schemasPerCategory["funders"] = {
 
 
 
-def createDBGZ(oa,entityType, outputLocation, selection=["core","basic"],filterFunction=None):
-    import dbgz
+def createDBGZ(oa,
+               entityType,
+               outputLocation,
+               selection=["core", "basic"],
+               filterFunction=None,
+               rawPaths=None,
+               parallel=False,
+               ncpu=None,
+               maxPieceSize=100000,
+               showProgressbar=True,
+               validateOutput=False):
     # oa = openalex.OpenAlex(
     #     openAlexPath = "/gpfs/sciencegenome/OpenAlex/openalex-snapshot"
     # )
     # entityType = "concepts"
     # selection = ["core","basic"]
     # outputLocation = "./Processed/"
-    filePrefix = "%s_%s"%(entityType,"+".join(selection))
+    filePrefix = "%s_%s" % (entityType, _selection_label(selection))
     archiveName = "%s.dbgz"%filePrefix
     archiveLocation = Path(outputLocation)/(archiveName)
-    schemaData = []
-    for selectedKey in selection:
-        # if type of selectedKey is not strong and not in schemasPerCategory[entityType],
-        # check if it is a tuple of 1,2,3 elements
-        if( isinstance(selectedKey,str) and selectedKey in schemasPerCategory[entityType]):
-            for entry in schemasPerCategory[entityType][selectedKey]:
-                schemaData.append(entry)
+    if rawPaths is not None:
+        rawPaths = [Path(path) for path in rawPaths]
+
+    entitiesCount = oa.getRawEntityCount(entityType) if rawPaths is None else None
+    if rawPaths is None:
+        if parallel:
+            entityIterator = oa.rawEntitiesParallel(entityType=entityType, ncpu=ncpu, showProgressbar=False)
         else:
-            if(isinstance(selectedKey,tuple)):
-                if(len(selectedKey)==2):
-                    schemaData.append((selectedKey[0],selectedKey[1],None))
-                elif(len(selectedKey)==3):
-                    schemaData.append(selectedKey)
-            else:
-                schemaData.append(selectedKey)
-    schema = [(key if not isinstance(key,tuple) else key[0],dataType) for key,dataType,postProcess in schemaData]
-    entitiesCount = oa.getRawEntityCount(entityType)
-    with dbgz.DBGZWriter(archiveLocation, schema) as fdbgz:
-        for entity in tqdm(oa.rawEntities(entityType),total=entitiesCount,desc=entityType):
-            if(filterFunction is not None):
-                if(not filterFunction(entity)):
-                    continue
-            processedEntity = {}
-            for key,dataType,postProcess in schemaData:
-                if isinstance(key,tuple):
-                    key,internalKey = key
-                else:
-                    internalKey = key
-                path = internalKey.split(":")
-                value = extractEntry(entity,path)
-                if(postProcess is not None):
-                    if(isinstance(value,list)):
-                        value = [postProcess(entry) for entry in value]
-                    else:
-                        if(dataType!=dataType.lower()): # force list
-                            value = [postProcess(value)]
-                        else:
-                            value = postProcess(value)
-                processedEntity[key] = value
-            # try:
-            # print(processedEntity)
-            fdbgz.write(**processedEntity)
-            # except AttributeError as e:
-            #     print(e)
-            #     print(processedEntity)
-            #     print("ERROR!!!!")
-            #     break
+            entityIterator = oa.rawEntities(entityType)
+    else:
+        if parallel:
+            entityIterator = oa.rawEntitiesParallel(entityPaths=rawPaths, ncpu=ncpu, showProgressbar=False)
+        else:
+            entityIterator = oa.rawEntitiesFromPaths(rawPaths)
+
+    entityIterator = iter(entityIterator)
+    firstEntity = next(entityIterator, None)
+    if firstEntity is None:
+        return None
+
+    schemaData = _build_schema_data(entityType, selection, sampleEntity=firstEntity)
+    schema = [(key if not isinstance(key, tuple) else key[0], dataType) for key, dataType, _ in schemaData]
+    finalIterator = itertools.chain([firstEntity], entityIterator)
+
+    with dbgz.DBGZPieceSaver(
+        schema,
+        archiveLocation,
+        max_piece_size=maxPieceSize,
+        show_progressbar=showProgressbar,
+    ) as saver:
+        iterable = finalIterator
+        if showProgressbar:
+            iterable = tqdm(iterable, total=entitiesCount, desc=entityType)
+        for entity in iterable:
+            if filterFunction is not None and not filterFunction(entity):
+                continue
+            saver.add(**_process_entity(entity, schemaData))
 
     # entitiesCount = oa.getRawEntityCount(entityType)
     # print(entitiesCount)
@@ -605,17 +755,120 @@ def createDBGZ(oa,entityType, outputLocation, selection=["core","basic"],filterF
     #                     )
 
     # Loading a dbgz file
-    print("Testing the dbgz file")
-    with dbgz.DBGZReader(archiveLocation) as fd:
-        entriesCount = fd.entriesCount
-        print("\t Number of entries: ", entriesCount)
-        for entry in tqdm(fd.entries,total=entriesCount):
-            pass
+    if validateOutput:
+        print("Testing the dbgz file")
+        with dbgz.DBGZReader(archiveLocation) as fd:
+            entriesCount = fd.entriesCount
+            print("\t Number of entries: ", entriesCount)
+            for _ in tqdm(fd.entries, total=entriesCount):
+                pass
+
+    return archiveLocation
+
+
+def createParquet(oa,
+                  entityType,
+                  outputLocation,
+                  selection=["core", "basic"],
+                  filterFunction=None,
+                  rawPaths=None,
+                  parallel=False,
+                  ncpu=None,
+                  maxPieceSize=100000,
+                  showProgressbar=True):
+    """
+    Create a parquet archive from OpenAlex raw files using parcake.
+    """
+    if PieceSaver is None:
+        raise RuntimeError("parcake is required to create parquet output. Please install parcake.")
+
+    filePrefix = "%s_%s" % (entityType, _selection_label(selection))
+    archiveName = "%s.parquet" % filePrefix
+    archiveLocation = Path(outputLocation) / archiveName
+
+    if rawPaths is not None:
+        rawPaths = [Path(path) for path in rawPaths]
+
+    entitiesCount = oa.getRawEntityCount(entityType) if rawPaths is None else None
+    if rawPaths is None:
+        if parallel:
+            entityIterator = oa.rawEntitiesParallel(entityType=entityType, ncpu=ncpu, showProgressbar=False)
+        else:
+            entityIterator = oa.rawEntities(entityType)
+    else:
+        if parallel:
+            entityIterator = oa.rawEntitiesParallel(entityPaths=rawPaths, ncpu=ncpu, showProgressbar=False)
+        else:
+            entityIterator = oa.rawEntitiesFromPaths(rawPaths)
+
+    entityIterator = iter(entityIterator)
+    firstEntity = next(entityIterator, None)
+    if firstEntity is None:
+        return None
+
+    schemaData = _build_schema_data(entityType, selection, sampleEntity=firstEntity)
+    headerTypes = _parquet_header_types_from_schema(schemaData)
+    finalIterator = itertools.chain([firstEntity], entityIterator)
+
+    with PieceSaver(headerTypes, archiveLocation, max_piece_size=maxPieceSize) as saver:
+        iterable = finalIterator
+        if showProgressbar:
+            iterable = tqdm(iterable, total=entitiesCount, desc="%s->parquet" % entityType)
+        for entity in iterable:
+            if filterFunction is not None and not filterFunction(entity):
+                continue
+            processed = _process_entity(entity, schemaData)
+            saver.add(**_to_parquet_row(processed, schemaData))
+
+    return archiveLocation
+
+
+class readDBGZ:
+    """
+    Chunk-oriented reader around ``dbgz.DBGZPieceReader``.
+    """
+
+    def __init__(self, fileLocation, chunksize=5000, output="dict", showProgressbar=False):
+        self.fileLocation = Path(fileLocation)
+        self.chunksize = int(chunksize)
+        self.output = output
+        self.showProgressbar = showProgressbar
+
+        with dbgz.DBGZReader(self.fileLocation) as fd:
+            self.entriesCount = fd.entriesCount
+        self._reader = dbgz.DBGZPieceReader(
+            str(self.fileLocation),
+            chunk_size=self.chunksize,
+            output=self.output,
+            show_progressbar=self.showProgressbar,
+        )
+        self.chunksCount = self._reader.task_count()
+
+    @property
+    def chunks(self):
+        return iter(self._reader)
+
+    @property
+    def entries(self):
+        for chunk in self._reader:
+            if self.output == "dataframe":
+                for entry in chunk.to_dict(orient="records"):
+                    yield entry
+            else:
+                for entry in chunk:
+                    yield entry
 
 
 
 
-def createTSV(oa,entityType, outputLocation, selection=["core","basic"],filterFunction=None):
+def createTSV(oa,
+              entityType,
+              outputLocation,
+              selection=["core", "basic"],
+              filterFunction=None,
+              rawPaths=None,
+              parallel=False,
+              ncpu=None):
     # # Open your tsv file in write mode ('w').
     # oa = openalex.OpenAlex(
     #     openAlexPath = "/gpfs/sciencegenome/OpenAlex/openalex-snapshot"
@@ -623,12 +876,32 @@ def createTSV(oa,entityType, outputLocation, selection=["core","basic"],filterFu
     # entityType = "concepts"
     # selection = ["core","basic"]
     # outputLocation = "./Processed/"
-    filePrefix = "%s_%s"%(entityType,"+".join(selection))
+    filePrefix = "%s_%s" % (entityType, _selection_label(selection))
     archiveName = "%s.tsv"%filePrefix
     archiveJSONMetadataName = "%s.json"%filePrefix
     archiveLocation = Path(outputLocation)/(archiveName)
-    schemaData = [entry for selectedKey in selection for entry in schemasPerCategory[entityType][selectedKey]]
-    entitiesCount = oa.getRawEntityCount(entityType)
+    if rawPaths is not None:
+        rawPaths = [Path(path) for path in rawPaths]
+
+    entitiesCount = oa.getRawEntityCount(entityType) if rawPaths is None else None
+    if rawPaths is None:
+        if parallel:
+            entityIterator = oa.rawEntitiesParallel(entityType=entityType, ncpu=ncpu, showProgressbar=False)
+        else:
+            entityIterator = oa.rawEntities(entityType)
+    else:
+        if parallel:
+            entityIterator = oa.rawEntitiesParallel(entityPaths=rawPaths, ncpu=ncpu, showProgressbar=False)
+        else:
+            entityIterator = oa.rawEntitiesFromPaths(rawPaths)
+
+    entityIterator = iter(entityIterator)
+    firstEntity = next(entityIterator, None)
+    if firstEntity is None:
+        return None
+
+    schemaData = _build_schema_data(entityType, selection, sampleEntity=firstEntity)
+    entitiesSource = itertools.chain([firstEntity], entityIterator)
     writtenEntriesCount = 0
     with open(archiveLocation, 'w', newline='') as tsv_file:
         # Use the csv.writer function, but specify a tab ('\t') as the delimiter. Disable quoting and scaping entirely.
@@ -637,7 +910,7 @@ def createTSV(oa,entityType, outputLocation, selection=["core","basic"],filterFu
         keysInOrder = [key if not isinstance(key,tuple) else key[0] for key,_,_ in schemaData]
         writer.writerow(keysInOrder)
 
-        for entity in tqdm(oa.rawEntities(entityType),total=entitiesCount,desc=entityType):
+        for entity in tqdm(entitiesSource, total=entitiesCount, desc=entityType):
             processedEntity = {}
             if(filterFunction is not None):
                 if(not filterFunction(entity)):

@@ -7,10 +7,24 @@ import tempfile
 import datetime
 # import json_lines SLOWER
 import gzip
+import multiprocessing as mp
 
 from collections import OrderedDict
 from collections import Counter
 import collections
+
+
+def _load_openalex_gz_records(jlpath):
+    entries = []
+    with gzip.open(jlpath, "rt") as f:
+        lineNumber = 0
+        for line in f:
+            lineNumber += 1
+            try:
+                entries.append(ujson.loads(line))
+            except ValueError:
+                warnings.warn("Found problem loading file %s:%d, Content: %s" % (jlpath, lineNumber, str(line)), category=Warning)
+    return entries
 
 
 class OpenAlex:
@@ -169,6 +183,86 @@ class OpenAlex:
                         yield item
                     except ValueError:
                         warnings.warn("Found problem loading file %s:%d, Content: %s"%(jlpath, lineNumber, str(line)), category=Warning)
+
+    def rawEntitiesFromPaths(self, entityPaths):
+        """
+        Iterate over entities from a custom list of gz paths.
+
+        Parameters
+        ----------
+        entityPaths : iterable
+            Iterable with .gz file paths.
+        """
+        for jlpath in entityPaths:
+            with gzip.open(jlpath, "rt") as f:
+                lineNumber = 0
+                for line in f:
+                    lineNumber += 1
+                    try:
+                        item = ujson.loads(line)
+                        yield item
+                    except ValueError:
+                        warnings.warn("Found problem loading file %s:%d, Content: %s" % (jlpath, lineNumber, str(line)), category=Warning)
+
+    def rawEntitiesParallel(self,
+                            entityType=None,
+                            entityPaths=None,
+                            ncpu=None,
+                            unordered=True,
+                            showProgressbar=False):
+        """
+        Iterate over entities from many raw files in parallel.
+
+        Parameters
+        ----------
+        entityType : str
+            Optional entity type when ``entityPaths`` is not provided.
+        entityPaths : iterable
+            Optional custom iterable of gz file paths.
+        ncpu : int
+            Number of workers. ``None`` or ``-1`` uses all CPUs.
+        unordered : bool
+            If True, files are processed in completion order.
+        showProgressbar : bool
+            If True, show per-file processing progress.
+        """
+        if entityPaths is None:
+            if entityType is None:
+                raise ValueError("Either entityType or entityPaths must be provided")
+            entityPaths = self.getRawEntitiesPaths(entityType)
+
+        entityPaths = [str(Path(path)) for path in entityPaths]
+        if len(entityPaths) == 0:
+            return
+
+        workers = ncpu
+        if workers in (None, -1, 0):
+            workers = max(1, mp.cpu_count())
+        else:
+            workers = max(1, int(workers))
+
+        pbar = None
+        if showProgressbar:
+            try:
+                from tqdm.auto import tqdm
+                pbar = tqdm(total=len(entityPaths), desc="Raw files")
+            except Exception:
+                pbar = None
+
+        with mp.Pool(processes=workers) as pool:
+            if unordered:
+                iterator = pool.imap_unordered(_load_openalex_gz_records, entityPaths)
+            else:
+                iterator = pool.imap(_load_openalex_gz_records, entityPaths)
+
+            for records in iterator:
+                if pbar is not None:
+                    pbar.update(1)
+                for record in records:
+                    yield record
+
+        if pbar is not None:
+            pbar.close()
 
     def generateTagLabel(self):
         """

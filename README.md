@@ -88,6 +88,83 @@ To generate/update all the reports and schema, check the file `Examples/create_r
  - Random access based on the OpenAlex ID via `dbgz`.
  - Better documentation for Schema/Report generators.
 
+## New: parallel raw loading
+
+You can now load raw entities in parallel:
+
+```python
+for entity in oa.rawEntitiesParallel(entityType="works", ncpu=8):
+  ...
+```
+
+Or pass custom raw file paths directly:
+
+```python
+paths = [
+  "/mnt/openalex/OpenAlex/openalex-snapshot/data/works/updated_date=2024-01-01/part_000.gz",
+]
+for entity in oa.rawEntitiesFromPaths(paths):
+  ...
+```
+
+## New: custom OpenAlex path selections with inferred dtype/transform
+
+`createDBGZ`, `createTSV`, and `createParquet` now accept direct path tuples.
+Tuple entries can have 1, 2, or 3 values:
+
+- `(path,)` -> infer datatype and optional transform
+- `(path, dtype)`
+- `(path, dtype, transform)`
+
+Example:
+
+```python
+selection = [
+  ("best_oa_location:source:id",),
+  ("best_oa_location:source:issn",),
+  ("best_oa_location:source:issn_l", "s"),
+  ("best_oa_location:source:publisher", "s", None),
+  ("best_oa_location:source:publisher_id", "i", oaraw.archive.processOpenAlexID),
+]
+```
+
+## New: progressive dbgz + parquet exporters
+
+### DBGZ
+
+```python
+archive_path = oaraw.archive.createDBGZ(
+  oa,
+  "works",
+  "./Processed",
+  selection=selection,
+  parallel=True,
+  ncpu=8,
+  maxPieceSize=100_000,
+)
+```
+
+### Parquet (via parcake)
+
+```python
+parquet_path = oaraw.archive.createParquet(
+  oa,
+  "works",
+  "./Processed",
+  selection=selection,
+  parallel=True,
+  ncpu=8,
+)
+```
+
+## New: chunked dbgz reader helper
+
+```python
+reader = oaraw.archive.readDBGZ("./Processed/works_core+basic.dbgz", chunksize=5000, output="dataframe")
+for chunk in reader.chunks:
+  ...
+```
+
 
 ## Full API documentation
 The following is the documentation of the package's API.
